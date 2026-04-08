@@ -1,0 +1,39 @@
+[
+    {
+        "mob": "extrabotany:gaia_3rd",
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "hostile": true,
+        "when": "onjoin",
+        "spawntype": ["mob_summoned"],
+        "result": "default"
+    },
+    {
+        "passive": true,
+        "when": "onjoin",
+        "spawntype": ["mob_summoned"],
+        "result": "default"
+    },
+    {
+        "mob": "minecraft:phantom",
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:wandering_trader",
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "hostile": true,
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "passive": true,
+        "when": "onjoin",
+        "result": "deny"
+    }
+]

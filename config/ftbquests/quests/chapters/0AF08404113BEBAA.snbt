@@ -1,0 +1,140 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0AF08404113BEBAA"
+	group: ""
+	icon: "minecraft:grass_block"
+	id: "0AF08404113BEBAA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "422EB83D3BD05264"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:grass_block"
+				id: "645BEC733315BB80"
+				title: "从这里开始！"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["422EB83D3BD05264"]
+			id: "0E8F39D682DCC5C8"
+			tasks: [{
+				id: "669CF202AB34CDC4"
+				item: "kubejs:dirt_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E8F39D682DCC5C8"]
+			id: "4802D4E9675A2312"
+			tasks: [{
+				id: "252C6888A169BC6B"
+				item: "kubejs:dirt_stick"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4802D4E9675A2312"
+				"27E61CE7321275F3"
+			]
+			id: "58994126AC6D150D"
+			tasks: [{
+				id: "0F1D9F28712B75C8"
+				item: {
+					Count: 1
+					id: "gtceu:flint_knife"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							AttackDamage: 1.0f
+							AttackSpeed: 3.0f
+							DefaultEnchantments: [ ]
+							MaxDamage: 63
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33D4F903D17BC56D"]
+			id: "27E61CE7321275F3"
+			tasks: [{
+				id: "6367C65CB0E9AA91"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["645BEC733315BB80"]
+			id: "33D4F903D17BC56D"
+			tasks: [{
+				id: "0FC663C3DE3A2484"
+				item: "kubejs:flint_shard"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"0F1D9F28712B75C8"
+				"645BEC733315BB80"
+			]
+			id: "0CF61BD10CD58327"
+			tasks: [{
+				id: "6A342648B83C60F1"
+				item: "botania:living_root"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0CF61BD10CD58327"
+				"36D081CC58831631"
+			]
+			id: "74C1CC0BC4516D74"
+			tasks: [{
+				id: "1B4888DD0F8F16EF"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"58994126AC6D150D"
+				"645BEC733315BB80"
+			]
+			id: "36D081CC58831631"
+			tasks: [{
+				id: "1499FFEBD7CFF8AA"
+				item: "minecraft:dead_bush"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+	title: "开端"
+}

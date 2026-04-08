@@ -1,0 +1,7 @@
+
+[infernal_boiler]
+	#Range: 0.1 ~ 100.0
+	basicSupremeCoef = 2.0
+	#Range: 0.1 ~ 100.0
+	coilSupremeCoef = 0.5
+

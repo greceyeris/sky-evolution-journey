@@ -2,6 +2,18 @@
 
 ---
 
+### Version _0.2.0_
+
+### Date: _2026-04-09_
+
+**Changes:**
+
+- Added new items: `kubejs:dirt_dust`, `kubejs:dirt_stick`, and `kubejs:flint_shard`.
+- Added new recipes for `kubejs:dirt_dust`, `kubejs:dirt_stick`, `kubejs:flint_shard`, `minecraft:flint`, `minecraft:dead_bush`, `minecraft:oak_sapling`, and `botania:living_root`.
+- Added new quests.
+
+---
+
 ### Version _0.1.0_
 
 ### Date: _2026-04-08_
