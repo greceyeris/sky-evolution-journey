@@ -19,12 +19,12 @@
   
   "spawns": {
     "default": {
-      "east": [],
+      "south": [],
+      "north": [
+        [ 1, 0, 1 ]
+      ],
       "west": [],
-      "north": [],
-      "south": [
-        [ 6, 3, 5 ]
-      ]
+      "east": []
     }
   },
   
@@ -51,10 +51,11 @@
   "templates": [
     {
       "name": "default",
+      "desc": "Default template",
       "file": "default.nbt",
       "spawns": "default",
-      "surroundingBlocks": "default",
-      "spreads": "default"
+      "offset": [ -1, 4, -1 ],
+      "direction": "north"
     }
   ]
 }
