@@ -1,4 +1,5 @@
 ae2:spatial_storage
+integrateddynamics:meneglin
 minecraft:badlands
 minecraft:bamboo_jungle
 minecraft:basalt_deltas

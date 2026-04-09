@@ -5,4 +5,16 @@ ServerEvents.recipes((event) => {
     event.shaped("minecraft:flint", ["AA", "AA"], {
         A: "kubejs:flint_shard",
     });
+
+    // 添加 minecraft:dirt 的配方
+    event.shaped("minecraft:dirt", ["AA", "AA"], {
+        A: "kubejs:dirt_pile",
+    });
+
+    // 添加 minecraft:campfire 的配方
+    event.shaped("minecraft:campfire", [" A ", "ABA", "CCC"], {
+        A: "#forge:rods/wooden",
+        B: "minecraft:flint",
+        C: "#minecraft:logs",
+    });
 });

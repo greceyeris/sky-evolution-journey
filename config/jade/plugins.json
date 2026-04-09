@@ -6,7 +6,7 @@
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
-    "harvest_tool.show_unbreakable": false,
+    "harvest_tool.show_unbreakable": true,
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
     "item_storage": true,
@@ -55,8 +55,11 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "jadeaddons": {
-    "equipment_requirement": ""
+  "gtmutils": {
+    "me_expanded_pattern_buffer_proxy_info": true,
+    "me_expanded_pattern_buffer_info": true,
+    "enlarged_me_stocking_bus_info": true,
+    "pterb_info": true
   },
   "jadeaddons.create": {
     "filter": true,
@@ -68,8 +71,8 @@
     "goggles.detailed": false,
     "placard": true
   },
-  "hammerlib": {
-    "root": true
+  "bonsaitrees3": {
+    "bonsaipot": true
   },
   "gtceu": {
     "primitive_pump": true,
@@ -101,14 +104,22 @@
     "distance": false,
     "block_face": false,
     "coordinates": false,
-    "registry_name": "OFF",
+    "registry_name": "ADVANCED_TOOLTIPS",
     "mod_name": true
   },
-  "waystones": {
-    "waystone": true
+  "unlitcampfire": {
+    "campfireinfo": true
   },
   "balm": {
     "jade": true
+  },
+  "integrateddynamicscompat": {
+    "proxy": true,
+    "mechanical_squeezer": true,
+    "mechanical_drying_basin": true,
+    "drying_basin": true,
+    "part": true,
+    "squeezer": true
   },
   "ae2": {
     "part_icon": true,
@@ -121,5 +132,17 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "gtmthings": {
+    "wireless_energy_hatch_provider": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "hammerlib": {
+    "root": true
+  },
+  "waystones": {
+    "waystone": true
   }
 }

@@ -1,31 +1,20 @@
 ServerEvents.recipes((event) => {
     // 添加配方
-    // block_interacting
-    // 添加 minecraft:dead_bush, botania:living_root 的配方
+    // lychee:block_interacting
+    // 添加 minecraft:dead_bush 的配方
     event.custom({
         type: "lychee:block_interacting",
-        item_in: { tag: "forge:tools/knives" },
+        item_in: { item: "kubejs:twig" },
         block_in: { tag: "minecraft:dirt" },
         post: [
             {
-                type: "drop_item",
-                item: "minecraft:dead_bush",
+                type: "place",
+                block: "minecraft:dead_bush",
+                offsetY: 1,
                 contextual: {
                     type: "chance",
                     chance: 0.3,
                 },
-            },
-            {
-                type: "drop_item",
-                item: "botania:living_root",
-                contextual: {
-                    type: "chance",
-                    chance: 0.3,
-                },
-            },
-            {
-                type: "add_item_cooldown",
-                s: 0.3,
             },
         ],
     });

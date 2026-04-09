@@ -2,6 +2,19 @@
 
 ---
 
+### Version _0.3.0_
+
+### Date: _2026-04-10_
+
+**Changes:**
+
+- Removed items: `kubejs:dirt_dust`, and `kubejs:dirt_stick`.
+- Added new items: `kubejs:dirt_pile`, `kubejs:humus_pile`, `kubejs:organic_matter_pile`, `kubejs:twig`, and `kubejs:flint_saw`.
+- Adjusted some recipes.
+- Completed the quest chapter: `Start`.
+
+---
+
 ### Version _0.2.0_
 
 ### Date: _2026-04-09_
