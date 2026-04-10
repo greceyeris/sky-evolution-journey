@@ -6,9 +6,6 @@ StartupEvents.registry("item", (event) => {
     // 注册 flint_shard
     event.create("flint_shard").maxStackSize(64);
 
-    // 注册 organic_matter_pile
-    event.create("organic_matter_pile").maxStackSize(64);
-
     // 注册 humus_pile
     event.create("humus_pile").maxStackSize(64);
 

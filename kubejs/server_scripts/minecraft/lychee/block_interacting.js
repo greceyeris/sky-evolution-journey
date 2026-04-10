@@ -16,6 +16,10 @@ ServerEvents.recipes((event) => {
                     chance: 0.3,
                 },
             },
+            {
+                type: "add_item_cooldown",
+                s: 0.2,
+            },
         ],
     });
 
@@ -32,6 +36,10 @@ ServerEvents.recipes((event) => {
                     type: "chance",
                     chance: 0.3,
                 },
+            },
+            {
+                type: "add_item_cooldown",
+                s: 0.2,
             },
         ],
     });

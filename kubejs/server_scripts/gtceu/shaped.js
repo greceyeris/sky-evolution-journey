@@ -6,4 +6,9 @@ ServerEvents.recipes((event) => {
         A: "minecraft:flint",
         B: "minecraft:stick",
     });
+
+    // 添加 gtceu:flint_block 的配方
+    event.shaped("gtceu:flint_block", ["AAA", "AAA", "AAA"], {
+        A: "minecraft:flint",
+    });
 });

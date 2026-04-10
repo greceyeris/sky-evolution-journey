@@ -56,4 +56,18 @@ BlockEvents.rightClicked((event) => {
             event.cancel();
         }
     });
+
+    if (block.getId() === "farmersplus:millstone") {
+        if (block.entityData.Inventory.Items.length > 0) {
+            if (player.foodData.foodLevel > 0) {
+                player.foodData.addExhaustion(0.375);
+            } else {
+                player.setStatusMessage(
+                    Component.red("饱食度不足，请补充饱食度！"),
+                );
+
+                event.cancel();
+            }
+        }
+    }
 });

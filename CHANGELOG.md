@@ -2,7 +2,20 @@
 
 ---
 
-### Version _0.3.0_
+### Version: _0.4.0_
+
+### Date: _2026-04-10_
+
+**Changes:**
+
+- Removed items: `kubejs:organic_matter_pile`.
+- Adjusted some recipes.
+- Adjusted the quest chapter: `Start`.
+- Completed the quest chapter: `Stone Age`.
+
+---
+
+### Version: _0.3.0_
 
 ### Date: _2026-04-10_
 
@@ -15,7 +28,7 @@
 
 ---
 
-### Version _0.2.0_
+### Version: _0.2.0_
 
 ### Date: _2026-04-09_
 
@@ -27,7 +40,7 @@
 
 ---
 
-### Version _0.1.0_
+### Version: _0.1.0_
 
 ### Date: _2026-04-08_
 
@@ -39,7 +52,7 @@
 
 ---
 
-### Version _0.0.0_
+### Version: _0.0.0_
 
 ### Date: _2026-04-08_
 

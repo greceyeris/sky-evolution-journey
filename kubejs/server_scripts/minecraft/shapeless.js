@@ -17,6 +17,7 @@ ServerEvents.recipes((event) => {
 
     // 添加配方
     // shapeless
+    // addRecipesUsedShapeless
     addRecipesUsedShapeless.forEach((recipe) => {
         event.shapeless(recipe.output, recipe.inputs);
     });

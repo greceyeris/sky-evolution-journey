@@ -8,6 +8,86 @@ const replaceItems = [
         item: "farmersdelight:iron_knife",
         targetItem: "gtceu:iron_knife",
     },
+    {
+        item: "minecraft:copper_ore",
+        targetItem: "gtceu:copper_ore",
+    },
+    {
+        item: "minecraft:deepslate_copper_ore",
+        targetItem: "gtceu:deepslate_copper_ore",
+    },
+    {
+        item: "minecraft:coal_ore",
+        targetItem: "gtceu:coal_ore",
+    },
+    {
+        item: "minecraft:deepslate_coal_ore",
+        targetItem: "gtceu:deepslate_coal_ore",
+    },
+    {
+        item: "minecraft:iron_ore",
+        targetItem: "gtceu:iron_ore",
+    },
+    {
+        item: "minecraft:deepslate_iron_ore",
+        targetItem: "gtceu:deepslate_iron_ore",
+    },
+    {
+        item: "minecraft:gold_ore",
+        targetItem: "gtceu:gold_ore",
+    },
+    {
+        item: "minecraft:deepslate_gold_ore",
+        targetItem: "gtceu:deepslate_gold_ore",
+    },
+    {
+        item: "minecraft:redstone_ore",
+        targetItem: "gtceu:redstone_ore",
+    },
+    {
+        item: "minecraft:deepslate_redstone_ore",
+        targetItem: "gtceu:deepslate_redstone_ore",
+    },
+    {
+        item: "minecraft:emerald_ore",
+        targetItem: "gtceu:emerald_ore",
+    },
+    {
+        item: "minecraft:deepslate_emerald_ore",
+        targetItem: "gtceu:deepslate_emerald_ore",
+    },
+    {
+        item: "minecraft:lapis_ore",
+        targetItem: "gtceu:lapis_ore",
+    },
+    {
+        item: "minecraft:deepslate_lapis_ore",
+        targetItem: "gtceu:deepslate_lapis_ore",
+    },
+    {
+        item: "minecraft:diamond_ore",
+        targetItem: "gtceu:diamond_ore",
+    },
+    {
+        item: "minecraft:deepslate_diamond_ore",
+        targetItem: "gtceu:deepslate_diamond_ore",
+    },
+    {
+        item: "minecraft:nether_gold_ore",
+        targetItem: "gtceu:netherrack_gold_ore",
+    },
+    {
+        item: "minecraft:nether_quartz_ore",
+        targetItem: "gtceu:netherrack_quartzite_ore",
+    },
+    {
+        item: "#forge:nuggets/copper",
+        targetItem: "gtceu:copper_nugget",
+    },
+    {
+        item: "#forge:dusts/copper",
+        targetItem: "gtceu:copper_dust",
+    },
 ];
 
 ServerEvents.recipes((event) => {

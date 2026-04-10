@@ -110,6 +110,10 @@
   "unlitcampfire": {
     "campfireinfo": true
   },
+  "compactcrafting": {
+    "field_proxy": true,
+    "field_projector": true
+  },
   "balm": {
     "jade": true
   },
@@ -120,6 +124,9 @@
     "drying_basin": true,
     "part": true,
     "squeezer": true
+  },
+  "custommachinery": {
+    "machine_component_provider": true
   },
   "ae2": {
     "part_icon": true,

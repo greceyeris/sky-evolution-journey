@@ -16,7 +16,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.75d
 			tasks: [{
 				dimension: "minecraft:overworld"
 				icon: "minecraft:grass_block"
@@ -29,7 +29,14 @@
 		}
 		{
 			dependencies: ["422EB83D3BD05264"]
+			description: [
+				"&6空手&r &c下蹲右键&r &a泥土/草方块&r 30%概率可获得"
+				""
+				"&o&7(0.2s冷却)&r&r"
+			]
 			id: "0E8F39D682DCC5C8"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "76C1B4C76A6A48DC"
 				item: "kubejs:twig"
@@ -44,6 +51,8 @@
 				"3DE92338958835C3"
 			]
 			id: "58994126AC6D150D"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "0F1D9F28712B75C8"
 				item: {
@@ -70,31 +79,45 @@
 		{
 			dependencies: ["33D4F903D17BC56D"]
 			id: "27E61CE7321275F3"
+			shape: "circle"
 			tasks: [{
 				id: "6367C65CB0E9AA91"
 				item: "minecraft:flint"
 				type: "item"
 			}]
 			x: 7.5d
-			y: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["645BEC733315BB80"]
+			description: [
+				"&6空手&r &c下蹲右键&r &a泥土/草方块&r 30%概率可获得"
+				""
+				"&o&7(0.2s冷却)&r&r"
+			]
 			id: "33D4F903D17BC56D"
+			shape: "circle"
 			tasks: [{
 				id: "0FC663C3DE3A2484"
 				item: "kubejs:flint_shard"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -4.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
 				"645BEC733315BB80"
 				"58994126AC6D150D"
 			]
+			description: [
+				"&6刀具&r &c右键&r &a泥土/草方块&r 30%概率可获得"
+				""
+				"&o&7(消耗1点物品耐久, 0.2s冷却)&r&r"
+			]
 			id: "0CF61BD10CD58327"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "6A342648B83C60F1"
 				item: "botania:living_root"
@@ -104,42 +127,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"0CF61BD10CD58327"
-				"36D081CC58831631"
-			]
-			id: "74C1CC0BC4516D74"
-			tasks: [{
-				icon: "minecraft:oak_sapling"
-				id: "2FEC1F26F37E3DE6"
-				observe_type: 0
-				timer: 20L
-				to_observe: "minecraft:oak_sapling"
-				type: "observation"
-			}]
-			x: 12.5d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"76C1B4C76A6A48DC"
-				"645BEC733315BB80"
-			]
-			id: "36D081CC58831631"
-			tasks: [{
-				icon: "minecraft:dead_bush"
-				id: "5AE85A17A800E7CA"
-				observe_type: 0
-				timer: 20L
-				to_observe: "minecraft:dead_bush"
-				type: "observation"
-			}]
-			x: 12.5d
-			y: -2.0d
-		}
-		{
 			dependencies: ["0E8F39D682DCC5C8"]
 			id: "3DE92338958835C3"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "458B57107988B4A1"
 				item: "minecraft:stick"
@@ -150,10 +141,14 @@
 		}
 		{
 			dependencies: [
-				"74C1CC0BC4516D74"
 				"198699141D7F50A1"
+				"0BB81670C24C2F6F"
+				"6A342648B83C60F1"
 			]
+			description: ["&6活根&r &c右键&r &a树苗&r 可使其生长"]
 			id: "2D1B60845BF3E632"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "6747E4FA822CED5E"
 				item: "minecraft:oak_log"
@@ -168,6 +163,7 @@
 				"6367C65CB0E9AA91"
 			]
 			id: "198699141D7F50A1"
+			shape: "circle"
 			tasks: [{
 				id: "73E08C51C07052E0"
 				item: {
@@ -201,13 +197,15 @@
 				"6747E4FA822CED5E"
 			]
 			id: "7EB6FECA138E9FC7"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "2643B24DFCECC5CA"
 				item: "farmersdelight:cutting_board"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 2.0d
+			x: 20.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -215,6 +213,8 @@
 				"6367C65CB0E9AA91"
 			]
 			id: "40C3053913200690"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "6A8DF80AFA0883CA"
 				item: "minecraft:crafting_table"
@@ -230,84 +230,96 @@
 				"73E08C51C07052E0"
 			]
 			id: "7553BA6C36527D62"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "5E6F983BD167AC40"
 				item: "minecraft:stripped_oak_log"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 2.0d
+			x: 22.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
 				"7553BA6C36527D62"
 				"73E08C51C07052E0"
 				"2643B24DFCECC5CA"
+				"053F18903B4AAB8F"
 			]
 			id: "2E5F7F15C64A979C"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "43916DB63E377C6A"
 				item: "minecraft:oak_planks"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 22.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["3EF12F472184B613"]
 			id: "20BABB52EA0741D2"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "618D04AFE10AEE3E"
 				item: "minecraft:oak_leaves"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 2.0d
+			x: 20.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
-				"20BABB52EA0741D2"
-				"6A8DF80AFA0883CA"
-			]
-			id: "27BEA52DDD927CBE"
-			tasks: [{
-				id: "05A889145DDD71FB"
-				item: "kubejs:organic_matter_pile"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 2.0d
-		}
-		{
-			dependencies: [
-				"27BEA52DDD927CBE"
 				"0B1B03FD812A35E8"
 				"618D04AFE10AEE3E"
 				"7647FA8138864E35"
+				"20BABB52EA0741D2"
 			]
+			description: [
+				"&6树叶/树苗&r &c放入&r &a装有水的烘干池&r 中，等待一段时间后可获得"
+				""
+				"&6树叶/树苗&r &c放入&r &a挤压机&r 中，再 &c站上去跳跃&r 可产出 &b水&r"
+				""
+				"&6挤压机&r &c需要接收到&r &e红石信号&r 后，才能 &d复位&r"
+				""
+				"&6烘干池&r &c放置在&r &a挤压机的流体输出口&r 前方，可收集 &b输出的流体&r"
+				""
+				"&6锄头&r &c右键点击&r &a有机覆盖物&r，可将其变为 &b水方块&r"
+			]
+			hide_until_deps_complete: false
 			id: "4B4F2A93B8B337E4"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "0A47415BC2963A90"
 				item: "kubejs:humus_pile"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 17.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["4B4F2A93B8B337E4"]
+			description: ["&6腐殖物堆&r &c放入&r &a烘干池&r 中，等待一段时间后可获得"]
 			id: "6472BCC00AA3CBBC"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "0EB69123B614816C"
 				item: "kubejs:dirt_pile"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 15.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["2E5F7F15C64A979C"]
 			id: "3EF12F472184B613"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "49F0B8803F3C3DF2"
 				item: {
@@ -319,18 +331,20 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 2.0d
+			x: 22.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6472BCC00AA3CBBC"]
 			id: "2CC395CBBF76ABD5"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "4A37898820CCC9D5"
 				item: "minecraft:dirt"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 12.5d
 			y: 4.0d
 		}
 		{
@@ -341,13 +355,14 @@
 				"6A8DF80AFA0883CA"
 			]
 			id: "3885A3700BDC7B91"
+			shape: "circle"
 			tasks: [{
 				id: "5B677E3C393F95B3"
 				item: "strainers:wooden_strainer"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 6.0d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -357,6 +372,7 @@
 				"6367C65CB0E9AA91"
 			]
 			id: "24AA82CC14C3DFA0"
+			shape: "circle"
 			tasks: [{
 				id: "740FA686FAB2857B"
 				item: {
@@ -368,8 +384,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
-			y: 8.0d
+			x: 7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -378,14 +394,21 @@
 				"04832013ADD36716"
 				"740FA686FAB2857B"
 			]
+			description: [
+				"&6泥土&r &c放入&r &a木制过滤器&r 中，并 &c装上&r &a筛网&r ，等待一段时间后可获得"
+				""
+				"&6净化盐&r &c右键点击&r &a有机覆盖物&r ，可将其变为 &b净化水方块&r"
+			]
 			id: "687B42E57D2DE436"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "74FF221572AD0631"
 				item: "minecraft:mud"
 				type: "item"
 			}]
 			x: 12.5d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -395,6 +418,7 @@
 				"454AA1DD9C6F48DD"
 			]
 			id: "04832013ADD36716"
+			shape: "circle"
 			tasks: [{
 				id: "6F8A08AEF3F95487"
 				item: "strainers:purifying_salt_mulch"
@@ -409,25 +433,28 @@
 				"4A37898820CCC9D5"
 				"6A8DF80AFA0883CA"
 			]
+			hide_until_deps_complete: false
 			id: "454AA1DD9C6F48DD"
+			shape: "circle"
 			tasks: [{
 				id: "67D9F97A8285CCD8"
 				item: "strainers:mulch"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 10.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["6F3615FBFAA1FBBF"]
 			id: "6417D443D17AF47C"
+			shape: "circle"
 			tasks: [{
 				id: "59E52400B6A31D8E"
 				item: "minecraft:string"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 10.0d
+			x: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -436,13 +463,14 @@
 				"2643B24DFCECC5CA"
 			]
 			id: "6F3615FBFAA1FBBF"
+			shape: "circle"
 			tasks: [{
 				id: "4B5B96A684621C35"
 				item: "opolisutilities:leafy_string"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 12.0d
+			x: 2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -450,13 +478,14 @@
 				"76C1B4C76A6A48DC"
 			]
 			id: "31B9C56B66B70534"
+			shape: "circle"
 			tasks: [{
 				id: "54F12536FA3D9254"
 				item: "opolisutilities:mini_charcoal"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 8.0d
+			x: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -466,28 +495,37 @@
 				"6367C65CB0E9AA91"
 				"01D031B7B27EFC13"
 			]
+			description: [
+				"&6营火&r 放置后默认处于 &d未点燃&r 状态"
+				""
+				"&6起火器&r &c长按右键&r &a营火&r 可将其 &d点燃&r"
+			]
 			id: "5741091C004B2079"
+			shape: "circle"
 			tasks: [{
 				id: "7455FE2AE3607A91"
 				item: "minecraft:campfire"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 10.0d
+			x: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
 				"687B42E57D2DE436"
 				"5960C0ECFB379623"
 			]
+			description: ["&6泥巴&r &c放入&r &a烘干池&r 中，等待一段时间后可获得"]
 			id: "6149332F72166C0A"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "0EDA4510A0EE537D"
 				item: "minecraft:clay"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 4.0d
+			x: 12.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -497,13 +535,15 @@
 				"37F30FA82FF1D44C"
 			]
 			id: "5C5FD0CB70A1BB15"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "056D4AECEA99D68C"
 				item: "minecraft:clay_ball"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 4.0d
+			x: 15.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -511,13 +551,15 @@
 				"6A8DF80AFA0883CA"
 			]
 			id: "6579B2251978BB07"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "4CAD1662FBA49634"
 				item: "ceramicbucket:unfired_clay_bucket"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 4.0d
+			x: 17.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -525,13 +567,15 @@
 				"7455FE2AE3607A91"
 			]
 			id: "69FED3806981131B"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "24280FCFA7B027A5"
 				item: "ceramicbucket:ceramic_bucket"
 				type: "item"
 			}]
 			x: 20.0d
-			y: 2.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -541,6 +585,8 @@
 				"5960C0ECFB379623"
 			]
 			id: "4B214FE38119AE97"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "1FA5D3ABEDFF4163"
 				item: {
@@ -556,8 +602,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 20.0d
-			y: 0.0d
+			x: 22.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -567,13 +613,15 @@
 				"740FA686FAB2857B"
 			]
 			id: "18E2AC27F2BD4277"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "13903B72DC0A1597"
 				item: "strainers:stone_pebble"
 				type: "item"
 			}]
-			x: 22.5d
-			y: 0.0d
+			x: 25.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["18E2AC27F2BD4277"]
@@ -583,11 +631,11 @@
 			tasks: [{
 				id: "2FBE82E7F31D658A"
 				item: "minecraft:cobblestone"
-				title: "解锁“石器时代”"
 				type: "item"
 			}]
-			x: 25.0d
-			y: 0.0d
+			title: "解锁”石器时代”"
+			x: 27.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -597,12 +645,13 @@
 				"6A8DF80AFA0883CA"
 			]
 			id: "7647FA8138864E35"
+			shape: "circle"
 			tasks: [{
 				id: "5960C0ECFB379623"
 				item: "integrateddynamics:drying_basin"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 17.5d
 			y: 6.0d
 		}
 		{
@@ -613,14 +662,20 @@
 				"458B57107988B4A1"
 				"6A8DF80AFA0883CA"
 			]
+			description: [
+				"&6挤压机内部的流体&r 会自动输出到 &a流体输出口前方的容器&r 中"
+				""
+				"&6挤压机&r &c需要接收到&r &e红石信号&r 后才能 &d复位&r"
+			]
 			id: "0B1B03FD812A35E8"
+			shape: "circle"
 			tasks: [{
 				id: "7ECFB2CE2DD094B2"
 				item: "integrateddynamics:squeezer"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.0d
+			x: 17.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -629,13 +684,14 @@
 				"2643B24DFCECC5CA"
 			]
 			id: "3C931E060D3898D1"
+			shape: "circle"
 			tasks: [{
 				id: "10A2F81CF4027FE0"
 				item: "minecraft:bowl"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: 15.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -644,13 +700,14 @@
 				"2643B24DFCECC5CA"
 			]
 			id: "5CEBE9F4F2F6FE33"
+			shape: "circle"
 			tasks: [{
 				id: "6D0FBE4BC158AD55"
 				item: "minecraft:oak_slab"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 8.0d
+			x: 20.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -659,6 +716,7 @@
 				"6A8DF80AFA0883CA"
 			]
 			id: "37F30FA82FF1D44C"
+			shape: "circle"
 			tasks: [{
 				id: "035E1441DFA37FF7"
 				item: {
@@ -700,95 +758,9 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"5C5FD0CB70A1BB15"
-				"6B031D2FDB705470"
-			]
-			id: "6AEDCB4287AFF252"
-			optional: true
-			shape: "square"
-			size: 1.0d
-			tasks: [{
-				id: "724991CED35DC1E9"
-				item: "gtceu:compressed_clay"
-				type: "item"
-			}]
-			x: 17.5d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"6AEDCB4287AFF252"
-				"7455FE2AE3607A91"
-			]
-			id: "35552B983A878D36"
-			optional: true
-			shape: "square"
-			size: 1.0d
-			tasks: [{
-				id: "130EB8D72D49976A"
-				item: "minecraft:brick"
-				type: "item"
-			}]
-			x: 17.5d
-			y: 8.0d
-		}
-		{
-			dependencies: [
-				"2392B4919971D319"
-				"0F1D9F28712B75C8"
-				"2643B24DFCECC5CA"
-			]
-			id: "6B031D2FDB705470"
-			optional: true
-			shape: "square"
-			size: 1.0d
-			tasks: [{
-				id: "5A0EAC9AA86B7FAE"
-				item: "gtceu:brick_wooden_form"
-				type: "item"
-			}]
-			x: 20.0d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"053F18903B4AAB8F"
-				"43916DB63E377C6A"
-				"2643B24DFCECC5CA"
-			]
-			id: "2392B4919971D319"
-			optional: true
-			shape: "square"
-			size: 1.0d
-			tasks: [{
-				id: "47826AF24518B942"
-				item: "gtceu:empty_wooden_form"
-				type: "item"
-			}]
-			x: 22.5d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"35552B983A878D36"
-				"6A8DF80AFA0883CA"
-			]
-			id: "2A42E9DC78F3E25A"
-			optional: true
-			shape: "square"
-			size: 1.0d
-			tasks: [{
-				id: "16286AC2BAED7027"
-				item: "bonsaitrees3:bonsaipot"
-				type: "item"
-			}]
-			x: 17.5d
-			y: 10.0d
-		}
-		{
 			dependencies: ["458B57107988B4A1"]
 			id: "01D031B7B27EFC13"
+			shape: "circle"
 			tasks: [{
 				id: "0364F58BE048E156"
 				item: {
@@ -800,22 +772,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 12.0d
-		}
-		{
-			dependencies: ["2A42E9DC78F3E25A"]
-			id: "4B508FA10D34564E"
-			optional: true
-			shape: "square"
-			size: 1.0d
-			tasks: [{
-				id: "6048B0E522F48EC8"
-				item: "minecraft:oak_log"
-				type: "item"
-			}]
-			x: 17.5d
-			y: 12.0d
+			x: 2.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -824,8 +782,7 @@
 				"6A8DF80AFA0883CA"
 			]
 			id: "053F18903B4AAB8F"
-			optional: true
-			shape: "square"
+			shape: "circle"
 			size: 1.0d
 			tasks: [{
 				id: "70EBA28A77571591"
@@ -838,8 +795,55 @@
 				}
 				type: "item"
 			}]
-			x: 25.0d
-			y: 6.0d
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0CF61BD10CD58327"
+				"4536F040CCDFEEA3"
+			]
+			description: [
+				"&6活根&r &c右键&r &a枯萎的灌木&r 30%概率放置"
+				""
+				"&o&7(0.2s冷却)&r&r"
+			]
+			id: "0BB81670C24C2F6F"
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				icon: "minecraft:oak_sapling"
+				id: "0E2F07F4A21202A9"
+				observe_type: 0
+				timer: 20L
+				to_observe: "minecraft:oak_sapling"
+				type: "observation"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"76C1B4C76A6A48DC"
+				"645BEC733315BB80"
+			]
+			description: [
+				"&6小树枝&r &c右键&r &a泥土/草方块&r 30%概率放置"
+				""
+				"&o&7(0.2s冷却)&r&r"
+			]
+			id: "4536F040CCDFEEA3"
+			shape: "circle"
+			tasks: [{
+				icon: "minecraft:dead_bush"
+				id: "4E009AEBEF54D06B"
+				observe_type: 0
+				timer: 20L
+				to_observe: "minecraft:dead_bush"
+				type: "observation"
+			}]
+			x: 12.5d
+			y: 2.0d
 		}
 	]
 	title: "开端"

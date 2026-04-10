@@ -16,6 +16,32 @@ ServerEvents.tags("item", (event) => {
                 "minecraft:stripped_oak_wood",
             ],
         },
+
+        {
+            tag: "botania:all_mystical_flowers",
+            items: [
+                "#botania:mystical_flowers",
+                "#botania:double_mystical_flowers",
+            ],
+        },
+        {
+            tag: "botania:orange_mystical_flowers",
+            items: [
+                "botania:orange_mystical_flower",
+                "botania:orange_double_flower",
+            ],
+        },
+        {
+            tag: "botania:white_mystical_flowers",
+            items: [
+                "botania:white_mystical_flower",
+                "botania:white_double_flower",
+            ],
+        },
+        {
+            tag: "botania:red_mystical_flowers",
+            items: ["botania:red_mystical_flower", "botania:red_double_flower"],
+        },
     ];
 
     // addItemTags

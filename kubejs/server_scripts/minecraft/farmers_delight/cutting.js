@@ -10,12 +10,12 @@ ServerEvents.recipes((event) => {
             },
         ],
         tool: {
-            tag: "minecraft:axes",
+            tag: "forge:tools/saws",
         },
         result: [
             {
                 item: "minecraft:oak_planks",
-                count: 2,
+                count: 4,
             },
         ],
     });
@@ -29,7 +29,7 @@ ServerEvents.recipes((event) => {
             },
         ],
         tool: {
-            tag: "minecraft:axes",
+            tag: "forge:tools/saws",
         },
         result: [
             {
@@ -53,6 +53,61 @@ ServerEvents.recipes((event) => {
         result: [
             {
                 item: "minecraft:bowl",
+            },
+        ],
+    });
+
+    // 添加 minecraft:stone_slab 的配方
+    event.custom({
+        type: "farmersdelight:cutting",
+        ingredients: [
+            {
+                item: "minecraft:stone",
+            },
+        ],
+        tool: {
+            tag: "forge:tools/saws",
+        },
+        result: [
+            {
+                item: "minecraft:stone_slab",
+            },
+        ],
+    });
+
+    // 添加 minecraft:smooth_stone_slab 的配方
+    event.custom({
+        type: "farmersdelight:cutting",
+        ingredients: [
+            {
+                item: "minecraft:smooth_stone",
+            },
+        ],
+        tool: {
+            tag: "forge:tools/saws",
+        },
+        result: [
+            {
+                item: "minecraft:smooth_stone_slab",
+            },
+        ],
+    });
+
+    // 添加 minecraft:glass_pane 的配方
+    event.custom({
+        type: "farmersdelight:cutting",
+        ingredients: [
+            {
+                item: "minecraft:glass",
+            },
+        ],
+        tool: {
+            tag: "forge:tools/saws",
+        },
+        result: [
+            {
+                item: "minecraft:glass_pane",
+                count: 2,
             },
         ],
     });

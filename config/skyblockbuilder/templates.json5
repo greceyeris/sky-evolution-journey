@@ -25,6 +25,24 @@
       ],
       "west": [],
       "east": []
+    },
+    "exported_at_2026-04-10T11:59:31+0800": {
+      "north": [],
+      "east": [],
+      "south": [],
+      "west": []
+    },
+    "exported_at_2026-04-10T12:22:25+0800": {
+      "north": [],
+      "east": [],
+      "south": [],
+      "west": []
+    },
+    "exported_at_2026-04-10T12:27:31+0800": {
+      "north": [],
+      "east": [],
+      "south": [],
+      "west": []
     }
   },
   
@@ -54,8 +72,7 @@
       "desc": "Default template",
       "file": "default.nbt",
       "spawns": "default",
-      "offset": [ -1, 4, -1 ],
-      "direction": "north"
+      "offset": [ -1, 4, -1 ]
     }
   ]
 }

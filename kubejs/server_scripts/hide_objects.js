@@ -1,5 +1,6 @@
 // 定义 hideItems 数组
 const hideItems = [
+    // strainers
     "strainers:leafy_mesh",
     "strainers:bamboo_mesh",
     "strainers:string_mesh",
@@ -7,13 +8,32 @@ const hideItems = [
     "strainers:gold_mesh",
     "strainers:echo_mesh",
     "strainers:emerald_mesh",
+
+    // forge
+    "#forge:ores_in_ground/granite",
+    "#forge:ores_in_ground/diorite",
+    "#forge:ores_in_ground/andesite",
+    "#forge:ores_in_ground/red_granite",
+    "#forge:ores_in_ground/marble",
+    "#forge:ores_in_ground/tuff",
+    "#forge:ores_in_ground/sand",
+    "#forge:ores_in_ground/red_sand",
+    "#forge:ores_in_ground/gravel",
+    "#forge:ores_in_ground/basalt",
+    "#forge:ores_in_ground/blackstone",
+    "#forge:ores_in_ground/soul_soil",
+    "#forge:ores_in_ground/moon_stone",
+    "#forge:ores_in_ground/venus_stone",
+    "#forge:ores_in_ground/mars_stone",
+    "#forge:ores_in_ground/mercury_stone",
+    "#forge:ores_in_ground/glacio_stone",
 ];
 
 // 定义 hideFluids 数组
 const hideFluids = [];
 
 // 定义 hideBlocks 数组
-const hideBlocks = [];
+const hideBlocks = [].concat(hideItems);
 
 ServerEvents.tags("item", (event) => {
     // hideItems
@@ -33,47 +53,53 @@ ServerEvents.tags("item", (event) => {
     });
 
     // @opolisutilities
-    Ingredient.of("@opolisutilities").itemIds.forEach((item) => {
-        if (
-            ![
-                "opolisutilities:leafy_string",
-                "opolisutilities:mini_charcoal",
-            ].includes(item)
-        ) {
-            event.add("c:hidden_from_recipe_viewers", item);
-        }
-    });
+    Ingredient.of("@opolisutilities")
+        .getItemIds()
+        .forEach((item) => {
+            if (
+                ![
+                    "opolisutilities:leafy_string",
+                    "opolisutilities:mini_charcoal",
+                ].includes(item)
+            ) {
+                event.add("c:hidden_from_recipe_viewers", item);
+            }
+        });
 
-    // // @botanypots
-    // Ingredient.of("@botanypots").itemIds.forEach((item) => {
-    //     if (
-    //         ![
-    //             "botanypots:terracotta_botany_pot",
-    //             "botanypots:terracotta_hopper_botany_pot",
-    //         ].includes(item)
-    //     ) {
-    //         event.add("c:hidden_from_recipe_viewers", item);
-    //     }
-    // });
+    // @botanypots
+    Ingredient.of("@botanypots")
+        .getItemIds()
+        .forEach((item) => {
+            if (
+                ![
+                    "botanypots:terracotta_botany_pot",
+                    "botanypots:terracotta_hopper_botany_pot",
+                ].includes(item)
+            ) {
+                event.add("c:hidden_from_recipe_viewers", item);
+            }
+        });
 
-    // // @botanypotstiers
-    // Ingredient.of("@botanypotstiers").itemIds.forEach((item) => {
-    //     if (
-    //         ![
-    //             "botanypotstiers:elite_terracotta_botany_pot",
-    //             "botanypotstiers:elite_terracotta_hopper_botany_pot",
-    //             "botanypotstiers:ultra_terracotta_botany_pot",
-    //             "botanypotstiers:ultra_terracotta_hopper_botany_pot",
-    //             "botanypotstiers:creative_terracotta_botany_pot",
-    //             "botanypotstiers:creative_terracotta_hopper_botany_pot",
-    //         ].includes(item)
-    //     ) {
-    //         event.add("c:hidden_from_recipe_viewers", item);
-    //     }
-    // });
+    // @botanypotstiers
+    Ingredient.of("@botanypotstiers")
+        .getItemIds()
+        .forEach((item) => {
+            if (
+                ![
+                    "botanypotstiers:elite_terracotta_botany_pot",
+                    "botanypotstiers:elite_terracotta_hopper_botany_pot",
+                    "botanypotstiers:ultra_terracotta_botany_pot",
+                    "botanypotstiers:ultra_terracotta_hopper_botany_pot",
+                    "botanypotstiers:creative_terracotta_botany_pot",
+                    "botanypotstiers:creative_terracotta_hopper_botany_pot",
+                ].includes(item)
+            ) {
+                event.add("c:hidden_from_recipe_viewers", item);
+            }
+        });
 
     // // @rechiseled
-    // Ingredient.of("@rechiseled").itemIds.forEach((item) => {
+    // Ingredient.of("@rechiseled").getItemIds().forEach((item) => {
     //     if (item !== "rechiseled:chisel" && !item.includes("connecting")) {
     //         // add
     //         event.add("c:hidden_from_recipe_viewers", item);
@@ -81,7 +107,7 @@ ServerEvents.tags("item", (event) => {
     // });
 
     // // @rechiseledcreate
-    // Ingredient.of("@rechiseledcreate").itemIds.forEach((item) => {
+    // Ingredient.of("@rechiseledcreate").getItemIds().forEach((item) => {
     //     if (!item.includes("connecting")) {
     //         // add
     //         event.add("c:hidden_from_recipe_viewers", item);
@@ -89,7 +115,7 @@ ServerEvents.tags("item", (event) => {
     // });
 
     // // @rechiseledae2
-    // Ingredient.of("@rechiseledae2").itemIds.forEach((item) => {
+    // Ingredient.of("@rechiseledae2").getItemIds().forEach((item) => {
     //     if (!item.includes("connecting")) {
     //         // add
     //         event.add("c:hidden_from_recipe_viewers", item);
@@ -131,6 +157,52 @@ ServerEvents.tags("block", (event) => {
             event.add("c:hidden_from_recipe_viewers", block);
         }
     });
+
+    // @opolisutilities
+    Ingredient.of("@opolisutilities")
+        .getItemIds()
+        .forEach((block) => {
+            if (
+                ![
+                    "opolisutilities:leafy_string",
+                    "opolisutilities:mini_charcoal",
+                ].includes(block)
+            ) {
+                event.add("c:hidden_from_recipe_viewers", block);
+            }
+        });
+
+    // @botanypots
+    Ingredient.of("@botanypots")
+        .getItemIds()
+        .forEach((block) => {
+            if (
+                ![
+                    "botanypots:terracotta_botany_pot",
+                    "botanypots:terracotta_hopper_botany_pot",
+                ].includes(block)
+            ) {
+                event.add("c:hidden_from_recipe_viewers", block);
+            }
+        });
+
+    // @botanypotstiers
+    Ingredient.of("@botanypotstiers")
+        .getItemIds()
+        .forEach((block) => {
+            if (
+                ![
+                    "botanypotstiers:elite_terracotta_botany_pot",
+                    "botanypotstiers:elite_terracotta_hopper_botany_pot",
+                    "botanypotstiers:ultra_terracotta_botany_pot",
+                    "botanypotstiers:ultra_terracotta_hopper_botany_pot",
+                    "botanypotstiers:creative_terracotta_botany_pot",
+                    "botanypotstiers:creative_terracotta_hopper_botany_pot",
+                ].includes(block)
+            ) {
+                event.add("c:hidden_from_recipe_viewers", block);
+            }
+        });
 });
 
 // ServerEvents.highPriorityData((event) => {
