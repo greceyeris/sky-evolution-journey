@@ -26,7 +26,7 @@ ServerEvents.recipes((event) => {
                 type: "compactcrafting:mixed",
                 pattern: [
                     ["C", "C", "C"],
-                    ["C", "C", "C"],
+                    ["C", "D", "C"],
                     ["C", "C", "C"],
                 ],
             },
@@ -41,6 +41,10 @@ ServerEvents.recipes((event) => {
                 block: "minecraft:campfire",
             },
             C: {
+                type: "compactcrafting:block",
+                block: "minecraft:smooth_stone",
+            },
+            D: {
                 type: "compactcrafting:block",
                 block: "gtceu:flint_block",
             },

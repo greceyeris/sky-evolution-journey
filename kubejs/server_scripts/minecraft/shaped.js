@@ -17,4 +17,10 @@ ServerEvents.recipes((event) => {
         B: "minecraft:flint",
         C: "#minecraft:logs",
     });
+
+    // 添加 minecraft:beehive 的配方
+    event.shaped("minecraft:beehive", ["AAA", "BBB", "AAA"], {
+        A: "#minecraft:planks",
+        B: "minecraft:honeycomb",
+    });
 });

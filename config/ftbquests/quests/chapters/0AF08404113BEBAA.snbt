@@ -86,7 +86,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["645BEC733315BB80"]
@@ -103,7 +103,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -204,8 +204,8 @@
 				item: "farmersdelight:cutting_board"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 0.0d
+			x: 17.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -237,8 +237,8 @@
 				item: "minecraft:stripped_oak_log"
 				type: "item"
 			}]
-			x: 22.5d
-			y: 0.0d
+			x: 17.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -255,8 +255,8 @@
 				item: "minecraft:oak_planks"
 				type: "item"
 			}]
-			x: 22.5d
-			y: 2.0d
+			x: 15.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3EF12F472184B613"]
@@ -268,27 +268,16 @@
 				item: "minecraft:oak_leaves"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 10.0d
 			y: 4.0d
 		}
 		{
 			dependencies: [
-				"0B1B03FD812A35E8"
 				"618D04AFE10AEE3E"
 				"7647FA8138864E35"
 				"20BABB52EA0741D2"
 			]
-			description: [
-				"&6树叶/树苗&r &c放入&r &a装有水的烘干池&r 中，等待一段时间后可获得"
-				""
-				"&6树叶/树苗&r &c放入&r &a挤压机&r 中，再 &c站上去跳跃&r 可产出 &b水&r"
-				""
-				"&6挤压机&r &c需要接收到&r &e红石信号&r 后，才能 &d复位&r"
-				""
-				"&6烘干池&r &c放置在&r &a挤压机的流体输出口&r 前方，可收集 &b输出的流体&r"
-				""
-				"&6锄头&r &c右键点击&r &a有机覆盖物&r，可将其变为 &b水方块&r"
-			]
+			description: ["&6树叶/树苗&r &c放入&r &a烘干池&r 中，等待一段时间后可获得"]
 			hide_until_deps_complete: false
 			id: "4B4F2A93B8B337E4"
 			shape: "circle"
@@ -298,12 +287,14 @@
 				item: "kubejs:humus_pile"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 7.5d
 			y: 4.0d
 		}
 		{
-			dependencies: ["4B4F2A93B8B337E4"]
-			description: ["&6腐殖物堆&r &c放入&r &a烘干池&r 中，等待一段时间后可获得"]
+			dependencies: [
+				"4B4F2A93B8B337E4"
+				"7D5ED929E8294F33"
+			]
 			id: "6472BCC00AA3CBBC"
 			shape: "circle"
 			size: 1.0d
@@ -312,7 +303,7 @@
 				item: "kubejs:dirt_pile"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 5.0d
 			y: 4.0d
 		}
 		{
@@ -331,7 +322,7 @@
 				}
 				type: "item"
 			}]
-			x: 22.5d
+			x: 12.5d
 			y: 4.0d
 		}
 		{
@@ -344,60 +335,23 @@
 				item: "minecraft:dirt"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 4.0d
-		}
-		{
-			dependencies: [
-				"24AA82CC14C3DFA0"
-				"458B57107988B4A1"
-				"6747E4FA822CED5E"
-				"6A8DF80AFA0883CA"
-			]
-			id: "3885A3700BDC7B91"
-			shape: "circle"
-			tasks: [{
-				id: "5B677E3C393F95B3"
-				item: "strainers:wooden_strainer"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 4.0d
-		}
-		{
-			dependencies: [
-				"6417D443D17AF47C"
-				"458B57107988B4A1"
-				"6A8DF80AFA0883CA"
-				"6367C65CB0E9AA91"
-			]
-			id: "24AA82CC14C3DFA0"
-			shape: "circle"
-			tasks: [{
-				id: "740FA686FAB2857B"
-				item: {
-					Count: 1
-					id: "strainers:flint_mesh"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 7.5d
-			y: 4.0d
+			x: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
 				"2CC395CBBF76ABD5"
-				"3885A3700BDC7B91"
-				"04832013ADD36716"
-				"740FA686FAB2857B"
+				"0B1B03FD812A35E8"
+				"618D04AFE10AEE3E"
 			]
 			description: [
-				"&6泥土&r &c放入&r &a木制过滤器&r 中，并 &c装上&r &a筛网&r ，等待一段时间后可获得"
+				"&6泥土&r &c放入&r &a装有水的烘干池&r 中，等待一段时间后可获得"
 				""
-				"&6净化盐&r &c右键点击&r &a有机覆盖物&r ，可将其变为 &b净化水方块&r"
+				"&6树叶/树苗&r &c放入&r &a挤压机&r 中，再 &c站上去跳跃&r 可产出 &b水&r"
+				""
+				"&6挤压机&r &c需要接收到&r &e红石信号&r 后，才能 &d复位&r"
+				""
+				"&6烘干池&r &c放置在&r &a挤压机的流体输出口&r 前方，可收集 &b输出的流体&r"
 			]
 			id: "687B42E57D2DE436"
 			shape: "circle"
@@ -407,41 +361,7 @@
 				item: "minecraft:mud"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"31B9C56B66B70534"
-				"618D04AFE10AEE3E"
-				"6A8DF80AFA0883CA"
-				"454AA1DD9C6F48DD"
-			]
-			id: "04832013ADD36716"
-			shape: "circle"
-			tasks: [{
-				id: "6F8A08AEF3F95487"
-				item: "strainers:purifying_salt_mulch"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"618D04AFE10AEE3E"
-				"4A37898820CCC9D5"
-				"6A8DF80AFA0883CA"
-			]
-			hide_until_deps_complete: false
-			id: "454AA1DD9C6F48DD"
-			shape: "circle"
-			tasks: [{
-				id: "67D9F97A8285CCD8"
-				item: "strainers:mulch"
-				type: "item"
-			}]
-			x: 10.0d
+			x: 5.0d
 			y: 8.0d
 		}
 		{
@@ -453,8 +373,8 @@
 				item: "minecraft:string"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.0d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -469,23 +389,8 @@
 				item: "opolisutilities:leafy_string"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.0d
-		}
-		{
-			dependencies: [
-				"5741091C004B2079"
-				"76C1B4C76A6A48DC"
-			]
-			id: "31B9C56B66B70534"
-			shape: "circle"
-			tasks: [{
-				id: "54F12536FA3D9254"
-				item: "opolisutilities:mini_charcoal"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 6.0d
+			x: 10.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -507,7 +412,7 @@
 				item: "minecraft:campfire"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 15.0d
 			y: 6.0d
 		}
 		{
@@ -515,7 +420,6 @@
 				"687B42E57D2DE436"
 				"5960C0ECFB379623"
 			]
-			description: ["&6泥巴&r &c放入&r &a烘干池&r 中，等待一段时间后可获得"]
 			id: "6149332F72166C0A"
 			shape: "circle"
 			size: 1.0d
@@ -524,7 +428,7 @@
 				item: "minecraft:clay"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 7.5d
 			y: 8.0d
 		}
 		{
@@ -542,7 +446,7 @@
 				item: "minecraft:clay_ball"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 10.0d
 			y: 8.0d
 		}
 		{
@@ -558,13 +462,13 @@
 				item: "ceramicbucket:unfired_clay_bucket"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 12.5d
 			y: 8.0d
 		}
 		{
 			dependencies: [
 				"6579B2251978BB07"
-				"7455FE2AE3607A91"
+				"5741091C004B2079"
 			]
 			id: "69FED3806981131B"
 			shape: "circle"
@@ -574,7 +478,7 @@
 				item: "ceramicbucket:ceramic_bucket"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 15.0d
 			y: 8.0d
 		}
 		{
@@ -583,7 +487,10 @@
 				"618D04AFE10AEE3E"
 				"7ECFB2CE2DD094B2"
 				"5960C0ECFB379623"
+				"0ADB5779513002FB"
+				"6DFD0F508E318BA6"
 			]
+			description: ["&6锄头&r &c右键&r &a有机覆盖物&r 可转化成水方块"]
 			id: "4B214FE38119AE97"
 			shape: "circle"
 			size: 1.0d
@@ -599,18 +506,19 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 22.5d
+			x: 17.5d
 			y: 8.0d
 		}
 		{
 			dependencies: [
 				"4B214FE38119AE97"
 				"4A37898820CCC9D5"
-				"5B677E3C393F95B3"
-				"740FA686FAB2857B"
+				"4D676AEF8772A955"
+				"428BB954E1F196E2"
 			]
 			id: "18E2AC27F2BD4277"
 			shape: "circle"
@@ -620,7 +528,7 @@
 				item: "strainers:stone_pebble"
 				type: "item"
 			}]
-			x: 25.0d
+			x: 20.0d
 			y: 8.0d
 		}
 		{
@@ -634,7 +542,7 @@
 				type: "item"
 			}]
 			title: "解锁”石器时代”"
-			x: 27.5d
+			x: 22.5d
 			y: 8.0d
 		}
 		{
@@ -651,7 +559,7 @@
 				item: "integrateddynamics:drying_basin"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 7.5d
 			y: 6.0d
 		}
 		{
@@ -674,8 +582,8 @@
 				item: "integrateddynamics:squeezer"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 2.0d
+			x: 2.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -690,12 +598,12 @@
 				item: "minecraft:bowl"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 2.0d
+			x: 2.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
-				"73E08C51C07052E0"
+				"70EBA28A77571591"
 				"43916DB63E377C6A"
 				"2643B24DFCECC5CA"
 			]
@@ -706,7 +614,7 @@
 				item: "minecraft:oak_slab"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 10.0d
 			y: 6.0d
 		}
 		{
@@ -737,8 +645,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: 6.0d
+			x: 10.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -772,7 +680,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
+			x: 12.5d
 			y: 6.0d
 		}
 		{
@@ -795,7 +703,7 @@
 				}
 				type: "item"
 			}]
-			x: 20.0d
+			x: 15.0d
 			y: 2.0d
 		}
 		{
@@ -843,7 +751,103 @@
 				type: "observation"
 			}]
 			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6417D443D17AF47C"
+				"458B57107988B4A1"
+				"6A8DF80AFA0883CA"
+			]
+			id: "7D5ED929E8294F33"
+			tasks: [{
+				id: "3E1FE9209641DF91"
+				item: "farmersplus:drying_rack"
+				type: "item"
+			}]
+			x: 5.0d
 			y: 2.0d
+		}
+		{
+			dependencies: [
+				"08C422F57B89D31C"
+				"6747E4FA822CED5E"
+				"458B57107988B4A1"
+				"6A8DF80AFA0883CA"
+			]
+			id: "4D676AEF8772A955"
+			tasks: [{
+				id: "19FA86B3DBA5CA21"
+				item: "strainers:wooden_strainer"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"6367C65CB0E9AA91"
+				"458B57107988B4A1"
+				"59E52400B6A31D8E"
+				"6A8DF80AFA0883CA"
+			]
+			id: "08C422F57B89D31C"
+			tasks: [{
+				id: "428BB954E1F196E2"
+				item: {
+					Count: 1
+					id: "strainers:flint_mesh"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"618D04AFE10AEE3E"
+				"4A37898820CCC9D5"
+				"6A8DF80AFA0883CA"
+			]
+			id: "0ADB5779513002FB"
+			tasks: [{
+				id: "77708D44455E05BC"
+				item: "strainers:mulch"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"6367C65CB0E9AA91"
+				"458B57107988B4A1"
+				"6A8DF80AFA0883CA"
+			]
+			id: "6DFD0F508E318BA6"
+			tasks: [{
+				id: "5142810A1785106D"
+				item: {
+					Count: 1
+					id: "gtceu:flint_hoe"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							DefaultEnchantments: [ ]
+							MaxDamage: 63
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: 10.0d
 		}
 	]
 	title: "开端"

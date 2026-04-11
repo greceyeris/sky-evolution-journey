@@ -10,7 +10,7 @@ ServerEvents.recipes((event) => {
     });
 
     // 添加 compactcrafting:projector_dish 的配方
-    event.shaped("4x compactcrafting:projector_dish", ["AB ", "A B", "AB "], {
+    event.shaped("4x compactcrafting:projector_dish", ["AB ", "AB ", "AB "], {
         A: "#forge:glass_panes",
         B: "minecraft:brick",
     });

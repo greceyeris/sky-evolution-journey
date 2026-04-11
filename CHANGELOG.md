@@ -2,6 +2,20 @@
 
 ---
 
+### Version: _0.5.0_
+
+### Date: _2026-04-11_
+
+**Changes:**
+
+- Adjusted item icons: `kubejs:dirt_pile`, `kubejs:humus_pile`, `kubejs:flint_shard`, `kubejs:twig`, and `kubejs:flint_saw`.
+- Adjusted multiblock structure: `kubejs:furnace`.
+- Adjusted some recipes.
+- Adjusted quest chapter: `Start`.
+- Adjusted quest chapter: `Stone Age`.
+
+---
+
 ### Version: _0.4.0_
 
 ### Date: _2026-04-10_

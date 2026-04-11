@@ -7,13 +7,27 @@ ServerEvents.recipes((event) => {
         ingredients: [
             {
                 item: "minecraft:calcite",
-                count: 1,
             },
         ],
         result: [
             {
                 item: "minecraft:bone_meal",
-                count: 1,
+            },
+        ],
+    });
+
+    // 添加 minecraft:white_dye 的配方
+    event.custom({
+        type: "farmersplus:milling",
+        ingredients: [
+            {
+                item: "minecraft:bone_meal",
+            },
+        ],
+        result: [
+            {
+                item: "minecraft:white_dye",
+                count: 2,
             },
         ],
     });

@@ -5,10 +5,7 @@ ServerEvents.recipes((event) => {
     const removeRecipesUsedRecipeId = [
         //gtceu
         "gtceu:shaped/stick_normal",
-        "gtceu:shapeless/oak_planks",
         "gtceu:shaped/bowl",
-        "gtceu:shaped/oak_planks_saw",
-        "gtceu:shaped/oak_slab_saw",
         "gtceu:shapeless/gravel_to_flint",
         "gtceu:shaped/sugar",
         "gtceu:shaped/quartz_sand",
@@ -29,17 +26,10 @@ ServerEvents.recipes((event) => {
 
         // strainers
         "strainers:dirt",
-        "strainers:calcite_from_straining_diorite_in_strainers_purified_water_fluid",
 
         // farmersdelight
         "farmersdelight:flint_knife",
         "farmersdelight:iron_knife",
-
-        // farmersplus
-        "farmersplus:milling/cobbled_deepslate",
-        "farmersplus:milling/gravel",
-        "farmersplus:milling/cobblestone",
-        "farmersplus:milling/bone",
 
         // minecraft
         "minecraft:diorite",
@@ -113,6 +103,30 @@ ServerEvents.recipes((event) => {
         // minecraft
         "minecraft:campfire",
         "minecraft:furnace",
+        "minecraft:dirt",
+        "minecraft:oak_planks",
+        "minecraft:spruce_planks",
+        "minecraft:birch_planks",
+        "minecraft:jungle_planks",
+        "minecraft:acacia_planks",
+        "minecraft:dark_oak_planks",
+        "minecraft:mangrove_planks",
+        "minecraft:cherry_planks",
+        "minecraft:crimson_planks",
+        "minecraft:warped_planks",
+        "minecraft:bamboo_planks",
+        "minecraft:oak_slab",
+        "minecraft:spruce_slab",
+        "minecraft:birch_slab",
+        "minecraft:jungle_slab",
+        "minecraft:acacia_slab",
+        "minecraft:dark_oak_slab",
+        "minecraft:mangrove_slab",
+        "minecraft:cherry_slab",
+        "minecraft:crimson_slab",
+        "minecraft:warped_slab",
+        "minecraft:bamboo_slab",
+        "minecraft:beehive",
 
         // strainers
         "strainers:purifying_salt_mulch",
@@ -150,6 +164,23 @@ ServerEvents.recipes((event) => {
         "opolisutilities:rg2_blocks",
         "opolisutilities:rg2_speed_blocks",
         "opolisutilities:soaking_table",
+
+        // strainers
+        "strainers:strainer",
+
+        // farmersdelight
+        "farmersdelight:cutting",
+
+        // compactcrafting
+        "compactcrafting:miniaturization",
+
+        // farmersplus
+        "farmersplus:drying",
+        "farmersplus:milling",
+
+        // bonsaitrees3
+        "bonsaitrees3:soil",
+        "bonsaitrees3:sapling",
     ];
 
     // 定义 removeRecipesUsedTypeAndInput 数组
@@ -160,6 +191,20 @@ ServerEvents.recipes((event) => {
 
     // 定义 removeRecipesUsedTypeAndOutput 数组
     const removeRecipesUsedTypeAndOutput = [];
+
+    // 输出配方
+    const recipeType = [];
+
+    if (recipeType) {
+        recipeType.forEach((type) => {
+            console.log(type);
+
+            event.forEachRecipe({ type: type }, (recipe) => {
+                console.log(String(recipe.getId()));
+                console.log(recipe.json.toString());
+            });
+        });
+    }
 
     // 删除配方
     // removeRecipesUsedRecipeId

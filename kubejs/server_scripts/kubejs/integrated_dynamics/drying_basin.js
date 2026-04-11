@@ -8,24 +8,10 @@ ServerEvents.recipes((event) => {
             event.custom({
                 type: "integrateddynamics:drying_basin",
                 item: item,
-                fluid: {
-                    fluid: "minecraft:water",
-                    amount: 250,
-                },
-                duration: 100,
+                duration: 50,
                 result: {
                     item: "kubejs:humus_pile",
                 },
             });
         });
-
-    // 添加 kubejs:dirt_pile 的配方
-    event.custom({
-        type: "integrateddynamics:drying_basin",
-        item: "kubejs:humus_pile",
-        duration: 100,
-        result: {
-            item: "kubejs:dirt_pile",
-        },
-    });
 });

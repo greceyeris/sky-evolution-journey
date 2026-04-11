@@ -13,6 +13,14 @@ BlockEvents.rightClicked((event) => {
             item: "botania:fertilizer",
             block: "#minecraft:dirt",
         },
+        {
+            item: "botania:fertilizer",
+            block: "#botania:mystical_flowers",
+        },
+        {
+            item: "minecraft:bone_meal",
+            block: "#botania:mystical_flowers",
+        },
     ];
 
     const { player, block, mainHand, offHand } = event;
