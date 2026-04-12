@@ -5,5 +5,16 @@
     "item.kubejs.dirt_pile": "泥土堆",
     "item.kubejs.flint_saw": "燧石锯",
 
+    "item.simpleprocessingmachines.sawdust": "锯末",
+
+    "block.simpleprocessingmachines.crushing_station": "粉碎机",
+    "block.simpleprocessingmachines.mineral_processing_station": "选矿机",
+    "block.simpleprocessingmachines.sawmilling_station": "锯木机",
+    "block.simpleprocessingmachines.organic_composter": "有机堆肥桶",
+    "block.simpleprocessingmachines.centrifugal_separator": "离心分离机",
+    "block.simpleprocessingmachines.crystallizing_station": "结晶机",
+    "block.simpleprocessingmachines.atmospheric_condenser": "大气冷凝器",
+    "block.simpleprocessingmachines.auto_crafting_station": "自动合成站",
+
     "mbtool.structure.kubejs_furnace": "多方块结构: 熔炉"
 }

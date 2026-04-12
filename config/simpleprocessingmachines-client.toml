@@ -1,0 +1,9 @@
+#If true, render the primary crafting result inside the Organic Composter
+composterRendererIsEnabled = true
+#If true, render fluids and primary crafting result inside the Crystallizing Station
+crystallizerRendererIsEnabled = true
+#If true, render fluids inside the Atmospheric Condenser
+atmosphericCondenserRendererIsEnabled = true
+#If true, render the primary crafting result ontop of the Auto Crafting Station
+autoCraftingStationRendererIsEnabled = true
+

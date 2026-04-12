@@ -78,6 +78,7 @@ ServerEvents.recipes((event) => {
 
     // 定义 removeRecipesUsedItemInput 数组
     const removeRecipesUsedItemInput = [
+        // forge
         "#forge:ores",
         "#forge:crushed_ores",
         "#forge:purified_ores",
@@ -94,6 +95,12 @@ ServerEvents.recipes((event) => {
         // integrateddynamics
         "integrateddynamics:squeezer",
         "integrateddynamics:drying_basin",
+        "integrateddynamics:menril_planks",
+        "integrateddynamics:menril_slab",
+        "integrateddynamics:crystalized_menril_block_slab",
+        "integrateddynamics:crystalized_menril_brick_slab",
+        "integrateddynamics:crystalized_chorus_block_slab",
+        "integrateddynamics:crystalized_chorus_brick_slab",
 
         // gtceu
         "gtceu:flint_axe",
@@ -138,9 +145,6 @@ ServerEvents.recipes((event) => {
         // opolisutilities
         "opolisutilities:leafy_string",
 
-        // farmersplus
-        "farmersplus:millstone",
-
         // compactcrafting
         "compactcrafting:base",
         "compactcrafting:projector_dish",
@@ -153,10 +157,18 @@ ServerEvents.recipes((event) => {
         "brickfurnace:brick_blast_furnace",
         "brickfurnace:brick_smoker",
 
-        // integrateddynamics
-        "integrateddynamics:coal_generator",
-        "integrateddynamics:mechanical_squeezer",
-        "integrateddynamics:mechanical_drying_basin",
+        // flopper
+        "flopper:flopper",
+
+        // simpleprocessingmachines
+        "simpleprocessingmachines:centrifugal_separator",
+        "simpleprocessingmachines:auto_crafting_station",
+        "simpleprocessingmachines:organic_composter",
+        "simpleprocessingmachines:crystallizing_station",
+        "simpleprocessingmachines:atmospheric_condenser",
+        "simpleprocessingmachines:crushing_station",
+        "simpleprocessingmachines:mineral_processing_station",
+        "simpleprocessingmachines:sawmilling_station",
     ];
 
     // 定义 removeRecipesUsedItemInputAndOutput 数组
@@ -174,12 +186,12 @@ ServerEvents.recipes((event) => {
         "integrateddynamics:mechanical_squeezer",
 
         // opolisutilities
-        "opolisutilities:drying_table",
         "opolisutilities:fluid_generator",
         "opolisutilities:resource_generator",
         "opolisutilities:rg2_blocks",
         "opolisutilities:rg2_speed_blocks",
         "opolisutilities:soaking_table",
+        "opolisutilities:drying_table",
 
         // strainers
         "strainers:strainer",
@@ -190,10 +202,6 @@ ServerEvents.recipes((event) => {
         // compactcrafting
         "compactcrafting:miniaturization",
 
-        // farmersplus
-        "farmersplus:drying",
-        "farmersplus:milling",
-
         // bonsaitrees3
         "bonsaitrees3:soil",
         "bonsaitrees3:sapling",
@@ -202,6 +210,14 @@ ServerEvents.recipes((event) => {
         "brickfurnace:smelting",
         "brickfurnace:blasting",
         "brickfurnace:smoking",
+
+        // simpleprocessingmachines
+        "simpleprocessingmachines:organic_composting",
+        "simpleprocessingmachines:crystallizing",
+        "simpleprocessingmachines:atmospheric_condensing",
+        "simpleprocessingmachines:crushing",
+        "simpleprocessingmachines:mineral_processing",
+        "simpleprocessingmachines:sawmilling",
     ];
 
     // 定义 removeRecipesUsedTypeAndInput 数组

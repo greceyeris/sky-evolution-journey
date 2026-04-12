@@ -9,6 +9,12 @@ const hideItems = [
     "strainers:echo_mesh",
     "strainers:emerald_mesh",
 
+    // simpleprocessingmachines
+    "simpleprocessingmachines:centrifugal_separator",
+    "simpleprocessingmachines:auto_crafting_station",
+    "simpleprocessingmachines:sawdust",
+    "simpleprocessingmachines:mineral_processing_station",
+
     // forge
     "#forge:ores_in_ground/granite",
     "#forge:ores_in_ground/diorite",
@@ -35,6 +41,36 @@ const hideFluids = [];
 // 定义 hideBlocks 数组
 const hideBlocks = [].concat(hideItems);
 
+// 定义 hideObjectsUsedBlacklist 数组
+const hideObjectsUsedBlacklist = [
+    {
+        name: "@opolisutilities",
+        blacklist: [
+            "opolisutilities:leafy_string",
+            "opolisutilities:mini_charcoal",
+            "opolisutilities:drying_table",
+        ],
+    },
+    {
+        name: "@botanypots",
+        blacklist: [
+            "botanypots:terracotta_botany_pot",
+            "botanypots:terracotta_hopper_botany_pot",
+        ],
+    },
+    {
+        name: "@botanypotstiers",
+        blacklist: [
+            "botanypotstiers:elite_terracotta_botany_pot",
+            "botanypotstiers:elite_terracotta_hopper_botany_pot",
+            "botanypotstiers:ultra_terracotta_botany_pot",
+            "botanypotstiers:ultra_terracotta_hopper_botany_pot",
+            "botanypotstiers:creative_terracotta_botany_pot",
+            "botanypotstiers:creative_terracotta_hopper_botany_pot",
+        ],
+    },
+];
+
 ServerEvents.tags("item", (event) => {
     // hideItems
     hideItems.forEach((item) => {
@@ -52,75 +88,18 @@ ServerEvents.tags("item", (event) => {
         }
     });
 
-    // @opolisutilities
-    Ingredient.of("@opolisutilities")
-        .getItemIds()
-        .forEach((item) => {
-            if (
-                ![
-                    "opolisutilities:leafy_string",
-                    "opolisutilities:mini_charcoal",
-                ].includes(item)
-            ) {
-                event.add("c:hidden_from_recipe_viewers", item);
-            }
-        });
-
-    // @botanypots
-    Ingredient.of("@botanypots")
-        .getItemIds()
-        .forEach((item) => {
-            if (
-                ![
-                    "botanypots:terracotta_botany_pot",
-                    "botanypots:terracotta_hopper_botany_pot",
-                ].includes(item)
-            ) {
-                event.add("c:hidden_from_recipe_viewers", item);
-            }
-        });
-
-    // @botanypotstiers
-    Ingredient.of("@botanypotstiers")
-        .getItemIds()
-        .forEach((item) => {
-            if (
-                ![
-                    "botanypotstiers:elite_terracotta_botany_pot",
-                    "botanypotstiers:elite_terracotta_hopper_botany_pot",
-                    "botanypotstiers:ultra_terracotta_botany_pot",
-                    "botanypotstiers:ultra_terracotta_hopper_botany_pot",
-                    "botanypotstiers:creative_terracotta_botany_pot",
-                    "botanypotstiers:creative_terracotta_hopper_botany_pot",
-                ].includes(item)
-            ) {
-                event.add("c:hidden_from_recipe_viewers", item);
-            }
-        });
-
-    // // @rechiseled
-    // Ingredient.of("@rechiseled").getItemIds().forEach((item) => {
-    //     if (item !== "rechiseled:chisel" && !item.includes("connecting")) {
-    //         // add
-    //         event.add("c:hidden_from_recipe_viewers", item);
-    //     }
-    // });
-
-    // // @rechiseledcreate
-    // Ingredient.of("@rechiseledcreate").getItemIds().forEach((item) => {
-    //     if (!item.includes("connecting")) {
-    //         // add
-    //         event.add("c:hidden_from_recipe_viewers", item);
-    //     }
-    // });
-
-    // // @rechiseledae2
-    // Ingredient.of("@rechiseledae2").getItemIds().forEach((item) => {
-    //     if (!item.includes("connecting")) {
-    //         // add
-    //         event.add("c:hidden_from_recipe_viewers", item);
-    //     }
-    // });
+    // hideObjectsUsedBlacklist
+    hideObjectsUsedBlacklist.forEach((object) => {
+        if (object.name.startsWith("@")) {
+            Ingredient.of(object.name)
+                .getItemIds()
+                .forEach((objectId) => {
+                    if (!object.blacklist.includes(objectId)) {
+                        event.add("c:hidden_from_recipe_viewers", objectId);
+                    }
+                });
+        }
+    });
 });
 
 ServerEvents.tags("fluid", (event) => {
@@ -158,63 +137,16 @@ ServerEvents.tags("block", (event) => {
         }
     });
 
-    // @opolisutilities
-    Ingredient.of("@opolisutilities")
-        .getItemIds()
-        .forEach((block) => {
-            if (
-                ![
-                    "opolisutilities:leafy_string",
-                    "opolisutilities:mini_charcoal",
-                ].includes(block)
-            ) {
-                event.add("c:hidden_from_recipe_viewers", block);
-            }
-        });
-
-    // @botanypots
-    Ingredient.of("@botanypots")
-        .getItemIds()
-        .forEach((block) => {
-            if (
-                ![
-                    "botanypots:terracotta_botany_pot",
-                    "botanypots:terracotta_hopper_botany_pot",
-                ].includes(block)
-            ) {
-                event.add("c:hidden_from_recipe_viewers", block);
-            }
-        });
-
-    // @botanypotstiers
-    Ingredient.of("@botanypotstiers")
-        .getItemIds()
-        .forEach((block) => {
-            if (
-                ![
-                    "botanypotstiers:elite_terracotta_botany_pot",
-                    "botanypotstiers:elite_terracotta_hopper_botany_pot",
-                    "botanypotstiers:ultra_terracotta_botany_pot",
-                    "botanypotstiers:ultra_terracotta_hopper_botany_pot",
-                    "botanypotstiers:creative_terracotta_botany_pot",
-                    "botanypotstiers:creative_terracotta_hopper_botany_pot",
-                ].includes(block)
-            ) {
-                event.add("c:hidden_from_recipe_viewers", block);
-            }
-        });
+    // hideObjectsUsedBlacklist
+    hideObjectsUsedBlacklist.forEach((object) => {
+        if (object.name.startsWith("@")) {
+            Ingredient.of(object.name)
+                .getItemIds()
+                .forEach((objectId) => {
+                    if (!object.blacklist.includes(objectId)) {
+                        event.add("c:hidden_from_recipe_viewers", objectId);
+                    }
+                });
+        }
+    });
 });
-
-// ServerEvents.highPriorityData((event) => {
-//     // 隐藏配方分类
-//     event.addJson("assets/emi/recipe/filters/hide_recipe_categories.json", {
-//         filters: [
-//             {
-//                 id: "createmetallurgy:polishing_with_grinder",
-//             },
-//             {
-//                 id: "vintage:grinder_sandpaper_polishing",
-//             },
-//         ],
-//     });
-// });

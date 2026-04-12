@@ -3,7 +3,7 @@
 	#Cooldown in ticks of the home stone, default = 6000
 	"Home Stone Cooldown" = 6000
 	#Does the home stone take damge when teleporting, default = true
-	"Home Stone Durability" = true
+	"Home Stone Durability" = false
 	#URL for your discord
 	"Discord URL" = "https://discord.gg/benbenlaw"
 	#Modpack name

@@ -165,6 +165,13 @@ ServerEvents.tags("item", (event) => {
                 "minecraft:pitcher_pod",
             ],
         },
+        {
+            tag: "integrateddynamics:stripped_menril_logs",
+            items: [
+                "integrateddynamics:menril_log_stripped",
+                "integrateddynamics:menril_wood_stripped",
+            ],
+        },
     ];
     // addItemTags
     addItemTags.forEach((obj) => {
