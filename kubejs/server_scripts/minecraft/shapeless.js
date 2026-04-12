@@ -13,6 +13,10 @@ ServerEvents.recipes((event) => {
                 "opolisutilities:leafy_string",
             ],
         },
+        {
+            output: "9x minecraft:redstone",
+            inputs: ["minecraft:redstone_block"],
+        },
     ];
 
     // 添加配方

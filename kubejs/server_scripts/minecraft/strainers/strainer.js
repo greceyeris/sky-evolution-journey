@@ -1,21 +1,21 @@
 ServerEvents.recipes((event) => {
     // 添加配方
     // strainers:strainer
-    // 添加 minecraft:calcite 的配方
+    // 添加 minecraft:andesite 的配方
     event.custom({
         type: "strainers:strainer",
-        aboveFluid: "minecraft:water",
-        chance: 1.0,
-        chanceIncreasePerTier: 0.0,
+        aboveFluid: "strainers:purified_water_fluid",
+        chance: 0.35,
+        chanceIncreasePerTier: 0.02,
         duration: 200,
         ingredients: [
             {
-                item: "minecraft:diorite",
+                item: "minecraft:stone",
             },
         ],
         minMeshTier: 1,
         output: {
-            item: "minecraft:calcite",
+            item: "minecraft:andesite",
         },
     });
 
@@ -55,21 +55,21 @@ ServerEvents.recipes((event) => {
         },
     });
 
-    // 添加 minecraft:andesite 的配方
+    // 添加 minecraft:calcite 的配方
     event.custom({
         type: "strainers:strainer",
-        aboveFluid: "strainers:purified_water_fluid",
-        chance: 0.35,
-        chanceIncreasePerTier: 0.02,
+        aboveFluid: "minecraft:water",
+        chance: 1.0,
+        chanceIncreasePerTier: 0.0,
         duration: 200,
         ingredients: [
             {
-                item: "minecraft:stone",
+                item: "minecraft:diorite",
             },
         ],
         minMeshTier: 1,
         output: {
-            item: "minecraft:andesite",
+            item: "minecraft:calcite",
         },
     });
 

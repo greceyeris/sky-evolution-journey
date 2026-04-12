@@ -126,7 +126,10 @@ ServerEvents.recipes((event) => {
         "minecraft:crimson_slab",
         "minecraft:warped_slab",
         "minecraft:bamboo_slab",
+        "minecraft:bamboo_mosaic_slab",
         "minecraft:beehive",
+        "minecraft:chest",
+        "minecraft:bowl",
 
         // strainers
         "strainers:purifying_salt_mulch",
@@ -141,6 +144,19 @@ ServerEvents.recipes((event) => {
         // compactcrafting
         "compactcrafting:base",
         "compactcrafting:projector_dish",
+
+        // woodenshears
+        "woodenshears:wooden_shears",
+
+        // brickfurnace
+        "brickfurnace:brick_furnace",
+        "brickfurnace:brick_blast_furnace",
+        "brickfurnace:brick_smoker",
+
+        // integrateddynamics
+        "integrateddynamics:coal_generator",
+        "integrateddynamics:mechanical_squeezer",
+        "integrateddynamics:mechanical_drying_basin",
     ];
 
     // 定义 removeRecipesUsedItemInputAndOutput 数组
@@ -181,6 +197,11 @@ ServerEvents.recipes((event) => {
         // bonsaitrees3
         "bonsaitrees3:soil",
         "bonsaitrees3:sapling",
+
+        // brickfurnace
+        "brickfurnace:smelting",
+        "brickfurnace:blasting",
+        "brickfurnace:smoking",
     ];
 
     // 定义 removeRecipesUsedTypeAndInput 数组

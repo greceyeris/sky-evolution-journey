@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "0AF08404113BEBAA"
-	group: ""
+	group: "0F76479A11B06095"
 	icon: "minecraft:grass_block"
 	id: "0AF08404113BEBAA"
 	order_index: 0
@@ -30,7 +30,7 @@
 		{
 			dependencies: ["422EB83D3BD05264"]
 			description: [
-				"&6空手&r &c下蹲右键&r &a泥土/草方块&r 30%概率可获得"
+				"&6空手&r &c下蹲右键&r &a泥土/草方块&r 50%概率可获得"
 				""
 				"&o&7(0.2s冷却)&r&r"
 			]
@@ -46,10 +46,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"27E61CE7321275F3"
-				"3DE92338958835C3"
-			]
+			dependencies: ["27E61CE7321275F3"]
 			id: "58994126AC6D150D"
 			shape: "circle"
 			size: 1.0d
@@ -73,7 +70,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
+			x: 12.5d
 			y: 0.0d
 		}
 		{
@@ -85,13 +82,16 @@
 				item: "minecraft:flint"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -2.0d
+			x: 10.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["645BEC733315BB80"]
+			dependencies: [
+				"645BEC733315BB80"
+				"3DE92338958835C3"
+			]
 			description: [
-				"&6空手&r &c下蹲右键&r &a泥土/草方块&r 30%概率可获得"
+				"&6木棍&r &c下蹲右键&r &a泥土/草方块&r 45%概率可获得"
 				""
 				"&o&7(0.2s冷却)&r&r"
 			]
@@ -102,8 +102,8 @@
 				item: "kubejs:flint_shard"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.0d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -111,7 +111,7 @@
 				"58994126AC6D150D"
 			]
 			description: [
-				"&6刀具&r &c右键&r &a泥土/草方块&r 30%概率可获得"
+				"&6刀具&r &c右键&r &a泥土/草方块&r 60%概率可获得"
 				""
 				"&o&7(消耗1点物品耐久, 0.2s冷却)&r&r"
 			]
@@ -123,7 +123,7 @@
 				item: "botania:living_root"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 15.0d
 			y: 0.0d
 		}
 		{
@@ -154,7 +154,7 @@
 				item: "minecraft:oak_log"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 20.0d
 			y: 0.0d
 		}
 		{
@@ -187,7 +187,7 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
+			x: 20.0d
 			y: -2.0d
 		}
 		{
@@ -204,8 +204,8 @@
 				item: "farmersdelight:cutting_board"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 2.0d
+			x: 20.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -220,8 +220,8 @@
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 0.0d
+			x: 20.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -237,7 +237,7 @@
 				item: "minecraft:stripped_oak_log"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 17.0d
 			y: 4.0d
 		}
 		{
@@ -255,7 +255,7 @@
 				item: "minecraft:oak_planks"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 14.0d
 			y: 4.0d
 		}
 		{
@@ -268,7 +268,7 @@
 				item: "minecraft:oak_leaves"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 8.0d
 			y: 4.0d
 		}
 		{
@@ -287,7 +287,7 @@
 				item: "kubejs:humus_pile"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 5.0d
 			y: 4.0d
 		}
 		{
@@ -304,10 +304,15 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["2E5F7F15C64A979C"]
+			dependencies: [
+				"2E5F7F15C64A979C"
+				"458B57107988B4A1"
+				"55457C6A101A778B"
+				"6A8DF80AFA0883CA"
+			]
 			id: "3EF12F472184B613"
 			shape: "circle"
 			size: 1.0d
@@ -322,7 +327,7 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
+			x: 11.0d
 			y: 4.0d
 		}
 		{
@@ -336,7 +341,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -361,7 +366,7 @@
 				item: "minecraft:mud"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.5d
 			y: 8.0d
 		}
 		{
@@ -373,8 +378,8 @@
 				item: "minecraft:string"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 2.0d
+			x: 2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -389,7 +394,7 @@
 				item: "opolisutilities:leafy_string"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 2.5d
 			y: 2.0d
 		}
 		{
@@ -412,7 +417,7 @@
 				item: "minecraft:campfire"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 17.5d
 			y: 6.0d
 		}
 		{
@@ -428,7 +433,7 @@
 				item: "minecraft:clay"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 10.0d
 			y: 8.0d
 		}
 		{
@@ -446,7 +451,7 @@
 				item: "minecraft:clay_ball"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 12.5d
 			y: 8.0d
 		}
 		{
@@ -462,7 +467,7 @@
 				item: "ceramicbucket:unfired_clay_bucket"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 15.0d
 			y: 8.0d
 		}
 		{
@@ -478,7 +483,7 @@
 				item: "ceramicbucket:ceramic_bucket"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 17.5d
 			y: 8.0d
 		}
 		{
@@ -510,7 +515,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 17.5d
+			x: 20.0d
 			y: 8.0d
 		}
 		{
@@ -528,7 +533,7 @@
 				item: "strainers:stone_pebble"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 22.5d
 			y: 8.0d
 		}
 		{
@@ -542,7 +547,7 @@
 				type: "item"
 			}]
 			title: "解锁”石器时代”"
-			x: 22.5d
+			x: 25.0d
 			y: 8.0d
 		}
 		{
@@ -559,8 +564,8 @@
 				item: "integrateddynamics:drying_basin"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 6.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -582,8 +587,8 @@
 				item: "integrateddynamics:squeezer"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 8.0d
+			x: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -598,7 +603,7 @@
 				item: "minecraft:bowl"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 10.0d
 			y: 6.0d
 		}
 		{
@@ -614,8 +619,8 @@
 				item: "minecraft:oak_slab"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 6.0d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -645,8 +650,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 10.0d
+			x: 12.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -662,8 +667,8 @@
 				item: "crafting_on_a_stick:crafting_table"
 				type: "item"
 			}]
-			x: 17.5d
-			y: -2.0d
+			x: 22.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["458B57107988B4A1"]
@@ -680,7 +685,7 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
+			x: 15.0d
 			y: 6.0d
 		}
 		{
@@ -703,55 +708,21 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
+			x: 14.0d
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"0CF61BD10CD58327"
-				"4536F040CCDFEEA3"
-			]
-			description: [
-				"&6活根&r &c右键&r &a枯萎的灌木&r 30%概率放置"
-				""
-				"&o&7(0.2s冷却)&r&r"
-			]
+			dependencies: ["0CF61BD10CD58327"]
 			id: "0BB81670C24C2F6F"
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
-				icon: "minecraft:oak_sapling"
-				id: "0E2F07F4A21202A9"
-				observe_type: 0
-				timer: 20L
-				to_observe: "minecraft:oak_sapling"
-				type: "observation"
+				id: "55457C6A101A778B"
+				item: "minecraft:oak_sapling"
+				type: "item"
 			}]
-			x: 12.5d
+			x: 17.5d
 			y: 0.0d
-		}
-		{
-			dependencies: [
-				"76C1B4C76A6A48DC"
-				"645BEC733315BB80"
-			]
-			description: [
-				"&6小树枝&r &c右键&r &a泥土/草方块&r 30%概率放置"
-				""
-				"&o&7(0.2s冷却)&r&r"
-			]
-			id: "4536F040CCDFEEA3"
-			shape: "circle"
-			tasks: [{
-				icon: "minecraft:dead_bush"
-				id: "4E009AEBEF54D06B"
-				observe_type: 0
-				timer: 20L
-				to_observe: "minecraft:dead_bush"
-				type: "observation"
-			}]
-			x: 12.5d
-			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -765,8 +736,8 @@
 				item: "farmersplus:drying_rack"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: 2.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -781,7 +752,7 @@
 				item: "strainers:wooden_strainer"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 22.5d
 			y: 6.0d
 		}
 		{
@@ -803,7 +774,7 @@
 				}
 				type: "item"
 			}]
-			x: 20.0d
+			x: 22.5d
 			y: 4.0d
 		}
 		{
@@ -818,7 +789,7 @@
 				item: "strainers:mulch"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 20.0d
 			y: 6.0d
 		}
 		{
@@ -846,7 +817,7 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
+			x: 20.0d
 			y: 10.0d
 		}
 	]

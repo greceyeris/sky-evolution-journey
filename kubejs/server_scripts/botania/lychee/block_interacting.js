@@ -7,18 +7,18 @@ ServerEvents.recipes((event) => {
         item_in: { tag: "forge:tools/knives" },
         block_in: { tag: "minecraft:dirt" },
         post: [
+            { type: "damage_item" },
+            {
+                type: "add_item_cooldown",
+                s: 0.2,
+            },
             {
                 type: "drop_item",
                 item: "botania:living_root",
                 contextual: {
                     type: "chance",
-                    chance: 0.3,
+                    chance: 0.6,
                 },
-            },
-            { type: "damage_item" },
-            {
-                type: "add_item_cooldown",
-                s: 0.2,
             },
         ],
     });

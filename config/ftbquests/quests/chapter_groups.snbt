@@ -1,3 +1,6 @@
 {
-	chapter_groups: [ ]
+	chapter_groups: [
+		{ id: "0F76479A11B06095", title: "主线章节" }
+		{ id: "45A16BFA512291EC", title: "支线章节" }
+	]
 }

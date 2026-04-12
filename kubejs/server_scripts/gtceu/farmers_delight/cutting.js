@@ -1,12 +1,12 @@
 ServerEvents.recipes((event) => {
     // 添加配方
     // farmersdelight:cutting
-    // 添加 gtceu:brick_wooden_form 的配方
+    // 添加 gtceu:empty_wooden_form 的配方
     event.custom({
         type: "farmersdelight:cutting",
         ingredients: [
             {
-                tag: "minecraft:planks",
+                tag: "minecraft:wooden_slabs",
             },
         ],
         tool: {

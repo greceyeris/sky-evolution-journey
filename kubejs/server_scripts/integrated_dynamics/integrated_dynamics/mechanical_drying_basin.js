@@ -8,10 +8,10 @@ ServerEvents.recipes((event) => {
             fluid: "integrateddynamics:liquid_chorus",
             amount: 1000,
         },
-        duration: 30,
         result: {
             item: "integrateddynamics:crystalized_chorus_block",
         },
+        duration: 30,
     });
 
     // 添加 integrateddynamics:crystalized_menril_block 的配方
@@ -21,9 +21,9 @@ ServerEvents.recipes((event) => {
             fluid: "integrateddynamics:menril_resin",
             amount: 1000,
         },
-        duration: 15,
         result: {
             item: "integrateddynamics:crystalized_menril_block",
         },
+        duration: 15,
     });
 });

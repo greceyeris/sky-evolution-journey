@@ -23,4 +23,29 @@ ServerEvents.recipes((event) => {
         A: "#minecraft:planks",
         B: "minecraft:honeycomb",
     });
+
+    // 添加 minecraft:oak_sapling 的配方
+    event.shaped("minecraft:oak_sapling", ["AA", "AA"], {
+        A: "botania:living_root",
+    });
+
+    // 添加 minecraft:chest 的配方
+    event.shaped("minecraft:chest", ["ABA", "BCB", "ABA"], {
+        A: "#minecraft:logs",
+        B: "#minecraft:planks",
+        C: "minecraft:flint",
+    });
+
+    // 添加 minecraft:stick 的配方
+    event
+        .shaped("4x minecraft:stick", ["A", "B", "B"], {
+            A: "kubejs:flint_saw",
+            B: "#minecraft:planks",
+        })
+        .damageIngredient("kubejs:flint_saw", 2);
+
+    // 添加 minecraft:redstone_block 的配方
+    event.shaped("minecraft:redstone_block", ["AAA", "AAA", "AAA"], {
+        A: "minecraft:redstone",
+    });
 });

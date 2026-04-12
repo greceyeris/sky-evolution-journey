@@ -14,4 +14,13 @@ ServerEvents.recipes((event) => {
         B: "minecraft:string",
         C: "minecraft:flint",
     });
+
+    // 添加 minecraft:bricks 的配方
+    event.shaped("2x minecraft:bricks", ["AAA", "ABA", "AAA"], {
+        A: "minecraft:brick",
+        B: Item.of(
+            "ceramicbucket:ceramic_bucket",
+            '{Fluid:{Amount:1000,FluidName:"minecraft:water"}}',
+        ).strongNBT(),
+    });
 });

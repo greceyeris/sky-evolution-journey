@@ -110,6 +110,8 @@
 		diagnosticsWebServerPort = 3030
 		#The base energy usage for the machine reader.
 		machineReaderBaseConsumption = 1
+		#The base energy usage for the delayer.
+		delayerBaseConsumption = 2
 
 [machine]
 
@@ -165,11 +167,11 @@
 		#How many mB per tick can be auto-ejected.
 		autoEjectFluidRate = 500
 		#The energy consumption rate.
-		consumptionRate = 80
+		consumptionRate = 20
 
 	[machine.mechanical_drying_basin]
 		#The energy consumption rate.
-		consumptionRate = 80
+		consumptionRate = 20
 		#The energy capacity of a mechanical drying basin.
 		capacity = 100000
 

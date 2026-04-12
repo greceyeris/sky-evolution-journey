@@ -3,7 +3,11 @@ ServerEvents.tags("item", (event) => {
     const addItemTags = [
         {
             tag: "kubejs:organic_matters",
-            items: ["#minecraft:leaves", "#minecraft:saplings"],
+            items: [
+                "#minecraft:leaves",
+                "#minecraft:saplings",
+                "farmersdelight:tree_bark",
+            ],
         },
         {
             tag: "forge:tools/saws",

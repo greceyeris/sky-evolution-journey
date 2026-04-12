@@ -2,6 +2,19 @@
 
 ---
 
+### Version: _0.6.0_
+
+### Date: _2026-04-12_
+
+**Changes:**
+
+- Adjusted some recipes.
+- Adjusted quest chapter: `Start`.
+- Adjusted quest chapter: `Stone Age`.
+- Added quest chapter: `Heat Age`.
+
+---
+
 ### Version: _0.5.0_
 
 ### Date: _2026-04-11_

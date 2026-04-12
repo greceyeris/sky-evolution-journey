@@ -1,0 +1,35 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "785E101A3F9E9D4C"
+	group: "0F76479A11B06095"
+	id: "785E101A3F9E9D4C"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["12B1E2AE2B5D5360"]
+		id: "7EC591FBD5950B36"
+		rewards: [{
+			id: "49D13BF7407FEBDF"
+			item: {
+				Count: 1
+				id: "essentials:guide_book"
+				tag: {
+					"patchouli:book": "essentials:manual"
+				}
+			}
+			type: "item"
+		}]
+		shape: "hexagon"
+		size: 1.5d
+		tasks: [{
+			id: "12009E8B32A709E3"
+			item: "crossroads:firebox"
+			title: "从这里开始！"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "热能时代"
+}

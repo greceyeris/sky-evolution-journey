@@ -8,10 +8,10 @@ ServerEvents.recipes((event) => {
             event.custom({
                 type: "integrateddynamics:drying_basin",
                 item: item,
-                duration: 50,
                 result: {
                     item: "kubejs:humus_pile",
                 },
+                duration: 50,
             });
         });
 });

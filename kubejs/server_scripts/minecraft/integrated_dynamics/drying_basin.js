@@ -9,9 +9,23 @@ ServerEvents.recipes((event) => {
             fluid: "minecraft:water",
             amount: 250,
         },
-        duration: 100,
         result: {
             item: "minecraft:mud",
         },
+        duration: 100,
+    });
+
+    // 添加 minecraft:redstone 的配方
+    event.custom({
+        type: "integrateddynamics:drying_basin",
+        item: "gtceu:pure_redstone_dust",
+        fluid: {
+            fluid: "minecraft:water",
+            amount: 125,
+        },
+        result: {
+            item: "minecraft:redstone",
+        },
+        duration: 200,
     });
 });

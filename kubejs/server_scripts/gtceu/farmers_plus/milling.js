@@ -7,13 +7,11 @@ ServerEvents.recipes((event) => {
         ingredients: [
             {
                 item: "minecraft:sand",
-                count: 1,
             },
         ],
         result: [
             {
                 item: "gtceu:quartz_sand_dust",
-                count: 1,
             },
         ],
     });
@@ -24,47 +22,42 @@ ServerEvents.recipes((event) => {
         ingredients: [
             {
                 item: "minecraft:flint",
-                count: 1,
             },
         ],
         result: [
             {
                 item: "gtceu:flint_dust",
-                count: 1,
             },
         ],
     });
 
-    // 添加 gtceu:crushed_copper_ore 的配方
+    // 添加 gtceu:crushed_redstone_ore 的配方
     event.custom({
         type: "farmersplus:milling",
         ingredients: [
             {
-                item: "minecraft:raw_copper",
-                count: 1,
+                item: "gtceu:raw_redstone",
             },
         ],
         result: [
             {
-                item: "gtceu:crushed_copper_ore",
-                count: 2,
+                item: "gtceu:crushed_redstone_ore",
+                count: 5,
             },
         ],
     });
 
-    // 添加 gtceu:pure_copper_dust 的配方
+    // 添加 gtceu:pure_redstone_dust 的配方
     event.custom({
         type: "farmersplus:milling",
         ingredients: [
             {
-                item: "gtceu:purified_copper_ore",
-                count: 1,
+                item: "gtceu:purified_redstone_ore",
             },
         ],
         result: [
             {
-                item: "gtceu:pure_copper_dust",
-                count: 1,
+                item: "gtceu:pure_redstone_dust",
             },
         ],
     });

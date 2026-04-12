@@ -6,6 +6,6 @@ ServerEvents.recipes((event) => {
         "ceramicbucket:ceramic_bucket",
         "ceramicbucket:unfired_clay_bucket",
         0.3,
-        400
+        400,
     );
 });
