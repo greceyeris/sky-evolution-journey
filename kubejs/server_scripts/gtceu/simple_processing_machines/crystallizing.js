@@ -48,4 +48,28 @@ ServerEvents.recipes((event) => {
         },
         crafting_time: 100,
     });
+
+    // 添加 gtceu:purified_redstone_ore 的配方
+    event.custom({
+        type: "simpleprocessingmachines:crystallizing",
+        inputs: {
+            ingredients: {
+                items: {
+                    item: "gtceu:crushed_redstone_ore",
+                },
+            },
+        },
+        input_fluids: {
+            fluid_ingredients: {
+                consumption_per_operation: 2,
+                fluid_stack: { fluid: "minecraft:water", amount: 125 },
+            },
+        },
+        results: {
+            items: {
+                item: "gtceu:purified_redstone_ore",
+            },
+        },
+        crafting_time: 100,
+    });
 });

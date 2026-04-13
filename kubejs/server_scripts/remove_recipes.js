@@ -169,6 +169,11 @@ ServerEvents.recipes((event) => {
         "simpleprocessingmachines:crushing_station",
         "simpleprocessingmachines:mineral_processing_station",
         "simpleprocessingmachines:sawmilling_station",
+
+        // integrateddynamics
+        "integrateddynamics:coal_generator",
+        "integrateddynamics:mechanical_squeezer",
+        "integrateddynamics:mechanical_drying_basin",
     ];
 
     // 定义 removeRecipesUsedItemInputAndOutput 数组

@@ -24,13 +24,13 @@
 				title: "从这里开始！"
 				type: "dimension"
 			}]
-			x: 0.0d
+			x: 2.625d
 			y: 0.0d
 		}
 		{
 			dependencies: ["422EB83D3BD05264"]
 			description: [
-				"&6空手&r &c下蹲右键&r &a泥土/草方块&r 50%概率可获得"
+				"&6空手&r &c下蹲右键&r &a泥土/草方块/砂土&r 50%概率可获得"
 				""
 				"&o&7(0.2s冷却)&r&r"
 			]
@@ -42,11 +42,14 @@
 				item: "kubejs:twig"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["27E61CE7321275F3"]
+			dependencies: [
+				"458B57107988B4A1"
+				"6367C65CB0E9AA91"
+			]
 			id: "58994126AC6D150D"
 			shape: "circle"
 			size: 1.0d
@@ -70,8 +73,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
-			y: 0.0d
+			x: 15.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["33D4F903D17BC56D"]
@@ -82,7 +85,7 @@
 				item: "minecraft:flint"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 12.5d
 			y: 0.0d
 		}
 		{
@@ -91,7 +94,7 @@
 				"3DE92338958835C3"
 			]
 			description: [
-				"&6木棍&r &c下蹲右键&r &a泥土/草方块&r 45%概率可获得"
+				"&6木棍&r &c下蹲右键&r &a泥土/草方块/砂土&r 45%概率可获得"
 				""
 				"&o&7(0.2s冷却)&r&r"
 			]
@@ -102,7 +105,7 @@
 				item: "kubejs:flint_shard"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
@@ -111,7 +114,7 @@
 				"58994126AC6D150D"
 			]
 			description: [
-				"&6刀具&r &c右键&r &a泥土/草方块&r 60%概率可获得"
+				"&6刀具&r &c右键&r &a泥土/草方块/砂土&r 60%概率可获得"
 				""
 				"&o&7(消耗1点物品耐久, 0.2s冷却)&r&r"
 			]
@@ -123,8 +126,8 @@
 				item: "botania:living_root"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 0.0d
+			x: 17.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0E8F39D682DCC5C8"]
@@ -136,16 +139,14 @@
 				item: "minecraft:stick"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: [
-				"198699141D7F50A1"
 				"0BB81670C24C2F6F"
 				"6A342648B83C60F1"
 			]
-			description: ["&6活根&r &c右键&r &a树苗&r 可使其生长"]
 			id: "2D1B60845BF3E632"
 			shape: "circle"
 			size: 1.0d
@@ -160,7 +161,7 @@
 		{
 			dependencies: [
 				"458B57107988B4A1"
-				"6367C65CB0E9AA91"
+				"27E61CE7321275F3"
 			]
 			id: "198699141D7F50A1"
 			shape: "circle"
@@ -187,8 +188,8 @@
 				}
 				type: "item"
 			}]
-			x: 20.0d
-			y: -2.0d
+			x: 15.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -384,8 +385,8 @@
 				item: "opolisutilities:leafy_string"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -641,7 +642,11 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["0CF61BD10CD58327"]
+			dependencies: [
+				"0CF61BD10CD58327"
+				"198699141D7F50A1"
+			]
+			description: ["&6活根&r &c右键&r &a树苗&r 可使其生长"]
 			id: "0BB81670C24C2F6F"
 			shape: "circle"
 			size: 1.0d
@@ -795,8 +800,8 @@
 				item: "minecraft:bowl"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 8.0d
+			x: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [

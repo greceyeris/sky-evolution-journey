@@ -37,18 +37,6 @@ ServerEvents.recipes((event) => {
         },
     );
 
-    // 添加 simpleprocessingmachines:crushing_station 的配方
-    event.shaped(
-        "simpleprocessingmachines:crushing_station",
-        ["AAA", "BCB", "BDB"],
-        {
-            A: "minecraft:cobblestone",
-            B: "minecraft:smooth_stone",
-            C: "#forge:tools/mortars",
-            D: "brickfurnace:brick_furnace",
-        },
-    );
-
     // 添加 simpleprocessingmachines:sawmilling_station 的配方
     event.shaped(
         "simpleprocessingmachines:sawmilling_station",

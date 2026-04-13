@@ -14,6 +14,7 @@ const hideItems = [
     "simpleprocessingmachines:auto_crafting_station",
     "simpleprocessingmachines:sawdust",
     "simpleprocessingmachines:mineral_processing_station",
+    "simpleprocessingmachines:crushing_station",
 
     // forge
     "#forge:ores_in_ground/granite",

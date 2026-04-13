@@ -28,8 +28,8 @@
 				"7795899D01590BB9"
 				"6367C65CB0E9AA91"
 				"7455FE2AE3607A91"
-				"11C3CCD46712E124"
 				"2FBE82E7F31D658A"
+				"3F4FCB3CF08A69F7"
 			]
 			id: "61DEBF41EE0BC3D0"
 			tasks: [{
@@ -41,7 +41,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5DDC9428DE25DC18"]
+			dependencies: [
+				"5DDC9428DE25DC18"
+				"13E3789121D25BBD"
+			]
 			description: ["&6圆石&r &c放入&r &a挤压机&r 中，再 &c站上去跳跃&r 可获得"]
 			id: "1DBB13628CE87303"
 			tasks: [{
@@ -53,7 +56,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1DBB13628CE87303"]
+			dependencies: [
+				"1DBB13628CE87303"
+				"010FFE6B0F103CAA"
+			]
 			description: ["&6沙砾&r &c放入&r &a挤压机&r 中，再 &c站上去跳跃&r 可获得"]
 			id: "134488251EEC39CE"
 			tasks: [{
@@ -67,8 +73,9 @@
 		{
 			dependencies: [
 				"134488251EEC39CE"
-				"5A85439B800B0A24"
+				"010FFE6B0F103CAA"
 			]
+			description: ["&6沙子&r &c放入&r &a挤压机&r 中，再 &c站上去跳跃&r 可获得"]
 			id: "61BD3E1E417A2828"
 			tasks: [{
 				id: "7EC15B979D1B0B3C"
@@ -79,17 +86,14 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"349DC65B0CDA9B6D"
-				"4D88B341DCC1DF4A"
-			]
+			dependencies: ["4D88B341DCC1DF4A"]
 			id: "3F4FCB3CF08A69F7"
 			tasks: [{
 				id: "11C3CCD46712E124"
 				item: "minecraft:smooth_stone"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 22.5d
 			y: -2.0d
 		}
 		{
@@ -103,7 +107,7 @@
 				item: "minecraft:stone"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 15.0d
 			y: -2.0d
 		}
 		{
@@ -122,7 +126,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6367C65CB0E9AA91"]
+			dependencies: [
+				"6367C65CB0E9AA91"
+				"010FFE6B0F103CAA"
+			]
+			description: ["&6燧石&r &c放入&r &a挤压机&r 中，再 &c站上去跳跃&r 可获得"]
 			id: "0FDA92C7E0D7EA06"
 			tasks: [{
 				id: "23C59CC9E019C163"
@@ -130,7 +138,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -229,7 +237,7 @@
 				item: "minecraft:brick"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 15.0d
 			y: -4.0d
 		}
 		{
@@ -244,7 +252,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -259,7 +267,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -274,13 +282,13 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
 				"70EBA28A77571591"
 				"2643B24DFCECC5CA"
-				"090CBDC9A2E3E33F"
+				"349DC65B0CDA9B6D"
 			]
 			id: "639CECBFA2C82A25"
 			tasks: [{
@@ -288,7 +296,7 @@
 				item: "minecraft:stone_slab"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 17.5d
 			y: -2.0d
 		}
 		{
@@ -326,9 +334,12 @@
 			]
 			id: "244C0B9861D0C7E6"
 			tasks: [{
-				id: "793E79129A3F6FEB"
-				item: "gtceu:copper_ore"
-				type: "item"
+				icon: "gtceu:copper_ore"
+				id: "6060DC2721483BCD"
+				observe_type: 0
+				timer: 20L
+				to_observe: "gtceu:copper_ore"
+				type: "observation"
 			}]
 			x: 15.0d
 			y: 4.0d
@@ -374,8 +385,8 @@
 				item: "botania:fertilizer"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 6.0d
+			x: 7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -388,8 +399,8 @@
 				item: "minecraft:bone_meal"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 8.0d
+			x: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -404,8 +415,8 @@
 				item: "botania:orange_mystical_flower"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 4.0d
+			x: 10.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -468,8 +479,8 @@
 				item: "minecraft:wheat_seeds"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 6.0d
+			x: 15.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -487,6 +498,7 @@
 		}
 		{
 			dependencies: ["0FC407D89202120A"]
+			description: ["&6纯净铜矿石&r &c放入&r &a电动挤压机&r 中，等待一段时间后可获得"]
 			id: "38A1E44AB9505DD4"
 			tasks: [{
 				id: "53C987EF98F67E16"
@@ -511,7 +523,11 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["63A088C809764A95"]
+			dependencies: [
+				"63A088C809764A95"
+				"5D86D8147A514671"
+			]
+			description: ["&6粗铜&r &c放入&r &a电动挤压机&r 中，等待一段时间后可获得"]
 			id: "7AF1771654E38B3A"
 			tasks: [{
 				id: "50F74E33EE9F31BA"
@@ -529,8 +545,8 @@
 				item: "minecraft:white_dye"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 6.0d
+			x: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -618,7 +634,7 @@
 				item: "strainers:purifying_salt_mulch"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 7.5d
 			y: 8.0d
 		}
 		{
@@ -632,7 +648,7 @@
 				item: "opolisutilities:mini_charcoal"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 5.0d
 			y: 8.0d
 		}
 		{
@@ -647,8 +663,8 @@
 				item: "botania:white_petal"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 6.0d
+			x: 12.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -663,8 +679,8 @@
 				item: "botania:white_mystical_flower"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 6.0d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -679,7 +695,7 @@
 				type: "item"
 			}]
 			x: 17.5d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -696,8 +712,8 @@
 				item: "botania:orange_double_flower"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.0d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -713,8 +729,8 @@
 				item: "minecraft:beehive"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 4.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -729,8 +745,8 @@
 				item: "minecraft:honeycomb"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.0d
+			x: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -768,7 +784,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -783,7 +799,7 @@
 				item: "brickfurnace:brick_furnace"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 12.5d
 			y: -2.0d
 		}
 		{
@@ -798,8 +814,8 @@
 				item: "minecraft:bricks"
 				type: "item"
 			}]
-			x: 17.5d
-			y: -2.0d
+			x: 12.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -814,8 +830,8 @@
 				item: "minecraft:calcite"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 8.0d
+			x: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -830,53 +846,280 @@
 				item: "minecraft:diorite"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 8.0d
+			x: 10.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
-				"3F4FCB3CF08A69F7"
-				"0A3563A5BDF6F482"
-				"2FBE82E7F31D658A"
-				"4D88B341DCC1DF4A"
+				"43916DB63E377C6A"
+				"458B57107988B4A1"
+				"6747E4FA822CED5E"
+				"20EA7AE05B72E299"
 				"6A8DF80AFA0883CA"
 			]
-			id: "5A85439B800B0A24"
+			id: "13E3789121D25BBD"
 			tasks: [{
-				id: "5F415C43F5EFD2CC"
-				item: "simpleprocessingmachines:crushing_station"
+				id: "010FFE6B0F103CAA"
+				item: "integrateddynamics:squeezer"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 2.5d
 			y: -2.0d
 		}
 		{
 			dependencies: [
-				"6367C65CB0E9AA91"
-				"090CBDC9A2E3E33F"
-				"6A8DF80AFA0883CA"
+				"707DDDA00E55DBB2"
+				"657765FA36158B7E"
+				"010FFE6B0F103CAA"
 			]
-			id: "0A3563A5BDF6F482"
+			id: "5D86D8147A514671"
 			tasks: [{
-				id: "7E81EE0F3DAEFDB5"
+				id: "2C7E31952217E92F"
+				item: "integrateddynamics:mechanical_squeezer"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"601DA9690521BE98"
+				"707A4F7EADB4855C"
+			]
+			id: "707DDDA00E55DBB2"
+			tasks: [{
+				id: "3D878E5534F97200"
 				item: {
 					Count: 1
-					id: "gtceu:flint_mortar"
+					id: "integrateddynamics:energy_battery"
 					tag: {
-						Damage: 0
-						DisallowContainerItem: 0b
-						GT.Behaviours: { }
-						GT.Tool: {
-							DefaultEnchantments: [ ]
-							MaxDamage: 63
-						}
-						HideFlags: 2
+						energy: 0
 					}
 				}
 				type: "item"
 			}]
+			x: 22.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"08CA1CAE471A85C1"
+				"6A8DF80AFA0883CA"
+			]
+			id: "601DA9690521BE98"
+			tasks: [{
+				id: "4B5441D209F33183"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1DD07D75475A890B"
+				"376B5FF7140739E6"
+				"1FA5D3ABEDFF4163"
+			]
+			id: "08CA1CAE471A85C1"
+			tasks: [{
+				id: "150415C285472703"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"31DFA931BA913D89"
+				"010FFE6B0F103CAA"
+			]
+			description: ["&6纯净红石矿石&r &c放入&r &a挤压机&r 中，再 &c站上去跳跃&r 可获得"]
+			id: "1DD07D75475A890B"
+			tasks: [{
+				id: "250D8AC9FE3406DD"
+				item: "gtceu:pure_redstone_dust"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"20AC3E2BE0BE0B64"
+				"376B5FF7140739E6"
+				"1FA5D3ABEDFF4163"
+			]
+			id: "31DFA931BA913D89"
+			tasks: [{
+				id: "7F05FF930684000F"
+				item: "gtceu:purified_redstone_ore"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"1CB83BDB520C0022"
+				"010FFE6B0F103CAA"
+			]
+			description: ["&6粗红石&r &c放入&r &a挤压机&r 中，再 &c站上去跳跃&r 可获得"]
+			id: "20AC3E2BE0BE0B64"
+			tasks: [{
+				id: "1E405F7409784047"
+				item: "gtceu:crushed_redstone_ore"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"24131502AA3E951D"
+				"2D71EDBD030D0F48"
+			]
+			id: "1CB83BDB520C0022"
+			tasks: [{
+				id: "6B4332544167D37E"
+				item: "gtceu:raw_redstone"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"3D878E5534F97200"
+				"4D88B341DCC1DF4A"
+			]
+			id: "657765FA36158B7E"
+			tasks: [{
+				id: "63F028836D945546"
+				item: "integrateddynamics:coal_generator"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"546E7E49DDEAAB31"
+				"0D8DA34BC8F052D9"
+			]
+			id: "24131502AA3E951D"
+			tasks: [{
+				icon: "gtceu:redstone_ore"
+				id: "0782CEE9B86F5F69"
+				observe_type: 0
+				timer: 20L
+				to_observe: "gtceu:redstone_ore"
+				type: "observation"
+			}]
+			x: 15.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"3C2CC1B0ED5E2199"
+				"6A8DF80AFA0883CA"
+			]
+			id: "546E7E49DDEAAB31"
+			tasks: [{
+				id: "42E93832336A6B85"
+				item: "botania:red_petal_block"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"09A865EA626CE578"
+				"2643B24DFCECC5CA"
+				"0F1D9F28712B75C8"
+			]
+			id: "3C2CC1B0ED5E2199"
+			tasks: [{
+				id: "6ACEB16BFE92BD88"
+				item: "botania:red_petal"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"060CFCB7F3C6F8DD"
+				"428BB954E1F196E2"
+				"19FA86B3DBA5CA21"
+				"1FA5D3ABEDFF4163"
+			]
+			id: "09A865EA626CE578"
+			tasks: [{
+				id: "4CBF697598430B15"
+				item: "botania:red_mystical_flower"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"09A865EA626CE578"
+				"0915B4251A28E4A8"
+				"584AC86D68E0C3A4"
+				"4A37898820CCC9D5"
+			]
+			id: "33EE49C8622F786F"
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "63A880DFB25CCE58"
+				item: "botania:red_double_flower"
+				type: "item"
+			}]
 			x: 5.0d
-			y: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["140445953068EDFA"]
+			id: "707A4F7EADB4855C"
+			tasks: [{
+				id: "358D68C1AA41713B"
+				item: "integrateddynamics:crystalized_menril_block"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1CDD15B72EF7F3B2"]
+			id: "140445953068EDFA"
+			tasks: [{
+				id: "5CB769138B14AECD"
+				item: "integrateddynamics:crystalized_menril_chunk"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"55457C6A101A778B"
+				"428BB954E1F196E2"
+				"19FA86B3DBA5CA21"
+				"2E0067C561E78E8A"
+			]
+			id: "1CDD15B72EF7F3B2"
+			tasks: [{
+				id: "2BFADE81C6C579C0"
+				item: "integrateddynamics:menril_sapling"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 8.0d
 		}
 	]
 	title: "石器时代"
