@@ -11,4 +11,13 @@ ServerEvents.recipes((event) => {
     event.shaped("gtceu:flint_block", ["AAA", "AAA", "AAA"], {
         A: "minecraft:flint",
     });
+
+    // 添加 gtceu:dough 的配方
+    event.shaped("4x gtceu:dough", ["AAA", "ABA", "AAA"], {
+        A: "gtceu:wheat_dust",
+        B: Item.of(
+            "ceramicbucket:ceramic_bucket",
+            '{Fluid:{Amount:1000,FluidName:"minecraft:water"}}',
+        ).strongNBT(),
+    });
 });

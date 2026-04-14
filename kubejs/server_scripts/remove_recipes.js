@@ -18,6 +18,12 @@ ServerEvents.recipes((event) => {
         "gtceu:shaped/glass_pane",
         "gtceu:shaped/mortar_grind_copper",
         "gtceu:shapeless/bone_to_bone_meal",
+        "gtceu:shaped/gem_to_dust_flint_gem",
+        "gtceu:shapeless/wheat_to_dust",
+        "gtceu:shapeless/blaze_rod_to_powder",
+        "gtceu:shaped/gem_to_dust_coal_gem",
+        "gtceu:shaped/mortar_grind_electrum",
+        "gtceu:shaped/mortar_grind_zinc",
 
         // opolisutilities
         "opolisutilities:sticks",
@@ -30,6 +36,7 @@ ServerEvents.recipes((event) => {
         // farmersdelight
         "farmersdelight:flint_knife",
         "farmersdelight:iron_knife",
+        "farmersdelight:wheat_dough_from_water",
 
         // minecraft
         "minecraft:diorite",
@@ -68,12 +75,16 @@ ServerEvents.recipes((event) => {
         "botania:petal_red_double",
         "botania:petal_black",
         "botania:petal_black_double",
+        "botania:runic_altar_alt",
 
         // create
         "create:crafting/materials/copper_ingot",
 
         // crossroads
         "crossroads:smelting/dust_copper",
+
+        // botanicalmachinery
+        "botanicalmachinery:runic_altar",
     ];
 
     // 定义 removeRecipesUsedItemInput 数组
@@ -174,6 +185,64 @@ ServerEvents.recipes((event) => {
         "integrateddynamics:coal_generator",
         "integrateddynamics:mechanical_squeezer",
         "integrateddynamics:mechanical_drying_basin",
+
+        // botania
+        "botania:fertilizer",
+        "botania:mana_spreader",
+        "botania:livingrock_slab",
+        "botania:polished_livingrock_slab",
+        "botania:shimmerrock_slab",
+        "botania:metamorphic_forest_cobblestone_slab",
+        "botania:metamorphic_plains_cobblestone_slab",
+        "botania:metamorphic_mountain_cobblestone_slab",
+        "botania:metamorphic_fungal_cobblestone_slab",
+        "botania:metamorphic_swamp_cobblestone_slab",
+        "botania:metamorphic_desert_cobblestone_slab",
+        "botania:metamorphic_taiga_cobblestone_slab",
+        "botania:metamorphic_mesa_cobblestone_slab",
+        "botania:mana_pool",
+        "botania:livingwood_slab",
+        "botania:stripped_livingwood_slab",
+        "botania:livingwood_planks_slab",
+        "botania:dreamwood_slab",
+        "botania:stripped_dreamwood_slab",
+        "botania:dreamwood_planks_slab",
+        "botania:shimmerwood_planks_slab",
+        "botania:livingrock_slab",
+        "botania:polished_livingrock_slab",
+        "botania:livingrock_bricks_slab",
+        "botania:mossy_livingrock_bricks_slab",
+        "botania:dark_quartz_slab",
+        "botania:mana_quartz_slab",
+        "botania:blaze_quartz_slab",
+        "botania:lavender_quartz_slab",
+        "botania:red_quartz_slab",
+        "botania:elf_quartz_slab",
+        "botania:sunny_quartz_slab",
+        "botania:white_pavement_slab",
+        "botania:black_pavement_slab",
+        "botania:blue_pavement_slab",
+        "botania:yellow_pavement_slab",
+        "botania:red_pavement_slab",
+        "botania:green_pavement_slab",
+        "botania:metamorphic_forest_stone_slab",
+        "botania:metamorphic_plains_stone_slab",
+        "botania:metamorphic_mountain_stone_slab",
+        "botania:metamorphic_fungal_stone_slab",
+        "botania:metamorphic_swamp_stone_slab",
+        "botania:metamorphic_desert_stone_slab",
+        "botania:metamorphic_taiga_stone_slab",
+        "botania:metamorphic_mesa_stone_slab",
+        "botania:metamorphic_forest_bricks_slab",
+        "botania:metamorphic_plains_bricks_slab",
+        "botania:metamorphic_mountain_bricks_slab",
+        "botania:metamorphic_fungal_bricks_slab",
+        "botania:metamorphic_swamp_bricks_slab",
+        "botania:metamorphic_desert_bricks_slab",
+        "botania:metamorphic_taiga_bricks_slab",
+        "botania:metamorphic_mesa_bricks_slab",
+        "botania:corporea_slab",
+        "botania:corporea_brick_slab",
     ];
 
     // 定义 removeRecipesUsedItemInputAndOutput 数组

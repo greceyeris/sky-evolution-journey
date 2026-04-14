@@ -5,4 +5,9 @@ LootJS.modifiers((event) => {
         .addBlockLootModifier("minecraft:clay")
         .removeLoot("minecraft:clay_ball")
         .addLoot("minecraft:clay");
+
+    // 修改 minecraft:campfire 的 loot
+    event
+        .addBlockLootModifier("minecraft:campfire")
+        .removeLoot("minecraft:charcoal");
 });

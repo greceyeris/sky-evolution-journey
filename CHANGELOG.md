@@ -2,6 +2,21 @@
 
 ---
 
+### Version: _0.9.0_
+
+### Date: _2026-04-15_
+
+**Changes:**
+
+- Adjusted Skyblock world type default map preset.
+- Adjusted some recipes.
+- Adjusted quest chapter: `Origin Age`.
+- Adjusted quest chapter: `Stone Age`.
+- Added quest chapter: `Botania Age I`.
+- Adjusted Chinese translations.
+
+---
+
 ### Version: _0.8.0_
 
 ### Date: _2026-04-13_
@@ -9,7 +24,7 @@
 **Changes:**
 
 - Adjusted some recipes.
-- Adjusted quest chapter: `Start`.
+- Adjusted quest chapter: `Origin Age`.
 - Adjusted quest chapter: `Stone Age`.
 
 ---
@@ -21,7 +36,7 @@
 **Changes:**
 
 - Adjusted some recipes.
-- Adjusted quest chapter: `Start`.
+- Adjusted quest chapter: `Origin Age`.
 - Adjusted quest chapter: `Stone Age`.
 
 ---
@@ -33,7 +48,7 @@
 **Changes:**
 
 - Adjusted some recipes.
-- Adjusted quest chapter: `Start`.
+- Adjusted quest chapter: `Origin Age`.
 - Adjusted quest chapter: `Stone Age`.
 - Added quest chapter: `Heat Age`.
 
@@ -48,7 +63,7 @@
 - Adjusted item icons: `kubejs:dirt_pile`, `kubejs:humus_pile`, `kubejs:flint_shard`, `kubejs:twig`, and `kubejs:flint_saw`.
 - Adjusted multiblock structure: `kubejs:furnace`.
 - Adjusted some recipes.
-- Adjusted quest chapter: `Start`.
+- Adjusted quest chapter: `Origin Age`.
 - Adjusted quest chapter: `Stone Age`.
 
 ---
@@ -61,7 +76,7 @@
 
 - Removed items: `kubejs:organic_matter_pile`.
 - Adjusted some recipes.
-- Adjusted the quest chapter: `Start`.
+- Adjusted the quest chapter: `Origin Age`.
 - Completed the quest chapter: `Stone Age`.
 
 ---
@@ -75,7 +90,7 @@
 - Removed items: `kubejs:dirt_dust`, and `kubejs:dirt_stick`.
 - Added new items: `kubejs:dirt_pile`, `kubejs:humus_pile`, `kubejs:organic_matter_pile`, `kubejs:twig`, and `kubejs:flint_saw`.
 - Adjusted some recipes.
-- Completed the quest chapter: `Start`.
+- Completed the quest chapter: `Origin Age`.
 
 ---
 

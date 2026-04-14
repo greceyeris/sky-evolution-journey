@@ -2,12 +2,23 @@
 
 ServerEvents.tags("item", (event) => {
     // 定义 removeItemTags 数组
-    const removeItemTags = [];
+    const removeItemTags = [
+        { item: "minecraft:wheat", tag: ["#forge:grain/wheat"] },
+    ];
 
     // removeItemTags
     removeItemTags.forEach((obj) => {
-        // remove
-        event.remove(obj.tag.slice(1), obj.item);
+        if (obj.tag.length === 0) {
+            // removeAllTagsFrom
+            event.removeAllTagsFrom(obj.item);
+
+            return;
+        }
+
+        obj.tag.forEach((tag) => {
+            // remove
+            event.remove(tag.slice(1), obj.item);
+        });
     });
 
     // c:hidden_from_recipe_viewers

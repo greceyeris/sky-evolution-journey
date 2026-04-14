@@ -88,6 +88,10 @@ const replaceItems = [
         item: "#forge:dusts/copper",
         targetItem: "gtceu:copper_dust",
     },
+    {
+        item: "#forge:dough/wheat",
+        targetItem: "gtceu:dough",
+    },
 ];
 
 ServerEvents.recipes((event) => {
@@ -104,6 +108,12 @@ ServerEvents.recipes((event) => {
                     // replaceOutput
                     event.replaceOutput({}, item, obj.targetItem);
                 });
+
+            // replaceInput
+            event.replaceInput({}, obj.item, obj.targetItem);
+
+            // replaceOutput
+            event.replaceOutput({}, obj.item, obj.targetItem);
         } else {
             // replaceInput
             event.replaceInput({}, obj.item, obj.targetItem);
@@ -130,8 +140,10 @@ ServerEvents.tags("item", (event) => {
                                 String(item),
                             );
                         } else {
-                            // removeAllTagsFrom
-                            event.removeAllTagsFrom(String(item));
+                            if (!obj.notRemoveAllTags) {
+                                // removeAllTagsFrom
+                                event.removeAllTagsFrom(String(item));
+                            }
                         }
                     }
                 });
@@ -140,8 +152,10 @@ ServerEvents.tags("item", (event) => {
                 // add
                 event.add("c:hidden_from_recipe_viewers", obj.item);
             } else {
-                // removeAllTagsFrom
-                event.removeAllTagsFrom(obj.item);
+                if (!obj.notRemoveAllTags) {
+                    // removeAllTagsFrom
+                    event.removeAllTagsFrom(String(item));
+                }
             }
         }
     });

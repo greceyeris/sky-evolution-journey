@@ -13,6 +13,10 @@ ServerEvents.recipes((event) => {
             output: "9x minecraft:redstone",
             inputs: ["minecraft:redstone_block"],
         },
+        {
+            output: "minecraft:slime_ball",
+            inputs: ["gtceu:dough", "#forge:dyes/lime"],
+        },
     ];
 
     // 添加配方

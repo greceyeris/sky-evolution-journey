@@ -1,0 +1,81 @@
+{
+    "block.simpleprocessingmachines.crushing_station": "粉碎机",
+    "block.simpleprocessingmachines.mineral_processing_station": "选矿机",
+    "block.simpleprocessingmachines.sawmilling_station": "锯木机",
+    "block.simpleprocessingmachines.organic_composter": "有机堆肥桶",
+    "block.simpleprocessingmachines.centrifugal_separator": "离心分离机",
+    "block.simpleprocessingmachines.crystallizing_station": "结晶器",
+    "block.simpleprocessingmachines.atmospheric_condenser": "大气冷凝机",
+    "block.simpleprocessingmachines.auto_crafting_station": "自动合成站",
+
+    "item.simpleprocessingmachines.sawdust": "锯末",
+
+    "itemstack.simpleprocessingmachines.tooltip.recipe_id": "配方：%s",
+    "itemstack.simpleprocessingmachines.tooltip.centrifugal_separator.disabled": "离心分离机已在服务器配置中被禁用",
+    "itemstack.simpleprocessingmachines.tooltip.auto_crafting_station.disabled": "自动合成站已在服务器配置中被禁用",
+    "itemstack.simpleprocessingmachines.tooltip.auto_crafting_station.stack_description": "放入物品并选择配方以进行自动合成",
+    "itemstack.simpleprocessingmachines.tooltip.centrifugal_separator.stack_description": "放入物品并选择配方以进行拆解",
+
+    "creativetab.simpleprocessingmachines.tab": "简易加工机器",
+
+    "screen.simpleprocessingmachines.centrifugal_separator.recipe_buttons": "%s",
+    "screen.simpleprocessingmachines.centrifugal_separator.next_page_button": ">",
+    "screen.simpleprocessingmachines.centrifugal_separator.previous_page_button": "<",
+    "screen.fluid_hover.simpleprocessingmachines.abstractwithfluidsscreen.fluid.hover": "%smB",
+
+    "config.simpleprocessingmachines.title": "SPM 配置",
+
+    "config.server.simpleprocessingmachines.centrifugal_separator.is_enabled": "是否启用",
+    "config.server.simpleprocessingmachines.centrifugal_separator.crafting_time": "加工时间",
+    "config.server.simpleprocessingmachines.centrifugal_separator.operating_mode": "运行模式",
+    "config.server.simpleprocessingmachines.centrifugal_separator.chance_formula_type": "概率公式类型",
+    "config.server.simpleprocessingmachines.centrifugal_separator.results_chance": "结果概率",
+    "config.server.simpleprocessingmachines.centrifugal_separator.is_lists_affect_datapacks": "列表是否影响数据包",
+    "config.server.simpleprocessingmachines.centrifugal_separator.whitelisted_recipes": "配方白名单",
+    "config.server.simpleprocessingmachines.centrifugal_separator.whitelisted_recipe_types": "配方类型白名单",
+    "config.server.simpleprocessingmachines.centrifugal_separator.blacklisted_recipes": "配方黑名单",
+    "config.server.simpleprocessingmachines.centrifugal_separator.blacklisted_recipe_types": "配方类型黑名单",
+
+    "config.server.simpleprocessingmachines.auto_crafting_station.is_enabled": "是否启用",
+    "config.server.simpleprocessingmachines.auto_crafting_station.crafting_time": "加工时间",
+    "config.server.simpleprocessingmachines.auto_crafting_station.chance_formulas_type": "概率公式类型",
+    "config.server.simpleprocessingmachines.auto_crafting_station.max_results_chance": "最大结果概率",
+    "config.server.simpleprocessingmachines.auto_crafting_station.results_chance": "结果概率",
+
+    "config.client.simpleprocessingmachines.auto_crafting_station_is_enabled": "是否启用自动合成台",
+    "config.client.simpleprocessingmachines.composter_renderer_is_enabled": "是否启用堆肥机渲染效果",
+    "config.client.simpleprocessingmachines.crystallizer_renderer_is_enabled": "是否启用结晶器渲染效果",
+
+    "chat.hover.simpleprocessingmachines.recipe_types.copy_hint": "点击复制文本",
+
+    "jei.gui.category.simpleprocessingmachines.sawmilling": "锯木",
+    "jei.gui.category.simpleprocessingmachines.crushing": "粉碎",
+    "jei.gui.category.simpleprocessingmachines.mineral_processing": "矿物处理",
+    "jei.gui.category.simpleprocessingmachines.organic_composting": "有机堆肥",
+    "jei.gui.category.simpleprocessingmachines.centrifugal_separating": "离心分离",
+    "jei.gui.category.simpleprocessingmachines.crystallizing": "结晶",
+    "jei.gui.category.simpleprocessingmachines.machine_fuelling": "SPM 机器燃料",
+    "jei.gui.category.simpleprocessingmachines.atmospheric_condensing": "大气冷凝",
+    "jei.gui.category.simpleprocessingmachines.auto_crafting": "自动合成",
+
+    "jei.simpleprocessingmachines.optional_fluid": "可选",
+    "jei.simpleprocessingmachines.atmospheric_condenser.output_per_op": "每次操作产出 %smB",
+    "jei.simpleprocssingmachines.chanced_output_prefix": "概率",
+    "jei.gui.category.crafting.time.simpleprocessingmachines.seconds": "%s秒",
+    "jei.gui.category.simpleprocessingmachines.machine_fuelling.smeltCount.single": "可熔炼 1 个物品",
+    "jei.gui.category.simpleprocessingmachines.machine_fuelling.smeltCount": "可熔炼 %s 个物品",
+
+    "jei.simpleprocessingmachines.atmospheric_condenser.info.before": "请在 ",
+    "jei.simpleprocessingmachines.atmospheric_condenser.info.after": " 周围的世界中放置流体",
+    "jei.simpleprocessingmachines.atmospheric_condenser.info.ticks_per_operation": "%s 游戏刻（最快）",
+    "jei.simpleprocessingmachines.atmospheric_condenser.info.is_height_applied": "是否应用高度限制：%s",
+    "jei.simpleprocessingmachines.atmospheric_condenser.info.ideal_height": "理想高度：%s",
+    "jei.simpleprocessingmachines.atmospheric_condenser.info.height_limit": "高度限制：%s",
+    "jei.simpleprocessingmachines.atmospheric_condenser.info.is_higher_better": "限制是否为最低高度：%s",
+    "jei.simpleprocessingmachines.atmospheric_condenser.info.valid_biomes": "有效生物群系：",
+    "jei.simpleprocessingmachines.atmospheric_condenser.info.valid_dimensions": "有效维度：",
+    "jei.simpleprocessingmachines.atmospheric_condenser.air_input": "必须为空气",
+    "jei.simpleprocessingmachines.atmospheric_condenser.fluid_placement": "流体可以放置在机器水平相邻的任意方块位置",
+
+    "system.simpleprocessingmachines.dynamic_recipes.connected_too_early": "请重新连接服务器以正确加载配方 - SimpleProcessingMachines"
+}

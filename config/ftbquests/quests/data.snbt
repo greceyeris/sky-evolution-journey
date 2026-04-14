@@ -18,7 +18,7 @@
 		monster: 600
 		passive: 4000
 	}
-	pause_game: true
+	pause_game: false
 	progression_mode: "default"
 	show_lock_icons: false
 	title: "Sky Evolution Journey"

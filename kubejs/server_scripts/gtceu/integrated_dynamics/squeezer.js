@@ -55,4 +55,17 @@ ServerEvents.recipes((event) => {
             ],
         },
     });
+
+    // 添加 gtceu:wheat_dust 的配方
+    event.custom({
+        type: "integrateddynamics:squeezer",
+        item: "minecraft:wheat",
+        result: {
+            items: [
+                {
+                    item: "gtceu:wheat_dust",
+                },
+            ],
+        },
+    });
 });

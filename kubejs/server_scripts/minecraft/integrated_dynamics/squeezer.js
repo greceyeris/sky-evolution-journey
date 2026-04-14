@@ -35,7 +35,6 @@ ServerEvents.recipes((event) => {
             items: [
                 {
                     item: "minecraft:bone_meal",
-                    chance: 0.75,
                 },
             ],
         },

@@ -5,8 +5,8 @@ ServerEvents.recipes((event) => {
     event.custom({
         type: "strainers:strainer",
         aboveFluid: "strainers:purified_water_fluid",
-        chance: 1.0,
-        chanceIncreasePerTier: 0.0,
+        chance: 0.35,
+        chanceIncreasePerTier: 0.02,
         duration: 200,
         ingredients: [
             {

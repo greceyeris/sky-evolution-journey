@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
     event.custom({
         type: "lychee:block_interacting",
         item_in: { item: "integrateddynamics:energy_battery" },
-        block_in: { blocks: ["brickfurnace:brick_furnace"] },
+        block_in: { blocks: ["minecraft:furnace"] },
         post: [
             {
                 type: "place",
@@ -18,7 +18,7 @@ ServerEvents.recipes((event) => {
         ],
     });
 
-    // 添加 integrateddynamics:coal_generator 的配方
+    // 添加 integrateddynamics:mechanical_squeezer 的配方
     event.custom({
         type: "lychee:block_interacting",
         item_in: { item: "integrateddynamics:energy_battery" },
@@ -35,7 +35,7 @@ ServerEvents.recipes((event) => {
         ],
     });
 
-    // 添加 integrateddynamics:coal_generator 的配方
+    // 添加 integrateddynamics:mechanical_drying_basin 的配方
     event.custom({
         type: "lychee:block_interacting",
         item_in: { item: "integrateddynamics:energy_battery" },

@@ -53,4 +53,78 @@ ServerEvents.recipes((event) => {
     event.shaped("minecraft:redstone_block", ["AAA", "AAA", "AAA"], {
         A: "minecraft:redstone",
     });
+
+    // 添加 minecraft:bricks 的配方
+    event.shaped("2x minecraft:bricks", ["AAA", "ABA", "AAA"], {
+        A: "minecraft:brick",
+        B: Item.of(
+            "ceramicbucket:ceramic_bucket",
+            '{Fluid:{Amount:1000,FluidName:"minecraft:water"}}',
+        ).strongNBT(),
+    });
+
+    // 添加 minecraft:spruce_planks 的配方
+    event.shaped("minecraft:spruce_planks", ["AA"], {
+        A: "minecraft:spruce_slab",
+    });
+
+    // 添加 minecraft:birch_planks 的配方
+    event.shaped("minecraft:birch_planks", ["AA"], {
+        A: "minecraft:birch_slab",
+    });
+
+    // 添加 minecraft:jungle_planks 的配方
+    event.shaped("minecraft:jungle_planks", ["AA"], {
+        A: "minecraft:jungle_slab",
+    });
+
+    // 添加 minecraft:acacia_planks 的配方
+    event.shaped("minecraft:acacia_planks", ["AA"], {
+        A: "minecraft:acacia_slab",
+    });
+
+    // 添加 minecraft:dark_oak_planks 的配方
+    event.shaped("minecraft:dark_oak_planks", ["AA"], {
+        A: "minecraft:dark_oak_slab",
+    });
+
+    // 添加 minecraft:mangrove_planks 的配方
+    event.shaped("minecraft:mangrove_planks", ["AA"], {
+        A: "minecraft:mangrove_slab",
+    });
+
+    // 添加 minecraft:cherry_planks 的配方
+    event.shaped("minecraft:cherry_planks", ["AA"], {
+        A: "minecraft:cherry_slab",
+    });
+
+    // 添加 minecraft:bamboo_planks 的配方
+    event.shaped("minecraft:bamboo_planks", ["AA"], {
+        A: "minecraft:bamboo_slab",
+    });
+
+    // 添加 minecraft:crimson_planks 的配方
+    event.shaped("minecraft:crimson_planks", ["AA"], {
+        A: "minecraft:crimson_slab",
+    });
+
+    // 添加 minecraft:warped_planks 的配方
+    event.shaped("minecraft:warped_planks", ["AA"], {
+        A: "minecraft:warped_slab",
+    });
+
+    // 添加 minecraft:cobblestone 的配方
+    event.shaped("minecraft:cobblestone", ["AA"], {
+        A: "minecraft:cobblestone_slab",
+    });
+
+    // 添加 minecraft:stone 的配方
+    event.shaped("minecraft:stone", ["AA"], {
+        A: "minecraft:stone_slab",
+    });
+
+    // 添加 minecraft:smooth_stone 的配方
+    event.shaped("minecraft:smooth_stone", ["AA"], {
+        A: "minecraft:smooth_stone_slab",
+    });
 });

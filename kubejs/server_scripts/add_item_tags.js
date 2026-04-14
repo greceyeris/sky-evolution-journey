@@ -172,6 +172,10 @@ ServerEvents.tags("item", (event) => {
                 "integrateddynamics:menril_wood_stripped",
             ],
         },
+        // {
+        //     tag: "forge:dough",
+        //     items: ["gtceu:dough"],
+        // },
     ];
     // addItemTags
     addItemTags.forEach((obj) => {

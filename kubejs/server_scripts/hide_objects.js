@@ -34,6 +34,7 @@ const hideItems = [
     "#forge:ores_in_ground/mars_stone",
     "#forge:ores_in_ground/mercury_stone",
     "#forge:ores_in_ground/glacio_stone",
+    "#forge:surface_rocks",
 ];
 
 // 定义 hideFluids 数组

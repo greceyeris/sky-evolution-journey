@@ -397,9 +397,9 @@
 				"01D031B7B27EFC13"
 			]
 			description: [
-				"&6营火&r 放置后默认处于 &d未点燃&r 状态"
+				"&6营火&r &c放置&r 后默认处于 &d未点燃&r 状态。"
 				""
-				"&6起火器&r &c长按右键&r &a营火&r 可将其 &d点燃&r"
+				"&6起火器&r &c长按右键&r &a营火&r 可将其 &d点燃&r。"
 			]
 			id: "5741091C004B2079"
 			shape: "circle"
@@ -481,7 +481,6 @@
 				"0ADB5779513002FB"
 				"6DFD0F508E318BA6"
 			]
-			description: ["&6锄头&r &c右键&r &a有机覆盖物&r 可转化成水方块"]
 			id: "4B214FE38119AE97"
 			shape: "circle"
 			size: 1.0d
@@ -702,6 +701,7 @@
 				"4A37898820CCC9D5"
 				"6A8DF80AFA0883CA"
 			]
+			description: ["&6锄头&r &c右键&r &a有机覆盖物&r 可 &c转化&r 成 &b水方块&r"]
 			id: "0ADB5779513002FB"
 			tasks: [{
 				id: "77708D44455E05BC"
@@ -822,24 +822,6 @@
 		}
 		{
 			dependencies: [
-				"053F18903B4AAB8F"
-				"11C3CCD46712E124"
-				"4D88B341DCC1DF4A"
-			]
-			id: "67998B48F9FD947B"
-			optional: true
-			shape: "square"
-			size: 1.0d
-			tasks: [{
-				id: "5064290F559D78FB"
-				item: "simpleprocessingmachines:sawmilling_station"
-				type: "item"
-			}]
-			x: 17.5d
-			y: 6.0d
-		}
-		{
-			dependencies: [
 				"120A7473284DD226"
 				"43916DB63E377C6A"
 				"6A8DF80AFA0883CA"
@@ -854,5 +836,5 @@
 			y: 8.0d
 		}
 	]
-	title: "开端"
+	title: "起源时代"
 }

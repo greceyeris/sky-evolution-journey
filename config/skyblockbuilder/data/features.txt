@@ -38,6 +38,14 @@ gtceu:marble_blob
 gtceu:raw_oil_sprout
 gtceu:red_granite_blob
 gtceu:rubber_tree
+immersiveengineering:bauxite
+immersiveengineering:deep_nickel
+immersiveengineering:lead
+immersiveengineering:mineral_veins
+immersiveengineering:nickel
+immersiveengineering:silver
+immersiveengineering:uranium
+immersivepetroleum:reservoir
 integrateddynamics:flowers_meneglin
 integrateddynamics:tree_menril
 minecraft:acacia
