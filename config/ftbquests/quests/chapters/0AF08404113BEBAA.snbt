@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "0AF08404113BEBAA"
 	group: "0F76479A11B06095"
-	icon: "minecraft:grass_block"
+	icon: "minecraft:moss_block"
 	id: "0AF08404113BEBAA"
 	order_index: 0
 	quest_links: [ ]
@@ -19,7 +19,7 @@
 			size: 1.75d
 			tasks: [{
 				dimension: "minecraft:overworld"
-				icon: "minecraft:grass_block"
+				icon: "minecraft:moss_block"
 				id: "645BEC733315BB80"
 				title: "从这里开始！"
 				type: "dimension"
@@ -30,7 +30,7 @@
 		{
 			dependencies: ["422EB83D3BD05264"]
 			description: [
-				"&6空手&r &c下蹲右键&r &a泥土/草方块/砂土&r 50%概率可获得"
+				"&6空手&r &c下蹲右键&r &a苔藓块/泥土/草方块&r 45%概率可获得"
 				""
 				"&o&7(0.2s冷却)&r&r"
 			]
@@ -38,7 +38,7 @@
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
-				id: "76C1B4C76A6A48DC"
+				id: "11795683DDD913EE"
 				item: "kubejs:twig"
 				type: "item"
 			}]
@@ -94,7 +94,7 @@
 				"3DE92338958835C3"
 			]
 			description: [
-				"&6木棍&r &c下蹲右键&r &a泥土/草方块/砂土&r 45%概率可获得"
+				"&6木棍&r &c下蹲右键&r &a苔藓块/泥土/草方块&r 45%概率可获得"
 				""
 				"&o&7(0.2s冷却)&r&r"
 			]
@@ -114,7 +114,7 @@
 				"58994126AC6D150D"
 			]
 			description: [
-				"&6刀具&r &c右键&r &a泥土/草方块/砂土&r 60%概率可获得"
+				"&6刀具&r &c右键&r &a苔藓块/泥土/草方块&r 60%概率可获得"
 				""
 				"&o&7(消耗1点物品耐久, 0.2s冷却)&r&r"
 			]

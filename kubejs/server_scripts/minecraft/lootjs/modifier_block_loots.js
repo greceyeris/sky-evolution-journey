@@ -10,4 +10,14 @@ LootJS.modifiers((event) => {
     event
         .addBlockLootModifier("minecraft:campfire")
         .removeLoot("minecraft:charcoal");
+
+    // 修改 minecraft:grass 的 loot
+    event
+        .addBlockLootModifier("minecraft:grass")
+        .removeLoot("minecraft:charcoal");
+
+    // 修改 minecraft:tall_grass 的 loot
+    event
+        .addBlockLootModifier("minecraft:tall_grass")
+        .removeLoot("minecraft:charcoal");
 });

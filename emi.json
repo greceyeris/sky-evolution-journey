@@ -1,237 +1,224 @@
 {
   "favorites": [
     {
-      "stack": "item:structurecraft:structure_extraction"
-    },
-    {
       "stack": "item:minecraft:barrier{display:{Name:\u0027{\"text\":\"Empty Tag: crossroads:empty\"}\u0027}}"
     }
   ],
   "lookup_history": [
   ],
-  "craft_history": [],
+  "craft_history": [
+  ],
   "recipe_defaults": {
     "added": [
-      "toomanyrecipeviewers:/farmersdelight/kjs/eej0wejv70qev78g5lw0eug3g",
+      "toomanyrecipeviewers:/strainers/kjs/bmpu02t8m4uhal5p6j8nc4yei",
+      "toomanyrecipeviewers:/farmersdelight/kjs/3q2bn0sr3giph8x24jmpxnfxn",
+      "toomanyrecipeviewers:/farmersdelight/kjs/1cdo9mpjhqpxn5uxwdfw533xh",
+      "toomanyrecipeviewers:/strainers/kjs/d1a1qth3ysksqqyeqv17yblgw",
+      "minecraft:kjs/flint_2",
+      "botania:kjs/1gi2p70uhlvfvnun1xpcbtyy",
+      "minecraft:kjs/simpleprocessingmachines_atmospheric_condenser",
+      "minecraft:kjs/strainers_flint_mesh",
+      "minecraft:kjs/simpleprocessingmachines_crystallizing_station",
+      "immersiveengineering:crafting/cokebrick",
+      "botania:pure_daisy/livingrock",
+      "toomanyrecipeviewers:/farmersdelight/kjs/8ytzyp81ed12cz3voc0fhus41",
+      "toomanyrecipeviewers:/farmersdelight/kjs/eyv977z8evyvjs6d7613671ka",
+      "toomanyrecipeviewers:/strainers/kjs/couctsenra2wn5z9hupmsjm47",
+      "integrateddynamics:crafting/crystalized_menril_block",
+      "botania:pure_daisy/obsidian",
+      "botania:petal_apothecary/pure_daisy",
+      "toomanyrecipeviewers:/simpleprocessingmachines/kjs/7gp4gsbyies1b826c1v8cc71v",
+      "toomanyrecipeviewers:/strainers/kjs/chgez3afvaknmztk9bjrvtlnn",
       "toomanyrecipeviewers:/brickfurnace/kjs/a8irjrinmbdw7d7ol4e23hiet",
+      "botanypots:botanypots/crafting/terracotta_botany_pot",
+      "toomanyrecipeviewers:/strainers/kjs/355kjap2s76nzp8aqwtiu24cr",
+      "toomanyrecipeviewers:/strainers/kjs/6xe6rap5m4li6h9njr1r3aefl",
+      "toomanyrecipeviewers:/farmersdelight/kjs/cfik349ecuw0jfwjqggykka4h",
+      "toomanyrecipeviewers:/farmersdelight/kjs/2aoda5mjdsb4r7icn5ytj21au",
+      "toomanyrecipeviewers:/farmersdelight/kjs/38rj1k5u6kzxggvoel298tvtf",
+      "toomanyrecipeviewers:/strainers/kjs/264xmgbh8yf1zlry8jpgqatrc",
+      "toomanyrecipeviewers:/farmersdelight/kjs/5cykxdb2ajb0q1zemht5wvyf9",
+      "toomanyrecipeviewers:/strainers/kjs/3ivw8uf93gbmryv3ey2s0hzv1",
+      "minecraft:kjs/farmersdelight_cutting_board",
+      "toomanyrecipeviewers:/strainers/kjs/bvtmv12y0s3nflf9w4o6h1y06",
+      "toomanyrecipeviewers:/strainers/kjs/bh590fzm72lgr0jttqu57qt5v",
+      "toomanyrecipeviewers:/strainers/kjs/cef7juz92ipgd6g5x9h0sgptf",
+      "toomanyrecipeviewers:/opolisutilities/kjs/8s8cnxzta3nlfzqcy80o7yzx8",
+      "toomanyrecipeviewers:/simpleprocessingmachines/kjs/1ugo93pfghrvsspb9g1kfnoqt",
+      "toomanyrecipeviewers:/strainers/kjs/8k8qsojxesit49160qywlyk0b",
+      "minecraft:kjs/gtceu_flint_block",
+      "toomanyrecipeviewers:/strainers/kjs/1hfixh3e2yqxsfa07hg3kuknz",
+      "toomanyrecipeviewers:/farmersdelight/kjs/afefmpr3kjj36qvzfza9myqro",
+      "toomanyrecipeviewers:/strainers/kjs/5by5teqoypyjmpn16pwewpdxr",
+      "minecraft:kjs/redstone_block",
+      "toomanyrecipeviewers:/strainers/kjs/7lj5h9y73ara5v8fkwr2x1ygh",
+      "toomanyrecipeviewers:/strainers/kjs/e0cyt3lcp2sqa7741aa1mwzic",
+      "toomanyrecipeviewers:/simpleprocessingmachines/kjs/2mvz961vs5fx0xjzkg0098o1q",
+      "minecraft:kjs/compactcrafting_projector_dish",
+      "strainers:mulch",
+      "toomanyrecipeviewers:/farmersdelight/kjs/5sr9ca104030gzim1shnnrnk5",
+      "minecraft:kjs/slime_ball",
+      "botania:kjs/81h49n53fgx2a4rm9mqoyc033",
+      "toomanyrecipeviewers:/farmersdelight/kjs/7gtxnq9jmeucva0fcu2p877jk",
+      "gtceu:shaped/pickaxe_flint",
+      "toomanyrecipeviewers:/farmersdelight/kjs/btfds15g8ofcuqfmxeri4kmk6",
       "toomanyrecipeviewers:/strainers/kjs/2mtdl7kzqrpefzbnoryi1en76",
-      "botania:kjs/5zsrw5ufotojy3lrglnl3n9pw",
+      "toomanyrecipeviewers:/farmersdelight/kjs/eej0wejv70qev78g5lw0eug3g",
+      "toomanyrecipeviewers:/strainers/kjs/8hjiw4hj9zpgeh6macgup1bhk",
+      "minecraft:kjs/chest",
+      "toomanyrecipeviewers:/farmersdelight/kjs/cd3enom3qhsprp5x0zfbnov29",
+      "toomanyrecipeviewers:/brickfurnace/kjs/2m208cfdsqs59o2r365rrjeyb",
+      "toomanyrecipeviewers:/farmersdelight/kjs/ca3b7cxslg8dy4d7edo6dyedu",
+      "emi_loot:/block_drops/minecraft/blocks/oak_log",
+      "toomanyrecipeviewers:/farmersdelight/kjs/czd834fcwj8f0q0cjjfstqm0u",
+      "toomanyrecipeviewers:/farmersdelight/kjs/8kaxdqhyylnn48uxqnlpvqfr7",
+      "toomanyrecipeviewers:/strainers/kjs/6f1gs6t64vamkyi6rdbzvnfta",
+      "toomanyrecipeviewers:/farmersdelight/kjs/4aghzm8r876apeeru8n89vjpv",
+      "gtceu:shaped/hoe_flint",
+      "minecraft:kjs/flint_saw",
+      "minecraft:kjs/bricks",
+      "toomanyrecipeviewers:/farmersdelight/kjs/bod2e82v4b1omx61e850mphj7",
+      "toomanyrecipeviewers:/strainers/kjs/4h6gctrfif5o36599xnyor2py",
+      "toomanyrecipeviewers:/strainers/kjs/8ahs4eongj1i4wcx5nua77rna",
+      "toomanyrecipeviewers:/farmersdelight/kjs/3pljukblz7opvdi1jgcursb9z",
+      "toomanyrecipeviewers:/lychee/kjs/5ccqo7b6kkrb88y1wzu9007zp",
+      "toomanyrecipeviewers:/strainers/kjs/exy7yvqj8mhi9q2qtpbll7lq0",
+      "toomanyrecipeviewers:/farmersdelight/kjs/2ol27k3c6koepopbkibervny3",
+      "toomanyrecipeviewers:/opolisutilities/kjs/e9u2to5xk18900osyk2yonr2t",
+      "strainers:cobblestone",
+      "toomanyrecipeviewers:/farmersdelight/kjs/dqui1nmoaaenca01tccmvxr5i",
+      "toomanyrecipeviewers:/strainers/kjs/bwgyvczgkzv1pc75ganjsri8a",
+      "toomanyrecipeviewers:/farmersdelight/kjs/aol5a1ic3wep9wq11arkg0ohi",
+      "toomanyrecipeviewers:/strainers/kjs/7s21uahjuhgcnhdw88fjpgsno",
+      "toomanyrecipeviewers:/lychee/kjs/3wghadbmq8uzsjnf4opard9v3",
+      "toomanyrecipeviewers:/farmersdelight/kjs/6jbm988ctzvjb12f6hzwula4p",
+      "toomanyrecipeviewers:/farmersdelight/kjs/2w8p3zzmnelue3iurr2pqfqhq",
+      "toomanyrecipeviewers:/strainers/kjs/bbwlk9hxjmt9bshbbz1nwn01e",
+      "toomanyrecipeviewers:/simpleprocessingmachines/kjs/ext0wnm973oug20oqrsgsp43n",
+      "toomanyrecipeviewers:/lychee/kjs/3e7mt7jpo3x9aizzop1lh8dw9",
+      "gtceu:shaped/knife_flint",
+      "minecraft:kjs/simpleprocessingmachines_sawmilling_station",
+      "botania:apothecary_default",
+      "toomanyrecipeviewers:/strainers/kjs/apkddjlfk91v6mge1ixqmx0h0",
+      "toomanyrecipeviewers:/strainers/kjs/auucaf6qq5yhw759b372pm1za",
+      "crafting_on_a_stick:crafting_table",
+      "minecraft:kjs/strainers_purifying_salt_mulch",
+      "toomanyrecipeviewers:/brickfurnace/kjs/4jjm5n8o3pi6yn9ngcj7d6r06",
+      "gtceu:smelting/smelt_dust_copper_to_ingot",
       "toomanyrecipeviewers:/strainers/kjs/83vre7g9qygfgbh475620wu30",
       "minecraft:kjs/gtceu_dough",
-      "toomanyrecipeviewers:/lychee/kjs/3e7mt7jpo3x9aizzop1lh8dw9",
-      "botania:pure_daisy/livingwood",
-      "toomanyrecipeviewers:/simpleprocessingmachines/kjs/djmhd1u1v1eqxujdts06l0ed9",
-      "minecraft:kjs/stick",
-      "toomanyrecipeviewers:/strainers/kjs/355kjap2s76nzp8aqwtiu24cr",
-      "botania:livingwood_twig",
-      "toomanyrecipeviewers:/strainers/kjs/8ahs4eongj1i4wcx5nua77rna",
-      "survival_firesticks:firestick_r",
-      "toomanyrecipeviewers:/farmersdelight/kjs/2w8p3zzmnelue3iurr2pqfqhq",
-      "toomanyrecipeviewers:/strainers/kjs/7s21uahjuhgcnhdw88fjpgsno",
-      "integrateddynamics:crafting/energy_battery",
-      "toomanyrecipeviewers:/strainers/kjs/8hjiw4hj9zpgeh6macgup1bhk",
-      "minecraft:kjs/gtceu_flint_axe",
-      "minecraft:kjs/simpleprocessingmachines_crystallizing_station",
-      "toomanyrecipeviewers:/farmersdelight/kjs/5cykxdb2ajb0q1zemht5wvyf9",
-      "minecraft:kjs/oak_sapling",
-      "toomanyrecipeviewers:/strainers/kjs/8k8qsojxesit49160qywlyk0b",
-      "minecraft:kjs/flint_2",
-      "toomanyrecipeviewers:/farmersdelight/kjs/6xfekyyrnm3oqol2u43dg16lh",
-      "toomanyrecipeviewers:/farmersdelight/kjs/8ytzyp81ed12cz3voc0fhus41",
-      "minecraft:kjs/redstone_block",
-      "emi_loot:/block_drops/minecraft/blocks/oak_log",
-      "toomanyrecipeviewers:/farmersdelight/kjs/1cdo9mpjhqpxn5uxwdfw533xh",
-      "toomanyrecipeviewers:/farmersdelight/kjs/bod2e82v4b1omx61e850mphj7",
-      "toomanyrecipeviewers:/opolisutilities/kjs/8s8cnxzta3nlfzqcy80o7yzx8",
-      "toomanyrecipeviewers:/strainers/kjs/1hfixh3e2yqxsfa07hg3kuknz",
-      "minecraft:kjs/farmersdelight_cutting_board",
-      "minecraft:kjs/gtceu_flint_block",
-      "toomanyrecipeviewers:/strainers/kjs/e0cyt3lcp2sqa7741aa1mwzic",
-      "toomanyrecipeviewers:/lychee/kjs/3wghadbmq8uzsjnf4opard9v3",
-      "toomanyrecipeviewers:/strainers/kjs/couctsenra2wn5z9hupmsjm47",
-      "botania:twig_wand",
-      "minecraft:kjs/campfire",
-      "minecraft:kjs/woodenshears_wooden_shears",
-      "toomanyrecipeviewers:/farmersdelight/kjs/afefmpr3kjj36qvzfza9myqro",
-      "toomanyrecipeviewers:/simpleprocessingmachines/kjs/49jzqzt2f28x03w07y61y0qqf",
-      "toomanyrecipeviewers:/brickfurnace/kjs/8r5m057ynjo79fsj281bz3k7n",
-      "toomanyrecipeviewers:/farmersdelight/kjs/3q2bn0sr3giph8x24jmpxnfxn",
-      "toomanyrecipeviewers:/simpleprocessingmachines/kjs/ext0wnm973oug20oqrsgsp43n",
-      "botania:diluted_pool",
+      "botania:red_petal_block",
+      "minecraft:kjs/simpleprocessingmachines_organic_composter",
+      "toomanyrecipeviewers:/strainers/kjs/797fudjt70g4yzzxrpojygctm",
+      "ceramicbucket:unfired_clay_bucket",
+      "toomanyrecipeviewers:/strainers/kjs/acotmwn1l3o00xpsgxdrsj6kz",
       "toomanyrecipeviewers:/strainers/kjs/bo4ko3xfbe7wk92954tbqivbo",
-      "toomanyrecipeviewers:/farmersdelight/kjs/bynb1zuyfz03668neviuiw4rk",
-      "toomanyrecipeviewers:/strainers/kjs/3ivw8uf93gbmryv3ey2s0hzv1",
-      "toomanyrecipeviewers:/strainers/kjs/chl8vihymv98rq2qrqmy4wqrb",
+      "toomanyrecipeviewers:/simpleprocessingmachines/kjs/5aznfb6frbsarsfn7hzbpm120",
+      "toomanyrecipeviewers:/farmersdelight/kjs/8ty0zvfpzlkrzknpys7rf10ah",
+      "toomanyrecipeviewers:/brickfurnace/kjs/9gexiaa52u1wfvr125kvvxcyl",
+      "survival_firesticks:firestick_r",
+      "toomanyrecipeviewers:/strainers/kjs/a7h6x7b6vs60zzz4ghwhoajz9",
+      "toomanyrecipeviewers:/strainers/kjs/76yif9gib7ep9i43vze1sfp9m",
+      "toomanyrecipeviewers:/farmersdelight/kjs/2gp39o9a95lgxz0z8hih5ggys",
+      "gtceu:shapeless/compressed_clay",
+      "toomanyrecipeviewers:/farmersdelight/kjs/8qriuzn9o3cs0lok9y1v1sujs",
+      "botania:twig_wand",
+      "toomanyrecipeviewers:/farmersdelight/kjs/1ti6srjcgtwjmbh7vf6qe1ius",
+      "toomanyrecipeviewers:/farmersdelight/kjs/5n96p9yay38gjkyxsfz2i8noe",
+      "toomanyrecipeviewers:/strainers/kjs/6052mw5xhjstqdnwx9eahknyp",
+      "toomanyrecipeviewers:/strainers/kjs/170qgez0xeiq03hs5kc775q7e",
+      "strainers:strainer",
+      "bonsaitrees3:bonsaipot",
+      "toomanyrecipeviewers:/farmersdelight/kjs/492528gztcs8v6frzln73zfc7",
+      "minecraft:kjs/brickfurnace_brick_furnace",
+      "immersiveengineering:crafting/blastbrick",
+      "toomanyrecipeviewers:/strainers/kjs/45pgapq6dsoh2rofwpmn99cuf",
       "toomanyrecipeviewers:/strainers/kjs/ay3wr2d300a7yrng7yghk226z",
-      "toomanyrecipeviewers:/opolisutilities/kjs/e9u2to5xk18900osyk2yonr2t",
+      "toomanyrecipeviewers:/strainers/kjs/dmalubjxvby072zn8xmzluy1h",
+      "minecraft:kjs/gtceu_flint_axe",
+      "toomanyrecipeviewers:/farmersdelight/kjs/e34j6gvg7dw4qjr9lr6uscg8n",
+      "toomanyrecipeviewers:/farmersdelight/kjs/b959iy1bp9t94yzw72lvzqvtb",
+      "minecraft:kjs/integrateddynamics_drying_basin",
+      "minecraft:kjs/dirt",
+      "minecraft:kjs/integrateddynamics_squeezer",
+      "opolisutilities:drying_table",
+      "botania:diluted_pool",
+      "toomanyrecipeviewers:/strainers/kjs/5fe5p149sdke4wbotv9ht0t53",
+      "minecraft:kjs/stick",
+      "botania:livingwood_twig",
+      "toomanyrecipeviewers:/farmersdelight/kjs/6xfekyyrnm3oqol2u43dg16lh",
+      "toomanyrecipeviewers:/simpleprocessingmachines/kjs/2hwl4xwg1pxtfgmiln7y7j9r1",
+      "toomanyrecipeviewers:/farmersdelight/kjs/8s8gkuovzpmktts65nqu896d1",
+      "toomanyrecipeviewers:/strainers/kjs/chl8vihymv98rq2qrqmy4wqrb",
+      "toomanyrecipeviewers:/farmersdelight/kjs/eexwd7rvlrhpocp4fjhpm1n78",
+      "compactcrafting:field_projector",
+      "toomanyrecipeviewers:/farmersdelight/kjs/114jhyo4331ljfk926ehgh36t",
+      "toomanyrecipeviewers:/farmersdelight/kjs/48w1wgaaznztd1ip89muhtw3y",
+      "toomanyrecipeviewers:/farmersdelight/kjs/ewxkef77ro8ssa78mxtrbxa2k",
+      "minecraft:kjs/campfire",
+      "toomanyrecipeviewers:/strainers/kjs/ae1u5q0sx9w82cn720han7emj",
+      "toomanyrecipeviewers:/farmersdelight/kjs/5ii0v8av66uev8kg8d2aqczxn",
+      "toomanyrecipeviewers:/farmersdelight/kjs/bynb1zuyfz03668neviuiw4rk",
+      "integrateddynamics:crafting/energy_battery",
+      "minecraft:kjs/compactcrafting_base",
+      "gtceu:shaped/crafting_table",
       "toomanyrecipeviewers:/farmersdelight/kjs/m1hmyiq8mvt10axhe58dhgkk",
       "botania:orange_petal_block",
-      "minecraft:kjs/chest",
-      "toomanyrecipeviewers:/farmersdelight/kjs/3pljukblz7opvdi1jgcursb9z",
-      "toomanyrecipeviewers:/farmersdelight/kjs/96d5vcr7sydfpxqmyczfbcchg",
-      "minecraft:kjs/simpleprocessingmachines_sawmilling_station",
-      "toomanyrecipeviewers:/simpleprocessingmachines/kjs/5aznfb6frbsarsfn7hzbpm120",
-      "toomanyrecipeviewers:/strainers/kjs/5o3tmiiu3xtw2cp5xvobcnhoh",
-      "toomanyrecipeviewers:/farmersdelight/kjs/5jfk4uik9vafg7ohd9i3bkn2c",
-      "toomanyrecipeviewers:/farmersdelight/kjs/48w1wgaaznztd1ip89muhtw3y",
-      "toomanyrecipeviewers:/farmersdelight/kjs/8dhy6nkkmp8uaudlq682rulwn",
-      "toomanyrecipeviewers:/strainers/kjs/5by5teqoypyjmpn16pwewpdxr",
-      "toomanyrecipeviewers:/strainers/kjs/6xe6rap5m4li6h9njr1r3aefl",
-      "toomanyrecipeviewers:/strainers/kjs/5fe5p149sdke4wbotv9ht0t53",
-      "toomanyrecipeviewers:/simpleprocessingmachines/kjs/2mvz961vs5fx0xjzkg0098o1q",
-      "toomanyrecipeviewers:/farmersdelight/kjs/5n96p9yay38gjkyxsfz2i8noe",
-      "minecraft:kjs/integrateddynamics_squeezer",
-      "integrateddynamics:crafting/crystalized_menril_block",
-      "toomanyrecipeviewers:/farmersdelight/kjs/b959iy1bp9t94yzw72lvzqvtb",
-      "toomanyrecipeviewers:/strainers/kjs/76yif9gib7ep9i43vze1sfp9m",
-      "minecraft:kjs/dirt",
-      "opolisutilities:drying_table",
-      "toomanyrecipeviewers:/farmersdelight/kjs/cd3enom3qhsprp5x0zfbnov29",
-      "toomanyrecipeviewers:/strainers/kjs/d1a1qth3ysksqqyeqv17yblgw",
-      "crafting_on_a_stick:crafting_table",
-      "botania:kjs/81h49n53fgx2a4rm9mqoyc033",
-      "toomanyrecipeviewers:/farmersdelight/kjs/e34j6gvg7dw4qjr9lr6uscg8n",
-      "crossroads:firebox",
-      "minecraft:kjs/beehive",
-      "toomanyrecipeviewers:/strainers/kjs/dmalubjxvby072zn8xmzluy1h",
-      "toomanyrecipeviewers:/compactcrafting/kjs/dm3hmx92wp7yqibreyuunqn1c",
-      "minecraft:kjs/slime_ball",
-      "toomanyrecipeviewers:/strainers/kjs/45pgapq6dsoh2rofwpmn99cuf",
-      "toomanyrecipeviewers:/strainers/kjs/chgez3afvaknmztk9bjrvtlnn",
-      "toomanyrecipeviewers:/strainers/kjs/cef7juz92ipgd6g5x9h0sgptf",
-      "toomanyrecipeviewers:/brickfurnace/kjs/4jjm5n8o3pi6yn9ngcj7d6r06",
-      "toomanyrecipeviewers:/strainers/kjs/264xmgbh8yf1zlry8jpgqatrc",
-      "toomanyrecipeviewers:/farmersdelight/kjs/czd834fcwj8f0q0cjjfstqm0u",
-      "botanypots:botanypots/crafting/terracotta_botany_pot",
-      "ceramicbucket:unfired_clay_bucket",
-      "toomanyrecipeviewers:/strainers/kjs/6f1gs6t64vamkyi6rdbzvnfta",
-      "bonsaitrees3:bonsaipot",
-      "gtceu:shaped/crafting_table",
-      "minecraft:kjs/integrateddynamics_drying_basin",
-      "toomanyrecipeviewers:/farmersdelight/kjs/ca3b7cxslg8dy4d7edo6dyedu",
-      "compactcrafting:field_projector",
-      "gtceu:shaped/shovel_flint",
-      "toomanyrecipeviewers:/farmersdelight/kjs/aol5a1ic3wep9wq11arkg0ohi",
-      "toomanyrecipeviewers:/strainers/kjs/auucaf6qq5yhw759b372pm1za",
-      "botania:petal_apothecary/pure_daisy",
-      "botania:kjs/1gi2p70uhlvfvnun1xpcbtyy",
-      "toomanyrecipeviewers:/strainers/kjs/bwgyvczgkzv1pc75ganjsri8a",
-      "toomanyrecipeviewers:/strainers/kjs/797fudjt70g4yzzxrpojygctm",
-      "botania:runic_altar",
-      "toomanyrecipeviewers:/strainers/kjs/4h6gctrfif5o36599xnyor2py",
-      "toomanyrecipeviewers:/farmersdelight/kjs/8qriuzn9o3cs0lok9y1v1sujs",
-      "strainers:mulch",
-      "toomanyrecipeviewers:/lychee/kjs/5ccqo7b6kkrb88y1wzu9007zp",
-      "toomanyrecipeviewers:/farmersdelight/kjs/114jhyo4331ljfk926ehgh36t",
-      "toomanyrecipeviewers:/strainers/kjs/8n0798m4792dpyu1qrpj6u6cp",
-      "minecraft:kjs/strainers_flint_mesh",
-      "gtceu:shapeless/glass_full_dust_flint",
-      "toomanyrecipeviewers:/strainers/kjs/apkddjlfk91v6mge1ixqmx0h0",
-      "toomanyrecipeviewers:/strainers/kjs/exy7yvqj8mhi9q2qtpbll7lq0",
-      "minecraft:kjs/bricks",
-      "toomanyrecipeviewers:/farmersdelight/kjs/4aghzm8r876apeeru8n89vjpv",
-      "minecraft:kjs/simpleprocessingmachines_atmospheric_condenser",
-      "toomanyrecipeviewers:/strainers/kjs/acotmwn1l3o00xpsgxdrsj6kz",
-      "toomanyrecipeviewers:/farmersdelight/kjs/2aoda5mjdsb4r7icn5ytj21au",
-      "minecraft:kjs/compactcrafting_base",
-      "toomanyrecipeviewers:/farmersdelight/kjs/38rj1k5u6kzxggvoel298tvtf",
-      "toomanyrecipeviewers:/brickfurnace/kjs/9gexiaa52u1wfvr125kvvxcyl",
-      "gtceu:shaped/pickaxe_flint",
-      "botania:pure_daisy/livingrock",
-      "toomanyrecipeviewers:/farmersdelight/kjs/btfds15g8ofcuqfmxeri4kmk6",
-      "toomanyrecipeviewers:/strainers/kjs/bh590fzm72lgr0jttqu57qt5v",
-      "minecraft:kjs/string",
-      "toomanyrecipeviewers:/strainers/kjs/170qgez0xeiq03hs5kc775q7e",
-      "gtceu:shaped/knife_flint",
-      "minecraft:kjs/flint_saw",
-      "toomanyrecipeviewers:/strainers/kjs/7lj5h9y73ara5v8fkwr2x1ygh",
-      "toomanyrecipeviewers:/strainers/kjs/6052mw5xhjstqdnwx9eahknyp",
-      "toomanyrecipeviewers:/strainers/kjs/a7h6x7b6vs60zzz4ghwhoajz9",
-      "botania:mana_infusion/mana_pearl",
-      "toomanyrecipeviewers:/farmersdelight/kjs/ewxkef77ro8ssa78mxtrbxa2k",
-      "toomanyrecipeviewers:/strainers/kjs/bvtmv12y0s3nflf9w4o6h1y06",
-      "toomanyrecipeviewers:/farmersdelight/kjs/8s8gkuovzpmktts65nqu896d1",
-      "botania:red_petal_block",
-      "strainers:cobblestone",
-      "immersiveengineering:crafting/cokebrick",
-      "minecraft:kjs/compactcrafting_projector_dish",
-      "minecraft:kjs/opolisutilities_mini_charcoal",
-      "toomanyrecipeviewers:/simpleprocessingmachines/kjs/2hwl4xwg1pxtfgmiln7y7j9r1",
-      "minecraft:kjs/flopper_flopper",
-      "toomanyrecipeviewers:/farmersdelight/kjs/qjpb32x8n77n34bkhu1sp8j7",
-      "gtceu:shapeless/compressed_clay",
-      "minecraft:kjs/brickfurnace_brick_furnace",
-      "toomanyrecipeviewers:/farmersdelight/kjs/5sr9ca104030gzim1shnnrnk5",
-      "toomanyrecipeviewers:/strainers/kjs/bmpu02t8m4uhal5p6j8nc4yei",
-      "toomanyrecipeviewers:/farmersdelight/kjs/dqui1nmoaaenca01tccmvxr5i",
-      "toomanyrecipeviewers:/simpleprocessingmachines/kjs/7gp4gsbyies1b826c1v8cc71v",
-      "toomanyrecipeviewers:/strainers/kjs/c8okh2jmf2vxudghrbxxtsrhu",
-      "immersiveengineering:crafting/blastbrick",
-      "toomanyrecipeviewers:/farmersdelight/kjs/5ii0v8av66uev8kg8d2aqczxn",
-      "toomanyrecipeviewers:/farmersdelight/kjs/2ol27k3c6koepopbkibervny3",
-      "gtceu:shaped/hoe_flint",
-      "strainers:strainer",
-      "toomanyrecipeviewers:/farmersdelight/kjs/2gp39o9a95lgxz0z8hih5ggys",
-      "gtceu:smelting/smelt_dust_copper_to_ingot",
-      "toomanyrecipeviewers:/strainers/kjs/bbwlk9hxjmt9bshbbz1nwn01e",
-      "toomanyrecipeviewers:/strainers/kjs/ae1u5q0sx9w82cn720han7emj",
       "toomanyrecipeviewers:/farmersdelight/kjs/abzpssro23su8iarknlt262i6",
-      "minecraft:kjs/strainers_purifying_salt_mulch",
-      "botania:apothecary_default",
-      "toomanyrecipeviewers:/farmersdelight/kjs/eexwd7rvlrhpocp4fjhpm1n78",
-      "minecraft:kjs/simpleprocessingmachines_organic_composter",
-      "toomanyrecipeviewers:/farmersdelight/kjs/cfik349ecuw0jfwjqggykka4h",
-      "toomanyrecipeviewers:/farmersdelight/kjs/eyv977z8evyvjs6d7613671ka",
-      "toomanyrecipeviewers:/farmersdelight/kjs/7gtxnq9jmeucva0fcu2p877jk",
-      "botania:pure_daisy/obsidian",
-      "toomanyrecipeviewers:/farmersdelight/kjs/1ti6srjcgtwjmbh7vf6qe1ius",
-      "toomanyrecipeviewers:/farmersdelight/kjs/8ty0zvfpzlkrzknpys7rf10ah",
-      "toomanyrecipeviewers:/farmersdelight/kjs/492528gztcs8v6frzln73zfc7",
-      "toomanyrecipeviewers:/brickfurnace/kjs/2m208cfdsqs59o2r365rrjeyb",
-      "toomanyrecipeviewers:/farmersdelight/kjs/8kaxdqhyylnn48uxqnlpvqfr7",
-      "toomanyrecipeviewers:/simpleprocessingmachines/kjs/1ugo93pfghrvsspb9g1kfnoqt",
-      "toomanyrecipeviewers:/farmersdelight/kjs/6jbm988ctzvjb12f6hzwula4p"
+      "toomanyrecipeviewers:/farmersdelight/kjs/5jfk4uik9vafg7ohd9i3bkn2c",
+      "minecraft:kjs/oak_sapling",
+      "gtceu:shapeless/glass_full_dust_flint",
+      "toomanyrecipeviewers:/strainers/kjs/5o3tmiiu3xtw2cp5xvobcnhoh",
+      "toomanyrecipeviewers:/farmersdelight/kjs/8dhy6nkkmp8uaudlq682rulwn",
+      "toomanyrecipeviewers:/compactcrafting/kjs/dm3hmx92wp7yqibreyuunqn1c",
+      "botania:runic_altar",
+      "minecraft:kjs/woodenshears_wooden_shears",
+      "toomanyrecipeviewers:/farmersdelight/kjs/96d5vcr7sydfpxqmyczfbcchg",
+      "gtceu:shaped/shovel_flint",
+      "toomanyrecipeviewers:/simpleprocessingmachines/kjs/djmhd1u1v1eqxujdts06l0ed9",
+      "botania:kjs/5zsrw5ufotojy3lrglnl3n9pw",
+      "toomanyrecipeviewers:/brickfurnace/kjs/8r5m057ynjo79fsj281bz3k7n",
+      "minecraft:kjs/opolisutilities_mini_charcoal",
+      "minecraft:kjs/flopper_flopper",
+      "minecraft:kjs/beehive",
+      "toomanyrecipeviewers:/strainers/kjs/c8okh2jmf2vxudghrbxxtsrhu",
+      "botania:pure_daisy/livingwood",
+      "toomanyrecipeviewers:/strainers/kjs/8n0798m4792dpyu1qrpj6u6cp",
+      "toomanyrecipeviewers:/farmersdelight/kjs/qjpb32x8n77n34bkhu1sp8j7",
+      "botania:mana_infusion/mana_pearl",
+      "minecraft:kjs/string"
     ],
     "tags": {},
     "resolutions": {
+      "toomanyrecipeviewers:/farmersdelight/kjs/22ssh8d0u2oa4dh99zc50nltc": [
+        "item:minecraft:stripped_birch_log"
+      ],
+      "toomanyrecipeviewers:/farmersdelight/kjs/edosnrgee58dpebvnjg8zpj3j": [
+        "item:minecraft:stripped_bamboo_block"
+      ],
+      "emi_loot:/block_drops/minecraft/blocks/oak_leaves": [
+        "item:minecraft:oak_leaves"
+      ],
+      "toomanyrecipeviewers:/farmersdelight/kjs/ey8vykchs0ll8gg57exz9gbmm": [
+        "item:minecraft:stripped_dark_oak_wood"
+      ],
+      "toomanyrecipeviewers:/farmersdelight/kjs/dn8lccukqaqykvj2bcq297cpi": [
+        "item:minecraft:stripped_mangrove_log"
+      ],
       "emi_loot:/block_drops/gtceu/blocks/copper_ore": [
         "item:minecraft:raw_copper"
-      ],
-      "toomanyrecipeviewers:/lychee/kjs/6ln3ir6xsfejutc3usij0jw7g": [
-        "item:integrateddynamics:coal_generator"
-      ],
-      "toomanyrecipeviewers:/farmersdelight/kjs/d4v4g5wd6ych7vgqv7mdw9exv": [
-        "item:minecraft:stripped_jungle_log"
-      ],
-      "toomanyrecipeviewers:/farmersdelight/kjs/9iqw4n8v6zgttziw9ha5ktpow": [
-        "item:minecraft:stripped_crimson_stem"
-      ],
-      "toomanyrecipeviewers:/farmersdelight/kjs/7qvdjzk9unkcgrjijfdlo9u1l": [
-        "item:minecraft:stripped_oak_log"
-      ],
-      "toomanyrecipeviewers:/farmersdelight/kjs/3d25mpe53pagsg7d82d7mcwmt": [
-        "item:minecraft:stripped_acacia_log"
-      ],
-      "toomanyrecipeviewers:/farmersdelight/kjs/410j3ez1gxru0exzbw2a78mm3": [
-        "item:minecraft:stripped_spruce_wood"
-      ],
-      "toomanyrecipeviewers:/farmersdelight/kjs/5b1o97rgzkpdrrfk4oecfkdou": [
-        "item:minecraft:stripped_acacia_wood"
-      ],
-      "toomanyrecipeviewers:/farmersdelight/kjs/allqp2ivpsl7v27isyvqfk6j0": [
-        "item:minecraft:stripped_cherry_wood"
-      ],
-      "toomanyrecipeviewers:/farmersdelight/kjs/cl8407ptzdkbhgo3qjqt3koc2": [
-        "item:minecraft:stripped_warped_hyphae"
-      ],
-      "emi_loot:/block_drops/integrateddynamics/blocks/menril_log_filled": [
-        "item:integrateddynamics:crystalized_menril_chunk"
       ],
       "toomanyrecipeviewers:/lychee/kjs/66f0c2cg0houdwtrmaymme99x": [
         "item:integrateddynamics:mechanical_squeezer"
       ],
-      "emi_loot:/block_drops/minecraft/blocks/oak_leaves": [
-        "item:minecraft:oak_leaves"
+      "toomanyrecipeviewers:/farmersdelight/kjs/5b1o97rgzkpdrrfk4oecfkdou": [
+        "item:minecraft:stripped_acacia_wood"
+      ],
+      "toomanyrecipeviewers:/farmersdelight/kjs/9s4th1gbfgmsk01xptb2om8bx": [
+        "item:minecraft:stripped_birch_wood"
+      ],
+      "emi_loot:/block_drops/integrateddynamics/blocks/menril_log_filled": [
+        "item:integrateddynamics:crystalized_menril_chunk"
       ],
       "toomanyrecipeviewers:/farmersdelight/kjs/97yw3mquheblmcj2ufhqadc12": [
         "item:minecraft:stripped_cherry_log"
@@ -239,50 +226,59 @@
       "toomanyrecipeviewers:/farmersdelight/kjs/1dgpn8wj37mgid1mpx9m8ncg7": [
         "item:minecraft:stripped_jungle_wood"
       ],
-      "toomanyrecipeviewers:/farmersdelight/kjs/dn8lccukqaqykvj2bcq297cpi": [
-        "item:minecraft:stripped_mangrove_log"
-      ],
       "toomanyrecipeviewers:/farmersdelight/kjs/9gwi9a84dri55s3iwqxap725f": [
         "item:minecraft:stripped_mangrove_wood"
       ],
-      "emi_loot:/block_drops/minecraft/blocks/wheat": [
-        "item:minecraft:wheat"
+      "toomanyrecipeviewers:/lychee/kjs/6ln3ir6xsfejutc3usij0jw7g": [
+        "item:integrateddynamics:coal_generator"
       ],
-      "toomanyrecipeviewers:/farmersdelight/kjs/ey8vykchs0ll8gg57exz9gbmm": [
-        "item:minecraft:stripped_dark_oak_wood"
+      "toomanyrecipeviewers:/farmersdelight/kjs/d4v4g5wd6ych7vgqv7mdw9exv": [
+        "item:minecraft:stripped_jungle_log"
       ],
-      "toomanyrecipeviewers:/farmersdelight/kjs/el4m49qrsn6ckyd0in3in6381": [
-        "item:minecraft:stripped_dark_oak_log"
-      ],
-      "toomanyrecipeviewers:/farmersdelight/kjs/avpbmp2qif9ccjqhgtlzyif14": [
-        "item:minecraft:stripped_oak_wood"
-      ],
-      "toomanyrecipeviewers:/farmersdelight/kjs/22ssh8d0u2oa4dh99zc50nltc": [
-        "item:minecraft:stripped_birch_log"
-      ],
-      "toomanyrecipeviewers:/farmersdelight/kjs/9s4th1gbfgmsk01xptb2om8bx": [
-        "item:minecraft:stripped_birch_wood"
+      "toomanyrecipeviewers:/farmersdelight/kjs/cuj58wjvn37lfyomkfj0hkc34": [
+        "item:minecraft:stripped_warped_stem"
       ],
       "toomanyrecipeviewers:/farmersdelight/kjs/1wxtqk8f89xej3jzb4nb7tu91": [
         "item:minecraft:stripped_crimson_hyphae"
       ],
+      "toomanyrecipeviewers:/farmersdelight/kjs/7qvdjzk9unkcgrjijfdlo9u1l": [
+        "item:minecraft:stripped_oak_log"
+      ],
+      "emi_loot:/block_drops/minecraft/blocks/wheat": [
+        "item:minecraft:wheat"
+      ],
+      "toomanyrecipeviewers:/farmersdelight/kjs/9iqw4n8v6zgttziw9ha5ktpow": [
+        "item:minecraft:stripped_crimson_stem"
+      ],
+      "toomanyrecipeviewers:/farmersdelight/kjs/410j3ez1gxru0exzbw2a78mm3": [
+        "item:minecraft:stripped_spruce_wood"
+      ],
+      "toomanyrecipeviewers:/farmersdelight/kjs/allqp2ivpsl7v27isyvqfk6j0": [
+        "item:minecraft:stripped_cherry_wood"
+      ],
+      "toomanyrecipeviewers:/farmersdelight/kjs/cl8407ptzdkbhgo3qjqt3koc2": [
+        "item:minecraft:stripped_warped_hyphae"
+      ],
+      "toomanyrecipeviewers:/farmersdelight/kjs/avpbmp2qif9ccjqhgtlzyif14": [
+        "item:minecraft:stripped_oak_wood"
+      ],
       "toomanyrecipeviewers:/farmersdelight/kjs/efvav1sq7klsdec4kond5xe6i": [
         "item:minecraft:stripped_spruce_log"
-      ],
-      "toomanyrecipeviewers:/farmersdelight/kjs/edosnrgee58dpebvnjg8zpj3j": [
-        "item:minecraft:stripped_bamboo_block"
       ],
       "toomanyrecipeviewers:/lychee/kjs/3ifk3lkhaoqny3qxydvmhrp2": [
         "item:integrateddynamics:mechanical_drying_basin"
       ],
-      "toomanyrecipeviewers:/farmersdelight/kjs/cuj58wjvn37lfyomkfj0hkc34": [
-        "item:minecraft:stripped_warped_stem"
+      "toomanyrecipeviewers:/farmersdelight/kjs/3d25mpe53pagsg7d82d7mcwmt": [
+        "item:minecraft:stripped_acacia_log"
+      ],
+      "toomanyrecipeviewers:/farmersdelight/kjs/el4m49qrsn6ckyd0in3in6381": [
+        "item:minecraft:stripped_dark_oak_log"
       ]
     },
     "disabled": [
+      "minecraft:stripped_oak_wood",
       "minecraft:stone",
-      "minecraft:smooth_stone",
-      "minecraft:stripped_oak_wood"
+      "minecraft:smooth_stone"
     ]
   },
   "hidden_stacks": []

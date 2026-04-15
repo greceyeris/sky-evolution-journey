@@ -37,10 +37,10 @@ ServerEvents.recipes((event) => {
                 optional: true,
             },
         ],
-        output: { fluid: "minecraft:water", amount: 4 },
+        output: { fluid: "minecraft:water", amount: 2 },
         is_height_applied: false,
         ticks_per_fluid: 10,
-        fluid_per_operation: 4,
+        fluid_per_operation: 2,
         valid_dimensions: ["minecraft:overworld"],
     });
 });

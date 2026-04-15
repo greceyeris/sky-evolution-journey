@@ -1,5 +1,5 @@
 #if ture, you have to use preferred tool to harvest blocks. (default: false)
-"require preferred tool" = false
+"require preferred tool" = true
 #if ture, you can allways break insta-breakable blocks. (default: true)
 "allways allow insta-break" = true
 #if ture, you have to use tool to break blocks in creative mode. (default: false)

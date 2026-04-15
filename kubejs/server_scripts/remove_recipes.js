@@ -243,6 +243,9 @@ ServerEvents.recipes((event) => {
         "botania:metamorphic_mesa_bricks_slab",
         "botania:corporea_slab",
         "botania:corporea_brick_slab",
+
+        // create
+        "create:copper_casing",
     ];
 
     // 定义 removeRecipesUsedItemInputAndOutput 数组

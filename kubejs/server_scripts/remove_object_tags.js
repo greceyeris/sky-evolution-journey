@@ -54,8 +54,17 @@ ServerEvents.tags("block", (event) => {
 
     // removeBlockTags
     removeBlockTags.forEach((obj) => {
-        // remove
-        event.remove(obj.tag.slice(1), obj.block);
+        if (obj.tag.length === 0) {
+            // removeAllTagsFrom
+            event.removeAllTagsFrom(obj.block);
+
+            return;
+        }
+
+        obj.tag.forEach((tag) => {
+            // remove
+            event.remove(tag.slice(1), obj.block);
+        });
     });
 
     // c:hidden_from_recipe_viewers

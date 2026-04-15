@@ -29,7 +29,7 @@
 				"6367C65CB0E9AA91"
 				"7455FE2AE3607A91"
 				"2FBE82E7F31D658A"
-				"3F4FCB3CF08A69F7"
+				"11C3CCD46712E124"
 			]
 			id: "61DEBF41EE0BC3D0"
 			tasks: [{
@@ -82,7 +82,7 @@
 		{
 			dependencies: [
 				"4D88B341DCC1DF4A"
-				"090CBDC9A2E3E33F"
+				"349DC65B0CDA9B6D"
 			]
 			id: "3F4FCB3CF08A69F7"
 			tasks: [{
@@ -91,7 +91,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -104,8 +104,8 @@
 				item: "minecraft:stone"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 6.0d
+			x: 10.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -223,8 +223,8 @@
 				item: "minecraft:brick"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 0.0d
+			x: 10.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -237,8 +237,8 @@
 				item: "gtceu:compressed_clay"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -2.0d
+			x: 7.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -252,8 +252,8 @@
 				item: "gtceu:brick_wooden_form"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -2.0d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -267,14 +267,14 @@
 				item: "gtceu:empty_wooden_form"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -2.0d
+			x: 2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
 				"70EBA28A77571591"
 				"2643B24DFCECC5CA"
-				"349DC65B0CDA9B6D"
+				"090CBDC9A2E3E33F"
 			]
 			id: "639CECBFA2C82A25"
 			tasks: [{
@@ -305,7 +305,7 @@
 		}
 		{
 			dependencies: [
-				"618D04AFE10AEE3E"
+				"53EBD60765664D5E"
 				"2A427C0E3099E1DA"
 			]
 			description: ["&6方解石&r &c放入&r &a挤压机&r 中，再 &c站上去跳跃&r ，可获得"]
@@ -329,8 +329,8 @@
 				item: "gtceu:flint_block"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.0d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -376,10 +376,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"76C1B4C76A6A48DC"
-				"61DEBF41EE0BC3D0"
-			]
+			dependencies: ["61DEBF41EE0BC3D0"]
 			id: "4FBAE391909C0BA7"
 			tasks: [{
 				id: "469FB328AE4C7C8C"
@@ -401,8 +398,8 @@
 				item: "bonsaitrees3:bonsaipot"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 0.0d
+			x: 10.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -417,8 +414,8 @@
 				item: "brickfurnace:brick_furnace"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 4.0d
+			x: 12.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -432,8 +429,8 @@
 				item: "minecraft:bricks"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 2.0d
+			x: 12.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -490,9 +487,9 @@
 		}
 		{
 			dependencies: [
-				"11C3CCD46712E124"
 				"70EBA28A77571591"
 				"2643B24DFCECC5CA"
+				"3F4FCB3CF08A69F7"
 			]
 			id: "384E63CEEE0D07BF"
 			tasks: [{
@@ -500,8 +497,8 @@
 				item: "minecraft:smooth_stone_slab"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -4.0d
+			x: 5.0d
+			y: -2.0d
 		}
 	]
 	title: "石器时代"

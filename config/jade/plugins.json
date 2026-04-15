@@ -61,6 +61,9 @@
     "enlarged_me_stocking_bus_info": true,
     "pterb_info": true
   },
+  "create_mechanical_chicken": {
+    "data": true
+  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
@@ -70,6 +73,14 @@
     "exact_block": true,
     "goggles.detailed": false,
     "placard": true
+  },
+  "pneumaticcraft": {
+    "pneumatic": true,
+    "tube_module": true,
+    "entity": true,
+    "redstone": true,
+    "camo": true,
+    "semiblock": true
   },
   "bonsaitrees3": {
     "bonsaipot": true
@@ -128,9 +139,6 @@
     "part": true,
     "squeezer": true
   },
-  "melter": {
-    "melter_data": true
-  },
   "ae2": {
     "part_icon": true,
     "charger": true,
@@ -151,6 +159,9 @@
   },
   "hammerlib": {
     "root": true
+  },
+  "create_cultivation": {
+    "cultivation_tank": true
   },
   "waystones": {
     "waystone": true

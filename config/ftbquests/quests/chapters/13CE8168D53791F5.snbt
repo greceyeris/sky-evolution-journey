@@ -11,6 +11,11 @@
 		{
 			dependencies: ["060CFCB7F3C6F8DD"]
 			id: "0F9301ED032EFF6F"
+			rewards: [{
+				id: "155799FDFEBB3DC8"
+				item: "botania:lexicon"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -25,19 +30,22 @@
 		{
 			dependencies: [
 				"497E2D92667AD17A"
-				"2E5670A1CEE4834E"
-				"2FBE82E7F31D658A"
-				"6A8DF80AFA0883CA"
+				"5E6F983BD167AC40"
+				"3474576B389C3F0D"
+				"282FA7119B7B1F3C"
+				"4FCB13A7F75CC2F9"
+				"3FFA860888989CB2"
+				"3FC4B560295A2FD0"
 			]
 			id: "329E75E8489012AE"
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
-				id: "065A1ED06E76CC87"
-				item: "crossroads:firebox"
+				id: "134FE6C9871F29FF"
+				item: "create:copper_casing"
 				type: "item"
 			}]
-			title: "解锁“热能时代”"
+			title: "解锁“铜器时代”"
 			x: 22.5d
 			y: 8.0d
 		}
@@ -932,5 +940,5 @@
 			y: 4.0d
 		}
 	]
-	title: "植物魔法起步"
+	title: "植物魔法时代 I"
 }

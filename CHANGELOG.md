@@ -2,6 +2,19 @@
 
 ---
 
+### Version: _0.10.0_
+
+### Date: _2026-04-16_
+
+**Changes:**
+
+- Adjusted Skyblock world type default map preset.
+- Adjusted some recipes.
+- Adjusted quest chapter: `Stone Age`.
+- Added quest chapter: `Botania Age I`.
+
+---
+
 ### Version: _0.9.0_
 
 ### Date: _2026-04-15_

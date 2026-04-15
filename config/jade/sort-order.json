@@ -14,6 +14,9 @@
   "bonsaitrees3:bonsaipot": null,
   "compactcrafting:field_projector": null,
   "compactcrafting:field_proxy": null,
+  "create_cultivation:cultivation_tank": null,
+  "create_mechanical_chicken:data": null,
+  "createmetallurgy.jade_plugin:ladle": null,
   "custommachinery:machine_component_provider": null,
   "custommachinery:machine_server_data_provider": null,
   "gtceu:auto_output_info": null,
@@ -129,6 +132,12 @@
   "minecraft:zombie_villager": null,
   "mm:controller_progress": null,
   "mm:port_priority": null,
+  "pneumaticcraft:camo": null,
+  "pneumaticcraft:entity": null,
+  "pneumaticcraft:pneumatic": null,
+  "pneumaticcraft:redstone": null,
+  "pneumaticcraft:semiblock": null,
+  "pneumaticcraft:tube_module": null,
   "unlitcampfire:campfireinfo": null,
   "waystones:waystone": null
 }

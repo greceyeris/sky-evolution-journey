@@ -21,6 +21,10 @@ BlockEvents.rightClicked((event) => {
             item: "minecraft:bone_meal",
             block: "#botania:mystical_flowers",
         },
+        {
+            item: "botania:living_root",
+            block: "minecraft:moss_block",
+        },
     ];
 
     const { player, block, mainHand, offHand } = event;
