@@ -1,7 +1,4 @@
 ae2:spatial_storage
-create_dd:dark
-create_dd:light
-integrateddynamics:meneglin
 minecraft:badlands
 minecraft:bamboo_jungle
 minecraft:basalt_deltas

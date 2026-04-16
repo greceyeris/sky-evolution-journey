@@ -2,6 +2,18 @@
 
 ---
 
+### Version: _0.11.0_
+
+### Date: _2026-04-17_
+
+**Changes:**
+
+- Adjusted some recipes.
+- Adjusted quest chapter: `Stone Age`.
+- Adjusted quest chapter: `Botania Age I`.
+
+---
+
 ### Version: _0.10.0_
 
 ### Date: _2026-04-16_

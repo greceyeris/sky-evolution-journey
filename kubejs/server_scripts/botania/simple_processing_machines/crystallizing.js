@@ -4,27 +4,17 @@ ServerEvents.recipes((event) => {
     // 添加 botania:fertilizer 的配方
     event.custom({
         type: "simpleprocessingmachines:crystallizing",
-        inputs: {
-            ingredients: {
-                items: {
-                    item: "minecraft:bone_meal",
-                },
-            },
-        },
+        inputs: { ingredients: { items: { item: "minecraft:bone_meal" } } },
         input_fluids: {
             fluid_ingredients: {
-                consumption_per_operation: 2,
                 fluid_stack: {
                     fluid: "strainers:purified_water_fluid",
                     amount: 250,
                 },
+                consumption_per_operation: 2,
             },
         },
-        results: {
-            items: {
-                item: "botania:fertilizer",
-            },
-        },
-        crafting_time: 100,
+        results: { items: { item: "botania:fertilizer" } },
+        crafting_time: 200,
     });
 });

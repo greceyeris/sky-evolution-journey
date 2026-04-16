@@ -8,7 +8,6 @@ ServerEvents.recipes((event) => {
             event.custom({
                 type: "bonsaitrees3:sapling",
                 sapling: { item: item },
-                compatibleSoilTags: ["dirt", "grass"],
                 drops: [
                     {
                         rolls: 1,
@@ -27,6 +26,7 @@ ServerEvents.recipes((event) => {
                         requiresBees: true,
                     },
                 ],
+                compatibleSoilTags: ["dirt", "grass"],
             });
         });
 });

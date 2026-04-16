@@ -8,17 +8,11 @@ ServerEvents.recipes((event) => {
         block_in: { tag: "minecraft:dirt" },
         post: [
             { type: "damage_item" },
-            {
-                type: "add_item_cooldown",
-                s: 0.2,
-            },
+            { type: "add_item_cooldown", s: 0.2 },
             {
                 type: "drop_item",
                 item: "botania:living_root",
-                contextual: {
-                    type: "chance",
-                    chance: 0.6,
-                },
+                contextual: { type: "chance", chance: 0.5 },
             },
         ],
     });

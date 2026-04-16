@@ -92,6 +92,10 @@ const replaceItems = [
         item: "#forge:dough/wheat",
         targetItem: "gtceu:dough",
     },
+    {
+        item: "#forge:crushed_ores/copper",
+        targetItem: "gtceu:crushed_copper_ore",
+    },
 ];
 
 ServerEvents.recipes((event) => {

@@ -7,19 +7,13 @@ ServerEvents.recipes((event) => {
         .forEach((item) => {
             event.custom({
                 type: "strainers:strainer",
+                ingredients: [{ item: "botania:fertilizer" }],
+                output: { item: item },
                 aboveFluid: "minecraft:water",
+                minMeshTier: 1,
+                duration: 200,
                 chance: 0.05,
                 chanceIncreasePerTier: 0.0,
-                duration: 200,
-                ingredients: [
-                    {
-                        item: "botania:fertilizer",
-                    },
-                ],
-                minMeshTier: 1,
-                output: {
-                    item: item,
-                },
             });
         });
 });

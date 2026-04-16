@@ -1,0 +1,650 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6377E36C4FE600D5"
+	group: "0F76479A11B06095"
+	icon: "create:copper_casing"
+	id: "6377E36C4FE600D5"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["134FE6C9871F29FF"]
+			id: "46FEB744D52105F0"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "6A87A09BC48DA357"
+				item: "create:copper_casing"
+				title: "从这里开始！"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"46FEB744D52105F0"
+				"74C239455E534F22"
+			]
+			id: "78BD7EA9D30996C1"
+			tasks: [{
+				id: "5B4EC323974966C6"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"601F073DF24DE11A"
+				"2E5670A1CEE4834E"
+			]
+			id: "74C239455E534F22"
+			tasks: [{
+				id: "09ED537EE88014D6"
+				item: "minecraft:dried_kelp"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"689F43CBD8AE9D2F"
+				"0AD148B6DD9BAC84"
+				"1FA5D3ABEDFF4163"
+				"19FA86B3DBA5CA21"
+			]
+			id: "601F073DF24DE11A"
+			tasks: [{
+				id: "22DAD819499C369A"
+				item: "minecraft:kelp"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"5F6C642B25BD09A5"
+				"441F97971F24F6EE"
+				"5C182E731540C233"
+				"7FD9668E85088E86"
+				"560C710D1FBA0470"
+				"2914741AFB013342"
+				"65146ECCBE9B4B55"
+			]
+			id: "7F42D61DCCA1BE16"
+			tasks: [{
+				id: "35A19C39CC52CEFE"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5914D42320F20132"]
+			id: "5F6C642B25BD09A5"
+			tasks: [{
+				id: "64813EEBA70192F0"
+				item: "botania:manasteel_block"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A184FC936F0F4A1"]
+			id: "5914D42320F20132"
+			tasks: [{
+				id: "29C16C8C154F7140"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"47572468D3010C96"
+				"60B7AA4639ADB5C9"
+				"010FDA2E4FF93C0D"
+			]
+			id: "3A184FC936F0F4A1"
+			tasks: [{
+				id: "31C5610DF0A654B1"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0528FAAF20976492"]
+			id: "66F61B20C5F71E46"
+			tasks: [{
+				count: 27L
+				id: "0C99AD2A6D3D9764"
+				item: { Count: 27, id: "immersiveengineering:blastbrick" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["39FC41C457E5F499"]
+			id: "47572468D3010C96"
+			tasks: [{
+				id: "6B72AF6F0EDC6F9F"
+				item: "gtceu:iron_dust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FE3A0247267C025"]
+			id: "39FC41C457E5F499"
+			tasks: [{
+				id: "16097BA3E266E82B"
+				item: "gtceu:pure_iron_dust"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"274BE2693BBD39B6"
+				"78BD7EA9D30996C1"
+				"19CA9C164D07C672"
+			]
+			id: "2FE3A0247267C025"
+			tasks: [{
+				id: "2A4CC1C6FF9AC91C"
+				item: "gtceu:purified_iron_ore"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22F516EB12BD2E10"]
+			id: "274BE2693BBD39B6"
+			tasks: [{
+				id: "309331395AE063C0"
+				item: "gtceu:crushed_iron_ore"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["740CF1665A98AD68"]
+			id: "22F516EB12BD2E10"
+			tasks: [{
+				id: "21789DFA43630F2B"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3DCC63E78B196F55"]
+			id: "740CF1665A98AD68"
+			tasks: [{
+				id: "6FFA3F5D4BE1F3BA"
+				item: "gtceu:iron_ore"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"685D9489569167DA"
+				"056D4AECEA99D68C"
+				"6A8DF80AFA0883CA"
+				"324E1FE98576D9FE"
+			]
+			id: "73721F8C39FA8E1A"
+			tasks: [{
+				count: 27L
+				id: "3765F0C9D5E2965E"
+				item: { Count: 27, id: "immersiveengineering:cokebrick" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"080122DA8ED5F22E"
+				"458B57107988B4A1"
+				"60DFBBF1A808E2CF"
+				"6A8DF80AFA0883CA"
+			]
+			id: "288EDCF6E7B104DB"
+			tasks: [{
+				id: "42C41CFEA99B4291"
+				item: {
+					Count: 1
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"5A609D37632E8133"
+				"1E89186893A1D83F"
+				"5B4EC323974966C6"
+			]
+			id: "5307BD63A5FED754"
+			tasks: [{
+				id: "4CD40E1C5AB72D50"
+				item: "minecraft:magma_block"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"157A569540DDDA29"
+				"2FBE82E7F31D658A"
+			]
+			id: "5A609D37632E8133"
+			tasks: [{
+				id: "24CC731500F71424"
+				item: "minecraft:blackstone"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"60DFBBF1A808E2CF"
+				"428BB954E1F196E2"
+				"458B57107988B4A1"
+				"6A8DF80AFA0883CA"
+			]
+			id: "689F43CBD8AE9D2F"
+			tasks: [{
+				id: "236A0CB84CFB0CC8"
+				item: {
+					Count: 1
+					id: "strainers:copper_mesh"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"38255C2637645600"
+				"19ABE8A0166CB133"
+			]
+			id: "2914741AFB013342"
+			tasks: [{
+				id: "720F744BEB76970F"
+				item: "botania:rune_water"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["77F715158ED896EB"]
+			id: "560C710D1FBA0470"
+			tasks: [{
+				id: "34AFAA7E6093C13C"
+				item: "botania:rune_earth"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -2.0d
+		}
+		{
+			id: "441F97971F24F6EE"
+			tasks: [{
+				id: "31375B750C12F283"
+				item: "botania:rune_mana"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -2.0d
+		}
+		{
+			id: "5C182E731540C233"
+			tasks: [{
+				id: "70E1CABA75EAE38E"
+				item: "botania:rune_air"
+				type: "item"
+			}]
+			x: 21.5d
+			y: -2.0d
+		}
+		{
+			id: "7FD9668E85088E86"
+			tasks: [{
+				id: "4097C190CB947559"
+				item: "botania:rune_fire"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7A8CF491BAA10476"]
+			id: "65146ECCBE9B4B55"
+			tasks: [{
+				id: "1C316E33D038F8BD"
+				item: "minecraft:lapis_block"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			id: "7A8CF491BAA10476"
+			tasks: [{
+				id: "212FC19923FB55BA"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.0d
+		}
+		{
+			id: "38255C2637645600"
+			tasks: [{
+				id: "6417B430FC61D01C"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -4.0d
+		}
+		{
+			id: "19ABE8A0166CB133"
+			tasks: [{
+				id: "245B8C06B70D0B0E"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4ADE111C1C2D2DDF"
+				"6747E4FA822CED5E"
+			]
+			id: "60B7AA4639ADB5C9"
+			tasks: [{
+				id: "55AC5788296A3680"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			id: "77F715158ED896EB"
+			tasks: [{
+				id: "3D1A366E225A6A59"
+				item: "gtceu:charcoal_block"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["26DC173A90552530"]
+			id: "0528FAAF20976492"
+			tasks: [{
+				id: "29F2D4F59287C77D"
+				item: "minecraft:nether_brick"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["01F100C4F82A8B0C"]
+			id: "26DC173A90552530"
+			tasks: [{
+				id: "3FE7D37245A0D8B6"
+				item: "gtceu:netherrack_dust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5307BD63A5FED754"]
+			id: "01F100C4F82A8B0C"
+			tasks: [{
+				id: "0A17D132F32F9350"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A0A1E5DF7B5EA48"]
+			id: "157A569540DDDA29"
+			tasks: [{
+				id: "1279C668391A3288"
+				item: "hauntfurnace:haunt_furnace"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7F10D948F5F4B83C"]
+			id: "0A0A1E5DF7B5EA48"
+			tasks: [{
+				id: "64BA5077D114BC82"
+				item: "minecraft:black_dye"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["16E109AB19DB36CF"]
+			id: "7F10D948F5F4B83C"
+			tasks: [{
+				id: "16AE3111E25E113D"
+				item: "botania:black_petal"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"060CFCB7F3C6F8DD"
+				"1FA5D3ABEDFF4163"
+				"428BB954E1F196E2"
+				"19FA86B3DBA5CA21"
+			]
+			id: "16E109AB19DB36CF"
+			tasks: [{
+				id: "138D75E2E7B42D14"
+				item: "botania:black_mystical_flower"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["16E109AB19DB36CF"]
+			id: "61756EF6AAD6D722"
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "5DA463DC8680ED4C"
+				item: "botania:black_double_flower"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"0D23D6BA0C34C01F"
+				"24280FCFA7B027A5"
+				"2FBE82E7F31D658A"
+			]
+			id: "1E89186893A1D83F"
+			tasks: [{
+				id: "56F39081C5329E4A"
+				item: {
+					Count: 1
+					id: "ceramicbucket:ceramic_bucket"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "minecraft:lava"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"090CBDC9A2E3E33F"
+				"19D4631A70F9AAD4"
+				"60DFBBF1A808E2CF"
+				"6A8DF80AFA0883CA"
+			]
+			id: "0D23D6BA0C34C01F"
+			tasks: [{
+				id: "33392C060CC43B54"
+				item: "melter:melter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7254CC7A5837A7A4"
+				"6A8DF80AFA0883CA"
+			]
+			id: "3DCC63E78B196F55"
+			tasks: [{
+				id: "017AAE1DE5896EF4"
+				item: "botania:white_petal_block"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"59E52400B6A31D8E"
+				"5D8967FDD969BC45"
+				"3FFA860888989CB2"
+				"4FCB13A7F75CC2F9"
+				"282FA7119B7B1F3C"
+			]
+			id: "080122DA8ED5F22E"
+			tasks: [{
+				id: "40B5C84089FAB3CD"
+				item: "botania:mana_string"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0AD148B6DD9BAC84"]
+			id: "324E1FE98576D9FE"
+			tasks: [{
+				id: "16D6C042A117E477"
+				item: "minecraft:sandstone"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"288EDCF6E7B104DB"
+				"73721F8C39FA8E1A"
+			]
+			id: "4ADE111C1C2D2DDF"
+			tasks: [{
+				icon: "immersiveengineering:coke_oven"
+				id: "22F1531B4E31BD21"
+				observe_type: 0
+				timer: 20L
+				to_observe: "immersiveengineering:coke_oven"
+				type: "observation"
+			}]
+			x: 12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"60DFBBF1A808E2CF"
+				"134FE6C9871F29FF"
+			]
+			id: "19CA9C164D07C672"
+			tasks: [{
+				id: "4E6025EAD4285A6D"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["66F61B20C5F71E46"]
+			id: "010FDA2E4FF93C0D"
+			tasks: [{
+				icon: "immersiveengineering:blast_furnace"
+				id: "79E1539FC3A46B29"
+				observe_type: 0
+				timer: 20L
+				to_observe: "immersiveengineering:blast_furnace"
+				type: "observation"
+			}]
+			x: 12.5d
+			y: 2.0d
+		}
+	]
+	title: "铜器时代"
+}

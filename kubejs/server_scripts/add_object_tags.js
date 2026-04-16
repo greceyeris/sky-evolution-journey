@@ -159,11 +159,8 @@ const addItemTags = [
         ],
     },
     {
-        tag: "#integrateddynamics:stripped_menril_logs",
-        items: [
-            "integrateddynamics:menril_log_stripped",
-            "integrateddynamics:menril_wood_stripped",
-        ],
+        tag: "#forge:crushed_ores/copper",
+        items: ["create:crushed_raw_copper"],
     },
 ];
 

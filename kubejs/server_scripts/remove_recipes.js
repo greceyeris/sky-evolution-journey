@@ -32,6 +32,7 @@ ServerEvents.recipes((event) => {
 
         // strainers
         "strainers:dirt",
+        "strainers:cobblestone",
 
         // farmersdelight
         "farmersdelight:flint_knife",
@@ -41,6 +42,7 @@ ServerEvents.recipes((event) => {
         // minecraft
         "minecraft:diorite",
         "minecraft:bone_meal",
+        "minecraft:lime_dye",
 
         // botania
         "botania:petal_white",
@@ -76,6 +78,7 @@ ServerEvents.recipes((event) => {
         "botania:petal_black",
         "botania:petal_black_double",
         "botania:runic_altar_alt",
+        "botania:dye_lime",
 
         // create
         "create:crafting/materials/copper_ingot",
@@ -85,6 +88,39 @@ ServerEvents.recipes((event) => {
 
         // botanicalmachinery
         "botanicalmachinery:runic_altar",
+
+        // ae2cs
+        "ae2cs:pulverizer/soul_sand",
+        "ae2cs:pulverizer/certus_quartz_crystal",
+        "ae2cs:pulverizer/red_sand",
+        "ae2cs:pulverizer/gunpowder",
+        "ae2cs:pulverizer/flour",
+
+        // immersiveengineering
+        "immersiveengineering:crafting/plate_copper_hammering",
+        "immersiveengineering:crafting/plate_aluminum_hammering",
+        "immersiveengineering:crafting/raw_hammercrushing_aluminum",
+        "immersiveengineering:crafting/plate_lead_hammering",
+        "immersiveengineering:crafting/raw_hammercrushing_lead",
+        "immersiveengineering:crafting/plate_silver_hammering",
+        "immersiveengineering:crafting/raw_hammercrushing_silver",
+        "immersiveengineering:crafting/plate_nickel_hammering",
+        "immersiveengineering:crafting/raw_hammercrushing_nickel",
+        "immersiveengineering:crafting/plate_uranium_hammering",
+        "immersiveengineering:crafting/raw_hammercrushing_uranium",
+        "immersiveengineering:crafting/plate_constantan_hammering",
+        "immersiveengineering:crafting/plate_electrum_hammering",
+        "immersiveengineering:crafting/plate_steel_hammering",
+        "immersiveengineering:crafting/plate_iron_hammering",
+        "immersiveengineering:crafting/raw_hammercrushing_iron",
+        "immersiveengineering:crafting/plate_gold_hammering",
+        "immersiveengineering:crafting/raw_hammercrushing_gold",
+        "immersiveengineering:crafting/raw_hammercrushing_platinum",
+        "immersiveengineering:crafting/raw_hammercrushing_tin",
+        "immersiveengineering:crafting/raw_hammercrushing_cobalt",
+        "immersiveengineering:crafting/raw_hammercrushing_copper",
+        "immersiveengineering:crafting/raw_hammercrushing_tungsten",
+        "immersiveengineering:crafting/raw_hammercrushing_zinc",
     ];
 
     // 定义 removeRecipesUsedItemInput 数组
@@ -102,16 +138,6 @@ ServerEvents.recipes((event) => {
     const removeRecipesUsedItemOutput = [
         // farmersdelight
         "farmersdelight:cutting_board",
-
-        // integrateddynamics
-        "integrateddynamics:squeezer",
-        "integrateddynamics:drying_basin",
-        "integrateddynamics:menril_planks",
-        "integrateddynamics:menril_slab",
-        "integrateddynamics:crystalized_menril_block_slab",
-        "integrateddynamics:crystalized_menril_brick_slab",
-        "integrateddynamics:crystalized_chorus_block_slab",
-        "integrateddynamics:crystalized_chorus_brick_slab",
 
         // gtceu
         "gtceu:flint_axe",
@@ -152,6 +178,7 @@ ServerEvents.recipes((event) => {
         // strainers
         "strainers:purifying_salt_mulch",
         "strainers:flint_mesh",
+        "strainers:copper_mesh",
 
         // opolisutilities
         "opolisutilities:leafy_string",
@@ -180,11 +207,6 @@ ServerEvents.recipes((event) => {
         "simpleprocessingmachines:crushing_station",
         "simpleprocessingmachines:mineral_processing_station",
         "simpleprocessingmachines:sawmilling_station",
-
-        // integrateddynamics
-        "integrateddynamics:coal_generator",
-        "integrateddynamics:mechanical_squeezer",
-        "integrateddynamics:mechanical_drying_basin",
 
         // botania
         "botania:fertilizer",
@@ -246,6 +268,18 @@ ServerEvents.recipes((event) => {
 
         // create
         "create:copper_casing",
+
+        // ae2
+        "ae2:crank",
+
+        // ae2cs
+        "ae2cs:quartz_grindstone",
+
+        // melter
+        "melter:melter",
+
+        // immersiveengineering
+        "immersiveengineering:hammer",
     ];
 
     // 定义 removeRecipesUsedItemInputAndOutput 数组
@@ -256,12 +290,6 @@ ServerEvents.recipes((event) => {
 
     // 定义 removeRecipesUsedType 数组
     const removeRecipesUsedType = [
-        // integrateddynamics
-        "integrateddynamics:drying_basin",
-        "integrateddynamics:squeezer",
-        "integrateddynamics:mechanical_drying_basin",
-        "integrateddynamics:mechanical_squeezer",
-
         // opolisutilities
         "opolisutilities:fluid_generator",
         "opolisutilities:resource_generator",
@@ -295,6 +323,9 @@ ServerEvents.recipes((event) => {
         "simpleprocessingmachines:crushing",
         "simpleprocessingmachines:mineral_processing",
         "simpleprocessingmachines:sawmilling",
+
+        // melter
+        "melter:melting",
     ];
 
     // 定义 removeRecipesUsedTypeAndInput 数组

@@ -514,8 +514,8 @@
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
-				id: "13903B72DC0A1597"
-				item: "strainers:stone_pebble"
+				id: "0DB8B9603FCC5951"
+				item: "havenpebbles:stone_pebble"
 				type: "item"
 			}]
 			x: 25.0d

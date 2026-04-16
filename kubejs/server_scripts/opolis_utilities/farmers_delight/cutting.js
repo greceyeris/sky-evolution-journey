@@ -4,18 +4,8 @@ ServerEvents.recipes((event) => {
     // 添加 opolisutilities:leafy_string 的配方
     event.custom({
         type: "farmersdelight:cutting",
-        ingredients: [
-            {
-                tag: "minecraft:leaves",
-            },
-        ],
-        tool: {
-            tag: "forge:tools/knives",
-        },
-        result: [
-            {
-                item: "opolisutilities:leafy_string",
-            },
-        ],
+        ingredients: [{ tag: "minecraft:leaves" }],
+        result: [{ item: "opolisutilities:leafy_string" }],
+        tool: { tag: "forge:tools/knives" },
     });
 });

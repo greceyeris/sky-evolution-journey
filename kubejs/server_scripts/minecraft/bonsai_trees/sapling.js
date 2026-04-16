@@ -5,7 +5,6 @@ ServerEvents.recipes((event) => {
     event.custom({
         type: "bonsaitrees3:sapling",
         sapling: { item: "minecraft:oak_sapling" },
-        compatibleSoilTags: ["dirt", "grass"],
         drops: [
             { result: { item: "minecraft:oak_log" }, rolls: 1, chance: 0.8 },
             { result: { item: "minecraft:oak_leaves" }, rolls: 1, chance: 0.4 },
@@ -17,5 +16,6 @@ ServerEvents.recipes((event) => {
             },
             { result: { item: "minecraft:apple" }, rolls: 1, chance: 0.05 },
         ],
+        compatibleSoilTags: ["dirt", "grass"],
     });
 });

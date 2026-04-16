@@ -5,6 +5,6 @@ ServerEvents.recipes((event) => {
     event.recipes.botania.mana_infusion(
         "minecraft:ender_pearl",
         "minecraft:slime_ball",
-        2000,
+        8000,
     );
 });

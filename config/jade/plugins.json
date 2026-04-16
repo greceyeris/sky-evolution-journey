@@ -113,6 +113,9 @@
     "parallel_info": true,
     "data_bank": true
   },
+  "fulleng": {
+    "storage_monitor": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -120,6 +123,10 @@
     "coordinates": false,
     "registry_name": "ADVANCED_TOOLTIPS",
     "mod_name": true
+  },
+  "expatternprovider": {
+    "jade_chamber": true,
+    "jade_wireless": true
   },
   "unlitcampfire": {
     "campfireinfo": true
@@ -131,13 +138,8 @@
   "balm": {
     "jade": true
   },
-  "integrateddynamicscompat": {
-    "proxy": true,
-    "mechanical_squeezer": true,
-    "mechanical_drying_basin": true,
-    "drying_basin": true,
-    "part": true,
-    "squeezer": true
+  "melter": {
+    "melter_data": true
   },
   "ae2": {
     "part_icon": true,
@@ -150,6 +152,13 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "productivebees": {
+    "solitary_nest": true,
+    "jar": true,
+    "canvas_beehive": true,
+    "bee_attributes": true,
+    "productive_bee": true
   },
   "gtmthings": {
     "wireless_energy_hatch_provider": true

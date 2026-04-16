@@ -1,0 +1,9 @@
+
+#Custom meteorite settings
+[meteorite]
+	#TEMPLATE: use structure template custommeteor:ae2_meteorite if present.
+	#PALETTE: use block tags to customize meteorite composition.
+	#KUBEJS: read meteorite palette from KubeJS startup scripts (AE2MeteorEvent.create).
+	#Allowed Values: TEMPLATE, PALETTE, KUBEJS
+	mode = "TEMPLATE"
+

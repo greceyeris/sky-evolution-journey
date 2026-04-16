@@ -14,4 +14,11 @@ ServerEvents.recipes((event) => {
         B: "minecraft:string",
         C: "minecraft:flint",
     });
+
+    // 添加 strainers:copper_mesh 的配方
+    event.shaped("strainers:copper_mesh", ["ABA", "BCB", "ABA"], {
+        A: "#forge:rods/wooden",
+        B: "minecraft:copper_ingot",
+        C: "strainers:flint_mesh",
+    });
 });

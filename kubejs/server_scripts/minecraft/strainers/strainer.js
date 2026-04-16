@@ -4,91 +4,61 @@ ServerEvents.recipes((event) => {
     // 添加 minecraft:andesite 的配方
     event.custom({
         type: "strainers:strainer",
+        ingredients: [{ item: "minecraft:stone" }],
+        output: { item: "minecraft:andesite" },
         aboveFluid: "strainers:purified_water_fluid",
+        minMeshTier: 1,
+        duration: 200,
         chance: 0.35,
         chanceIncreasePerTier: 0.02,
-        duration: 200,
-        ingredients: [
-            {
-                item: "minecraft:stone",
-            },
-        ],
-        minMeshTier: 1,
-        output: {
-            item: "minecraft:andesite",
-        },
     });
 
     // 添加 minecraft:granite 的配方
     event.custom({
         type: "strainers:strainer",
+        ingredients: [{ item: "minecraft:stone" }],
+        output: { item: "minecraft:granite" },
         aboveFluid: "strainers:purified_water_fluid",
+        minMeshTier: 1,
+        duration: 200,
         chance: 0.35,
         chanceIncreasePerTier: 0.02,
-        duration: 200,
-        ingredients: [
-            {
-                item: "minecraft:stone",
-            },
-        ],
-        minMeshTier: 1,
-        output: {
-            item: "minecraft:granite",
-        },
     });
 
     // 添加 minecraft:diorite 的配方
     event.custom({
         type: "strainers:strainer",
+        ingredients: [{ item: "minecraft:stone" }],
+        output: { item: "minecraft:diorite" },
         aboveFluid: "strainers:purified_water_fluid",
+        minMeshTier: 1,
+        duration: 200,
         chance: 0.35,
         chanceIncreasePerTier: 0.02,
-        duration: 200,
-        ingredients: [
-            {
-                item: "minecraft:stone",
-            },
-        ],
-        minMeshTier: 1,
-        output: {
-            item: "minecraft:diorite",
-        },
     });
 
     // 添加 minecraft:calcite 的配方
     event.custom({
         type: "strainers:strainer",
+        ingredients: [{ item: "minecraft:diorite" }],
+        output: { item: "minecraft:calcite" },
         aboveFluid: "minecraft:water",
-        chance: 1.0,
-        chanceIncreasePerTier: 0.0,
-        duration: 200,
-        ingredients: [
-            {
-                item: "minecraft:diorite",
-            },
-        ],
         minMeshTier: 1,
-        output: {
-            item: "minecraft:calcite",
-        },
+        duration: 200,
+        chance: 0.6,
+        chanceIncreasePerTier: 0.05,
     });
 
     // 添加 minecraft:flint 的配方
     event.custom({
         type: "strainers:strainer",
+        ingredients: [{ item: "minecraft:dirt" }],
+        output: { item: "minecraft:flint" },
         aboveFluid: "minecraft:water",
+        minMeshTier: 1,
+        duration: 200,
         chance: 0.25,
         chanceIncreasePerTier: 0.05,
-        duration: 200,
-        ingredients: [
-            {
-                item: "minecraft:dirt",
-            },
-        ],
-        minMeshTier: 1,
-        output: {
-            item: "minecraft:flint",
-        },
     });
 
     // 添加 minecraft:all_small_flowers 的配方
@@ -97,19 +67,13 @@ ServerEvents.recipes((event) => {
         .forEach((item) => {
             event.custom({
                 type: "strainers:strainer",
+                ingredients: [{ item: "minecraft:bone_meal" }],
+                output: { item: item },
                 aboveFluid: "minecraft:water",
+                minMeshTier: 1,
+                duration: 200,
                 chance: 0.05,
                 chanceIncreasePerTier: 0.0,
-                duration: 200,
-                ingredients: [
-                    {
-                        item: "minecraft:bone_meal",
-                    },
-                ],
-                minMeshTier: 1,
-                output: {
-                    item: item,
-                },
             });
         });
 
@@ -119,19 +83,61 @@ ServerEvents.recipes((event) => {
         .forEach((item) => {
             event.custom({
                 type: "strainers:strainer",
+                ingredients: [{ item: "strainers:mulch" }],
+                output: { item: item },
                 aboveFluid: "minecraft:water",
+                minMeshTier: 1,
+                duration: 200,
                 chance: 0.2,
                 chanceIncreasePerTier: 0.0,
-                duration: 200,
-                ingredients: [
-                    {
-                        item: "strainers:mulch",
-                    },
-                ],
-                minMeshTier: 1,
-                output: {
-                    item: item,
-                },
             });
         });
+
+    // 添加 minecraft:kelp 的配方
+    event.custom({
+        type: "strainers:strainer",
+        ingredients: [{ item: "minecraft:sand" }],
+        output: { item: "minecraft:kelp" },
+        aboveFluid: "minecraft:water",
+        minMeshTier: 2,
+        duration: 300,
+        chance: 0.08,
+        chanceIncreasePerTier: 0.01,
+    });
+
+    // 添加 minecraft:cactus 的配方
+    event.custom({
+        type: "strainers:strainer",
+        ingredients: [{ item: "minecraft:red_sand" }],
+        output: { item: "minecraft:cactus" },
+        aboveFluid: "minecraft:water",
+        minMeshTier: 2,
+        duration: 600,
+        chance: 0.04,
+        chanceIncreasePerTier: 0.005,
+    });
+
+    // 添加 minecraft:seagrass 的配方
+    event.custom({
+        type: "strainers:strainer",
+        ingredients: [{ item: "minecraft:sand" }],
+        output: { item: "minecraft:seagrass" },
+        aboveFluid: "minecraft:water",
+        minMeshTier: 2,
+        duration: 300,
+        chance: 0.08,
+        chanceIncreasePerTier: 0.01,
+    });
+
+    // 添加 minecraft:sea_pickle 的配方
+    event.custom({
+        type: "strainers:strainer",
+        ingredients: [{ item: "minecraft:sand" }],
+        output: { item: "minecraft:sea_pickle" },
+        aboveFluid: "minecraft:water",
+        minMeshTier: 1,
+        duration: 200,
+        chance: 0.05,
+        chanceIncreasePerTier: 0.005,
+    });
 });

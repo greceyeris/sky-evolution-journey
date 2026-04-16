@@ -43,9 +43,8 @@
 		{
 			dependencies: [
 				"5DDC9428DE25DC18"
-				"6248352941155643"
+				"32CF8FE6DDC3EDA4"
 			]
-			description: ["&6圆石&r &c放入&r &a挤压机&r 中，再 &c站上去跳跃&r ，可获得"]
 			id: "1DBB13628CE87303"
 			tasks: [{
 				id: "0268E8F5A618F937"
@@ -56,8 +55,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1DBB13628CE87303"]
-			description: ["&6沙砾&r &c放入&r &a挤压机&r 中，再 &c站上去跳跃&r ，可获得"]
+			dependencies: [
+				"1DBB13628CE87303"
+				"6E69B4A85A08B00E"
+			]
 			id: "134488251EEC39CE"
 			tasks: [{
 				id: "0AD148B6DD9BAC84"
@@ -68,8 +69,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["134488251EEC39CE"]
-			description: ["&6沙子&r &c放入&r &a挤压机&r 中，再 &c站上去跳跃&r 可获得"]
+			dependencies: [
+				"134488251EEC39CE"
+				"6E69B4A85A08B00E"
+			]
 			id: "61BD3E1E417A2828"
 			tasks: [{
 				id: "7EC15B979D1B0B3C"
@@ -125,7 +128,7 @@
 		{
 			dependencies: [
 				"6367C65CB0E9AA91"
-				"53EBD60765664D5E"
+				"6E69B4A85A08B00E"
 			]
 			description: ["&6燧石&r &c放入&r &a挤压机&r 中，再 &c站上去跳跃&r 可获得"]
 			id: "0FDA92C7E0D7EA06"
@@ -267,8 +270,8 @@
 				item: "gtceu:empty_wooden_form"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -4.0d
+			x: 5.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -305,10 +308,9 @@
 		}
 		{
 			dependencies: [
-				"53EBD60765664D5E"
 				"2A427C0E3099E1DA"
+				"6E69B4A85A08B00E"
 			]
-			description: ["&6方解石&r &c放入&r &a挤压机&r 中，再 &c站上去跳跃&r ，可获得"]
 			id: "43D550A88EE99BDF"
 			tasks: [{
 				id: "0659A68F00F65078"
@@ -376,7 +378,10 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["61DEBF41EE0BC3D0"]
+			dependencies: [
+				"61DEBF41EE0BC3D0"
+				"11795683DDD913EE"
+			]
 			id: "4FBAE391909C0BA7"
 			tasks: [{
 				id: "469FB328AE4C7C8C"
@@ -466,27 +471,6 @@
 		}
 		{
 			dependencies: [
-				"090CBDC9A2E3E33F"
-				"2FBE82E7F31D658A"
-				"6A8DF80AFA0883CA"
-				"384E63CEEE0D07BF"
-			]
-			description: [
-				"&a挤压机&r 可以自动 &c输出&r &b流体&r 到 &e位于流体输出口前方&r 的 &a流体容器&r 中。"
-				""
-				"&a挤压机&r 需要 &c接收到&r &e红石信号&r 以后才能 &d复位&r。"
-			]
-			id: "6248352941155643"
-			tasks: [{
-				id: "53EBD60765664D5E"
-				item: "integrateddynamics:squeezer"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -2.0d
-		}
-		{
-			dependencies: [
 				"70EBA28A77571591"
 				"2643B24DFCECC5CA"
 				"3F4FCB3CF08A69F7"
@@ -499,6 +483,38 @@
 			}]
 			x: 5.0d
 			y: -2.0d
+		}
+		{
+			dependencies: [
+				"384E63CEEE0D07BF"
+				"1A75D7ABCD938864"
+				"11C3CCD46712E124"
+				"6367C65CB0E9AA91"
+				"458B57107988B4A1"
+				"6A8DF80AFA0883CA"
+			]
+			id: "32CF8FE6DDC3EDA4"
+			tasks: [{
+				id: "6E69B4A85A08B00E"
+				item: "ae2cs:quartz_grindstone"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"458B57107988B4A1"
+				"6A8DF80AFA0883CA"
+			]
+			id: "1A75D7ABCD938864"
+			tasks: [{
+				id: "1BEE3E76C14065B3"
+				item: "ae2:crank"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
 		}
 	]
 	title: "石器时代"
