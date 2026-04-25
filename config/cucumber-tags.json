@@ -1,0 +1,15 @@
+{
+  "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config",
+  "forge:ingots/titanium": "null",
+  "forge:ingots/aluminum": "null",
+  "forge:ingots/zinc": "null",
+  "forge:ingots/lead": "null",
+  "forge:ingots/constantan": "thermal:constantan_ingot",
+  "forge:ingots/uranium": "null",
+  "forge:ingots/chrome": "null",
+  "forge:ingots/silver": "gtceu:silver_ingot",
+  "forge:ingots/signalum": "thermal:signalum_ingot",
+  "forge:ingots/bronze": "gtceu:bronze_ingot",
+  "forge:ingots/nickel": "gtceu:nickel_ingot"
+}_ingot"
+}

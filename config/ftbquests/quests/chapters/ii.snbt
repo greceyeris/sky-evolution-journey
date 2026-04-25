@@ -1,0 +1,25 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ii"
+	group: "0F76479A11B06095"
+	icon: "botania:terra_plate"
+	id: "5BCBACBF480385CC"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		id: "09FA1DD09AE00E24"
+		shape: "hexagon"
+		size: 1.5d
+		tasks: [{
+			id: "1B5A93C75D754E28"
+			item: "botania:terra_plate"
+			title: "从这里开始！"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "植物魔法时代 II"
+}

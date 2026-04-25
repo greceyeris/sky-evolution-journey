@@ -2,6 +2,21 @@
 
 ---
 
+### Version: _0.12.0_
+
+### Date: _2026-04-25_
+
+**Changes:**
+
+- Removed items: `kubejs:twig`, `kubejs:flint_shard`.
+- Added new items: `kubejs:mossy_twig`, `kubejs:mossy_flint_shard`.
+- Adjusted some recipes.
+- Adjusted quest chapter: `Stone Age`.
+- Adjusted quest chapter: `Botania Age I`.
+- Adjusted quest chapter: `Copper Age I`.
+
+---
+
 ### Version: _0.11.0_
 
 ### Date: _2026-04-17_

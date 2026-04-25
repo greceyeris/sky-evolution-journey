@@ -47,7 +47,7 @@
 			}]
 			title: "解锁“铜器时代”"
 			x: 22.5d
-			y: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -62,8 +62,8 @@
 				item: "botania:orange_mystical_flower"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.0d
+			x: 10.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -77,8 +77,8 @@
 				item: "botania:orange_petal"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.0d
+			x: 12.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -91,8 +91,8 @@
 				item: "botania:orange_petal_block"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 4.0d
+			x: 15.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -183,8 +183,8 @@
 				item: "minecraft:raw_copper"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 6.0d
+			x: 17.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -202,8 +202,8 @@
 				item: "gtceu:copper_ore"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.0d
+			x: 15.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -234,15 +234,15 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 6.0d
+			x: 17.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
 				"3BD9FC069710D847"
-				"34D84FDFC45CEDD8"
 				"0915B4251A28E4A8"
 				"4A37898820CCC9D5"
+				"47CB4A9E97A24405"
 			]
 			id: "17F9FA9D8ADC79D9"
 			optional: true
@@ -252,8 +252,8 @@
 				item: "botania:orange_double_flower"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: 10.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -262,15 +262,13 @@
 				"6A8DF80AFA0883CA"
 			]
 			id: "34D84FDFC45CEDD8"
-			optional: true
-			shape: "square"
 			tasks: [{
 				id: "47CB4A9E97A24405"
 				item: "minecraft:beehive"
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -278,22 +276,18 @@
 				"49F0B8803F3C3DF2"
 			]
 			id: "773F26CA44A78B98"
-			optional: true
-			shape: "square"
 			tasks: [{
 				id: "734C6BB9AD0AFEFE"
 				item: "minecraft:honeycomb"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.0d
+			x: 0.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["491B9F753CCA8A25"]
 			description: ["当 &a橡树树苗/白桦树苗&r 周围 &e水平 2 格&r 内存在 &e花/盛开的杜鹃花丛/盛开的杜鹃树叶/红树胎生苗&r 时，树木长成后有 &e5%&r 概率生成带有 &e1-3 只&r 蜜蜂的 &b蜂巢&r。"]
 			id: "35D36B7B564BED0A"
-			optional: true
-			shape: "square"
 			tasks: [{
 				icon: "minecraft:bee_nest"
 				id: "4E24ECC4535F971A"
@@ -302,8 +296,8 @@
 				to_observe: "minecraft:bee_nest"
 				type: "observation"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: 0.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -313,8 +307,6 @@
 				"19FA86B3DBA5CA21"
 			]
 			id: "491B9F753CCA8A25"
-			optional: true
-			shape: "square"
 			tasks: [{
 				id: "6EBCF8246FFF608D"
 				item: {
@@ -327,71 +319,13 @@
 				title: "Any #minecraft:all_small_flowers"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 2.0d
+			x: 0.0d
+			y: -10.0d
 		}
 		{
 			dependencies: [
-				"2BF9C5A1318F9B86"
-				"6E69B4A85A08B00E"
-			]
-			id: "495BA54EDED95D13"
-			tasks: [{
-				id: "5B6D179C6933DA01"
-				item: "gtceu:crushed_copper_ore"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 8.0d
-		}
-		{
-			dependencies: [
-				"495BA54EDED95D13"
-				"376B5FF7140739E6"
-				"1FA5D3ABEDFF4163"
-			]
-			id: "25E80E0E78DE9162"
-			tasks: [{
-				id: "0E62FF2922F2723D"
-				item: "gtceu:purified_copper_ore"
-				type: "item"
-			}]
-			x: 12.5d
-			y: 8.0d
-		}
-		{
-			dependencies: [
-				"25E80E0E78DE9162"
-				"6E69B4A85A08B00E"
-			]
-			id: "7C58F45A279BC5D7"
-			tasks: [{
-				id: "58F49AB43CBBBE94"
-				item: "gtceu:pure_copper_dust"
-				type: "item"
-			}]
-			x: 15.0d
-			y: 8.0d
-		}
-		{
-			dependencies: [
-				"7C58F45A279BC5D7"
-				"376B5FF7140739E6"
-				"1FA5D3ABEDFF4163"
-			]
-			id: "727BA7D822246427"
-			tasks: [{
-				id: "2758044A4B19A760"
-				item: "gtceu:copper_dust"
-				type: "item"
-			}]
-			x: 17.5d
-			y: 8.0d
-		}
-		{
-			dependencies: [
-				"727BA7D822246427"
 				"2E5670A1CEE4834E"
+				"2BF9C5A1318F9B86"
 			]
 			id: "497E2D92667AD17A"
 			tasks: [{
@@ -400,7 +334,7 @@
 				type: "item"
 			}]
 			x: 20.0d
-			y: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -414,8 +348,8 @@
 				item: "botania:red_petal"
 				type: "item"
 			}]
-			x: 17.5d
-			y: -2.0d
+			x: 7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -430,8 +364,8 @@
 				item: "botania:red_mystical_flower"
 				type: "item"
 			}]
-			x: 17.5d
-			y: -4.0d
+			x: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -459,8 +393,8 @@
 				item: "botania:runic_altar"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 2.0d
+			x: 12.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -493,8 +427,8 @@
 				item: "minecraft:ender_pearl"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 2.0d
+			x: 12.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -509,8 +443,8 @@
 				item: "botania:mana_spreader"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 2.0d
+			x: 15.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -523,8 +457,8 @@
 				item: "botania:diluted_pool"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 0.0d
+			x: 10.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -537,13 +471,13 @@
 				item: "botania:livingwood_log"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 2.0d
+			x: 15.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
 				"1DD5A68173B5A6CB"
-				"4EDA585C9FEA1F2F"
+				"44CF7A9D48B74349"
 			]
 			id: "13A4840C1131C55D"
 			tasks: [{
@@ -566,8 +500,8 @@
 				item: "botania:livingrock_slab"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 0.0d
+			x: 10.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -581,8 +515,8 @@
 				item: "gtceu:dough"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 6.0d
+			x: 17.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -595,7 +529,7 @@
 				item: "gtceu:wheat_dust"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 17.5d
 			y: 6.0d
 		}
 		{
@@ -609,8 +543,8 @@
 				item: "minecraft:wheat"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 4.0d
+			x: 17.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -627,8 +561,8 @@
 				item: "botania:endoflame"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 0.0d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1CCFA037875E66C8"]
@@ -638,8 +572,8 @@
 				item: "botania:light_gray_petal"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -2.0d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2B745C5F0F700235"]
@@ -649,8 +583,8 @@
 				item: "botania:brown_petal"
 				type: "item"
 			}]
-			x: 20.0d
-			y: -2.0d
+			x: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -665,8 +599,8 @@
 				item: "botania:light_gray_mystical_flower"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -4.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -681,8 +615,8 @@
 				item: "botania:brown_mystical_flower"
 				type: "item"
 			}]
-			x: 20.0d
-			y: -4.0d
+			x: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -703,8 +637,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
-			y: 4.0d
+			x: 12.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["160C2BEAA66576A9"]
@@ -714,38 +648,232 @@
 				item: "botania:livingwood_twig"
 				type: "item"
 			}]
+			x: 12.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"31AD27DF3CBCD952"
+				"65DE8C97497A6115"
+			]
+			id: "63E21367E4DF27B2"
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "650CC1C3C3F493A8"
+				item: "botania:vivid_grass"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"23D422F68D1E2580"
+				"1843036D0F2FCFF4"
+			]
+			id: "31AD27DF3CBCD952"
+			tasks: [{
+				id: "6C2BCCAC8519A9FE"
+				item: "botania:vivid_seeds"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A3B5F24950FB151"
+				"5D8967FDD969BC45"
+				"4FCB13A7F75CC2F9"
+				"3FFA860888989CB2"
+				"282FA7119B7B1F3C"
+			]
+			id: "23D422F68D1E2580"
+			tasks: [{
+				id: "322ECD85BA5A95B4"
+				item: "botania:grass_seeds"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"451B30DCDE8BF16A"
+				"6E69B4A85A08B00E"
+			]
+			id: "44CF7A9D48B74349"
+			tasks: [{
+				id: "267B5F66338A9DD9"
+				item: "minecraft:lime_dye"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"060CFCB7F3C6F8DD"
+				"1FA5D3ABEDFF4163"
+				"428BB954E1F196E2"
+				"19FA86B3DBA5CA21"
+			]
+			id: "0F4863185E6C695A"
+			tasks: [{
+				id: "18FC7F8FB00B3F8B"
+				item: "botania:lime_mystical_flower"
+				type: "item"
+			}]
 			x: 20.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0F4863185E6C695A"
+				"0F1D9F28712B75C8"
+				"2643B24DFCECC5CA"
+			]
+			id: "451B30DCDE8BF16A"
+			tasks: [{
+				id: "77477C1A36DC2A67"
+				item: "botania:lime_petal"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0659A68F00F65078"
+				"645BEC733315BB80"
+				"49F0B8803F3C3DF2"
+			]
+			id: "6A3B5F24950FB151"
+			tasks: [{
+				id: "11787E998C39F2B1"
+				item: "minecraft:grass"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"2FFF4CECA2F897D2"
+				"6E69B4A85A08B00E"
+			]
+			id: "1843036D0F2FCFF4"
+			tasks: [{
+				id: "45EFB8A6FD48167A"
+				item: "minecraft:green_dye"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4BE71B3D88F172AC"
+				"2643B24DFCECC5CA"
+				"0F1D9F28712B75C8"
+			]
+			id: "2FFF4CECA2F897D2"
+			tasks: [{
+				id: "2BF552153D9630B6"
+				item: "botania:green_petal"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"428BB954E1F196E2"
+				"060CFCB7F3C6F8DD"
+				"1FA5D3ABEDFF4163"
+				"19FA86B3DBA5CA21"
+			]
+			id: "4BE71B3D88F172AC"
+			tasks: [{
+				id: "07C57FAE32ECB3D8"
+				item: "botania:green_mystical_flower"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"693E26715CC751A0"
+				"34D84FDFC45CEDD8"
+				"0915B4251A28E4A8"
+				"4A37898820CCC9D5"
+			]
+			id: "65DE8C97497A6115"
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "7CBAC65FB1E9EA8C"
+				item: "botania:white_double_flower"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0915B4251A28E4A8"
+				"4A37898820CCC9D5"
+				"47CB4A9E97A24405"
+				"11ACAE47BAFFB3E4"
+			]
+			id: "4A4510D2FB7747C9"
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "5D036AC4A141D1B6"
+				item: "botania:red_double_flower"
+				type: "item"
+			}]
+			x: 2.5d
 			y: 4.0d
 		}
 		{
 			dependencies: [
-				"065E247C53D3641E"
-				"2E5670A1CEE4834E"
+				"2B745C5F0F700235"
+				"0915B4251A28E4A8"
+				"4A37898820CCC9D5"
+				"47CB4A9E97A24405"
 			]
-			id: "4EDA585C9FEA1F2F"
+			id: "6082B62B7CC721D2"
+			optional: true
+			shape: "square"
 			tasks: [{
-				id: "08F8F74CC0D06D12"
-				item: "minecraft:lime_dye"
+				id: "09CAF1F52696FD74"
+				item: "botania:brown_double_flower"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 2.5d
 			y: 6.0d
 		}
 		{
 			dependencies: [
-				"0AD148B6DD9BAC84"
-				"428BB954E1F196E2"
-				"1FA5D3ABEDFF4163"
-				"19FA86B3DBA5CA21"
+				"1CCFA037875E66C8"
+				"0915B4251A28E4A8"
+				"4A37898820CCC9D5"
+				"47CB4A9E97A24405"
 			]
-			id: "065E247C53D3641E"
+			id: "2153D13FF3CB4EAB"
+			optional: true
+			shape: "square"
 			tasks: [{
-				id: "17A1F8F25DE0F82E"
-				item: "minecraft:sea_pickle"
+				id: "02A0A5B207EA93FD"
+				item: "botania:light_gray_double_flower"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 6.0d
+			x: 2.5d
+			y: 2.0d
 		}
 	]
 	title: "植物魔法时代 I"

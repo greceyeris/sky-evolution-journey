@@ -13,6 +13,10 @@ ServerEvents.recipes((event) => {
             output: "9x minecraft:redstone",
             inputs: ["minecraft:redstone_block"],
         },
+        {
+            output: "9x minecraft:bone_meal",
+            inputs: ["minecraft:bone_block"],
+        },
     ];
 
     // 添加配方

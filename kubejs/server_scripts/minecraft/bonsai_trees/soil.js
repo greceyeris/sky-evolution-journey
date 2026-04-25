@@ -5,17 +5,17 @@ ServerEvents.recipes((event) => {
     event.custom({
         type: "bonsaitrees3:soil",
         soil: { item: "minecraft:dirt" },
-        tickModifier: 3.0,
+        tickModifier: 6.0,
         compatibleSoilTags: ["dirt"],
         display: { block: "minecraft:dirt" },
     });
 
-    // 添加 minecraft:l 的配方
+    // 添加 minecraft:grass_block 的配方
     event.custom({
         type: "bonsaitrees3:soil",
         soil: { item: "minecraft:grass_block" },
-        tickModifier: 2.5,
-        compatibleSoilTags: ["grass", "dirt"],
+        tickModifier: 4.0,
+        compatibleSoilTags: ["grass"],
         display: { block: "minecraft:grass_block" },
     });
 });

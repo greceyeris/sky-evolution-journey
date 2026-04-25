@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
     event.campfireCooking(
         "ceramicbucket:ceramic_bucket",
         "ceramicbucket:unfired_clay_bucket",
-        0.3,
+        0.1,
         400,
     );
 });

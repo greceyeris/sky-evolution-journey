@@ -1,6 +1,6 @@
 ServerEvents.recipes((event) => {
     // 添加配方
-    // integrateddynamics:block_interacting
+    // lychee:block_interacting
     // 添加 botania:living_root 的配方
     event.custom({
         type: "lychee:block_interacting",

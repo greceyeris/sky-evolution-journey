@@ -11,10 +11,10 @@ enableForgeEnergyUpgrade = true
 #Enable pollinating upgrades?
 enablePollinatingUpgrade = true
 #Auto-cutting does damage to the used axe upgrade
-autoCuttingDamagesItems = false
+autoCuttingDamagesItems = true
 #How likely is it that the axe upgrade takes damage for each tree it cuts?
 #Range: 0.0 ~ 1.0
-autoCuttingDamageChance = 0.07500000298023224
+autoCuttingDamageChance = 0.25
 #Show chance for drops in JEI
 showChanceInJEI = true
 #Summarize enchantment levels instead of using the highest level? (I.e. is '4 x Fortune III = Fortune XII'?)
@@ -26,10 +26,10 @@ extraRollsPerFortuneLevel = 1
 #Range: 0.0 ~ 1.0
 extraChancePerFortuneLevel = 0.05
 #Allow usage of bone meal on bonsai pots to boost their growth?
-allowBonemeal = true
+allowBonemeal = false
 #How likely is it for bonemeal to succeed in boosting growth?
 #Range: 0.0 ~ 1.0
-bonemealSuccessChance = 0.45
+bonemealSuccessChance = 0.0
 #How many ticks to wait before trying to insert items into the inventory below after failure?
 #Range: 20 ~ 1200
 hoppingCooldown = 60

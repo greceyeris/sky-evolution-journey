@@ -3,12 +3,12 @@ ServerEvents.recipes((event) => {
     // shaped
     // 添加 minecraft:stick 的配方
     event.shaped("minecraft:stick", [" A", "A "], {
-        A: "kubejs:twig",
+        A: "kubejs:mossy_twig",
     });
 
     // 添加 minecraft:flint 的配方
     event.shaped("minecraft:flint", ["AA", "AA"], {
-        A: "kubejs:flint_shard",
+        A: "kubejs:mossy_flint_shard",
     });
 
     // 添加 minecraft:dirt 的配方
@@ -126,5 +126,10 @@ ServerEvents.recipes((event) => {
     // 添加 minecraft:smooth_stone 的配方
     event.shaped("minecraft:smooth_stone", ["AA"], {
         A: "minecraft:smooth_stone_slab",
+    });
+
+    // 添加 minecraft:bone_block 的配方
+    event.shaped("minecraft:bone_block", ["AAA", "AAA", "AAA"], {
+        A: "minecraft:bone_meal",
     });
 });

@@ -1,8 +1,4 @@
 {
-  "mm": {
-    "port_priority": true,
-    "controller_progress": true
-  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -56,13 +52,8 @@
     "chiseled_bookshelf": true
   },
   "gtmutils": {
-    "me_expanded_pattern_buffer_proxy_info": true,
-    "me_expanded_pattern_buffer_info": true,
     "enlarged_me_stocking_bus_info": true,
     "pterb_info": true
-  },
-  "create_mechanical_chicken": {
-    "data": true
   },
   "jadeaddons.create": {
     "filter": true,
@@ -74,6 +65,75 @@
     "goggles.detailed": false,
     "placard": true
   },
+  "jadeaddons.mcjtylib": {
+    "jadeaddons": true
+  },
+  "avaritia": {
+    "extreme_smithing": true,
+    "crafting_table": true,
+    "compressor": true
+  },
+  "immersiveengineering": {
+    "multiblock_icon": true
+  },
+  "jade": {
+    "coordinates.rel": false,
+    "distance": false,
+    "block_face": false,
+    "coordinates": false,
+    "registry_name": "ADVANCED_TOOLTIPS",
+    "mod_name": true
+  },
+  "melter": {
+    "melter_data": true
+  },
+  "ae2": {
+    "part_icon": true,
+    "charger": true,
+    "debug": true,
+    "part_tooltip": true,
+    "grid_node_state": true,
+    "pattern_provider": true,
+    "part_mod_name": true,
+    "power_storage": true,
+    "crafting_monitor": true,
+    "part_name": true
+  },
+  "gtmthings": {
+    "wireless_energy_hatch_provider": true
+  },
+  "mystical_extended_tier": {
+    "infused_farmland": true
+  },
+  "hammerlib": {
+    "root": true
+  },
+  "pipez": {
+    "pipe": true
+  },
+  "waystones": {
+    "waystone": true
+  },
+  "goety": {
+    "block_owner": true,
+    "soul_energy": true,
+    "raider_leader": true,
+    "hostile": true,
+    "servant_mode": true,
+    "capture_mode": true,
+    "zombie_villager": true,
+    "villager_profession": true,
+    "train_to": true,
+    "summon_lifespan": true,
+    "trainable": true
+  },
+  "mm": {
+    "port_priority": true,
+    "controller_progress": true
+  },
+  "cagedmobs": {
+    "cagedmobs_jade": true
+  },
   "pneumaticcraft": {
     "pneumatic": true,
     "tube_module": true,
@@ -84,9 +144,6 @@
   },
   "bonsaitrees3": {
     "bonsaipot": true
-  },
-  "immersiveengineering": {
-    "multiblock_icon": true
   },
   "gtceu": {
     "primitive_pump": true,
@@ -116,20 +173,15 @@
   "fulleng": {
     "storage_monitor": true
   },
-  "jade": {
-    "coordinates.rel": false,
-    "distance": false,
-    "block_face": false,
-    "coordinates": false,
-    "registry_name": "ADVANCED_TOOLTIPS",
-    "mod_name": true
-  },
   "expatternprovider": {
     "jade_chamber": true,
     "jade_wireless": true
   },
   "unlitcampfire": {
     "campfireinfo": true
+  },
+  "functionalstorage": {
+    "armory": true
   },
   "compactcrafting": {
     "field_proxy": true,
@@ -138,21 +190,6 @@
   "balm": {
     "jade": true
   },
-  "melter": {
-    "melter_data": true
-  },
-  "ae2": {
-    "part_icon": true,
-    "charger": true,
-    "debug": true,
-    "part_tooltip": true,
-    "grid_node_state": true,
-    "pattern_provider": true,
-    "part_mod_name": true,
-    "power_storage": true,
-    "crafting_monitor": true,
-    "part_name": true
-  },
   "productivebees": {
     "solitary_nest": true,
     "jar": true,
@@ -160,20 +197,26 @@
     "bee_attributes": true,
     "productive_bee": true
   },
-  "gtmthings": {
-    "wireless_energy_hatch_provider": true
+  "modularrouters": {
+    "router": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
   },
   "jadeaddons": {
     "equipment_requirement": ""
   },
-  "hammerlib": {
-    "root": true
+  "mysticalagradditions": {
+    "infused_farmland": true
   },
-  "create_cultivation": {
-    "cultivation_tank": true
+  "goety_revelation": {
+    "rune_reactor_id": true,
+    "runestone_id": true
   },
-  "waystones": {
-    "waystone": true
+  "mysticalagriculture": {
+    "infused_farmland": true,
+    "crop": true,
+    "inferium_crop": true
   },
   "immersivetechnology": {
     "display": true

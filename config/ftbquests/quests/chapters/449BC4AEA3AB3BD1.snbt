@@ -1,0 +1,26 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "449BC4AEA3AB3BD1"
+	group: "0F76479A11B06095"
+	icon: "create:andesite_casing"
+	id: "449BC4AEA3AB3BD1"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["3905DD8695AF4497"]
+		id: "0E089AEC30282CD0"
+		shape: "hexagon"
+		size: 1.5d
+		tasks: [{
+			id: "51F51C840C1553A4"
+			item: "create:andesite_casing"
+			title: "从这里开始！"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "安山时代"
+}

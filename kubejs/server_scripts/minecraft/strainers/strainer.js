@@ -140,4 +140,16 @@ ServerEvents.recipes((event) => {
         chance: 0.05,
         chanceIncreasePerTier: 0.005,
     });
+
+    // 添加 minecraft:sugar_cane 的配方
+    event.custom({
+        type: "strainers:strainer",
+        ingredients: [{ item: "minecraft:sand" }],
+        output: { item: "minecraft:sugar_cane" },
+        aboveFluid: "minecraft:water",
+        minMeshTier: 1,
+        duration: 200,
+        chance: 0.05,
+        chanceIncreasePerTier: 0.005,
+    });
 });

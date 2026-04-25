@@ -26,7 +26,7 @@ ServerEvents.recipes((event) => {
                         requiresBees: true,
                     },
                 ],
-                compatibleSoilTags: ["dirt", "grass"],
+                compatibleSoilTags: ["dirt", "vivid_grass"],
             });
         });
 });

@@ -1,6 +1,6 @@
 ServerEvents.recipes((event) => {
     // 添加配方
-    // runic_altar
+    // botania:runic_altar
     // 添加 gtceu:copper_ore 的配方
     event.recipes.botania.runic_altar(
         "gtceu:copper_ore",

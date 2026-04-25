@@ -26,7 +26,7 @@
 	#Range: 0.1 ~ 10.0
 	lavaFishingCooldownMultiplier = 1.5
 	#Base success rate for normal (water) fishing attempts (0.0 to 1.0)
-	#Default: 0.4 (40% chance), 1.0 = always succeed, 0.0 = never succeed
+	#Default: 0.25 (25% chance), 1.0 = always succeed, 0.0 = never succeed
 	#Range: 0.0 ~ 1.0
 	fishingSuccessRate = 0.4
 	#Base success rate for lava fishing attempts (0.0 to 1.0)

@@ -1,7 +1,7 @@
 ServerEvents.recipes((event) => {
     // 添加配方
     // lychee:block_interacting
-    // 添加 kubejs:twig 的配方
+    // 添加 kubejs:mossy_twig 的配方
     event.custom({
         type: "lychee:block_interacting",
         item_in: { item: "air" },
@@ -14,7 +14,7 @@ ServerEvents.recipes((event) => {
             },
             {
                 type: "drop_item",
-                item: "kubejs:twig",
+                item: "kubejs:mossy_twig",
                 contextual: {
                     type: "chance",
                     chance: 0.5,
@@ -23,7 +23,7 @@ ServerEvents.recipes((event) => {
         ],
     });
 
-    // 添加 kubejs:flint_shard 的配方
+    // 添加 kubejs:mossy_flint_shard 的配方
     event.custom({
         type: "lychee:block_interacting",
         item_in: { item: "minecraft:stick" },
@@ -38,7 +38,7 @@ ServerEvents.recipes((event) => {
             },
             {
                 type: "drop_item",
-                item: "kubejs:flint_shard",
+                item: "kubejs:mossy_flint_shard",
                 contextual: {
                     type: "chance",
                     chance: 0.4,

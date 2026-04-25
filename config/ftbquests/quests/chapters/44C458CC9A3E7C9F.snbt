@@ -378,10 +378,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"61DEBF41EE0BC3D0"
-				"11795683DDD913EE"
-			]
+			dependencies: ["61DEBF41EE0BC3D0"]
 			id: "4FBAE391909C0BA7"
 			tasks: [{
 				id: "469FB328AE4C7C8C"

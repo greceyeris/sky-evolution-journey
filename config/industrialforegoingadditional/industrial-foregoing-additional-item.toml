@@ -1,0 +1,9 @@
+
+[ModConfigItem]
+
+	[ModConfigItem.PlasticElytraConfig]
+		#Max Speed - Default: [3], Classic Elytra = 1
+		MaxSpeed = 3
+		#Max Durability - Default: [1200]
+		maxDurability = 1200
+

@@ -29,10 +29,10 @@ ServerEvents.recipes((event) => {
         "opolisutilities:sticks",
         "opolisutilities:charcoal",
         "opolisutilities:mini_charcoal",
+        "opolisutilities:fishing_rod",
 
         // strainers
         "strainers:dirt",
-        "strainers:cobblestone",
 
         // farmersdelight
         "farmersdelight:flint_knife",
@@ -42,6 +42,8 @@ ServerEvents.recipes((event) => {
         // minecraft
         "minecraft:diorite",
         "minecraft:bone_meal",
+        "minecraft:lime_dye_from_smelting",
+        "minecraft:green_dye",
         "minecraft:lime_dye",
 
         // botania
@@ -79,6 +81,9 @@ ServerEvents.recipes((event) => {
         "botania:petal_black_double",
         "botania:runic_altar_alt",
         "botania:dye_lime",
+        "botania:dye_green",
+        "botania:dye_white",
+        "botania:dye_black",
 
         // create
         "create:crafting/materials/copper_ingot",
@@ -132,6 +137,7 @@ ServerEvents.recipes((event) => {
         "#forge:pure_dusts",
         "#forge:refined_ores",
         "#forge:impure_dusts",
+        "#forge:dusts",
     ];
 
     // 定义 removeRecipesUsedItemOutput 数组
@@ -143,6 +149,7 @@ ServerEvents.recipes((event) => {
         "gtceu:flint_axe",
         "gtceu:empty_wooden_form",
         "gtceu:brick_wooden_form",
+        "gtceu:andesite_alloy_ingot",
 
         // minecraft
         "minecraft:campfire",
@@ -268,6 +275,7 @@ ServerEvents.recipes((event) => {
 
         // create
         "create:copper_casing",
+        "create:andesite_casing",
 
         // ae2
         "ae2:crank",
@@ -280,6 +288,13 @@ ServerEvents.recipes((event) => {
 
         // immersiveengineering
         "immersiveengineering:hammer",
+
+        // createmetallurgy
+        "createmetallurgy:casting_basin",
+        "createmetallurgy:casting_table",
+
+        // hauntfurnace
+        "hauntfurnace:haunt_furnace",
     ];
 
     // 定义 removeRecipesUsedItemInputAndOutput 数组
@@ -326,29 +341,41 @@ ServerEvents.recipes((event) => {
 
         // melter
         "melter:melting",
+
+        // createmetallurgy
+        "createmetallurgy:melting",
+        "createmetallurgy:casting_in_basin",
+        "createmetallurgy:grinding",
+        "createmetallurgy:casting_in_table",
+        "createmetallurgy:alloying",
+        "createmetallurgy:entity_melting",
+
+        // hauntfurnace
+        "hauntfurnace:haunting",
     ];
 
     // 定义 removeRecipesUsedTypeAndInput 数组
     const removeRecipesUsedTypeAndInput = [
-        { type: "minecraft:smelting", input: "#forge:raw_materials" },
-        { type: "minecraft:blasting", input: "#forge:raw_materials" },
+        // { type: "minecraft:smelting", input: "#forge:raw_materials" },
+        // { type: "minecraft:blasting", input: "#forge:raw_materials" },
     ];
 
     // 定义 removeRecipesUsedTypeAndOutput 数组
     const removeRecipesUsedTypeAndOutput = [];
 
-    // 输出配方
-    const recipeType = [];
+    // 输出配方类型
+    const recipeTypes = new Set();
 
-    if (recipeType) {
-        recipeType.forEach((type) => {
-            console.log(type);
+    event.forEachRecipe({}, (recipe) => {
+        const type = recipe.json.get("type");
+        if (type != null) {
+            recipeTypes.add(String(type));
+        }
+    });
 
-            event.forEachRecipe({ type: type }, (recipe) => {
-                console.log(String(recipe.getId()));
-                console.log(recipe.json.toString());
-            });
-        });
+    console.log("=== Recipe Types ===");
+    for (const type of recipeTypes) {
+        console.info(type);
     }
 
     // 删除配方

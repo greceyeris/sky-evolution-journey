@@ -24,7 +24,7 @@
 				title: "从这里开始！"
 				type: "dimension"
 			}]
-			x: 2.625d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -38,17 +38,18 @@
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
-				id: "11795683DDD913EE"
-				item: "kubejs:twig"
+				id: "03D76A6E52A940A0"
+				item: "kubejs:mossy_twig"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: [
 				"458B57107988B4A1"
 				"6367C65CB0E9AA91"
+				"27E61CE7321275F3"
 			]
 			id: "58994126AC6D150D"
 			shape: "circle"
@@ -73,8 +74,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: -2.0d
+			x: 12.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["33D4F903D17BC56D"]
@@ -85,7 +86,7 @@
 				item: "minecraft:flint"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
@@ -101,11 +102,11 @@
 			id: "33D4F903D17BC56D"
 			shape: "circle"
 			tasks: [{
-				id: "0FC663C3DE3A2484"
-				item: "kubejs:flint_shard"
+				id: "5551A2C91A5409DA"
+				item: "kubejs:mossy_flint_shard"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
@@ -126,8 +127,8 @@
 				item: "botania:living_root"
 				type: "item"
 			}]
-			x: 17.5d
-			y: -2.0d
+			x: 15.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0E8F39D682DCC5C8"]
@@ -139,13 +140,14 @@
 				item: "minecraft:stick"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
 			dependencies: [
 				"0BB81670C24C2F6F"
 				"6A342648B83C60F1"
+				"198699141D7F50A1"
 			]
 			id: "2D1B60845BF3E632"
 			shape: "circle"
@@ -159,10 +161,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"458B57107988B4A1"
-				"27E61CE7321275F3"
-			]
+			dependencies: ["458B57107988B4A1"]
 			id: "198699141D7F50A1"
 			shape: "circle"
 			tasks: [{
@@ -188,8 +187,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: 0.0d
+			x: 20.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -205,8 +204,8 @@
 				item: "farmersdelight:cutting_board"
 				type: "item"
 			}]
-			x: 22.5d
-			y: 2.0d
+			x: 20.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -221,8 +220,8 @@
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			x: 22.5d
-			y: 0.0d
+			x: 20.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -238,7 +237,7 @@
 				item: "minecraft:stripped_oak_log"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 17.5d
 			y: 4.0d
 		}
 		{
@@ -256,11 +255,14 @@
 				item: "minecraft:oak_planks"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 15.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["3EF12F472184B613"]
+			dependencies: [
+				"3EF12F472184B613"
+				"55457C6A101A778B"
+			]
 			id: "20BABB52EA0741D2"
 			shape: "circle"
 			size: 1.0d
@@ -269,7 +271,7 @@
 				item: "minecraft:oak_leaves"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 10.0d
 			y: 4.0d
 		}
 		{
@@ -287,7 +289,7 @@
 				item: "kubejs:humus_pile"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 7.5d
 			y: 4.0d
 		}
 		{
@@ -303,8 +305,8 @@
 				item: "kubejs:dirt_pile"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.0d
+			x: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -327,7 +329,7 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
+			x: 12.5d
 			y: 4.0d
 		}
 		{
@@ -340,8 +342,8 @@
 				item: "minecraft:dirt"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 6.0d
+			x: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -369,8 +371,8 @@
 				item: "minecraft:string"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.0d
+			x: 2.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -385,8 +387,8 @@
 				item: "opolisutilities:leafy_string"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: 2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -408,7 +410,7 @@
 				item: "minecraft:campfire"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 10.0d
 			y: 2.0d
 		}
 		{
@@ -514,8 +516,8 @@
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
-				id: "0DB8B9603FCC5951"
-				item: "havenpebbles:stone_pebble"
+				id: "6893B3239DF22213"
+				item: "strainers:stone_pebble"
 				type: "item"
 			}]
 			x: 25.0d
@@ -548,7 +550,7 @@
 				item: "minecraft:oak_slab"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 5.0d
 			y: 2.0d
 		}
 		{
@@ -596,8 +598,8 @@
 				item: "crafting_on_a_stick:crafting_table"
 				type: "item"
 			}]
-			x: 22.5d
-			y: -2.0d
+			x: 17.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["458B57107988B4A1"]
@@ -614,7 +616,7 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
+			x: 12.5d
 			y: 2.0d
 		}
 		{
@@ -637,14 +639,11 @@
 				}
 				type: "item"
 			}]
-			x: 20.0d
-			y: 6.0d
+			x: 15.0d
+			y: 2.0d
 		}
 		{
-			dependencies: [
-				"0CF61BD10CD58327"
-				"198699141D7F50A1"
-			]
+			dependencies: ["0CF61BD10CD58327"]
 			description: ["&6活根&r &c右键&r &a树苗&r 可使其生长"]
 			id: "0BB81670C24C2F6F"
 			shape: "circle"
@@ -709,7 +708,7 @@
 				type: "item"
 			}]
 			x: 22.5d
-			y: 6.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -737,7 +736,7 @@
 				type: "item"
 			}]
 			x: 22.5d
-			y: 10.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -753,7 +752,7 @@
 				item: "simpleprocessingmachines:organic_composter"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 7.5d
 			y: 2.0d
 		}
 		{
@@ -768,8 +767,8 @@
 				item: "opolisutilities:drying_table"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 4.0d
+			x: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -786,7 +785,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 10.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -801,7 +800,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 6.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -817,8 +816,8 @@
 				item: "simpleprocessingmachines:atmospheric_condenser"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 8.0d
+			x: 10.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -832,8 +831,8 @@
 				item: "flopper:flopper"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 8.0d
+			x: 7.5d
+			y: 10.0d
 		}
 	]
 	title: "起源时代"

@@ -1,3 +1,5 @@
+// priority: -998
+
 // 定义 replaceItems 数组
 const replaceItems = [
     {
@@ -95,6 +97,82 @@ const replaceItems = [
     {
         item: "#forge:crushed_ores/copper",
         targetItem: "gtceu:crushed_copper_ore",
+    },
+    {
+        item: "#forge:dusts/certus_quartz",
+        targetItem: "gtceu:certus_quartz_dust",
+    },
+    {
+        item: "#forge:dusts/certus_quartz",
+        targetItem: "gtceu:certus_quartz_dust",
+    },
+    {
+        item: "ae2cs:certus_quartz_ore",
+        targetItem: "gtceu:certus_quartz_ore",
+    },
+    {
+        item: "ae2cs:charged_certus_quartz_ore",
+        targetItem: "gtceu:certus_quartz_ore",
+    },
+    {
+        item: "ae2cs:deepslate_certus_quartz_ore",
+        targetItem: "gtceu:deepslate_certus_quartz_ore",
+    },
+    {
+        item: "ae2cs:deepslate_charged_certus_quartz_ore",
+        targetItem: "gtceu:deepslate_certus_quartz_ore",
+    },
+    {
+        item: "#forge:storage_blocks/certus_quartz",
+        targetItem: "gtceu:certus_quartz_block",
+    },
+    {
+        item: "#forge:gems/certus_quartz",
+        targetItem: "gtceu:certus_quartz_gem",
+    },
+    {
+        item: "#forge:plates/iron",
+        targetItem: "gtceu:iron_plate",
+    },
+    {
+        item: "#forge:rods/iron",
+        targetItem: "gtceu:iron_rod",
+    },
+    {
+        item: "#forge:gears/iron",
+        targetItem: "gtceu:iron_gear",
+    },
+    {
+        item: "#forge:dusts/iron",
+        targetItem: "gtceu:iron_dust",
+    },
+    {
+        item: "create:andesite_alloy",
+        targetItem: "gtceu:andesite_alloy_ingot",
+    },
+    {
+        item: "#forge:storage_blocks/andesite_alloy",
+        targetItem: "gtceu:andesite_alloy_block",
+    },
+    {
+        item: "#forge:slag",
+        targetItem: "immersiveengineering:slag",
+    },
+    {
+        item: "createmetallurgy:slag",
+        targetItem: "immersiveengineering:slag",
+    },
+    {
+        item: "#forge:storage_blocks/coal_coke",
+        targetItem: "immersiveengineering:coke",
+    },
+    {
+        item: "#forge:storage_blocks/charcoal",
+        targetItem: "gtceu:charcoal_block",
+    },
+    {
+        item: "#forge:coal_coke",
+        targetItem: "immersiveengineering:coal_coke",
     },
 ];
 
