@@ -1,4 +1,9 @@
 {
+    "material.gtceu.manasteel": "魔力钢",
+    "material.gtceu.terrasteel": "泰拉钢",
+
+    "item.ceramicbucket.ceramic_bucket.filled": "陶瓷 %s 桶",
+
     "item.kubejs.mossy_twig": "沾苔藓的小树枝",
     "item.kubejs.mossy_flint_shard": "沾苔藓的燧石碎片",
     "item.kubejs.humus_pile": "腐殖物堆",

@@ -11,7 +11,7 @@
 	#Modpack Version
 	"Modpack Version" = "VERSION"
 	#Mobs basic loot bag drop chance 0.0 = always, 1.0 = never, 0.5 = 50% chance, default = 0.75
-	"Mob Drop Chance" = 0.95
+	"Mob Drop Chance" = 1.0
 	#Additional rolls when using the crook on leaves
 	"Additional Crook Rolls" = 3
 	#The max range of the Ender Scrambler

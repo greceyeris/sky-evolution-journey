@@ -6,20 +6,367 @@
 	group: "0F76479A11B06095"
 	icon: "botania:terra_plate"
 	id: "5BCBACBF480385CC"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
-	quests: [{
-		id: "09FA1DD09AE00E24"
-		shape: "hexagon"
-		size: 1.5d
-		tasks: [{
-			id: "1B5A93C75D754E28"
-			item: "botania:terra_plate"
-			title: "从这里开始！"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "09FA1DD09AE00E24"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "1B5A93C75D754E28"
+				item: "botania:terra_plate"
+				title: "从这里开始！"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24EDB0CC704CEA2E"]
+			id: "660A2D374B162D45"
+			tasks: [{
+				id: "4638BDA3B35C97A9"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 50.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09FA1DD09AE00E24"]
+			id: "727BA5A53A64DAFD"
+			tasks: [{
+				id: "1010AF3F78EBD29F"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["727BA5A53A64DAFD"]
+			id: "3680C2A6DA259B49"
+			tasks: [{
+				id: "20FC4448084F3598"
+				item: "botania:terrasteel_nugget"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3680C2A6DA259B49"]
+			id: "0262FC7B84B7FDA0"
+			tasks: [{
+				id: "2FEFDB89A00308FE"
+				item: "botania:alfheim_portal"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C9D34697DA4D0B5"]
+			id: "24EDB0CC704CEA2E"
+			tasks: [{
+				id: "31EF19F79FBCDDE8"
+				item: "gtceu:brass_ingot"
+				type: "item"
+			}]
+			x: 47.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57F706D9E53773FB"]
+			id: "6C9D34697DA4D0B5"
+			tasks: [{
+				id: "747DECB8295C8B78"
+				item: "gtceu:brass_dust"
+				type: "item"
+			}]
+			x: 45.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11DB3936716694B6"]
+			id: "57F706D9E53773FB"
+			tasks: [{
+				id: "46A64B1712677C4F"
+				item: "gtceu:zinc_dust"
+				type: "item"
+			}]
+			x: 42.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F350748EF032435"]
+			id: "11DB3936716694B6"
+			tasks: [{
+				id: "1C2FF20C1F5D554C"
+				item: "gtceu:zinc_ingot"
+				type: "item"
+			}]
+			x: 40.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["617B43355123872E"]
+			id: "0F4907FC8B7EF259"
+			tasks: [{
+				id: "1BE71AD06269E92A"
+				item: "gtceu:raw_sphalerite"
+				type: "item"
+			}]
+			x: 32.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F4907FC8B7EF259"]
+			id: "262F1E4E62878699"
+			tasks: [{
+				id: "156CBCE11967DA5E"
+				item: "gtceu:purified_sphalerite_ore"
+				type: "item"
+			}]
+			x: 35.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["262F1E4E62878699"]
+			id: "3BCC7650C240DB20"
+			tasks: [{
+				id: "056B87087879EDB7"
+				item: "gtceu:refined_sphalerite_ore"
+				type: "item"
+			}]
+			x: 37.5d
+			y: -2.0d
+		}
+		{
+			id: "617B43355123872E"
+			tasks: [{
+				id: "417E3741E4AFDBF2"
+				item: "gtceu:sphalerite_ore"
+				type: "item"
+			}]
+			x: 30.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3BCC7650C240DB20"
+				"49FA7DD225793EE9"
+			]
+			id: "6F350748EF032435"
+			tasks: [{
+				id: "67BD82EC7E340A40"
+				item: {
+					Count: 1
+					id: "ceramicbucket:ceramic_bucket"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:zinc"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 37.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"74C2FCDE483162BB"
+				"3B187F40AAD35CCD"
+				"043683F62E37D8AF"
+			]
+			id: "740E82AAE6458ED2"
+			tasks: [{
+				id: "06AE54D9BDE9821E"
+				item: "mythicbotany:alfsteel_ingot"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			id: "34E631387A60CF27"
+			tasks: [{
+				id: "52F4C07BA52138BF"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"34E631387A60CF27"
+				"1405691BF4B3DF68"
+			]
+			id: "74C2FCDE483162BB"
+			tasks: [{
+				id: "46CA8DEBF048161B"
+				item: "mythicbotany:mana_infuser"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			id: "1405691BF4B3DF68"
+			tasks: [{
+				id: "4E0724DE3EEB1F9E"
+				item: "botania:glimmering_dreamwood"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5162E4C1894B7672"]
+			id: "0B41322A1393B722"
+			tasks: [{
+				id: "1ABFF43F4AFC9635"
+				item: "botania:glimmering_livingwood"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["57828535B9E29A09"]
+			id: "5162E4C1894B7672"
+			tasks: [{
+				id: "718AA389B57D2368"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4375821FB44712FD"]
+			id: "57828535B9E29A09"
+			tasks: [{
+				id: "0B23E4EE1D8F7141"
+				item: "minecraft:prismarine_crystals"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			id: "043683F62E37D8AF"
+			tasks: [{
+				id: "3639D1EEEF2C06A8"
+				item: "botania:pixie_dust"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.0d
+		}
+		{
+			id: "3B187F40AAD35CCD"
+			tasks: [{
+				id: "38248CE0CC2DC321"
+				item: "botania:dragonstone"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1F162D34845EE5CA"]
+			id: "738DF2C4DE63A282"
+			tasks: [{
+				id: "13FF49F437A3C534"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5AF8A5D2821D115D"]
+			id: "1F162D34845EE5CA"
+			tasks: [{
+				id: "0A805679494730B0"
+				item: "mythicbotany:alfsteel_pylon"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["738DF2C4DE63A282"]
+			id: "6A105BA410FF5517"
+			tasks: [{
+				id: "09861AC81F4EBF86"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 0.0d
+		}
+		{
+			id: "4375821FB44712FD"
+			tasks: [{
+				id: "1E5A9EF408880907"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6A105BA410FF5517"]
+			id: "164DEB29C7C8424F"
+			tasks: [{
+				id: "0B42BBEDACD75766"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["740E82AAE6458ED2"]
+			id: "5AF8A5D2821D115D"
+			tasks: [{
+				id: "4A13A982E0E9BA01"
+				item: "mythicbotany:alfsteel_nugget"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DF2BBA4A13CC558"]
+			id: "49FA7DD225793EE9"
+			tasks: [{
+				id: "7FA14443754DF9D0"
+				item: "createmetallurgy:foundry_mixer"
+				type: "item"
+			}]
+			x: 35.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["164DEB29C7C8424F"]
+			id: "2DF2BBA4A13CC558"
+			tasks: [{
+				id: "5A9F43FA21385586"
+				item: "extrabotany:orichalcos_ingot"
+				type: "item"
+			}]
+			x: 32.5d
+			y: 0.0d
+		}
+	]
 	title: "植物魔法时代 II"
 }

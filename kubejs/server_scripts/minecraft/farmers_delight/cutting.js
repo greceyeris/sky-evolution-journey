@@ -248,6 +248,14 @@ ServerEvents.recipes((event) => {
         type: "farmersdelight:cutting",
         ingredients: [{ item: "minecraft:clay" }],
         result: [{ item: "minecraft:clay_ball", count: 4 }],
-        tool: { tag: "forge:tools/shovels" },
+        tool: { tag: "minecraft:shovels" },
+    });
+
+    // 添加 minecraft:mycelium 的配方
+    event.custom({
+        type: "farmersdelight:cutting",
+        ingredients: [{ item: "minecraft:dirt" }],
+        result: [{ item: "minecraft:mycelium" }],
+        tool: { item: "botania:mycelium_seeds" },
     });
 });

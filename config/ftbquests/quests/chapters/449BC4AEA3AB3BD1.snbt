@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "449BC4AEA3AB3BD1"
@@ -8,19 +7,919 @@
 	id: "449BC4AEA3AB3BD1"
 	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["3905DD8695AF4497"]
-		id: "0E089AEC30282CD0"
-		shape: "hexagon"
-		size: 1.5d
-		tasks: [{
-			id: "51F51C840C1553A4"
-			item: "create:andesite_casing"
-			title: "从这里开始！"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["3905DD8695AF4497"]
+			id: "0E089AEC30282CD0"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "51F51C840C1553A4"
+				item: "create:andesite_casing"
+				title: "从这里开始！"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6A761249B3C6D453"
+				"339995152E4BACC1"
+			]
+			id: "4DDC3154B02C82CC"
+			tasks: [{
+				id: "77E5C5837282AE05"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4DDC3154B02C82CC"
+				"4AB08B1574B73DDD"
+			]
+			id: "1AB462ED4D52AF7C"
+			tasks: [{
+				id: "44F6AECE617FB8D6"
+				item: "gtceu:crushed_iron_ore"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1AB462ED4D52AF7C"
+				"5B4EC323974966C6"
+			]
+			id: "68EBC66CD840223B"
+			tasks: [{
+				id: "194523061FCA1E62"
+				item: "gtceu:purified_iron_ore"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"68EBC66CD840223B"
+				"0DEE758D92E53886"
+			]
+			id: "2A06ED02204C4799"
+			tasks: [{
+				id: "6C9EE6EEB5B869BB"
+				item: "gtceu:refined_iron_ore"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2A06ED02204C4799"
+				"744D68F320FF2CED"
+				"30B78845B5152C06"
+				"0F8BD8D4BAE21C53"
+			]
+			id: "68656787365E8A55"
+			tasks: [{
+				id: "6A22D25CE8A7D557"
+				item: {
+					Count: 1
+					id: "ceramicbucket:ceramic_bucket"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:iron"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"68656787365E8A55"
+				"3A4C76FA4181C310"
+			]
+			id: "0291862F4C24722E"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "6690F43B631B0DA4"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "解锁“铁器时代”"
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"34D67E21F038C05A"
+				"7E28B260708EB142"
+			]
+			id: "3A4C76FA4181C310"
+			tasks: [{
+				id: "229DBA53E00C30A3"
+				item: "createmetallurgy:graphite_ingot_mold"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2A61F63564ACE819"
+				"6747E4FA822CED5E"
+				"7C478A0A41C6B333"
+				"2B1C62D0370ADCF8"
+				"6A8DF80AFA0883CA"
+			]
+			id: "0DEE758D92E53886"
+			tasks: [{
+				id: "271E92C680E59F33"
+				item: "vintage:centrifuge"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7913AFB3EBEBC31B"
+				"239B544B4B42A148"
+				"7C478A0A41C6B333"
+				"2B1C62D0370ADCF8"
+				"6A8DF80AFA0883CA"
+			]
+			id: "54310B83D55607E3"
+			tasks: [{
+				id: "48FFEF2777B276F3"
+				item: "vintage:spring_coiling_machine"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"54310B83D55607E3"
+				"0DD9743EA0BD8BAF"
+			]
+			id: "2A61F63564ACE819"
+			tasks: [{
+				id: "4FD9BE97F3E19BE5"
+				item: "vintage:andesite_spring"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"795A717A0F220EAE"
+				"239B544B4B42A148"
+				"6A8DF80AFA0883CA"
+			]
+			id: "7913AFB3EBEBC31B"
+			tasks: [{
+				id: "6D2C94E8C3D272C2"
+				item: "vintage:spring_coiling_machine_wheel"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5B4EC323974966C6"
+				"2A68E85A777FCB56"
+				"772019D40D406A1A"
+			]
+			id: "0E2A93E7648A0C3D"
+			tasks: [{
+				id: "795A717A0F220EAE"
+				item: "gtceu:andesite_alloy_block"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"5F07CCEC71B11DA9"
+				"6F21441FE8834AC5"
+				"2643B24DFCECC5CA"
+			]
+			id: "798B2733E5DDCF9C"
+			tasks: [{
+				id: "22AD06506603F09E"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"239B544B4B42A148"
+				"42334327A716629F"
+				"2643B24DFCECC5CA"
+			]
+			id: "2D41BFB07012D687"
+			tasks: [{
+				id: "2B1C62D0370ADCF8"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7254CC7A5837A7A4"
+				"52E6A8A2D0D1BD26"
+				"3474576B389C3F0D"
+				"282FA7119B7B1F3C"
+				"3FC4B560295A2FD0"
+				"4FCB13A7F75CC2F9"
+				"3FFA860888989CB2"
+				"4472876DA2093019"
+			]
+			id: "6A761249B3C6D453"
+			tasks: [{
+				id: "077505BB2040832C"
+				item: "gtceu:iron_ore"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6D912D9E767A39BB"
+				"51D8125007E05951"
+				"2643B24DFCECC5CA"
+			]
+			id: "3CD71C8A34001415"
+			tasks: [{
+				id: "79251E30AD4B636A"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3E0807327C6CC494"
+				"6D912D9E767A39BB"
+				"2643B24DFCECC5CA"
+			]
+			id: "34D67E21F038C05A"
+			tasks: [{
+				id: "13CB98E4E9F0BECB"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"239B544B4B42A148"
+				"6F3506BC80F9BC79"
+				"3CD71C8A34001415"
+			]
+			id: "0C18AB90113E694F"
+			tasks: [{
+				id: "795C9DC8A28743E8"
+				item: "vintage:andesite_sheet"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4F65F630A591A825"
+				"239B544B4B42A148"
+			]
+			id: "0DD9743EA0BD8BAF"
+			tasks: [{
+				id: "575C6628D077112C"
+				item: "vintage:andesite_rod"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0C18AB90113E694F"
+				"239B544B4B42A148"
+				"2B1C62D0370ADCF8"
+				"7C478A0A41C6B333"
+				"6A8DF80AFA0883CA"
+			]
+			id: "4F65F630A591A825"
+			tasks: [{
+				id: "25F0C33DFDCA307F"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"339995152E4BACC1"
+				"795A717A0F220EAE"
+				"2643B24DFCECC5CA"
+			]
+			id: "6F3506BC80F9BC79"
+			tasks: [{
+				id: "5B9D087734EB1E34"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"239B544B4B42A148"
+				"6A8DF80AFA0883CA"
+			]
+			id: "744D68F320FF2CED"
+			tasks: [{
+				id: "0C853334DFA66D75"
+				item: "createmetallurgy:foundry_lid"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2272C09CC091D7F2"
+				"090CBDC9A2E3E33F"
+				"2643B24DFCECC5CA"
+			]
+			id: "4AB08B1574B73DDD"
+			tasks: [{
+				id: "350F6A1107EE344F"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"198A25A0A7ABB1CA"
+				"0E089AEC30282CD0"
+				"2643B24DFCECC5CA"
+			]
+			id: "2272C09CC091D7F2"
+			tasks: [{
+				id: "6D912D9E767A39BB"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6D0FBE4BC158AD55"
+				"73E08C51C07052E0"
+				"2643B24DFCECC5CA"
+			]
+			id: "198A25A0A7ABB1CA"
+			tasks: [{
+				id: "6F21441FE8834AC5"
+				item: "create_hc:gear_small"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2D41BFB07012D687"
+				"0E2A93E7648A0C3D"
+			]
+			id: "51D8125007E05951"
+			tasks: [{
+				id: "311EF8D1B13B9427"
+				item: "create_hc:press_head"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5E6F983BD167AC40"
+				"73E08C51C07052E0"
+				"2643B24DFCECC5CA"
+			]
+			id: "42334327A716629F"
+			tasks: [{
+				id: "5F07CCEC71B11DA9"
+				item: "create_hc:shaft"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["798B2733E5DDCF9C"]
+			id: "3E0807327C6CC494"
+			tasks: [{
+				id: "0039FD4656D96153"
+				item: "create_hc:saw_blade"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"781AA51567A8B98F"
+				"5B9D087734EB1E34"
+				"79251E30AD4B636A"
+			]
+			id: "7E28B260708EB142"
+			tasks: [{
+				id: "78012B955699FF45"
+				item: "createmetallurgy:graphite_blank_mold"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"03D595364EE84756"
+				"2E5670A1CEE4834E"
+			]
+			id: "781AA51567A8B98F"
+			tasks: [{
+				id: "6CE513B2084963DF"
+				item: "createmetallurgy:graphite"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2E50556DA0413BEA"
+				"339995152E4BACC1"
+			]
+			id: "03D595364EE84756"
+			tasks: [{
+				id: "34D4EE2A1289087A"
+				item: "gtceu:raw_graphite"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2573005201A42E62"
+				"76E7E6819BA8B2FC"
+				"16AE3111E25E113D"
+				"7254CC7A5837A7A4"
+				"3474576B389C3F0D"
+				"282FA7119B7B1F3C"
+				"3FC4B560295A2FD0"
+				"4FCB13A7F75CC2F9"
+				"3FFA860888989CB2"
+			]
+			id: "2E50556DA0413BEA"
+			tasks: [{
+				id: "77ECB9D12303C3B9"
+				item: "gtceu:graphite_ore"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"064DEE16BA7B15DA"
+				"6C766FF2B13E4BC8"
+				"6BD7BC1B4BAB170E"
+				"6A8DF80AFA0883CA"
+			]
+			id: "30B78845B5152C06"
+			tasks: [{
+				id: "6599B88040791760"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0A17D132F32F9350"
+				"795C9DC8A28743E8"
+				"6A8DF80AFA0883CA"
+			]
+			id: "064DEE16BA7B15DA"
+			tasks: [{
+				id: "06CE936C028155BB"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"60CC078A3F19DC21"
+				"33B266C55B9599A6"
+				"5B4EC323974966C6"
+				"79251E30AD4B636A"
+				"56F39081C5329E4A"
+			]
+			id: "6C766FF2B13E4BC8"
+			tasks: [{
+				id: "7F893867F634FC3E"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"31E99903F064F845"
+				"34533F4B17C5CE4B"
+			]
+			id: "60CC078A3F19DC21"
+			tasks: [{
+				id: "2B6D44CF12D8E744"
+				item: "create_netherless:coal_rod"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["429A1AAD48E0A965"]
+			id: "31E99903F064F845"
+			tasks: [{
+				id: "2EE6495A2EC6AB31"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"6FC712C8BE6ED2EE"
+				"7C478A0A41C6B333"
+				"2B1C62D0370ADCF8"
+				"6A8DF80AFA0883CA"
+			]
+			id: "34533F4B17C5CE4B"
+			tasks: [{
+				id: "33ACF8A2015B82CA"
+				item: "vintage:belt_grinder"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["36C5DB611B5D27DE"]
+			id: "429A1AAD48E0A965"
+			tasks: [{
+				id: "7CB8B938A902485D"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"2C10A0CC433C9706"
+				"6A8DF80AFA0883CA"
+			]
+			id: "6FC712C8BE6ED2EE"
+			tasks: [{
+				id: "7DA38FD8318BD6EF"
+				item: "vintage:grinder_belt"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"0EBE6CF96FB14C27"
+				"7B01122F1F23C4B8"
+				"0AD148B6DD9BAC84"
+			]
+			id: "2C10A0CC433C9706"
+			tasks: [{
+				id: "139ABB5FD0F94477"
+				item: {
+					Count: 1
+					id: "create:sand_paper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"769042D621E1F271"
+				"4D821675C34E26E1"
+				"1FA5D3ABEDFF4163"
+				"6A8DF80AFA0883CA"
+			]
+			id: "0EBE6CF96FB14C27"
+			tasks: [{
+				id: "703D563AA173BC5C"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"1DC5306427863011"
+				"350F6A1107EE344F"
+			]
+			id: "769042D621E1F271"
+			tasks: [{
+				id: "032391CDD757D624"
+				item: "gtceu:paper_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"318B4B8B31223555"
+				"339995152E4BACC1"
+			]
+			id: "36C5DB611B5D27DE"
+			tasks: [{
+				id: "0C1A64480458767D"
+				item: "gtceu:raw_coal"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"5477747A31E47E0B"
+				"16AE3111E25E113D"
+				"3474576B389C3F0D"
+				"282FA7119B7B1F3C"
+				"3FC4B560295A2FD0"
+				"3FFA860888989CB2"
+				"4FCB13A7F75CC2F9"
+			]
+			id: "318B4B8B31223555"
+			tasks: [{
+				id: "2F11BE2553833A47"
+				item: "gtceu:coal_ore"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"6C0AC18227A20E51"
+				"0AD148B6DD9BAC84"
+				"19FA86B3DBA5CA21"
+				"1FA5D3ABEDFF4163"
+			]
+			id: "1DC5306427863011"
+			tasks: [{
+				id: "12923E3DCC2E3803"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"458B57107988B4A1"
+				"60DFBBF1A808E2CF"
+				"428BB954E1F196E2"
+				"6A8DF80AFA0883CA"
+			]
+			id: "6C0AC18227A20E51"
+			tasks: [{
+				id: "718C2142DD8D3A43"
+				item: {
+					Count: 1
+					id: "strainers:copper_mesh"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"02F02E11C487CE5F"
+				"239B544B4B42A148"
+				"6A8DF80AFA0883CA"
+			]
+			id: "0F8BD8D4BAE21C53"
+			tasks: [{
+				id: "6419502B98E4FB68"
+				item: "createmetallurgy:foundry_basin"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0B574615A5EE0481"
+				"0AD148B6DD9BAC84"
+				"056D4AECEA99D68C"
+				"1FA5D3ABEDFF4163"
+				"5B9D087734EB1E34"
+			]
+			id: "02F02E11C487CE5F"
+			tasks: [{
+				id: "43DC1EAC64328229"
+				item: "createmetallurgy:refractory_mortar"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1AA282EFED1E1823"
+				"6D912D9E767A39BB"
+				"2643B24DFCECC5CA"
+			]
+			id: "0B574615A5EE0481"
+			tasks: [{
+				id: "0107C9C81E298775"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"795C9DC8A28743E8"
+				"22AD06506603F09E"
+				"6A8DF80AFA0883CA"
+			]
+			id: "1AA282EFED1E1823"
+			tasks: [{
+				id: "16B3A2424B17D277"
+				item: "create:whisk"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"7254CC7A5837A7A4"
+				"6A8DF80AFA0883CA"
+			]
+			id: "52E6A8A2D0D1BD26"
+			tasks: [{
+				id: "76E7E6819BA8B2FC"
+				item: "botania:white_petal_block"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"16AE3111E25E113D"
+				"6A8DF80AFA0883CA"
+			]
+			id: "5477747A31E47E0B"
+			tasks: [{
+				id: "2573005201A42E62"
+				item: "botania:black_petal_block"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"5B4CC14708341096"
+				"7C478A0A41C6B333"
+				"2643B24DFCECC5CA"
+			]
+			id: "33B266C55B9599A6"
+			tasks: [{
+				id: "1ECCAF970C3B7307"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"239B544B4B42A148"
+				"6D0FBE4BC158AD55"
+				"2643B24DFCECC5CA"
+			]
+			id: "5B4CC14708341096"
+			tasks: [{
+				id: "034854378CFE030B"
+				item: "create:turntable"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"43916DB63E377C6A"
+				"458B57107988B4A1"
+				"6A8DF80AFA0883CA"
+			]
+			id: "4D821675C34E26E1"
+			tasks: [{
+				id: "34CF0410BFEC7438"
+				item: {
+					Count: 1
+					id: "gtceu:wood_mallet"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							DefaultEnchantments: [ ]
+							MaxDamage: 127
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3FC4B560295A2FD0"
+				"239B544B4B42A148"
+				"5D8967FDD969BC45"
+				"282FA7119B7B1F3C"
+				"4FCB13A7F75CC2F9"
+				"3FFA860888989CB2"
+			]
+			id: "4472876DA2093019"
+			tasks: [{
+				id: "7549B4B750A90DAF"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+	]
 	title: "安山时代"
 }

@@ -1,0 +1,134 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "45A4DF9F365F33E2"
+	group: ""
+	icon: "minecraft:command_block"
+	id: "45A4DF9F365F33E2"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: "minecraft:totem_of_undying"
+			id: "3A4F56271FDF8FC4"
+			rewards: [{
+				command: "/gamerule doImmediateRespawn true"
+				id: "066DBA327B629611"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "46D16CD9F01BB953"
+				type: "checkmark"
+			}]
+			title: "开启 立即重生"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:chest"
+			id: "54AE52B7DB3A3F94"
+			rewards: [{
+				command: "/gamerule keepInventory true"
+				id: "659D4F56998C5776"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "3466EC0A71924D18"
+				type: "checkmark"
+			}]
+			title: "开启 死亡不掉落"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:light"
+			id: "60E053EFD8FB27A5"
+			rewards: [
+				{
+					command: "/gamerule doDaylightCycle false"
+					id: "59A72DBDF5C17CFE"
+					silent: true
+					type: "command"
+				}
+				{
+					command: "/time set noon"
+					id: "0409EC51E71B1BB0"
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "0A55F0AF412A8D82"
+				type: "checkmark"
+			}]
+			title: "关闭 昼夜更替"
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "500EE6E71096D886"
+			rewards: [{
+				command: "/gamerule doWeatherCycle false"
+				id: "449A9D12B5C5A6D0"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "4078B1A4EB902018"
+				title: "关闭 天气更替"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:campfire"
+			id: "76019FE208A3B789"
+			rewards: [{
+				command: "/gamerule doFireTick false"
+				id: "1B33259CDB857DD9"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "5CF16AD0340AFC92"
+				title: "关闭 火焰蔓延"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "48EFD8FC43C40B0C"
+			rewards: [{
+				command: "/gamerule mobGriefing false"
+				id: "1D4FC4903839973D"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "215373E96CE2A5E4"
+				title: "关闭 生物破坏"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+	]
+	title: "便携指令"
+}

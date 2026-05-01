@@ -100,21 +100,21 @@ ServerEvents.recipes((event) => {
         output: { item: "minecraft:kelp" },
         aboveFluid: "minecraft:water",
         minMeshTier: 2,
-        duration: 300,
-        chance: 0.08,
+        duration: 200,
+        chance: 0.05,
         chanceIncreasePerTier: 0.01,
     });
 
     // 添加 minecraft:cactus 的配方
     event.custom({
         type: "strainers:strainer",
-        ingredients: [{ item: "minecraft:red_sand" }],
+        ingredients: [{ item: "minecraft:sand" }],
         output: { item: "minecraft:cactus" },
         aboveFluid: "minecraft:water",
         minMeshTier: 2,
-        duration: 600,
-        chance: 0.04,
-        chanceIncreasePerTier: 0.005,
+        duration: 200,
+        chance: 0.05,
+        chanceIncreasePerTier: 0.01,
     });
 
     // 添加 minecraft:seagrass 的配方
@@ -124,8 +124,8 @@ ServerEvents.recipes((event) => {
         output: { item: "minecraft:seagrass" },
         aboveFluid: "minecraft:water",
         minMeshTier: 2,
-        duration: 300,
-        chance: 0.08,
+        duration: 200,
+        chance: 0.05,
         chanceIncreasePerTier: 0.01,
     });
 
@@ -135,10 +135,10 @@ ServerEvents.recipes((event) => {
         ingredients: [{ item: "minecraft:sand" }],
         output: { item: "minecraft:sea_pickle" },
         aboveFluid: "minecraft:water",
-        minMeshTier: 1,
+        minMeshTier: 2,
         duration: 200,
         chance: 0.05,
-        chanceIncreasePerTier: 0.005,
+        chanceIncreasePerTier: 0.01,
     });
 
     // 添加 minecraft:sugar_cane 的配方
@@ -147,9 +147,9 @@ ServerEvents.recipes((event) => {
         ingredients: [{ item: "minecraft:sand" }],
         output: { item: "minecraft:sugar_cane" },
         aboveFluid: "minecraft:water",
-        minMeshTier: 1,
+        minMeshTier: 2,
         duration: 200,
         chance: 0.05,
-        chanceIncreasePerTier: 0.005,
+        chanceIncreasePerTier: 0.01,
     });
 });

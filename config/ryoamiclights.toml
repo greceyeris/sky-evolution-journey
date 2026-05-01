@@ -12,4 +12,15 @@
 			[light_sources.settings.entities.minecraft]
 				player = true
 				item = true
+				bee = true
+				pig = true
+
+			[light_sources.settings.entities.create]
+				stationary_contraption = true
+
+			[light_sources.settings.entities.mythicbotany]
+				alf_pixie = true
+
+			[light_sources.settings.entities.productivebees]
+				configurable_bee = true
 

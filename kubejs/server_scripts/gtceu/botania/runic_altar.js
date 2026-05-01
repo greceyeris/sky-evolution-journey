@@ -1,18 +1,19 @@
 ServerEvents.recipes((event) => {
     // 添加配方
     // botania:runic_altar
-    // 添加 gtceu:copper_ore 的配方
+    // 添加 botania:mana_pool 的配方
     event.recipes.botania.runic_altar(
-        "gtceu:copper_ore",
+        "botania:mana_pool",
         [
-            "botania:orange_petal",
-            "botania:orange_petal",
-            "botania:orange_petal",
-            "botania:orange_petal",
-            "botania:orange_petal_block",
-            "botania:orange_petal_block",
-            "botania:orange_petal_block",
-            "botania:orange_petal_block",
+            "gtceu:andesite_alloy_ingot",
+            "gtceu:andesite_alloy_ingot",
+            "gtceu:andesite_alloy_ingot",
+            "botania:livingrock",
+            "botania:diluted_pool",
+            "botania:livingrock",
+            "botania:livingrock",
+            "botania:livingrock",
+            "botania:livingrock",
         ],
         8000,
     );

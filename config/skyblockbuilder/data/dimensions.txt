@@ -1,5 +1,6 @@
 minecraft:overworld
-mythicbotany:alfheim
-minecraft:the_nether
 minecraft:the_end
+compactmachines:compact_world
+minecraft:the_nether
+mythicbotany:alfheim
 ae2:spatial_storage

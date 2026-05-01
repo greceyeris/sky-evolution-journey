@@ -1,6 +1,11 @@
 [
     {
-        "mob": "extrabotany:gaia_3rd",
+        "mob": [
+            "extrabotany:gaia_3rd",
+            "minecraft:bee",
+            "productivebees:configurable_bee",
+            "productivebees:configurable_bee"
+        ],
         "when": "onjoin",
         "result": "default"
     },
@@ -17,22 +22,17 @@
         "result": "default"
     },
     {
-        "mob": "minecraft:phantom",
-        "when": "onjoin",
-        "result": "deny"
-    },
-    {
-        "mob": "minecraft:wandering_trader",
-        "when": "onjoin",
-        "result": "deny"
-    },
-    {
         "hostile": true,
         "when": "onjoin",
         "result": "deny"
     },
     {
         "passive": true,
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "mob": ["minecraft:phantom", "minecraft:wandering_trader"],
         "when": "onjoin",
         "result": "deny"
     }

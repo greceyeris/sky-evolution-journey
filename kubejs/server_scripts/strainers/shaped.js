@@ -1,6 +1,12 @@
 ServerEvents.recipes((event) => {
     // 添加配方
     // shaped
+    // 添加 strainers:mulch 的配方
+    event.shaped("strainers:mulch", ["AAA", "ABA", "AAA"], {
+        A: "#minecraft:leaves",
+        B: "minecraft:mud",
+    });
+
     // 添加 strainers:purifying_salt_mulch 的配方
     event.shaped("strainers:purifying_salt_mulch", ["ABA", "ACA", "ABA"], {
         A: "#minecraft:leaves",

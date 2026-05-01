@@ -41,7 +41,7 @@
 #Tooltip Config
 [tooltip]
 	#Whether to enable Modern UI enhanced tooltip, or back to vanilla default.
-	enable = true
+	enable = false
 	#Whether to use rounded tooltip shapes, or to use vanilla style.
 	roundedShape = true
 	#True to center the tooltip title if rendering an item's tooltip.
@@ -181,7 +181,7 @@
 	fontRegistrationList = []
 	#Whether to use Google Noto Color Emoji, otherwise grayscale emoji (faster).
 	#See Unicode 15.0 specification for details on how this affects text layout.
-	useColorEmoji = true
+	useColorEmoji = false
 	#When enabled, text layout uses fractional metrics with no font hinting and applies sub-pixel positioning.
 	#When disabled, text layout uses integer metrics with full font hinting.
 	linearMetrics = true

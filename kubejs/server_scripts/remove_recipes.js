@@ -1,5 +1,27 @@
 // priority: -999
 
+// 定义 removeRecipesUsedTagAndInputAndOutput 数组
+const removeRecipesUsedTagAndInputAndOutput = [
+    // c
+    "#c:hidden_from_recipe_viewers",
+];
+
+// 定义 removeRecipesUsedTagAndInputAndOutputList 数组
+let removeRecipesUsedTagAndInputAndOutputList = [];
+
+ServerEvents.tags("fluid", (event) => {
+    removeRecipesUsedTagAndInputAndOutput.forEach((tag) => {
+        event
+            .get(tag.slice(1))
+            .getObjectIds()
+            .forEach((fluid) => {
+                removeRecipesUsedTagAndInputAndOutputList.push(
+                    Fluid.of(String(fluid)),
+                );
+            });
+    });
+});
+
 ServerEvents.recipes((event) => {
     // 定义 removeRecipesUsedRecipeId 数组
     const removeRecipesUsedRecipeId = [
@@ -24,6 +46,26 @@ ServerEvents.recipes((event) => {
         "gtceu:shaped/gem_to_dust_coal_gem",
         "gtceu:shaped/mortar_grind_electrum",
         "gtceu:shaped/mortar_grind_zinc",
+        "gtceu:shaped/mortar_grind_iron",
+        "gtceu:shaped/mortar_grind_annealed_copper",
+        "gtceu:shaped/gem_to_dust_coal_exquisite_gem",
+        "gtceu:shaped/gem_to_dust_coal_flawless_gem",
+        "gtceu:shaped/mortar_grind_wrought_iron",
+        "gtceu:shaped/mortar_grind_tin",
+        "gtceu:shaped/mortar_grind_antimony",
+        "gtceu:shaped/gem_to_dust_charcoal_gem",
+        "gtceu:shaped/mortar_grind_nickel",
+        "gtceu:shaped/mortar_grind_brass",
+        "gtceu:shaped/mortar_grind_invar",
+        "gtceu:shaped/mortar_grind_silver",
+        "gtceu:shaped/gem_to_dust_coke_exquisite_gem",
+        "gtceu:shaped/gem_to_dust_coke_flawless_gem",
+        "gtceu:shaped/gem_to_dust_coke_gem",
+        "gtceu:shaped/mortar_grind_bronze",
+        "gtceu:shaped/mortar_grind_lead",
+        "gtceu:shaped/mortar_grind_steel",
+        "gtceu:shaped/mortar_grind_gold",
+        "gtceu:shaped/paper_dust",
 
         // opolisutilities
         "opolisutilities:sticks",
@@ -38,6 +80,7 @@ ServerEvents.recipes((event) => {
         "farmersdelight:flint_knife",
         "farmersdelight:iron_knife",
         "farmersdelight:wheat_dough_from_water",
+        "farmersdelight:paper_from_tree_bark",
 
         // minecraft
         "minecraft:diorite",
@@ -87,9 +130,27 @@ ServerEvents.recipes((event) => {
 
         // create
         "create:crafting/materials/copper_ingot",
-
-        // crossroads
-        "crossroads:smelting/dust_copper",
+        "create:milling/sugar_cane",
+        "create:crafting/kinetics/fluid_tank",
+        "create:crafting/kinetics/spout",
+        "create:crafting/kinetics/millstone",
+        "create:crafting/kinetics/chute",
+        "create:crafting/kinetics/basin",
+        "create:crafting/kinetics/mechanical_saw",
+        "create:crafting/kinetics/cogwheel",
+        "create:deploying/cogwheel",
+        "create:crafting/kinetics/gearbox",
+        "create:crafting/kinetics/fluid_pipe",
+        "create:crafting/kinetics/mechanical_pump",
+        "create:crafting/kinetics/shaft",
+        "create:deploying/large_cogwheel",
+        "create:crafting/kinetics/large_cogwheel",
+        "create:crafting/kinetics/mechanical_press",
+        "create:crafting/kinetics/depot",
+        "create:crafting/kinetics/turntable",
+        "create:crafting/kinetics/encased_fan",
+        "create:crafting/kinetics/gearshift",
+        "create:crafting/kinetics/clutch",
 
         // botanicalmachinery
         "botanicalmachinery:runic_altar",
@@ -126,19 +187,18 @@ ServerEvents.recipes((event) => {
         "immersiveengineering:crafting/raw_hammercrushing_copper",
         "immersiveengineering:crafting/raw_hammercrushing_tungsten",
         "immersiveengineering:crafting/raw_hammercrushing_zinc",
+        "immersiveengineering:crafting/paper_from_sawdust",
+
+        // thermal_extra
+        "thermal_extra:sticky_ball_to_paper",
+
+        // thermal
+        "thermal:mycelium_crafting",
+        "thermal:bottler_molten_iron_bucket",
     ];
 
     // 定义 removeRecipesUsedItemInput 数组
-    const removeRecipesUsedItemInput = [
-        // forge
-        "#forge:ores",
-        "#forge:crushed_ores",
-        "#forge:purified_ores",
-        "#forge:pure_dusts",
-        "#forge:refined_ores",
-        "#forge:impure_dusts",
-        "#forge:dusts",
-    ];
+    const removeRecipesUsedItemInput = [];
 
     // 定义 removeRecipesUsedItemOutput 数组
     const removeRecipesUsedItemOutput = [
@@ -183,6 +243,7 @@ ServerEvents.recipes((event) => {
         "minecraft:bowl",
 
         // strainers
+        "strainers:mulch",
         "strainers:purifying_salt_mulch",
         "strainers:flint_mesh",
         "strainers:copper_mesh",
@@ -204,16 +265,6 @@ ServerEvents.recipes((event) => {
 
         // flopper
         "flopper:flopper",
-
-        // simpleprocessingmachines
-        "simpleprocessingmachines:centrifugal_separator",
-        "simpleprocessingmachines:auto_crafting_station",
-        "simpleprocessingmachines:organic_composter",
-        "simpleprocessingmachines:crystallizing_station",
-        "simpleprocessingmachines:atmospheric_condenser",
-        "simpleprocessingmachines:crushing_station",
-        "simpleprocessingmachines:mineral_processing_station",
-        "simpleprocessingmachines:sawmilling_station",
 
         // botania
         "botania:fertilizer",
@@ -272,10 +323,14 @@ ServerEvents.recipes((event) => {
         "botania:metamorphic_mesa_bricks_slab",
         "botania:corporea_slab",
         "botania:corporea_brick_slab",
+        "botania:mycelium_seeds",
 
         // create
         "create:copper_casing",
         "create:andesite_casing",
+        "create:copper_valve_handle",
+        "create:empty_blaze_burner",
+        "create:whisk",
 
         // ae2
         "ae2:crank",
@@ -292,13 +347,40 @@ ServerEvents.recipes((event) => {
         // createmetallurgy
         "createmetallurgy:casting_basin",
         "createmetallurgy:casting_table",
+        "createmetallurgy:graphite",
 
         // hauntfurnace
         "hauntfurnace:haunt_furnace",
+
+        // ceramicbucket
+        "ceramicbucket:ceramic_bucket",
+
+        // brewinandchewin
+        "brewinandchewin:keg",
+
+        // vintage
+        "vintage:spring_coiling_machine_wheel",
+        "vintage:spring_coiling_machine",
+        "vintage:centrifuge",
+        "vintage:vacuum_chamber",
+
+        // createaddition
+        "createaddition:rolling_mill",
+
+        // create_hc
+        "create_hc:shaft",
+        "create_hc:gear_small",
+        "create_hc:gear_large",
+        "create_hc:press_head",
+        "create_hc:saw_blade",
     ];
 
     // 定义 removeRecipesUsedItemInputAndOutput 数组
     const removeRecipesUsedItemInputAndOutput = [
+        // mysticalagriculture
+        "#mysticalagriculture:seeds",
+        "#mysticalagriculture:essences",
+
         // c
         "#c:hidden_from_recipe_viewers",
     ];
@@ -331,14 +413,6 @@ ServerEvents.recipes((event) => {
         "brickfurnace:blasting",
         "brickfurnace:smoking",
 
-        // simpleprocessingmachines
-        "simpleprocessingmachines:organic_composting",
-        "simpleprocessingmachines:crystallizing",
-        "simpleprocessingmachines:atmospheric_condensing",
-        "simpleprocessingmachines:crushing",
-        "simpleprocessingmachines:mineral_processing",
-        "simpleprocessingmachines:sawmilling",
-
         // melter
         "melter:melting",
 
@@ -349,19 +423,75 @@ ServerEvents.recipes((event) => {
         "createmetallurgy:casting_in_table",
         "createmetallurgy:alloying",
         "createmetallurgy:entity_melting",
+        "createmetallurgy:bulk_melting",
 
         // hauntfurnace
         "hauntfurnace:haunting",
+
+        // pneumaticcraft
+        "pneumaticcraft:gun_ammo_potion_crafting",
+
+        // modularrouters
+        "modularrouters:breaker_module",
+
+        // create
+        "create:pressing",
+        // "create:item_application",
+
+        // createdieselgenerators
+        "createdieselgenerators:compression_molding",
+
+        // vintage
+        "vintage:centrifugation",
+
+        // botanypots
+        "botanypots:crop",
+        "botanypots:soil",
+
+        // cagedmobs
+        "cagedmobs:entity_data",
+        "cagedmobs:environment_data",
     ];
 
     // 定义 removeRecipesUsedTypeAndInput 数组
     const removeRecipesUsedTypeAndInput = [
-        // { type: "minecraft:smelting", input: "#forge:raw_materials" },
-        // { type: "minecraft:blasting", input: "#forge:raw_materials" },
+        { type: "minecraft:smelting", input: "#forge:raw_materials" },
+        { type: "minecraft:blasting", input: "#forge:raw_materials" },
+        { type: "minecraft:smelting", input: "#forge:ores" },
+        { type: "minecraft:blasting", input: "#forge:ores" },
+        { type: "minecraft:smelting", input: "#forge:crushed_ores" },
+        { type: "minecraft:blasting", input: "#forge:crushed_ores" },
+        { type: "minecraft:smelting", input: "#forge:purified_ores" },
+        { type: "minecraft:blasting", input: "#forge:purified_ores" },
+        { type: "minecraft:smelting", input: "#forge:pure_dusts" },
+        { type: "minecraft:blasting", input: "#forge:pure_dusts" },
+        { type: "minecraft:smelting", input: "#forge:refined_ores" },
+        { type: "minecraft:blasting", input: "#forge:refined_ores" },
+        { type: "minecraft:smelting", input: "#forge:impure_dusts" },
+        { type: "minecraft:blasting", input: "#forge:impure_dusts" },
+        { type: "minecraft:smelting", input: "#forge:dusts" },
+        { type: "minecraft:blasting", input: "#forge:dusts" },
+        {
+            type: "minecraft:stonecutting",
+            input: "createmetallurgy:graphite_blank_mold",
+        },
+        { type: "minecraft:crafting_shapeless", input: "#forge:refined_ores" },
+        {
+            type: "minecraft:crafting_shapeless",
+            input: "#forge:flawless_gems",
+        },
+        {
+            type: "minecraft:crafting_shapeless",
+            input: "#forge:exquisite_gems",
+        },
     ];
 
     // 定义 removeRecipesUsedTypeAndOutput 数组
-    const removeRecipesUsedTypeAndOutput = [];
+    const removeRecipesUsedTypeAndOutput = [
+        { type: "minecraft:crafting_shaped", output: "#forge:plates" },
+        { type: "minecraft:crafting_shapeless", output: "#forge:impure_dusts" },
+        { type: "minecraft:crafting_shapeless", output: "#forge:pure_dusts" },
+    ];
 
     // 输出配方类型
     const recipeTypes = new Set();
@@ -422,5 +552,14 @@ ServerEvents.recipes((event) => {
     removeRecipesUsedTypeAndOutput.forEach((obj) => {
         // remove type and output
         event.remove({ type: obj.type, output: Ingredient.of(obj.output) });
+    });
+
+    // removeRecipesUsedTagAndInputAndOutputList
+    removeRecipesUsedTagAndInputAndOutputList.forEach((obj) => {
+        // remove input
+        event.remove({ input: obj });
+
+        // remove output
+        event.remove({ output: obj });
     });
 });

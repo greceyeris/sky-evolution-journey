@@ -30,7 +30,7 @@
 		{
 			dependencies: ["422EB83D3BD05264"]
 			description: [
-				"&6空手&r &c下蹲右键&r &a苔藓块/泥土/草方块&r 45%概率可获得"
+				"&6空手&r &c下蹲右键&r &a苔藓块/泥土/草方块&r 45% 概率可获得"
 				""
 				"&o&7(0.2s冷却)&r&r"
 			]
@@ -95,9 +95,9 @@
 				"3DE92338958835C3"
 			]
 			description: [
-				"&6木棍&r &c下蹲右键&r &a苔藓块/泥土/草方块&r 45%概率可获得"
+				"&6木棍&r &c下蹲右键&r &a苔藓块/泥土/草方块&r 45% 概率可获得"
 				""
-				"&o&7(0.2s冷却)&r&r"
+				"&o&7(木棍 15% 概率被消耗，0.2s 冷却)&r&r"
 			]
 			id: "33D4F903D17BC56D"
 			shape: "circle"
@@ -348,8 +348,9 @@
 		{
 			dependencies: [
 				"2CC395CBBF76ABD5"
-				"773C0CD1140A4D47"
+				"1E5279F827D0D71F"
 				"5FB079E61B72AD98"
+				"39C64E7E6EA841E3"
 			]
 			id: "687B42E57D2DE436"
 			shape: "circle"
@@ -371,8 +372,8 @@
 				item: "minecraft:string"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 6.0d
+			x: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -387,8 +388,8 @@
 				item: "opolisutilities:leafy_string"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -410,8 +411,8 @@
 				item: "minecraft:campfire"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 2.0d
+			x: 20.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -464,7 +465,10 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["6579B2251978BB07"]
+			dependencies: [
+				"6579B2251978BB07"
+				"5741091C004B2079"
+			]
 			id: "69FED3806981131B"
 			shape: "circle"
 			size: 1.0d
@@ -550,7 +554,7 @@
 				item: "minecraft:oak_slab"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 10.0d
 			y: 2.0d
 		}
 		{
@@ -616,8 +620,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
-			y: 2.0d
+			x: 17.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -697,7 +701,7 @@
 		{
 			dependencies: [
 				"618D04AFE10AEE3E"
-				"4A37898820CCC9D5"
+				"74FF221572AD0631"
 				"6A8DF80AFA0883CA"
 			]
 			description: ["&6锄头&r &c右键&r &a有机覆盖物&r 可 &c转化&r 成 &b水方块&r"]
@@ -744,12 +748,11 @@
 				"43916DB63E377C6A"
 				"6747E4FA822CED5E"
 				"6A8DF80AFA0883CA"
-				"5741091C004B2079"
 			]
 			id: "485340B726C44CA8"
 			tasks: [{
-				id: "22F2D7A70C130715"
-				item: "simpleprocessingmachines:organic_composter"
+				id: "1E5279F827D0D71F"
+				item: "brewinandchewin:keg"
 				type: "item"
 			}]
 			x: 7.5d
@@ -773,23 +776,6 @@
 		{
 			dependencies: [
 				"43916DB63E377C6A"
-				"6D0FBE4BC158AD55"
-				"7455FE2AE3607A91"
-				"6A8DF80AFA0883CA"
-				"20EA7AE05B72E299"
-			]
-			id: "773C0CD1140A4D47"
-			tasks: [{
-				id: "376B5FF7140739E6"
-				item: "simpleprocessingmachines:crystallizing_station"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"43916DB63E377C6A"
 				"2643B24DFCECC5CA"
 				"0F1D9F28712B75C8"
 			]
@@ -799,7 +785,7 @@
 				item: "minecraft:bowl"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.5d
 			y: 10.0d
 		}
 		{
@@ -808,16 +794,15 @@
 				"43916DB63E377C6A"
 				"6D0FBE4BC158AD55"
 				"6A8DF80AFA0883CA"
-				"39C64E7E6EA841E3"
 			]
 			id: "5FB079E61B72AD98"
 			tasks: [{
-				id: "73974A24B72DEE08"
-				item: "simpleprocessingmachines:atmospheric_condenser"
+				id: "074AF698C72459D3"
+				item: "watercondenser:watercondenser"
 				type: "item"
 			}]
 			x: 10.0d
-			y: 10.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -831,7 +816,7 @@
 				item: "flopper:flopper"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 10.0d
 			y: 10.0d
 		}
 	]

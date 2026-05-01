@@ -4,7 +4,7 @@ ServerEvents.recipes((event) => {
     // 添加 kubejs:mossy_twig 的配方
     event.custom({
         type: "lychee:block_interacting",
-        item_in: { item: "air" },
+        item_in: { item: "minecraft:air" },
         block_in: { tag: "minecraft:dirt" },
         contextual: { type: "is_sneaking" },
         post: [
@@ -31,6 +31,10 @@ ServerEvents.recipes((event) => {
         post: [
             {
                 type: "prevent_default",
+                contextual: {
+                    type: "chance",
+                    chance: 0.85,
+                },
             },
             {
                 type: "add_item_cooldown",

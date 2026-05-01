@@ -1,6 +1,3 @@
 {
-    "filters": [
-        { "category": "simpleprocessingmachines:centrifugal_separating" },
-        { "category": "simpleprocessingmachines:auto_processing" }
-    ]
+    "filters": [{ "category": "createmetallurgy:polishing_with_grinder" }]
 }

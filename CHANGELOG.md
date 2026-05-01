@@ -2,6 +2,18 @@
 
 ---
 
+### Version: _0.13.0_
+
+### Date: _2026-05-02_
+
+**Changes:**
+
+- Adjusted some recipes.
+- Adjusted quest chapter: `Copper Age`.
+- Added quest chapter: `Iron Age`.
+
+---
+
 ### Version: _0.12.0_
 
 ### Date: _2026-04-25_
@@ -13,7 +25,7 @@
 - Adjusted some recipes.
 - Adjusted quest chapter: `Stone Age`.
 - Adjusted quest chapter: `Botania Age I`.
-- Adjusted quest chapter: `Copper Age I`.
+- Adjusted quest chapter: `Copper Age`.
 
 ---
 

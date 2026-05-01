@@ -132,4 +132,19 @@ ServerEvents.recipes((event) => {
     event.shaped("minecraft:bone_block", ["AAA", "AAA", "AAA"], {
         A: "minecraft:bone_meal",
     });
+
+    // 添加 minecraft:white_wool 的配方
+    event.shaped("minecraft:white_wool", ["AA", "AA"], {
+        A: "minecraft:string",
+    });
+
+    // 添加 minecraft:paper 的配方
+    event.shaped("2x minecraft:paper", [" A ", "BBB", " C "], {
+        A: "#forge:tools/mallets",
+        B: "gtceu:paper_dust",
+        C: Item.of(
+            "ceramicbucket:ceramic_bucket",
+            '{Fluid:{Amount:1000,FluidName:"minecraft:water"}}',
+        ).strongNBT(),
+    });
 });

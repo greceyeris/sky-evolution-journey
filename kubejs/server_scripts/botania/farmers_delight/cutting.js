@@ -126,7 +126,7 @@ ServerEvents.recipes((event) => {
     event.custom({
         type: "farmersdelight:cutting",
         ingredients: [{ item: "botania:livingwood" }],
-        result: [{ item: "botania:livingwood_slab" }],
+        result: [{ item: "botania:livingwood_slab", count: 2 }],
         tool: { tag: "forge:tools/saws" },
     });
 
@@ -134,7 +134,7 @@ ServerEvents.recipes((event) => {
     event.custom({
         type: "farmersdelight:cutting",
         ingredients: [{ item: "botania:stripped_livingwood" }],
-        result: [{ item: "botania:stripped_livingwood_slab" }],
+        result: [{ item: "botania:stripped_livingwood_slab", count: 2 }],
         tool: { tag: "forge:tools/saws" },
     });
 
@@ -142,7 +142,7 @@ ServerEvents.recipes((event) => {
     event.custom({
         type: "farmersdelight:cutting",
         ingredients: [{ item: "botania:livingwood_planks" }],
-        result: [{ item: "botania:livingwood_planks_slab" }],
+        result: [{ item: "botania:livingwood_planks_slab", count: 2 }],
         tool: { tag: "forge:tools/saws" },
     });
 
@@ -150,7 +150,7 @@ ServerEvents.recipes((event) => {
     event.custom({
         type: "farmersdelight:cutting",
         ingredients: [{ item: "botania:dreamwood" }],
-        result: [{ item: "botania:dreamwood_slab" }],
+        result: [{ item: "botania:dreamwood_slab", count: 2 }],
         tool: { tag: "forge:tools/saws" },
     });
 
@@ -158,7 +158,7 @@ ServerEvents.recipes((event) => {
     event.custom({
         type: "farmersdelight:cutting",
         ingredients: [{ item: "botania:stripped_dreamwood" }],
-        result: [{ item: "botania:stripped_dreamwood_slab" }],
+        result: [{ item: "botania:stripped_dreamwood_slab", count: 2 }],
         tool: { tag: "forge:tools/saws" },
     });
 
@@ -166,7 +166,7 @@ ServerEvents.recipes((event) => {
     event.custom({
         type: "farmersdelight:cutting",
         ingredients: [{ item: "botania:dreamwood_planks" }],
-        result: [{ item: "botania:dreamwood_planks_slab" }],
+        result: [{ item: "botania:dreamwood_planks_slab", count: 2 }],
         tool: { tag: "forge:tools/saws" },
     });
 
@@ -174,7 +174,7 @@ ServerEvents.recipes((event) => {
     event.custom({
         type: "farmersdelight:cutting",
         ingredients: [{ item: "botania:shimmerwood_planks" }],
-        result: [{ item: "botania:shimmerwood_planks_slab" }],
+        result: [{ item: "botania:shimmerwood_planks_slab", count: 2 }],
         tool: { tag: "forge:tools/saws" },
     });
 
@@ -440,5 +440,13 @@ ServerEvents.recipes((event) => {
         ingredients: [{ item: "botania:corporea_brick" }],
         result: [{ item: "botania:corporea_brick_slab" }],
         tool: { tag: "forge:tools/saws" },
+    });
+
+    // 添加 botania:vivid_grass 的配方
+    event.custom({
+        type: "farmersdelight:cutting",
+        ingredients: [{ item: "minecraft:dirt" }],
+        result: [{ item: "botania:vivid_grass" }],
+        tool: { item: "botania:vivid_seeds" },
     });
 });

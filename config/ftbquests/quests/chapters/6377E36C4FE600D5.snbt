@@ -24,8 +24,8 @@
 		}
 		{
 			dependencies: [
-				"46FEB744D52105F0"
-				"74C239455E534F22"
+				"29E7B54329EAC883"
+				"7DC52761EF6DA5EF"
 			]
 			id: "78BD7EA9D30996C1"
 			tasks: [{
@@ -33,45 +33,15 @@
 				item: "create:spout"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
 			dependencies: [
-				"601F073DF24DE11A"
-				"2E5670A1CEE4834E"
-			]
-			id: "74C239455E534F22"
-			tasks: [{
-				id: "09ED537EE88014D6"
-				item: "minecraft:dried_kelp"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -2.0d
-		}
-		{
-			dependencies: [
-				"689F43CBD8AE9D2F"
-				"0AD148B6DD9BAC84"
-				"1FA5D3ABEDFF4163"
-				"19FA86B3DBA5CA21"
-			]
-			id: "601F073DF24DE11A"
-			tasks: [{
-				id: "22DAD819499C369A"
-				item: "minecraft:kelp"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -4.0d
-		}
-		{
-			dependencies: [
-				"0528FAAF20976492"
 				"685D9489569167DA"
 				"4CD40E1C5AB72D50"
 				"6A8DF80AFA0883CA"
+				"29F2D4F59287C77D"
 			]
 			id: "66F61B20C5F71E46"
 			tasks: [{
@@ -80,8 +50,8 @@
 				item: { Count: 27, id: "immersiveengineering:blastbrick" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 4.0d
+			x: 10.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -97,8 +67,8 @@
 				item: { Count: 27, id: "immersiveengineering:cokebrick" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: -6.0d
+			x: 10.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -119,8 +89,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: -4.0d
+			x: 12.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -134,8 +104,8 @@
 				item: "minecraft:magma_block"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 8.0d
+			x: 7.5d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -148,30 +118,8 @@
 				item: "minecraft:blackstone"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 8.0d
-		}
-		{
-			dependencies: [
-				"60DFBBF1A808E2CF"
-				"428BB954E1F196E2"
-				"458B57107988B4A1"
-				"6A8DF80AFA0883CA"
-			]
-			id: "689F43CBD8AE9D2F"
-			tasks: [{
-				id: "236A0CB84CFB0CC8"
-				item: {
-					Count: 1
-					id: "strainers:copper_mesh"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 2.5d
-			y: -6.0d
+			x: 7.5d
+			y: -12.0d
 		}
 		{
 			dependencies: [
@@ -184,8 +132,8 @@
 				item: "minecraft:charcoal"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -2.0d
+			x: 10.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["26DC173A90552530"]
@@ -196,7 +144,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -209,8 +157,8 @@
 				item: "gtceu:netherrack_dust"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 6.0d
+			x: 7.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -224,8 +172,8 @@
 				item: "minecraft:netherrack"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 6.0d
+			x: 7.5d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -242,8 +190,8 @@
 				item: "hauntfurnace:haunt_furnace"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 8.0d
+			x: 10.0d
+			y: -12.0d
 		}
 		{
 			dependencies: [
@@ -257,7 +205,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 8.0d
+			y: -14.0d
 		}
 		{
 			dependencies: [
@@ -271,8 +219,8 @@
 				item: "botania:black_petal"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 6.0d
+			x: 7.5d
+			y: -14.0d
 		}
 		{
 			dependencies: [
@@ -287,8 +235,8 @@
 				item: "botania:black_mystical_flower"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.0d
+			x: 5.0d
+			y: -14.0d
 		}
 		{
 			dependencies: [
@@ -305,8 +253,8 @@
 				item: "botania:black_double_flower"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 2.0d
+			x: 2.5d
+			y: -14.0d
 		}
 		{
 			dependencies: [
@@ -331,8 +279,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 0.0d
-			y: 8.0d
+			x: 5.0d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -364,8 +312,8 @@
 				item: "botania:mana_string"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -6.0d
+			x: 12.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0AD148B6DD9BAC84"]
@@ -375,8 +323,8 @@
 				item: "minecraft:sandstone"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -8.0d
+			x: 10.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -392,8 +340,8 @@
 				to_observe: "immersiveengineering:coke_oven"
 				type: "observation"
 			}]
-			x: 7.5d
-			y: -4.0d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -409,8 +357,8 @@
 				to_observe: "immersiveengineering:blast_furnace"
 				type: "observation"
 			}]
-			x: 7.5d
-			y: 2.0d
+			x: 10.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -424,7 +372,7 @@
 				item: "gtceu:andesite_alloy_ingot"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
@@ -438,8 +386,8 @@
 				item: "gtceu:andesite_dust"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.0d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -470,10 +418,9 @@
 		{
 			dependencies: [
 				"740483555E02784E"
-				"6CFE69B96C4661CD"
-				"5B4EC323974966C6"
-				"7ED8FC02667FF92B"
 				"78BD7EA9D30996C1"
+				"6CFE69B96C4661CD"
+				"7ED8FC02667FF92B"
 			]
 			id: "3DB3BFFA026B2D85"
 			tasks: [{
@@ -481,7 +428,7 @@
 				item: "gtceu:andesite_alloy_dust"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
@@ -500,7 +447,7 @@
 				type: "item"
 			}]
 			title: "解锁“安山时代”"
-			x: 12.5d
+			x: 15.0d
 			y: 0.0d
 		}
 		{
@@ -516,12 +463,12 @@
 				item: "minecraft:andesite"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -4.0d
+			x: 7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
-				"685D9489569167DA"
+				"29F2D4F59287C77D"
 				"60DFBBF1A808E2CF"
 				"6A8DF80AFA0883CA"
 			]
@@ -531,7 +478,7 @@
 				item: "createmetallurgy:casting_basin"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 15.0d
 			y: -2.0d
 		}
 		{
@@ -539,6 +486,7 @@
 				"60DFBBF1A808E2CF"
 				"685D9489569167DA"
 				"6A8DF80AFA0883CA"
+				"0528FAAF20976492"
 			]
 			id: "6CFE69B96C4661CD"
 			tasks: [{
@@ -546,8 +494,8 @@
 				item: "createmetallurgy:casting_table"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.0d
+			x: 7.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -572,7 +520,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 10.0d
+			x: 12.5d
 			y: 0.0d
 		}
 		{
@@ -588,8 +536,8 @@
 				item: "minecraft:soul_campfire"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 10.0d
+			x: 10.0d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -602,8 +550,8 @@
 				item: "minecraft:soul_sand"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 10.0d
+			x: 10.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -616,8 +564,33 @@
 				item: "minecraft:bone_block"
 				type: "item"
 			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["46FEB744D52105F0"]
+			id: "29E7B54329EAC883"
+			tasks: [{
+				id: "52B8279A80D90D77"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
 			x: 2.5d
-			y: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"60DFBBF1A808E2CF"
+				"6A8DF80AFA0883CA"
+			]
+			id: "7DC52761EF6DA5EF"
+			tasks: [{
+				id: "2D04F41480D1E134"
+				item: "create:copper_valve_handle"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
 		}
 	]
 	title: "铜器时代"

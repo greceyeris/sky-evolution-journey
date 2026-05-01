@@ -1,0 +1,23 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3FE799924B2F0B8D"
+	group: "0F76479A11B06095"
+	icon: "create:brass_casing"
+	id: "3FE799924B2F0B8D"
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		id: "57D6B4A4E4C63365"
+		tasks: [{
+			id: "059E92DC9375B302"
+			item: "create:brass_casing"
+			title: "从这里开始！"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "黄铜时代"
+}
