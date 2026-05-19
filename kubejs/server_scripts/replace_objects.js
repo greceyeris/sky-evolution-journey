@@ -270,10 +270,95 @@ const replaceItems = [
         item: "createmetallurgy:dirty_zinc_dust",
         targetItem: "gtceu:impure_sphalerite_dust",
     },
+    {
+        item: "#forge:dusts/lead",
+        targetItem: "gtceu:lead_dust",
+    },
+    {
+        item: "#forge:dusts/silver",
+        targetItem: "gtceu:silver_dust",
+    },
+    {
+        item: "#forge:dusts/nickel",
+        targetItem: "gtceu:nickel_dust",
+    },
+    {
+        item: "#forge:dusts/uranium",
+        targetItem: "gtceu:uranium_dust",
+    },
+    {
+        item: "#forge:dusts/tin",
+        targetItem: "gtceu:tin_dust",
+    },
+    {
+        item: "#forge:dusts/aluminum",
+        targetItem: "gtceu:aluminium_dust",
+    },
+    {
+        item: "#forge:storage_blocks/raw_tungsten",
+        targetItem: "ftbmaterials:tungsten_raw_block",
+    },
+    {
+        item: "createmetallurgy:wolframite_ore",
+        targetItem: "ftbmaterials:tungsten_nether_ore",
+    },
+    {
+        item: "#forge:raw_materials/tungsten",
+        targetItem: "ftbmaterials:tungsten_raw_ore",
+    },
+    {
+        item: "#forge:dirty_dusts/tungsten",
+        targetItem: "ftbmaterials:tungsten_dirty_dust",
+    },
+    {
+        item: "#forge:tools/knives",
+        targetItem: "silentgear:knife",
+    },
+    {
+        item: "#forge:tools/axes",
+        targetItem: "silentgear:axe",
+    },
+    {
+        item: "#forge:tools/saws",
+        targetItem: "silentgear:saw",
+    },
+    {
+        item: "#forge:shears",
+        targetItem: "silentgear:shears",
+    },
+    {
+        item: "#forge:tools/shovels",
+        targetItem: "silentgear:shovel",
+    },
+    {
+        item: "#forge:tools/hoes",
+        targetItem: "silentgear:hoe",
+    },
+    {
+        item: "#forge:tools/pickaxes",
+        targetItem: "silentgear:pickaxe",
+    },
+    {
+        item: "#forge:gears/wood",
+        targetItem: "gtceu:wood_gear",
+    },
+    {
+        item: "#forge:tools/paxels",
+        targetItem: "silentgear:paxel",
+    },
+    {
+        item: "#forge:tools/hammers",
+        targetItem: "silentgear:hammer",
+    },
 ];
 
-// // 定义 replaceFluids 数组
-// const replaceFluids = [];
+// 定义 replaceFluids 数组
+const replaceFluids = [
+    {
+        fluid: "#forge:honey",
+        targetFluid: "create:honey",
+    },
+];
 
 ServerEvents.recipes((event) => {
     // replaceItems
@@ -304,59 +389,44 @@ ServerEvents.recipes((event) => {
         }
     });
 
-    // // replaceFluids
-    // replaceFluids.forEach((obj) => {
-    //     if (obj.fluid.startsWith("#")) {
-    //         event
-    //             .get(obj.fluid.slice(1))
-    //             .getObjectIds()
-    //             .forEach((fluid) => {
-    //                 if (String(fluid) !== obj.targetFluid) {
-    //                     // replaceInput
-    //                     event.replaceInput(
-    //                         {},
-    //                         Fluid.of(String(fluid)),
-    //                         Fluid.of(obj.targetFluid),
-    //                     );
+    // replaceFluids
+    replaceFluids.forEach((obj) => {
+        if (obj.fluid.startsWith("#")) {
+            Ingredient.of(obj.fluid)
+                .getItemIds()
+                .forEach((fluid) => {
+                    if (String(fluid) !== obj.targetFluid) {
+                        // replaceInput
+                        event.replaceInput(
+                            {},
+                            Fluid.of(String(fluid)),
+                            Fluid.of(obj.targetFluid),
+                        );
 
-    //                     // replaceOutput
-    //                     event.replaceOutput(
-    //                         {},
-    //                         Fluid.of(String(fluid)),
-    //                         Fluid.of(obj.targetFluid),
-    //                     );
-    //                 }
-    //             });
+                        // replaceOutput
+                        event.replaceOutput(
+                            {},
+                            Fluid.of(String(fluid)),
+                            Fluid.of(obj.targetFluid),
+                        );
+                    }
+                });
+        } else {
+            // replaceInput
+            event.replaceInput(
+                {},
+                Fluid.of(obj.fluid),
+                Fluid.of(obj.targetFluid),
+            );
 
-    //         // replaceInput
-    //         event.replaceInput(
-    //             {},
-    //             Fluid.of(obj.fluid),
-    //             Fluid.of(obj.targetFluid),
-    //         );
-
-    //         // replaceOutput
-    //         event.replaceOutput(
-    //             {},
-    //             Fluid.of(obj.fluid),
-    //             Fluid.of(obj.targetFluid),
-    //         );
-    //     } else {
-    //         // replaceInput
-    //         event.replaceInput(
-    //             {},
-    //             Fluid.of(obj.fluid),
-    //             Fluid.of(obj.targetFluid),
-    //         );
-
-    //         // replaceOutput
-    //         event.replaceOutput(
-    //             {},
-    //             Fluid.of(obj.fluid),
-    //             Fluid.of(obj.targetFluid),
-    //         );
-    //     }
-    // });
+            // replaceOutput
+            event.replaceOutput(
+                {},
+                Fluid.of(obj.fluid),
+                Fluid.of(obj.targetFluid),
+            );
+        }
+    });
 });
 
 ServerEvents.tags("item", (event) => {
@@ -396,42 +466,42 @@ ServerEvents.tags("item", (event) => {
     });
 });
 
-// ServerEvents.tags("fluid", (event) => {
-//     // replaceFluids
-//     replaceFluids.forEach((obj) => {
-//         if (obj.fluid.startsWith("#")) {
-//             event
-//                 .get(obj.fluid.slice(1))
-//                 .getObjectIds()
-//                 .forEach((fluid) => {
-//                     if (String(fluid) !== obj.targetFluid) {
-//                         if (!obj.notHidden) {
-//                             // add
-//                             event.add(
-//                                 "c:hidden_from_recipe_viewers",
-//                                 String(fluid),
-//                             );
-//                         } else {
-//                             if (!obj.notRemoveAllTags) {
-//                                 // removeAllTagsFrom
-//                                 event.removeAllTagsFrom(String(fluid));
-//                             }
-//                         }
-//                     }
-//                 });
-//         } else {
-//             if (!obj.notHidden) {
-//                 // add
-//                 event.add("c:hidden_from_recipe_viewers", obj.fluid);
-//             } else {
-//                 if (!obj.notRemoveAllTags) {
-//                     // removeAllTagsFrom
-//                     event.removeAllTagsFrom(obj.fluid);
-//                 }
-//             }
-//         }
-//     });
-// });
+ServerEvents.tags("fluid", (event) => {
+    // replaceFluids
+    replaceFluids.forEach((obj) => {
+        if (obj.fluid.startsWith("#")) {
+            event
+                .get(obj.fluid.slice(1))
+                .getObjectIds()
+                .forEach((fluid) => {
+                    if (String(fluid) !== obj.targetFluid) {
+                        if (!obj.notHidden) {
+                            // add
+                            event.add(
+                                "c:hidden_from_recipe_viewers",
+                                String(fluid),
+                            );
+                        } else {
+                            if (!obj.notRemoveAllTags) {
+                                // removeAllTagsFrom
+                                event.removeAllTagsFrom(String(fluid));
+                            }
+                        }
+                    }
+                });
+        } else {
+            if (!obj.notHidden) {
+                // add
+                event.add("c:hidden_from_recipe_viewers", obj.fluid);
+            } else {
+                if (!obj.notRemoveAllTags) {
+                    // removeAllTagsFrom
+                    event.removeAllTagsFrom(obj.fluid);
+                }
+            }
+        }
+    });
+});
 
 ServerEvents.tags("block", (event) => {
     // replaceItems

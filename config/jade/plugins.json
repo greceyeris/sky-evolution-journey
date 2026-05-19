@@ -106,6 +106,12 @@
   "pipez": {
     "pipe": true
   },
+  "dysonsphere": {
+    "heat": true,
+    "heat_generator": true,
+    "ds_energy_receiver": true,
+    "laser_controller": true
+  },
   "waystones": {
     "waystone": true
   },
@@ -130,6 +136,10 @@
   },
   "bonsaitrees3": {
     "bonsaipot": true
+  },
+  "logisticsnetworks": {
+    "logistics_node_entity": true,
+    "node_attached": true
   },
   "gtceu": {
     "primitive_pump": true,
@@ -163,6 +173,11 @@
     "jade_chamber": true,
     "jade_wireless": true
   },
+  "apotheosis": {
+    "adventure": true,
+    "ench": true,
+    "spawner": true
+  },
   "unlitcampfire": {
     "campfireinfo": true
   },
@@ -191,6 +206,12 @@
   },
   "mysticalagradditions": {
     "infused_farmland": true
+  },
+  "ae2cs": {
+    "jade/ender_channels": true
+  },
+  "corpse": {
+    "corpse": true
   },
   "mysticalagriculture": {
     "infused_farmland": true,

@@ -1,11 +1,11 @@
 [
     {
-        "mob": [
-            "extrabotany:gaia_3rd",
-            "minecraft:bee",
-            "productivebees:configurable_bee",
-            "productivebees:configurable_bee"
-        ],
+        "mob": ["minecraft:bee", "minecraft:witch", "extrabotany:gaia_3rd"],
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
+        "mod": ["productivebees"],
         "when": "onjoin",
         "result": "default"
     },

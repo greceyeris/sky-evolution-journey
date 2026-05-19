@@ -34,4 +34,11 @@ ServerEvents.recipes((event) => {
         C: "gtceu:andesite_alloy_ingot",
         D: "create:mechanical_pump",
     });
+
+    // 添加 vintage:curving_press 的配方
+    event.shaped("vintage:curving_press", [" A ", "BCB"], {
+        A: "create:shaft",
+        B: "vintage:andesite_spring",
+        C: "create:andesite_casing",
+    });
 });

@@ -4,11 +4,13 @@
     {
       "texShaderLocation": {
         "f_135804_": "darkmodeeverywhere",
-        "f_135805_": "dark_position_tex"
+        "f_135805_": "dark_position_tex",
+        "lightspeed$hash": 1093128533
       },
       "texColorShaderLocation": {
         "f_135804_": "darkmodeeverywhere",
-        "f_135805_": "dark_position_tex_color"
+        "f_135805_": "dark_position_tex_color",
+        "lightspeed$hash": -187936711
       },
       "displayName": {
         "translate": "gui.darkmodeeverywhere.perfect_dark"
@@ -19,11 +21,13 @@
     {
       "texShaderLocation": {
         "f_135804_": "darkmodeeverywhere",
-        "f_135805_": "dark_position_tex"
+        "f_135805_": "dark_position_tex",
+        "lightspeed$hash": 1093128533
       },
       "texColorShaderLocation": {
         "f_135804_": "darkmodeeverywhere",
-        "f_135805_": "dark_position_tex_color"
+        "f_135805_": "dark_position_tex_color",
+        "lightspeed$hash": -187936711
       },
       "displayName": {
         "translate": "gui.darkmodeeverywhere.less_perfect_dark"
@@ -34,11 +38,13 @@
     {
       "texShaderLocation": {
         "f_135804_": "darkmodeeverywhere",
-        "f_135805_": "dark_position_tex"
+        "f_135805_": "dark_position_tex",
+        "lightspeed$hash": 1093128533
       },
       "texColorShaderLocation": {
         "f_135804_": "darkmodeeverywhere",
-        "f_135805_": "dark_position_tex_color"
+        "f_135805_": "dark_position_tex_color",
+        "lightspeed$hash": -187936711
       },
       "displayName": {
         "translate": "gui.darkmodeeverywhere.toasted_light"

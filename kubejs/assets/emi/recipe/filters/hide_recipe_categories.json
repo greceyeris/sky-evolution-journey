@@ -1,3 +1,6 @@
 {
-    "filters": [{ "category": "createmetallurgy:polishing_with_grinder" }]
+    "filters": [
+        { "category": "createmetallurgy:polishing_with_grinder" },
+        { "category": "charcoal_pit:charcoal_pit_recipe" }
+    ]
 }

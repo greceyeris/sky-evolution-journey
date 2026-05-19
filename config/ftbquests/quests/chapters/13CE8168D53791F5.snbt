@@ -31,11 +31,11 @@
 			dependencies: [
 				"497E2D92667AD17A"
 				"5E6F983BD167AC40"
-				"3474576B389C3F0D"
 				"282FA7119B7B1F3C"
 				"4FCB13A7F75CC2F9"
 				"3FFA860888989CB2"
 				"3FC4B560295A2FD0"
+				"6B5E9D9CC2FAFDB5"
 			]
 			id: "329E75E8489012AE"
 			shape: "diamond"
@@ -46,7 +46,7 @@
 				type: "item"
 			}]
 			title: "解锁“铜器时代”"
-			x: 22.5d
+			x: 15.0d
 			y: 0.0d
 		}
 		{
@@ -62,14 +62,14 @@
 				item: "botania:orange_mystical_flower"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -2.0d
+			x: 7.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
 				"3BD9FC069710D847"
 				"2643B24DFCECC5CA"
-				"0F1D9F28712B75C8"
+				"6A6B90543CC164EB"
 			]
 			id: "7A075A6F8001FF8C"
 			tasks: [{
@@ -77,8 +77,8 @@
 				item: "botania:orange_petal"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -2.0d
+			x: 7.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -91,8 +91,8 @@
 				item: "botania:orange_petal_block"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -2.0d
+			x: 10.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -114,7 +114,7 @@
 			dependencies: [
 				"693E26715CC751A0"
 				"2643B24DFCECC5CA"
-				"0F1D9F28712B75C8"
+				"6A6B90543CC164EB"
 			]
 			id: "0166707B2F6CAE87"
 			tasks: [{
@@ -143,10 +143,10 @@
 		}
 		{
 			dependencies: [
-				"77708D44455E05BC"
 				"1FA5D3ABEDFF4163"
 				"428BB954E1F196E2"
 				"19FA86B3DBA5CA21"
+				"44157C2B272DCEBD"
 			]
 			id: "0487582E26BF4E0B"
 			tasks: [{
@@ -175,7 +175,7 @@
 		{
 			dependencies: [
 				"276268280DC8AC2B"
-				"23F0DE89D6BBACA9"
+				"0B241EA0DA761907"
 			]
 			id: "2BF9C5A1318F9B86"
 			tasks: [{
@@ -183,18 +183,16 @@
 				item: "minecraft:raw_copper"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 0.0d
+			x: 12.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
 				"5FB2BBA1E7BB9C61"
-				"6B5E9D9CC2FAFDB5"
 				"6E1CFD8E2F42533F"
-				"3FFA860888989CB2"
-				"282FA7119B7B1F3C"
-				"4FCB13A7F75CC2F9"
-				"3FC4B560295A2FD0"
+				"3D1F3E65F7967982"
+				"494642725C7C8357"
+				"090CBDC9A2E3E33F"
 			]
 			id: "276268280DC8AC2B"
 			tasks: [{
@@ -202,39 +200,40 @@
 				item: "gtceu:copper_ore"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 0.0d
+			x: 12.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
 				"6367C65CB0E9AA91"
 				"458B57107988B4A1"
 				"6A8DF80AFA0883CA"
+				"645BEC733315BB80"
 			]
 			id: "23F0DE89D6BBACA9"
 			tasks: [{
-				id: "339995152E4BACC1"
+				id: "0B241EA0DA761907"
 				item: {
 					Count: 1
-					id: "gtceu:flint_pickaxe"
+					id: "silentgear:pickaxe"
 					tag: {
 						Damage: 0
-						DisallowContainerItem: 0b
-						GT.Behaviours: {
-							TorchPlacing: 1b
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
 						}
-						GT.Tool: {
-							DefaultEnchantments: [ ]
-							HarvestLevel: 1
-							MaxDamage: 63
-							ToolSpeed: 4.0f
-						}
-						HideFlags: 2
+						SGear_UUID: [I;
+							-1789510127
+							295849302
+							-2073237842
+							-1024107521
+						]
 					}
 				}
 				type: "item"
 			}]
-			x: 17.5d
+			x: 10.0d
 			y: -2.0d
 		}
 		{
@@ -252,8 +251,8 @@
 				item: "botania:orange_double_flower"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -4.0d
+			x: 7.5d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -271,10 +270,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"35D36B7B564BED0A"
-				"49F0B8803F3C3DF2"
-			]
+			dependencies: ["35D36B7B564BED0A"]
 			id: "773F26CA44A78B98"
 			tasks: [{
 				id: "734C6BB9AD0AFEFE"
@@ -333,14 +329,14 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 0.0d
+			x: 15.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
 				"11ACAE47BAFFB3E4"
 				"2643B24DFCECC5CA"
-				"0F1D9F28712B75C8"
+				"6A6B90543CC164EB"
 			]
 			id: "4DCB3AD8E237AC25"
 			tasks: [{
@@ -371,6 +367,7 @@
 			dependencies: [
 				"7CCB69E7FB4338B6"
 				"090CBDC9A2E3E33F"
+				"23F0DE89D6BBACA9"
 			]
 			id: "3C4CF8C4C59844FA"
 			tasks: [{
@@ -492,7 +489,6 @@
 			dependencies: [
 				"3FC4B560295A2FD0"
 				"2643B24DFCECC5CA"
-				"70EBA28A77571591"
 			]
 			id: "68F0B02D5ECA664C"
 			tasks: [{
@@ -565,7 +561,11 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["1CCFA037875E66C8"]
+			dependencies: [
+				"1CCFA037875E66C8"
+				"2643B24DFCECC5CA"
+				"6A6B90543CC164EB"
+			]
 			id: "3ABC8755BFB569A2"
 			tasks: [{
 				id: "57EF28DB7E1CE250"
@@ -576,7 +576,11 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["2B745C5F0F700235"]
+			dependencies: [
+				"2B745C5F0F700235"
+				"2643B24DFCECC5CA"
+				"6A6B90543CC164EB"
+			]
 			id: "1FC17A9A0F69B474"
 			tasks: [{
 				id: "0D7E93503B1CDEAC"
@@ -731,8 +735,8 @@
 		{
 			dependencies: [
 				"0F4863185E6C695A"
-				"0F1D9F28712B75C8"
 				"2643B24DFCECC5CA"
+				"6A6B90543CC164EB"
 			]
 			id: "451B30DCDE8BF16A"
 			tasks: [{
@@ -747,7 +751,6 @@
 			dependencies: [
 				"0659A68F00F65078"
 				"645BEC733315BB80"
-				"49F0B8803F3C3DF2"
 			]
 			id: "6A3B5F24950FB151"
 			tasks: [{
@@ -776,7 +779,7 @@
 			dependencies: [
 				"4BE71B3D88F172AC"
 				"2643B24DFCECC5CA"
-				"0F1D9F28712B75C8"
+				"6A6B90543CC164EB"
 			]
 			id: "2FFF4CECA2F897D2"
 			tasks: [{
@@ -874,6 +877,159 @@
 			}]
 			x: 2.5d
 			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1CBCD9334D568DFA"
+				"3FC4B560295A2FD0"
+				"685D9489569167DA"
+				"6A8DF80AFA0883CA"
+				"09B20FA66068F1FF"
+			]
+			id: "3D1F3E65F7967982"
+			tasks: [
+				{
+					id: "1CCEFD32A87E5F14"
+					item: "mysticalagriculture:infusion_altar"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6479B83E2F41F4B2"
+					item: { Count: 8, id: "mysticalagriculture:infusion_pedestal" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["24498538158B60ED"]
+			id: "494642725C7C8357"
+			tasks: [{
+				id: "177179A6C4DBB139"
+				item: "botania:mana_powder"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"03C792DCB86C09AD"
+				"0BE0BCA014BD6E78"
+			]
+			id: "1CBCD9334D568DFA"
+			tasks: [{
+				id: "7A3609292C7A944C"
+				item: "minecraft:red_wool"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["59E52400B6A31D8E"]
+			id: "03C792DCB86C09AD"
+			tasks: [{
+				id: "12DE02771DD0F643"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"0B8805848B42FB5F"
+				"6E69B4A85A08B00E"
+			]
+			id: "0BE0BCA014BD6E78"
+			tasks: [{
+				id: "0478E1907216475A"
+				item: "minecraft:red_dye"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"54D39CFAB2CD9AA4"
+				"2643B24DFCECC5CA"
+				"49D9948C5BCF9975"
+			]
+			id: "24498538158B60ED"
+			tasks: [{
+				id: "4056B63105AEBCE6"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"0AD148B6DD9BAC84"
+				"428BB954E1F196E2"
+				"1FA5D3ABEDFF4163"
+				"19FA86B3DBA5CA21"
+			]
+			id: "54D39CFAB2CD9AA4"
+			tasks: [{
+				id: "007737623D15EAC7"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6367C65CB0E9AA91"
+				"458B57107988B4A1"
+				"6A8DF80AFA0883CA"
+				"645BEC733315BB80"
+			]
+			id: "49D9948C5BCF9975"
+			tasks: [{
+				id: "726834744B9ED3E2"
+				item: {
+					Count: 1
+					id: "silentgear:hammer"
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+						SGear_UUID: [I;
+							-1964890163
+							1132481975
+							-1789992123
+							-1109350336
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"458B57107988B4A1"
+				"2FBE82E7F31D658A"
+			]
+			id: "09B20FA66068F1FF"
+			tasks: [{
+				id: "4B5E2D32371B2A11"
+				item: "minecraft:lever"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
 		}
 	]
 	title: "植物魔法时代 I"

@@ -1,7 +1,8 @@
-71 possible biomes found:
+76 possible biomes found:
 - "mythicbotany:alfheim_hills"
 - "mythicbotany:alfheim_lakes"
 - "mythicbotany:alfheim_plains"
+- "youkaisfeasts:animal_path"
 - "minecraft:badlands"
 - "minecraft:bamboo_jungle"
 - "minecraft:basalt_deltas"
@@ -16,6 +17,7 @@
 - "minecraft:deep_frozen_ocean"
 - "minecraft:deep_lukewarm_ocean"
 - "minecraft:deep_ocean"
+- "terrablender:deferred_placeholder"
 - "minecraft:desert"
 - "mythicbotany:dreamwood_forest"
 - "minecraft:dripstone_caves"
@@ -46,6 +48,9 @@
 - "minecraft:old_growth_spruce_taiga"
 - "minecraft:plains"
 - "minecraft:river"
+- "youkaisfeasts:sakura_birch_forest"
+- "youkaisfeasts:sakura_forest"
+- "youkaisfeasts:sakura_taiga"
 - "minecraft:savanna"
 - "minecraft:savanna_plateau"
 - "minecraft:small_end_islands"

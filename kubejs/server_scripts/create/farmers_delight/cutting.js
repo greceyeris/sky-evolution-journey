@@ -6,7 +6,7 @@ ServerEvents.recipes((event) => {
         type: "farmersdelight:cutting",
         ingredients: [{ item: "gtceu:andesite_alloy_block" }],
         result: [{ item: "create:basin" }],
-        tool: { tag: "minecraft:pickaxes" },
+        tool: { tag: "forge:tools/pickaxes" },
     });
 
     // 添加 create:chute 的配方
@@ -14,7 +14,7 @@ ServerEvents.recipes((event) => {
         type: "farmersdelight:cutting",
         ingredients: [{ item: "create:basin" }],
         result: [{ item: "create:chute" }],
-        tool: { tag: "minecraft:pickaxes" },
+        tool: { tag: "forge:tools/pickaxes" },
     });
 
     // 添加 create:cogwheel 的配方
@@ -157,5 +157,13 @@ ServerEvents.recipes((event) => {
         ingredients: [{ item: "create:gearbox" }],
         result: [{ item: "create:clutch" }],
         tool: { item: "minecraft:redstone_torch" },
+    });
+
+    // 添加 create:mechanical_mixer 的配方
+    event.custom({
+        type: "farmersdelight:cutting",
+        ingredients: [{ item: "create:gearbox" }],
+        result: [{ item: "create:mechanical_mixer" }],
+        tool: { item: "create:whisk" },
     });
 });

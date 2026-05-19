@@ -8,19 +8,822 @@
 	id: "1DE1AF43AC8C659D"
 	order_index: 5
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["6690F43B631B0DA4"]
-		id: "401A4744585E4BBB"
-		shape: "hexagon"
-		size: 1.5d
-		tasks: [{
-			id: "79FB75BEA57D8E8E"
-			item: "minecraft:iron_ingot"
-			title: "从这里开始！"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["6690F43B631B0DA4"]
+			id: "401A4744585E4BBB"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "79FB75BEA57D8E8E"
+				item: "minecraft:iron_ingot"
+				title: "从这里开始！"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["401A4744585E4BBB"]
+			id: "18A960E287C6D1EA"
+			tasks: [{
+				id: "10B9A3995C8C96B1"
+				item: "gtceu:iron_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"18A960E287C6D1EA"
+				"0F0379579C8E8AE4"
+			]
+			id: "717AA01CCC2FCE3D"
+			tasks: [{
+				id: "23FD87557FD0038B"
+				item: "gtceu:manasteel_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["717AA01CCC2FCE3D"]
+			id: "65B1204B8D17C279"
+			tasks: [{
+				id: "4E351D20951B5CC0"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65B1204B8D17C279"]
+			id: "3A3B8851BFBF1462"
+			tasks: [{
+				id: "3121A24E6813AB45"
+				item: "botania:manasteel_block"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3A3B8851BFBF1462"
+				"779B511735F24C62"
+				"380163062305A662"
+				"408A5E27A348F3D7"
+				"7C056E1804C1F0FB"
+				"04A084F9FE06B9A8"
+				"75BEF372C3C2DF34"
+			]
+			id: "72AEEEBEF44AD607"
+			tasks: [{
+				id: "2B3BF33E976492AE"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F9F8E3705850E7E"]
+			id: "0F0379579C8E8AE4"
+			tasks: [{
+				id: "214463183F5E5FB9"
+				item: "manaliquidizer:mana_fluid_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1CBE48DD4183105E"]
+			id: "6F9F8E3705850E7E"
+			tasks: [{
+				id: "3100C00DF10218EE"
+				item: "manaliquidizer:mana_liquidizer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			id: "1CBE48DD4183105E"
+			tasks: [{
+				id: "3800D0E3416CBF34"
+				item: "botania:mana_tablet"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["759EC13F71724C2A"]
+			id: "779B511735F24C62"
+			tasks: [{
+				id: "25DD0082F1442401"
+				item: "minecraft:lapis_block"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5542924BEEB47A5E"]
+			id: "7C056E1804C1F0FB"
+			tasks: [{
+				id: "738F3F0E511BDD4F"
+				item: "botania:rune_water"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			id: "04A084F9FE06B9A8"
+			tasks: [{
+				id: "5083350F9EEFC6F3"
+				item: "botania:rune_earth"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			id: "75BEF372C3C2DF34"
+			tasks: [{
+				id: "6EDA1827D8716F08"
+				item: "botania:rune_mana"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5734BDAEC30CE2A6"
+				"38291CEF2411D0D9"
+			]
+			id: "380163062305A662"
+			tasks: [{
+				id: "0B340C8D85C04969"
+				item: "botania:rune_air"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"30511F66C55B46F4"
+				"6D66B12E1A815888"
+			]
+			id: "408A5E27A348F3D7"
+			tasks: [{
+				id: "0A7D214E401FCB92"
+				item: "botania:rune_fire"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7FA0F4BA9B27E1DB"
+				"285E98F49B5465DF"
+			]
+			id: "6D66B12E1A815888"
+			tasks: [{
+				id: "3E5965ED28B3FB8E"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0705C3C882A706CB"
+				"197D043D2C788FCB"
+				"1707176ED6127213"
+			]
+			id: "7FA0F4BA9B27E1DB"
+			tasks: [{
+				id: "7EAC4D4224F50A90"
+				item: "cagedmobs:mob_cage"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["268A6E6BED594810"]
+			id: "285E98F49B5465DF"
+			tasks: [{
+				id: "49D42F3AB9DABB0C"
+				item: "minecraft:creeper_spawn_egg"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["30C8C1580EA2B22F"]
+			id: "30511F66C55B46F4"
+			tasks: [{
+				id: "7BB995FE8BD47A81"
+				item: "minecraft:nether_wart"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["58AF18896F4B73A0"]
+			id: "30C8C1580EA2B22F"
+			tasks: [{
+				id: "51CA1C4036032B3E"
+				item: "minecraft:nether_wart_block"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3661CD566C73ADF1"]
+			id: "58AF18896F4B73A0"
+			tasks: [{
+				id: "2412C1254D318132"
+				item: "minecraft:crimson_fungus"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["63C180A39485FA0E"]
+			id: "3661CD566C73ADF1"
+			tasks: [{
+				id: "3B773541511D65A0"
+				item: "minecraft:red_mushroom"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5D638AAAD46F6EDD"]
+			id: "63C180A39485FA0E"
+			tasks: [{
+				id: "653EAA84584F799F"
+				item: "minecraft:mycelium"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["554B5A95EBA1F424"]
+			id: "5D638AAAD46F6EDD"
+			tasks: [{
+				id: "6F0E75EA6D288904"
+				item: "botania:mycelium_seeds"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			id: "554B5A95EBA1F424"
+			tasks: [{
+				icon: "minecraft:soul_campfire"
+				id: "212C496A88D37A9A"
+				observe_type: 0
+				timer: 20L
+				to_observe: "minecraft:soul_fire"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: 12.0d
+		}
+		{
+			id: "0705C3C882A706CB"
+			tasks: [{
+				id: "610FF97446183205"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["129B7DED31E6A885"]
+			id: "1707176ED6127213"
+			tasks: [{
+				id: "6962B67D5011D902"
+				item: "minecraft:iron_bars"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2194010FC22D9748"
+				"645D399EBDF57B11"
+			]
+			id: "197D043D2C788FCB"
+			tasks: [{
+				id: "4CAE9BAEC70F3EEE"
+				item: "minecraft:chain"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"0108CA54D5B0DD70"
+				"1422651D4B9767C7"
+			]
+			id: "2194010FC22D9748"
+			tasks: [{
+				id: "60FEF55CE64C7A99"
+				item: "gtceu:iron_ring"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			id: "0108CA54D5B0DD70"
+			tasks: [{
+				id: "55FA2BD4111717A5"
+				item: {
+					Count: 1
+					id: "gtceu:iron_file"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							DefaultEnchantments: [ ]
+							MaxDamage: 255
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			id: "129B7DED31E6A885"
+			tasks: [{
+				id: "178186179673123F"
+				item: {
+					Count: 1
+					id: "gtceu:iron_hammer"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							DefaultEnchantments: [ ]
+							HarvestLevel: 2
+							MaxDamage: 255
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["767097C71E6C099F"]
+			id: "759EC13F71724C2A"
+			tasks: [{
+				id: "0A651A854220BC89"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["68BB1D8B5267FDE0"]
+			id: "767097C71E6C099F"
+			tasks: [{
+				id: "55970D32C8AAEA46"
+				item: "gtceu:raw_lapis"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["05D43B7AC35954C2"]
+			id: "68BB1D8B5267FDE0"
+			tasks: [{
+				id: "2507E282A2E31294"
+				item: "gtceu:lapis_ore"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5A545062D5E4D24C"]
+			id: "5542924BEEB47A5E"
+			tasks: [{
+				id: "6604A3424027447F"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6D4229A61AF1DFEB"
+				"502CFEB496D5218E"
+			]
+			id: "5A545062D5E4D24C"
+			tasks: [{
+				id: "0C558BD5AB1D60E1"
+				item: {
+					Count: 1
+					id: "gtceu:iron_wire_cutter"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							DefaultEnchantments: [ ]
+							HarvestLevel: 2
+							MaxDamage: 255
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 6.0d
+		}
+		{
+			id: "6D4229A61AF1DFEB"
+			tasks: [{
+				id: "17C8CCBAE335441E"
+				item: {
+					Count: 1
+					id: "gtceu:iron_screwdriver"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							DefaultEnchantments: [ ]
+							MaxDamage: 255
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["41598DB8D8A9DAEC"]
+			id: "502CFEB496D5218E"
+			tasks: [{
+				id: "362C91A55A4CC4DB"
+				item: "gtceu:iron_screw"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 8.0d
+		}
+		{
+			id: "41598DB8D8A9DAEC"
+			tasks: [{
+				id: "452A7208D77ADBF0"
+				item: "gtceu:iron_bolt"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 10.0d
+		}
+		{
+			id: "645D399EBDF57B11"
+			tasks: [{
+				id: "73693E1C883EDA8B"
+				item: {
+					Count: 1
+					id: "gtceu:iron_wrench"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							Mode: 2b
+						}
+						GT.Tool: {
+							DefaultEnchantments: [ ]
+							HarvestLevel: 2
+							MaxDamage: 255
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["68CC2AC81864A8F1"]
+			id: "5734BDAEC30CE2A6"
+			tasks: [{
+				id: "1740FE109FD92040"
+				item: "minecraft:feather"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 4.0d
+		}
+		{
+			id: "38291CEF2411D0D9"
+			tasks: [{
+				id: "456892A670D37781"
+				item: "minecraft:white_carpet"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"710B63A9AF346C43"
+				"789F56668B1478C3"
+			]
+			id: "68CC2AC81864A8F1"
+			tasks: [{
+				id: "66ADD998EE3E4831"
+				item: "minecraft:chicken_spawn_egg"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"579829A9B5F89364"
+				"221A5669F95067CF"
+			]
+			id: "710B63A9AF346C43"
+			tasks: [{
+				id: "2EF903C22321D803"
+				item: "mysticalagriculture:soulium_gemstone"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"046176E87E2352DD"
+				"4B0590B61886E05D"
+			]
+			id: "579829A9B5F89364"
+			tasks: [{
+				id: "0E72F393DEC1E441"
+				item: "mysticalagriculture:prosperity_gemstone"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["45E31572E48C6FE9"]
+			id: "046176E87E2352DD"
+			tasks: [{
+				id: "785BEBDE08FB97FB"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["090F3DE1A945CEFE"]
+			id: "45E31572E48C6FE9"
+			tasks: [{
+				id: "76A913FD18680FA8"
+				item: "vintage:vacuum_chamber"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["14B4D80045962478"]
+			id: "090F3DE1A945CEFE"
+			tasks: [{
+				id: "41D29D763BBE20EF"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"4CCA91E2F87BD296"
+				"1086FB7FA188A513"
+			]
+			id: "14B4D80045962478"
+			tasks: [{
+				id: "54833EC31DEB7FD0"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 14.0d
+		}
+		{
+			id: "4CCA91E2F87BD296"
+			tasks: [{
+				id: "3D1FF77BC2780B7D"
+				item: "gtceu:copper_plate"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 14.0d
+		}
+		{
+			id: "1086FB7FA188A513"
+			tasks: [{
+				id: "797ACC8987C063AF"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1A59518F637CCF56"]
+			id: "1422651D4B9767C7"
+			tasks: [{
+				id: "68C80912017013CA"
+				item: "gtceu:iron_rod"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 12.0d
+		}
+		{
+			id: "1A59518F637CCF56"
+			tasks: [{
+				id: "50E3B9C7BCB01B82"
+				item: "createmetallurgy:graphite_rod_mold"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6A108EE0816A4533"]
+			id: "221A5669F95067CF"
+			tasks: [{
+				id: "3BCA97AF3FB274E2"
+				item: "mysticalagriculture:soulium_dust"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 8.0d
+		}
+		{
+			id: "6A108EE0816A4533"
+			tasks: [{
+				id: "345D0FE275628AD5"
+				item: "mysticalagriculture:soulium_ore"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6ED87D56AD1C325A"]
+			id: "4B0590B61886E05D"
+			tasks: [{
+				id: "3C3DEEF7E140CE9A"
+				item: "mysticalagriculture:prosperity_shard"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 10.0d
+		}
+		{
+			id: "6ED87D56AD1C325A"
+			tasks: [{
+				id: "7886F90D2D96E67D"
+				item: "mysticalagriculture:prosperity_ore"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 12.0d
+		}
+		{
+			id: "268A6E6BED594810"
+			tasks: [
+				{
+					id: "5C96278BF72CE982"
+					item: "minecraft:green_wool"
+					type: "item"
+				}
+				{
+					id: "029FC98490165F53"
+					item: "minecraft:black_wool"
+					type: "item"
+				}
+				{
+					id: "7A9065A2A48B2BAF"
+					item: "ftbmaterials:sulfur_block"
+					type: "item"
+				}
+				{
+					id: "5F839399D6A1AA91"
+					item: "ftbmaterials:niter_block"
+					type: "item"
+				}
+				{
+					id: "3C589A0845D4BC9F"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			id: "789F56668B1478C3"
+			tasks: [
+				{
+					id: "3A70161A2FBAAEB8"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					id: "59E1D9AC6B30A43F"
+					item: "minecraft:orange_wool"
+					type: "item"
+				}
+				{
+					id: "093EBFCC8AE62168"
+					item: "minecraft:black_wool"
+					type: "item"
+				}
+				{
+					id: "6478F1F0A5E45BF5"
+					item: "minecraft:hay_block"
+					type: "item"
+				}
+				{
+					id: "79C417A22D4CD719"
+					item: "minecraft:red_wool"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			id: "05D43B7AC35954C2"
+			tasks: [{
+				id: "594E2BAA35B1AE58"
+				item: "botania:blue_petal_block"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.0d
+		}
+	]
 	title: "铁器时代"
 }

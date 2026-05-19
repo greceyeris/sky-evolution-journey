@@ -11,6 +11,28 @@
         "value": 512
       }
     },
+    "factory:absorb_damage_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "attributeslib:ghost_health": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
     "goety_revelation:spell_velocity": {
       "enabled": false,
       "min": {
@@ -33,6 +55,17 @@
         "value": 2048
       }
     },
+    "attributeslib:prot_shred": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "goety_revelation:spell_power_multiplier": {
       "enabled": false,
       "min": {
@@ -44,6 +77,17 @@
         "value": 32767
       }
     },
+    "attributeslib:armor_shred": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2,
+        "value": 2
+      }
+    },
     "youkaishomecoming:hit_box": {
       "enabled": false,
       "min": {
@@ -53,6 +97,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "attributeslib:armor_pierce": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
       }
     },
     "goety_revelation:spell_burning_value": {
@@ -253,17 +308,6 @@
         "value": 32767
       }
     },
-    "goety:abyss_potency": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2048,
-        "value": 2048
-      }
-    },
     "l2damagetracker:fire_damage": {
       "enabled": false,
       "min": {
@@ -273,6 +317,17 @@
       "max": {
         "default": 1000,
         "value": 1000
+      }
+    },
+    "goety:abyss_potency": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
       }
     },
     "goety_revelation:spell_range": {
@@ -297,6 +352,17 @@
         "value": 1
       }
     },
+    "l2damagetracker:crit_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
     "goety_revelation:nether_power": {
       "enabled": false,
       "min": {
@@ -308,15 +374,15 @@
         "value": 32767
       }
     },
-    "l2damagetracker:crit_damage": {
+    "attributeslib:crit_chance": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1000,
-        "value": 1000
+        "default": 10,
+        "value": 10
       }
     },
     "ars_nouveau:ars_nouveau.perk.wixie": {
@@ -374,17 +440,6 @@
         "value": 10000
       }
     },
-    "goety_revelation:soul_increase_efficiency": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 32767,
-        "value": 32767
-      }
-    },
     "l2damagetracker:explosion_damage": {
       "enabled": false,
       "min": {
@@ -396,7 +451,7 @@
         "value": 1000
       }
     },
-    "goety_revelation:void_power": {
+    "goety_revelation:soul_increase_efficiency": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -418,6 +473,17 @@
         "value": 100
       }
     },
+    "goety_revelation:void_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32767,
+        "value": 32767
+      }
+    },
     "goety:cooldown_discount": {
       "enabled": false,
       "min": {
@@ -427,6 +493,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "reach-entity-attributes:reach": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "goety:spell_radius": {
@@ -449,6 +526,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "xycraft_machines:hover_flight": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "minecraft:generic.attack_speed": {
@@ -539,6 +627,17 @@
         "value": 100
       }
     },
+    "attributeslib:prot_pierce": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 34,
+        "value": 34
+      }
+    },
     "tconstruct:player.jump_count": {
       "enabled": false,
       "min": {
@@ -605,6 +704,17 @@
         "value": 2
       }
     },
+    "attributeslib:mining_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "goety:casting_speed": {
       "enabled": false,
       "min": {
@@ -614,17 +724,6 @@
       "max": {
         "default": 1,
         "value": 1
-      }
-    },
-    "ars_nouveau:ars_nouveau.perk.max_mana": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10000,
-        "value": 10000
       }
     },
     "tconstruct:player.experience_multiplier": {
@@ -638,6 +737,17 @@
         "value": 100
       }
     },
+    "ars_nouveau:ars_nouveau.perk.max_mana": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
     "botania:pixie_spawn_chance": {
       "enabled": false,
       "min": {
@@ -649,15 +759,15 @@
         "value": 1
       }
     },
-    "eidolon:max_soul_hearts": {
+    "l2damagetracker:magic_damage": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 2000,
-        "value": 2000
+        "default": 1000,
+        "value": 1000
       }
     },
     "tconstruct:player.critical_damage": {
@@ -671,15 +781,15 @@
         "value": 100
       }
     },
-    "l2damagetracker:magic_damage": {
+    "eidolon:max_soul_hearts": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1000,
-        "value": 1000
+        "default": 2000,
+        "value": 2000
       }
     },
     "minecraft:generic.max_health": {
@@ -781,6 +891,17 @@
         "value": 2048
       }
     },
+    "attributeslib:overheal": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "malum:soul_ward_capacity": {
       "enabled": false,
       "min": {
@@ -790,6 +911,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "attributeslib:healing_received": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
       }
     },
     "forge:entity_gravity": {
@@ -825,6 +957,17 @@
         "value": 32767
       }
     },
+    "factory:regeneration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "goety:frost_discount": {
       "enabled": false,
       "min": {
@@ -845,6 +988,28 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "attributeslib:cold_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
+    "attributeslib:experience_gained": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
       }
     },
     "malum:malignant_conversion": {
@@ -979,6 +1144,17 @@
         "value": 2
       }
     },
+    "attributeslib:dodge_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "not_enough_glyphs:not_enough_glyphs.perk.mana_discount": {
       "enabled": false,
       "min": {
@@ -988,6 +1164,17 @@
       "max": {
         "default": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
         "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      }
+    },
+    "attributeslib:fire_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
       }
     },
     "minecraft:generic.attack_knockback": {
@@ -1028,6 +1215,17 @@
       "min": {
         "default": 0,
         "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "reach-entity-attributes:attack_range": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
       },
       "max": {
         "default": 1024,
@@ -1120,6 +1318,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "attributeslib:crit_damage": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "goety:wild_potency": {
@@ -1232,6 +1441,17 @@
         "value": 1000000
       }
     },
+    "attributeslib:draw_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
+      }
+    },
     "goety:spell_duration": {
       "enabled": false,
       "min": {
@@ -1320,17 +1540,6 @@
         "value": 32767
       }
     },
-    "malum:arcane_resonance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2048,
-        "value": 2048
-      }
-    },
     "tconstruct:generic.knockback_multiplier": {
       "enabled": false,
       "min": {
@@ -1342,6 +1551,17 @@
         "value": 100
       }
     },
+    "malum:arcane_resonance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "goety_revelation:wind_power": {
       "enabled": false,
       "min": {
@@ -1351,6 +1571,17 @@
       "max": {
         "default": 32767,
         "value": 32767
+      }
+    },
+    "attributeslib:current_hp_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "minecraft:generic.movement_speed": {
@@ -1419,6 +1650,17 @@
         "value": 1000000
       }
     },
+    "attributeslib:arrow_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "tconstruct:player.use_item_speed": {
       "enabled": false,
       "min": {
@@ -1430,7 +1672,29 @@
         "value": 1
       }
     },
+    "attributeslib:arrow_velocity": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "youkaishomecoming:graze_effectiveness": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "attributeslib:life_steal": {
       "enabled": false,
       "min": {
         "default": 0,

@@ -1,16 +1,17 @@
+// priority: -996
+
 // 定义 addItemTags 数组
 const addItemTags = [
     {
         tag: "#kubejs:organic_matters",
         items: [
+            // minecraft
             "#minecraft:leaves",
             "#minecraft:saplings",
+
+            // farmersdelight
             "farmersdelight:tree_bark",
         ],
-    },
-    {
-        tag: "#forge:tools/saws",
-        items: ["kubejs:flint_saw"],
     },
     {
         tag: "#botania:all_mystical_flowers",
@@ -162,23 +163,436 @@ const addItemTags = [
         tag: "#forge:crushed_ores/copper",
         items: ["create:crushed_raw_copper"],
     },
+    {
+        tag: "#forge:dusts/aluminum",
+        items: ["gtceu:aluminium_dust"],
+    },
+    {
+        tag: "#vintage:curving_heads",
+        items: ["minecraft:brick"],
+    },
+    {
+        tag: "#forge:tools/knives",
+        items: [
+            "thermal_extra:signalum_knife",
+            "thermal_extra:lumium_knife",
+            "thermal_extra:enderium_knife",
+            "thermal_extra:soul_infused_knife",
+            "thermal_extra:shellite_knife",
+            "thermal_extra:twinite_knife",
+            "thermal_extra:dragonsteel_knife",
+            "thermal_extra:abyssal_knife",
+        ],
+    },
+    {
+        tag: "#gtceu:tools/crafting_knives",
+        items: ["silentgear:knife"],
+    },
+    {
+        tag: "#forge:tools/axes",
+        items: [
+            // silentgear
+            "silentgear:axe",
+
+            // gtceu
+            "gtceu:rose_gold_axe",
+            "gtceu:naquadah_alloy_axe",
+            "gtceu:netherite_axe",
+            "gtceu:diamond_axe",
+            "gtceu:flint_axe",
+            "gtceu:neutronium_axe",
+            "gtceu:duranium_axe",
+            "gtceu:blue_steel_axe",
+            "gtceu:damascus_steel_axe",
+            "gtceu:wrought_iron_axe",
+            "gtceu:cobalt_brass_axe",
+            "gtceu:tungsten_carbide_axe",
+            "gtceu:ultimet_axe",
+            "gtceu:titanium_axe",
+            "gtceu:aluminium_axe",
+            "gtceu:hsse_axe",
+            "gtceu:stainless_steel_axe",
+            "gtceu:iron_axe",
+            "gtceu:red_steel_axe",
+            "gtceu:vanadium_steel_axe",
+            "gtceu:tungsten_steel_axe",
+            "gtceu:steel_axe",
+            "gtceu:sterling_silver_axe",
+            "gtceu:invar_axe",
+            "gtceu:bronze_axe",
+
+            // mythicbotany
+            "mythicbotany:alfsteel_axe",
+
+            // thermal_extra
+            "thermal_extra:signalum_axe",
+            "thermal_extra:lumium_axe",
+            "thermal_extra:enderium_axe",
+            "thermal_extra:soul_infused_axe",
+            "thermal_extra:shellite_axe",
+            "thermal_extra:twinite_axe",
+            "thermal_extra:dragonsteel_axe",
+            "thermal_extra:abyssal_axe",
+
+            // ae2
+            "ae2:nether_quartz_axe",
+            "ae2:fluix_axe",
+            "ae2:certus_quartz_axe",
+
+            // botania
+            "botania:manasteel_axe",
+            "botania:elementium_axe",
+            "botania:terra_axe",
+
+            // ifeu
+            "ifeu:dragon_star_axe",
+
+            // aiotbotania
+            "aiotbotania:livingrock_axe",
+            "aiotbotania:livingwood_axe",
+
+            // mystical_extended_tier
+            "mystical_extended_tier:ornium_axe",
+            "mystical_extended_tier:lightium_axe",
+            "mystical_extended_tier:tornium_axe",
+            "mystical_extended_tier:ouranium_axe",
+
+            // ae2cs
+            "ae2cs:ender_crystal_axe",
+            "ae2cs:meteor_crystal_axe",
+            "ae2cs:resonating_crystal_axe",
+
+            // experienceobelisk
+            "experienceobelisk:cognitive_axe",
+        ],
+    },
+    {
+        tag: "#forge:tools/saws",
+        items: ["silentgear:saw"],
+    },
+    {
+        tag: "#gtceu:tools/crafting_saws",
+        items: ["silentgear:saw"],
+    },
+    {
+        tag: "#forge:tools/shovels",
+        items: [
+            // silentgear
+            "silentgear:shovel",
+
+            // gtceu
+            "gtceu:rose_gold_shovel",
+            "gtceu:naquadah_alloy_shovel",
+            "gtceu:netherite_shovel",
+            "gtceu:diamond_shovel",
+            "gtceu:flint_shovel",
+            "gtceu:neutronium_shovel",
+            "gtceu:duranium_shovel",
+            "gtceu:blue_steel_shovel",
+            "gtceu:damascus_steel_shovel",
+            "gtceu:wrought_iron_shovel",
+            "gtceu:cobalt_brass_shovel",
+            "gtceu:tungsten_carbide_shovel",
+            "gtceu:ultimet_shovel",
+            "gtceu:titanium_shovel",
+            "gtceu:aluminium_shovel",
+            "gtceu:hsse_shovel",
+            "gtceu:stainless_steel_shovel",
+            "gtceu:iron_shovel",
+            "gtceu:red_steel_shovel",
+            "gtceu:vanadium_steel_shovel",
+            "gtceu:tungsten_steel_shovel",
+            "gtceu:steel_shovel",
+            "gtceu:sterling_silver_shovel",
+            "gtceu:invar_shovel",
+            "gtceu:bronze_shovel",
+
+            // thermal_extra
+            "thermal_extra:signalum_shovel",
+            "thermal_extra:lumium_shovel",
+            "thermal_extra:enderium_shovel",
+            "thermal_extra:soul_infused_shovel",
+            "thermal_extra:shellite_shovel",
+            "thermal_extra:twinite_shovel",
+            "thermal_extra:dragonsteel_shovel",
+            "thermal_extra:abyssal_shovel",
+
+            // ae2
+            "ae2:certus_quartz_shovel",
+            "ae2:fluix_shovel",
+            "ae2:nether_quartz_shovel",
+
+            // ifeu
+            "ifeu:dragon_star_shovel",
+
+            // botania
+            "botania:manasteel_shovel",
+            "botania:elementium_shovel",
+
+            // aiotbotania
+            "aiotbotania:alfsteel_shovel",
+            "aiotbotania:livingrock_shovel",
+            "aiotbotania:livingwood_shovel",
+            "aiotbotania:terra_shovel",
+
+            // mystical_extended_tier
+            "mystical_extended_tier:ornium_shovel",
+            "mystical_extended_tier:lightium_shovel",
+            "mystical_extended_tier:tornium_shovel",
+            "mystical_extended_tier:ouranium_shovel",
+
+            // ae2cs
+            "ae2cs:ender_crystal_shovel",
+            "ae2cs:meteor_crystal_shovel",
+            "ae2cs:resonating_crystal_shovel",
+
+            // experienceobelisk
+            "experienceobelisk:cognitive_shovel",
+        ],
+    },
+    {
+        tag: "#forge:tools/hoes",
+        items: [
+            // silentgear
+            "silentgear:hoe",
+
+            // gtceu
+            "gtceu:aluminium_hoe",
+            "gtceu:bronze_hoe",
+            "gtceu:wrought_iron_hoe",
+            "gtceu:hsse_hoe",
+            "gtceu:cobalt_brass_hoe",
+            "gtceu:ultimet_hoe",
+            "gtceu:rose_gold_hoe",
+            "gtceu:red_steel_hoe",
+            "gtceu:sterling_silver_hoe",
+            "gtceu:vanadium_steel_hoe",
+            "gtceu:diamond_hoe",
+            "gtceu:neutronium_hoe",
+            "gtceu:steel_hoe",
+            "gtceu:tungsten_carbide_hoe",
+            "gtceu:titanium_hoe",
+            "gtceu:duranium_hoe",
+            "gtceu:flint_hoe",
+            "gtceu:naquadah_alloy_hoe",
+            "gtceu:stainless_steel_hoe",
+            "gtceu:iron_hoe",
+            "gtceu:damascus_steel_hoe",
+            "gtceu:tungsten_steel_hoe",
+            "gtceu:netherite_hoe",
+            "gtceu:blue_steel_hoe",
+            "gtceu:invar_hoe",
+
+            // thermal_extra
+            "thermal_extra:signalum_hoe",
+            "thermal_extra:lumium_hoe",
+            "thermal_extra:enderium_hoe",
+            "thermal_extra:soul_infused_hoe",
+            "thermal_extra:shellite_hoe",
+            "thermal_extra:twinite_hoe",
+            "thermal_extra:dragonsteel_hoe",
+            "thermal_extra:abyssal_hoe",
+
+            // minecraft
+            "minecraft:wooden_hoe",
+            "minecraft:stone_hoe",
+            "minecraft:iron_hoe",
+            "minecraft:golden_hoe",
+            "minecraft:diamond_hoe",
+            "minecraft:netherite_hoe",
+
+            // ae2
+            "ae2:fluix_hoe",
+            "ae2:nether_quartz_hoe",
+            "ae2:certus_quartz_hoe",
+
+            // ifeu
+            "ifeu:dragon_star_hoe",
+
+            // botania
+            "botania:manasteel_hoe",
+            "botania:elementium_hoe",
+
+            // aiotbotania
+            "aiotbotania:alfsteel_hoe",
+            "aiotbotania:livingrock_hoe",
+            "aiotbotania:livingwood_hoe",
+            "aiotbotania:terra_hoe",
+
+            // mystical_extended_tier
+            "mystical_extended_tier:ornium_hoe",
+            "mystical_extended_tier:lightium_hoe",
+            "mystical_extended_tier:tornium_hoe",
+            "mystical_extended_tier:ouranium_hoe",
+
+            // ae2cs
+            "ae2cs:ender_crystal_hoe",
+            "ae2cs:meteor_crystal_hoe",
+            "ae2cs:resonating_crystal_hoe",
+
+            // experienceobelisk
+            "experienceobelisk:cognitive_hoe",
+        ],
+    },
+    {
+        tag: "#forge:shears",
+        items: ["experienceobelisk:cognitive_shears"],
+    },
+    {
+        tag: "#forge:tools/pickaxes",
+        items: [
+            // silentgear
+            "silentgear:pickaxe",
+
+            // gtceu
+            "gtceu:neutronium_pickaxe",
+            "gtceu:naquadah_alloy_pickaxe",
+            "gtceu:hsse_pickaxe",
+            "gtceu:sterling_silver_pickaxe",
+            "gtceu:cobalt_brass_pickaxe",
+            "gtceu:red_steel_pickaxe",
+            "gtceu:tungsten_carbide_pickaxe",
+            "gtceu:invar_pickaxe",
+            "gtceu:damascus_steel_pickaxe",
+            "gtceu:bronze_pickaxe",
+            "gtceu:iron_pickaxe",
+            "gtceu:netherite_pickaxe",
+            "gtceu:tungsten_steel_pickaxe",
+            "gtceu:diamond_pickaxe",
+            "gtceu:rose_gold_pickaxe",
+            "gtceu:aluminium_pickaxe",
+            "gtceu:flint_pickaxe",
+            "gtceu:ultimet_pickaxe",
+            "gtceu:duranium_pickaxe",
+            "gtceu:stainless_steel_pickaxe",
+            "gtceu:titanium_pickaxe",
+            "gtceu:wrought_iron_pickaxe",
+            "gtceu:vanadium_steel_pickaxe",
+            "gtceu:steel_pickaxe",
+            "gtceu:blue_steel_pickaxe",
+
+            // mythicbotany
+            "mythicbotany:alfsteel_pick",
+
+            // thermal_extra
+            "thermal_extra:signalum_pickaxe",
+            "thermal_extra:lumium_pickaxe",
+            "thermal_extra:enderium_pickaxe",
+            "thermal_extra:soul_infused_pickaxe",
+            "thermal_extra:shellite_pickaxe",
+            "thermal_extra:twinite_pickaxe",
+            "thermal_extra:dragonsteel_pickaxe",
+            "thermal_extra:abyssal_pickaxe",
+
+            // ae2
+            "ae2:nether_quartz_pickaxe",
+            "ae2:certus_quartz_pickaxe",
+            "ae2:fluix_pickaxe",
+
+            // botania
+            "botania:elementium_pickaxe",
+            "botania:glass_pickaxe",
+            "botania:manasteel_pick",
+            "botania:terra_pick",
+
+            // ifeu
+            "ifeu:dragon_star_pickaxe",
+
+            // aiotbotania
+            "aiotbotania:livingrock_pickaxe",
+            "aiotbotania:livingwood_pickaxe",
+
+            // mystical_extended_tier
+            "mystical_extended_tier:ornium_pickaxe",
+            "mystical_extended_tier:lightium_pickaxe",
+            "mystical_extended_tier:tornium_pickaxe",
+            "mystical_extended_tier:ouranium_pickaxe",
+
+            // ae2cs
+            "ae2cs:ender_crystal_pickaxe",
+            "ae2cs:meteor_crystal_pickaxe",
+            "ae2cs:resonating_crystal_pickaxe",
+
+            // experienceobelisk
+            "experienceobelisk:cognitive_pickaxe",
+        ],
+    },
+    {
+        tag: "#forge:foods/doughs",
+        items: ["gtceu:dough"],
+    },
+    {
+        tag: "#minecraft:hoes",
+        items: ["silentgear:hoe"],
+    },
+    {
+        tag: "#forge:tools/paxels",
+        items: ["silentgear:paxel"],
+    },
+    {
+        tag: "#forge:tools/hammers",
+        items: [
+            // silentgear
+            "silentgear:hammer",
+
+            // createdieselgenerators
+            "createdieselgenerators:hammer",
+
+            // industrialforegoing
+            "industrialforegoing:infinity_hammer",
+
+            // extrabotanyS
+            "extrabotany:manasteel_hammer",
+            "extrabotany:elementium_hammer",
+            "extrabotany:terrasteel_hammer",
+            "extrabotany:gaia_hammer",
+            "extrabotany:photonium_hammer",
+            "extrabotany:shadowium_hammer",
+            "extrabotany:aerialite_hammer",
+            "extrabotany:orichalcos_hammer",
+            "extrabotany:rhein_hammer",
+        ],
+    },
+    {
+        tag: "#gtceu:tools/crafting_hammers",
+        items: ["silentgear:hammer"],
+    },
 ];
 
 // 定义 addBlockTags 数组
-const addBlockTags = [];
+const addBlockTags = [
+    {
+        tag: "#minecraft:mineable/pickaxe",
+        blocks: ["compactcrafting:field_projector"],
+    },
+    {
+        tag: "#forge:needs_wood_tool",
+        blocks: ["compactcrafting:field_projector"],
+    },
+];
 
 ServerEvents.tags("item", (event) => {
     // addItemTags
     addItemTags.forEach((obj) => {
-        // add
-        event.add(obj.tag.slice(1), obj.items);
+        if (obj.tag.startsWith("#")) {
+            // add
+            event.add(obj.tag.slice(1), obj.items);
+        } else {
+            // add
+            event.add(obj.tag, obj.items);
+        }
     });
 });
 
 ServerEvents.tags("block", (event) => {
     // addBlockTags
     addBlockTags.forEach((obj) => {
-        // add
-        event.add(obj.tag.slice(1), obj.blocks);
+        if (obj.tag.startsWith("#")) {
+            // add
+            event.add(obj.tag.slice(1), obj.blocks);
+        } else {
+            // add
+            event.add(obj.tag, obj.blocks);
+        }
     });
 });

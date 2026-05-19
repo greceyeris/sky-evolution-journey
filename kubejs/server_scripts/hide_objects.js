@@ -15,6 +15,7 @@ const hideItems = [
     "createmetallurgy:tungsten_wire",
     "createmetallurgy:tungsten_wire_spool",
     "createmetallurgy:coke_block",
+    "createmetallurgy:graphite",
     "createmetallurgy:molten_iron_bucket",
     "createmetallurgy:molten_gold_bucket",
     "createmetallurgy:molten_copper_bucket",
@@ -34,6 +35,14 @@ const hideItems = [
     "createmetallurgy:molten_bronze_bucket",
 
     "#createmetallurgy:light_bulb",
+    "#createmetallurgy:graphite_molds",
+
+    // logisticsnetworks
+    "logisticsnetworks:tag_filter",
+    "logisticsnetworks:amount_filter",
+    "logisticsnetworks:durability_filter",
+    "logisticsnetworks:nbt_filter",
+    "logisticsnetworks:slot_filter",
 
     // forge
     "#forge:ores_in_ground/granite",
@@ -58,6 +67,7 @@ const hideItems = [
 
 // 定义 hideFluids 数组
 const hideFluids = [
+    // createmetallurgy
     "createmetallurgy:molten_iron",
     "createmetallurgy:molten_gold",
     "createmetallurgy:molten_copper",
@@ -87,7 +97,6 @@ const hideObjectsUsedBlacklist = [
         blacklist: [
             "opolisutilities:leafy_string",
             "opolisutilities:mini_charcoal",
-            "opolisutilities:drying_table",
         ],
     },
     {
@@ -107,6 +116,18 @@ const hideObjectsUsedBlacklist = [
             "botanypotstiers:creative_terracotta_botany_pot",
             "botanypotstiers:creative_terracotta_hopper_botany_pot",
         ],
+    },
+    {
+        name: "@rechiseled",
+        blacklist: ["rechiseled:chisel"],
+    },
+    {
+        name: "@rechiseledcreate",
+        blacklist: ["rechiseledcreate:mechanical_chisel"],
+    },
+    {
+        name: "@rechiseledae",
+        blacklist: ["rechiseledae:chiseling_pattern_encoder"],
     },
 ];
 

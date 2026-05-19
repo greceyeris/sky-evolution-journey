@@ -26,6 +26,7 @@
 			dependencies: [
 				"29E7B54329EAC883"
 				"7DC52761EF6DA5EF"
+				"2643B24DFCECC5CA"
 			]
 			id: "78BD7EA9D30996C1"
 			tasks: [{
@@ -104,8 +105,8 @@
 				item: "minecraft:magma_block"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -10.0d
+			x: 2.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -118,8 +119,8 @@
 				item: "minecraft:blackstone"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -12.0d
+			x: 5.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -136,7 +137,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["26DC173A90552530"]
+			dependencies: [
+				"26DC173A90552530"
+				"2E5670A1CEE4834E"
+			]
 			id: "0528FAAF20976492"
 			tasks: [{
 				id: "29F2D4F59287C77D"
@@ -157,8 +161,8 @@
 				item: "gtceu:netherrack_dust"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -6.0d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -172,8 +176,8 @@
 				item: "minecraft:netherrack"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -8.0d
+			x: 2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -190,8 +194,8 @@
 				item: "hauntfurnace:haunt_furnace"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -12.0d
+			x: 7.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -204,14 +208,14 @@
 				item: "minecraft:black_dye"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -14.0d
+			x: 7.5d
+			y: -8.0d
 		}
 		{
 			dependencies: [
 				"16E109AB19DB36CF"
 				"2643B24DFCECC5CA"
-				"0F1D9F28712B75C8"
+				"6A6B90543CC164EB"
 			]
 			id: "7F10D948F5F4B83C"
 			tasks: [{
@@ -220,7 +224,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -14.0d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -236,7 +240,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -14.0d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -253,14 +257,14 @@
 				item: "botania:black_double_flower"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -14.0d
+			x: 5.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
 				"24280FCFA7B027A5"
 				"2FBE82E7F31D658A"
-				"33392C060CC43B54"
+				"513C850B0CFB78C7"
 			]
 			id: "1E89186893A1D83F"
 			tasks: [{
@@ -279,24 +283,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 5.0d
-			y: -10.0d
-		}
-		{
-			dependencies: [
-				"090CBDC9A2E3E33F"
-				"19D4631A70F9AAD4"
-				"60DFBBF1A808E2CF"
-				"6A8DF80AFA0883CA"
-			]
-			id: "0D23D6BA0C34C01F"
-			tasks: [{
-				id: "33392C060CC43B54"
-				item: "melter:melter"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 4.0d
+			x: 2.5d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -393,7 +381,7 @@
 			dependencies: [
 				"60DFBBF1A808E2CF"
 				"24280FCFA7B027A5"
-				"0D23D6BA0C34C01F"
+				"7A35D4F0EC10527D"
 			]
 			id: "7ED8FC02667FF92B"
 			tasks: [{
@@ -500,7 +488,6 @@
 		{
 			dependencies: [
 				"670DC4D9D447E2A5"
-				"33392C060CC43B54"
 				"24280FCFA7B027A5"
 			]
 			id: "677EB3B905FCBE7B"
@@ -537,12 +524,13 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -10.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
 				"45039EA9AA96680F"
 				"0AD148B6DD9BAC84"
+				"2643B24DFCECC5CA"
 			]
 			id: "4EC20EEA10B065E5"
 			tasks: [{
@@ -565,10 +553,14 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -6.0d
+			y: -10.0d
 		}
 		{
-			dependencies: ["46FEB744D52105F0"]
+			dependencies: [
+				"46FEB744D52105F0"
+				"213B60E8483BA67F"
+				"2643B24DFCECC5CA"
+			]
 			id: "29E7B54329EAC883"
 			tasks: [{
 				id: "52B8279A80D90D77"
@@ -591,6 +583,39 @@
 			}]
 			x: 5.0d
 			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7ED8FC02667FF92B"
+				"5B4EC323974966C6"
+				"2A68E85A777FCB56"
+			]
+			id: "69D93952C25FD399"
+			shape: "square"
+			tasks: [{
+				id: "2235D8689BD02273"
+				item: "minecraft:copper_block"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"11C3CCD46712E124"
+				"7570BEC9A294208B"
+				"7455FE2AE3607A91"
+				"6A8DF80AFA0883CA"
+				"60DFBBF1A808E2CF"
+			]
+			id: "513C850B0CFB78C7"
+			tasks: [{
+				id: "7A35D4F0EC10527D"
+				item: "melter:melter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.0d
 		}
 	]
 	title: "铜器时代"

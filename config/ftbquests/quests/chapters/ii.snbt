@@ -250,7 +250,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["4375821FB44712FD"]
 			id: "57828535B9E29A09"
 			tasks: [{
 				id: "0B23E4EE1D8F7141"
@@ -312,16 +311,6 @@
 			}]
 			x: 27.5d
 			y: 0.0d
-		}
-		{
-			id: "4375821FB44712FD"
-			tasks: [{
-				id: "1E5A9EF408880907"
-				item: "create:encased_fan"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -6.0d
 		}
 		{
 			dependencies: ["6A105BA410FF5517"]

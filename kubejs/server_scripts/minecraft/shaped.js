@@ -6,6 +6,28 @@ ServerEvents.recipes((event) => {
         A: "kubejs:mossy_twig",
     });
 
+    event
+        .shaped("4x minecraft:stick", ["A", "B", "B"], {
+            A: Ingredient.of({
+                type: "forge:partial_nbt",
+                item: "silentgear:saw",
+                nbt: "{SGear_Data:{}}",
+            }),
+            B: "#minecraft:planks",
+        })
+        .damageIngredient("silentgear:saw", 2);
+
+    event.recipes
+        .shaped("2x minecraft:stick", ["A", "B"], {
+            A: Ingredient.of({
+                type: "forge:partial_nbt",
+                item: "silentgear:saw",
+                nbt: "{SGear_Data:{}}",
+            }),
+            B: "gtceu:long_wood_rod",
+        })
+        .damageIngredient("silentgear:saw", 2);
+
     // 添加 minecraft:flint 的配方
     event.shaped("minecraft:flint", ["AA", "AA"], {
         A: "kubejs:mossy_flint_shard",
@@ -40,14 +62,6 @@ ServerEvents.recipes((event) => {
         B: "#minecraft:planks",
         C: "minecraft:flint",
     });
-
-    // 添加 minecraft:stick 的配方
-    event
-        .shaped("4x minecraft:stick", ["A", "B", "B"], {
-            A: "kubejs:flint_saw",
-            B: "#minecraft:planks",
-        })
-        .damageIngredient("kubejs:flint_saw", 2);
 
     // 添加 minecraft:redstone_block 的配方
     event.shaped("minecraft:redstone_block", ["AAA", "AAA", "AAA"], {
@@ -138,13 +152,19 @@ ServerEvents.recipes((event) => {
         A: "minecraft:string",
     });
 
-    // 添加 minecraft:paper 的配方
-    event.shaped("2x minecraft:paper", [" A ", "BBB", " C "], {
-        A: "#forge:tools/mallets",
-        B: "gtceu:paper_dust",
-        C: Item.of(
-            "ceramicbucket:ceramic_bucket",
-            '{Fluid:{Amount:1000,FluidName:"minecraft:water"}}',
-        ).strongNBT(),
+    // 添加 minecraft:coal_block 的配方
+    event.shaped("minecraft:coal_block", ["AAA", "AAA", "AAA"], {
+        A: "minecraft:coal",
+    });
+
+    // 添加 minecraft:lever 的配方
+    event.shaped("minecraft:lever", ["A", "B"], {
+        A: "minecraft:stick",
+        B: "minecraft:cobblestone",
+    });
+
+    // 添加 minecraft:sandstone 的配方
+    event.shaped("minecraft:sandstone", ["AA", "AA"], {
+        A: "minecraft:sand",
     });
 });

@@ -45,7 +45,7 @@ ServerEvents.recipes((event) => {
                 item: "kubejs:mossy_flint_shard",
                 contextual: {
                     type: "chance",
-                    chance: 0.4,
+                    chance: 0.55,
                 },
             },
         ],

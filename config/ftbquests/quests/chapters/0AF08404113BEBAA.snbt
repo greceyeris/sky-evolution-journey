@@ -10,11 +10,24 @@
 	quests: [
 		{
 			id: "422EB83D3BD05264"
-			rewards: [{
-				id: "28A7FA98D30603B6"
-				item: "ftbquests:book"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "28A7FA98D30603B6"
+					item: "ftbquests:book"
+					type: "item"
+				}
+				{
+					id: "43395187A53252EE"
+					item: {
+						Count: 1
+						id: "silentgear:blueprint_package"
+						tag: {
+							silentlib.LootContainer: { }
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.75d
 			tasks: [{
@@ -48,31 +61,33 @@
 		{
 			dependencies: [
 				"458B57107988B4A1"
-				"6367C65CB0E9AA91"
 				"27E61CE7321275F3"
 			]
 			id: "58994126AC6D150D"
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
-				id: "0F1D9F28712B75C8"
+				id: "6A6B90543CC164EB"
 				item: {
 					Count: 1
-					id: "gtceu:flint_knife"
+					id: "silentgear:knife"
 					tag: {
 						Damage: 0
-						DisallowContainerItem: 0b
-						GT.Behaviours: { }
-						GT.Tool: {
-							AttackDamage: 1.0f
-							AttackSpeed: 3.0f
-							DefaultEnchantments: [ ]
-							MaxDamage: 63
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
 						}
-						HideFlags: 2
+						SGear_UUID: [I;
+							1480496686
+							-413972021
+							-1640010241
+							187738543
+						]
 					}
 				}
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: 12.5d
 			y: 0.0d
@@ -95,7 +110,7 @@
 				"3DE92338958835C3"
 			]
 			description: [
-				"&6木棍&r &c下蹲右键&r &a苔藓块/泥土/草方块&r 45% 概率可获得"
+				"&6木棍&r &c下蹲右键&r &a苔藓块/泥土/草方块&r 60% 概率可获得"
 				""
 				"&o&7(木棍 15% 概率被消耗，0.2s 冷却)&r&r"
 			]
@@ -127,8 +142,8 @@
 				item: "botania:living_root"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 0.0d
+			x: 12.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0E8F39D682DCC5C8"]
@@ -145,9 +160,9 @@
 		}
 		{
 			dependencies: [
-				"0BB81670C24C2F6F"
 				"6A342648B83C60F1"
 				"198699141D7F50A1"
+				"0BB81670C24C2F6F"
 			]
 			id: "2D1B60845BF3E632"
 			shape: "circle"
@@ -157,38 +172,41 @@
 				item: "minecraft:oak_log"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 0.0d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["458B57107988B4A1"]
+			dependencies: [
+				"458B57107988B4A1"
+				"544227EDE7C31F29"
+			]
 			id: "198699141D7F50A1"
 			shape: "circle"
 			tasks: [{
-				id: "73E08C51C07052E0"
+				id: "1D248CD9B20890B6"
 				item: {
 					Count: 1
-					id: "gtceu:flint_axe"
+					id: "silentgear:axe"
 					tag: {
 						Damage: 0
-						DisallowContainerItem: 0b
-						GT.Behaviours: {
-							DisableShields: 1b
-							TreeFelling: 1b
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
 						}
-						GT.Tool: {
-							DefaultEnchantments: [ ]
-							HarvestLevel: 1
-							MaxDamage: 63
-							ToolSpeed: 2.0f
-						}
-						HideFlags: 2
+						SGear_UUID: [I;
+							-1541864224
+							1584284072
+							-1320026882
+							408059513
+						]
 					}
 				}
 				type: "item"
+				weak_nbt_match: true
 			}]
-			x: 20.0d
-			y: -2.0d
+			x: 10.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -204,8 +222,8 @@
 				item: "farmersdelight:cutting_board"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 4.0d
+			x: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -220,14 +238,13 @@
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 2.0d
+			x: 7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
-				"7EB6FECA138E9FC7"
 				"6747E4FA822CED5E"
-				"73E08C51C07052E0"
+				"1D248CD9B20890B6"
 			]
 			id: "7553BA6C36527D62"
 			shape: "circle"
@@ -238,12 +255,11 @@
 				type: "item"
 			}]
 			x: 17.5d
-			y: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
 				"7553BA6C36527D62"
-				"73E08C51C07052E0"
 				"2643B24DFCECC5CA"
 				"053F18903B4AAB8F"
 			]
@@ -255,8 +271,8 @@
 				item: "minecraft:oak_planks"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 4.0d
+			x: 17.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -271,69 +287,66 @@
 				item: "minecraft:oak_leaves"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.0d
+			x: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
-				"618D04AFE10AEE3E"
 				"20BABB52EA0741D2"
-				"485340B726C44CA8"
-			]
-			hide_until_deps_complete: false
-			id: "4B4F2A93B8B337E4"
-			shape: "circle"
-			size: 1.0d
-			tasks: [{
-				id: "0A47415BC2963A90"
-				item: "kubejs:humus_pile"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 4.0d
-		}
-		{
-			dependencies: [
-				"4B4F2A93B8B337E4"
-				"402B508FC4F0A12B"
+				"6A8DF80AFA0883CA"
 			]
 			id: "6472BCC00AA3CBBC"
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
-				id: "0EB69123B614816C"
-				item: "kubejs:dirt_pile"
+				id: "55B3C1C676A80489"
+				item: "kubejs:organic_matter_clump"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 6.0d
+			x: 5.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
-				"2E5F7F15C64A979C"
 				"458B57107988B4A1"
-				"55457C6A101A778B"
-				"6A8DF80AFA0883CA"
+				"6367C65CB0E9AA91"
+				"645BEC733315BB80"
 			]
 			id: "3EF12F472184B613"
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
-				id: "49F0B8803F3C3DF2"
+				id: "1DFEA03B79F31501"
 				item: {
 					Count: 1
-					id: "woodenshears:wooden_shears"
+					id: "silentgear:shears"
 					tag: {
 						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+						SGear_UUID: [I;
+							106302605
+							1457996747
+							-1768332343
+							23834703
+						]
 					}
 				}
 				type: "item"
+				weak_nbt_match: true
 			}]
-			x: 12.5d
+			x: 5.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["6472BCC00AA3CBBC"]
+			dependencies: [
+				"6472BCC00AA3CBBC"
+				"7EB6FECA138E9FC7"
+				"4209F6AE6DF0D1B6"
+			]
 			id: "2CC395CBBF76ABD5"
 			shape: "circle"
 			size: 1.0d
@@ -346,24 +359,6 @@
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"2CC395CBBF76ABD5"
-				"1E5279F827D0D71F"
-				"5FB079E61B72AD98"
-				"39C64E7E6EA841E3"
-			]
-			id: "687B42E57D2DE436"
-			shape: "circle"
-			size: 1.0d
-			tasks: [{
-				id: "74FF221572AD0631"
-				item: "minecraft:mud"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 8.0d
-		}
-		{
 			dependencies: ["6F3615FBFAA1FBBF"]
 			id: "6417D443D17AF47C"
 			shape: "circle"
@@ -372,14 +367,14 @@
 				item: "minecraft:string"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.0d
+			x: 20.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
 				"618D04AFE10AEE3E"
-				"0F1D9F28712B75C8"
 				"2643B24DFCECC5CA"
+				"6A6B90543CC164EB"
 			]
 			id: "6F3615FBFAA1FBBF"
 			shape: "circle"
@@ -388,8 +383,8 @@
 				item: "opolisutilities:leafy_string"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: 20.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -411,31 +406,14 @@
 				item: "minecraft:campfire"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 6.0d
+			x: 15.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
-				"687B42E57D2DE436"
-				"732F6B4C39F6820F"
-			]
-			id: "6149332F72166C0A"
-			shape: "circle"
-			size: 1.0d
-			tasks: [{
-				id: "0EDA4510A0EE537D"
-				item: "minecraft:clay"
-				type: "item"
-			}]
-			x: 12.5d
-			y: 8.0d
-		}
-		{
-			dependencies: [
-				"6149332F72166C0A"
 				"2643B24DFCECC5CA"
-				"035E1441DFA37FF7"
-				"37F30FA82FF1D44C"
+				"2CC395CBBF76ABD5"
+				"31AD99BB72DADAC4"
 			]
 			id: "5C5FD0CB70A1BB15"
 			shape: "circle"
@@ -445,7 +423,7 @@
 				item: "minecraft:clay_ball"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 10.0d
 			y: 8.0d
 		}
 		{
@@ -461,7 +439,7 @@
 				item: "ceramicbucket:unfired_clay_bucket"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 12.5d
 			y: 8.0d
 		}
 		{
@@ -477,15 +455,14 @@
 				item: "ceramicbucket:ceramic_bucket"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 15.0d
 			y: 8.0d
 		}
 		{
 			dependencies: [
 				"69FED3806981131B"
 				"618D04AFE10AEE3E"
-				"0ADB5779513002FB"
-				"6DFD0F508E318BA6"
+				"2BF3BCEE4A1746C6"
 			]
 			id: "4B214FE38119AE97"
 			shape: "circle"
@@ -506,7 +483,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 22.5d
+			x: 17.5d
 			y: 8.0d
 		}
 		{
@@ -524,7 +501,7 @@
 				item: "strainers:stone_pebble"
 				type: "item"
 			}]
-			x: 25.0d
+			x: 20.0d
 			y: 8.0d
 		}
 		{
@@ -538,14 +515,14 @@
 				type: "item"
 			}]
 			title: "解锁”石器时代”"
-			x: 27.5d
+			x: 22.5d
 			y: 8.0d
 		}
 		{
 			dependencies: [
-				"70EBA28A77571591"
-				"43916DB63E377C6A"
 				"2643B24DFCECC5CA"
+				"377D36B48E2414DB"
+				"2E5F7F15C64A979C"
 			]
 			id: "5CEBE9F4F2F6FE33"
 			shape: "circle"
@@ -554,39 +531,8 @@
 				item: "minecraft:oak_slab"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 17.5d
 			y: 2.0d
-		}
-		{
-			dependencies: [
-				"6367C65CB0E9AA91"
-				"458B57107988B4A1"
-				"6A8DF80AFA0883CA"
-			]
-			id: "37F30FA82FF1D44C"
-			shape: "circle"
-			tasks: [{
-				id: "035E1441DFA37FF7"
-				item: {
-					Count: 1
-					id: "gtceu:flint_shovel"
-					tag: {
-						Damage: 0
-						DisallowContainerItem: 0b
-						GT.Behaviours: { }
-						GT.Tool: {
-							DefaultEnchantments: [ ]
-							HarvestLevel: 1
-							MaxDamage: 63
-							ToolSpeed: 4.0f
-						}
-						HideFlags: 2
-					}
-				}
-				type: "item"
-			}]
-			x: 15.0d
-			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -602,7 +548,7 @@
 				item: "crafting_on_a_stick:crafting_table"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 7.5d
 			y: 2.0d
 		}
 		{
@@ -610,7 +556,7 @@
 			id: "01D031B7B27EFC13"
 			shape: "circle"
 			tasks: [{
-				id: "0364F58BE048E156"
+				id: "3D9CEC4178E6C0D7"
 				item: {
 					Count: 1
 					id: "survival_firesticks:firestick"
@@ -620,31 +566,44 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
-			y: 6.0d
+			x: 12.5d
+			y: 10.0d
 		}
 		{
 			dependencies: [
 				"6367C65CB0E9AA91"
 				"458B57107988B4A1"
 				"6A8DF80AFA0883CA"
+				"645BEC733315BB80"
 			]
 			id: "053F18903B4AAB8F"
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
-				id: "70EBA28A77571591"
+				id: "377D36B48E2414DB"
 				item: {
 					Count: 1
-					id: "kubejs:flint_saw"
+					id: "silentgear:saw"
 					tag: {
 						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+						SGear_UUID: [I;
+							1478063967
+							-1892528201
+							-1454051223
+							770313582
+						]
 					}
 				}
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: 15.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0CF61BD10CD58327"]
@@ -657,8 +616,8 @@
 				item: "minecraft:oak_sapling"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 0.0d
+			x: 12.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -673,15 +632,15 @@
 				item: "strainers:wooden_strainer"
 				type: "item"
 			}]
-			x: 25.0d
+			x: 20.0d
 			y: 6.0d
 		}
 		{
 			dependencies: [
 				"6367C65CB0E9AA91"
 				"458B57107988B4A1"
-				"59E52400B6A31D8E"
 				"6A8DF80AFA0883CA"
+				"6417D443D17AF47C"
 			]
 			id: "08C422F57B89D31C"
 			tasks: [{
@@ -695,129 +654,108 @@
 				}
 				type: "item"
 			}]
-			x: 25.0d
+			x: 20.0d
 			y: 4.0d
 		}
 		{
 			dependencies: [
-				"618D04AFE10AEE3E"
-				"74FF221572AD0631"
-				"6A8DF80AFA0883CA"
-			]
-			description: ["&6锄头&r &c右键&r &a有机覆盖物&r 可 &c转化&r 成 &b水方块&r"]
-			id: "0ADB5779513002FB"
-			tasks: [{
-				id: "77708D44455E05BC"
-				item: "strainers:mulch"
-				type: "item"
-			}]
-			x: 22.5d
-			y: 10.0d
-		}
-		{
-			dependencies: [
 				"6367C65CB0E9AA91"
-				"458B57107988B4A1"
-				"6A8DF80AFA0883CA"
+				"645BEC733315BB80"
 			]
-			id: "6DFD0F508E318BA6"
+			id: "544227EDE7C31F29"
 			tasks: [{
-				id: "5142810A1785106D"
+				id: "0C1D160163B98668"
 				item: {
 					Count: 1
-					id: "gtceu:flint_hoe"
+					id: "silentgear:axe_head"
 					tag: {
 						Damage: 0
-						DisallowContainerItem: 0b
-						GT.Behaviours: { }
-						GT.Tool: {
-							DefaultEnchantments: [ ]
-							MaxDamage: 63
-						}
-						HideFlags: 2
 					}
 				}
 				type: "item"
+				weak_nbt_match: true
 			}]
-			x: 22.5d
+			x: 12.5d
 			y: 6.0d
 		}
 		{
 			dependencies: [
+				"43916DB63E377C6A"
+				"6A8DF80AFA0883CA"
 				"5CEBE9F4F2F6FE33"
-				"43916DB63E377C6A"
-				"6747E4FA822CED5E"
-				"6A8DF80AFA0883CA"
 			]
-			id: "485340B726C44CA8"
+			id: "27A296A7B3E2AD02"
 			tasks: [{
-				id: "1E5279F827D0D71F"
-				item: "brewinandchewin:keg"
+				id: "450231F3F86431B4"
+				item: "youkaisfeasts:wood_basin"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 2.0d
+			x: 17.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
-				"6417D443D17AF47C"
+				"645BEC733315BB80"
+				"6367C65CB0E9AA91"
 				"458B57107988B4A1"
-				"6A8DF80AFA0883CA"
 			]
-			id: "402B508FC4F0A12B"
+			id: "4209F6AE6DF0D1B6"
 			tasks: [{
-				id: "732F6B4C39F6820F"
-				item: "opolisutilities:drying_table"
+				id: "31AD99BB72DADAC4"
+				item: {
+					Count: 1
+					id: "silentgear:hoe"
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+						SGear_UUID: [I;
+							-165371160
+							-801878064
+							-1408231779
+							-969575332
+						]
+					}
+				}
 				type: "item"
-			}]
-			x: 5.0d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"43916DB63E377C6A"
-				"2643B24DFCECC5CA"
-				"0F1D9F28712B75C8"
-			]
-			id: "120A7473284DD226"
-			tasks: [{
-				id: "20EA7AE05B72E299"
-				item: "minecraft:bowl"
-				type: "item"
+				weak_nbt_match: true
 			}]
 			x: 7.5d
 			y: 10.0d
 		}
 		{
 			dependencies: [
-				"20EA7AE05B72E299"
-				"43916DB63E377C6A"
-				"6D0FBE4BC158AD55"
-				"6A8DF80AFA0883CA"
-			]
-			id: "5FB079E61B72AD98"
-			tasks: [{
-				id: "074AF698C72459D3"
-				item: "watercondenser:watercondenser"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"120A7473284DD226"
+				"27A296A7B3E2AD02"
+				"75DE0B46A8FAE2B2"
 				"43916DB63E377C6A"
 				"6A8DF80AFA0883CA"
 			]
-			id: "39C64E7E6EA841E3"
+			id: "2BF3BCEE4A1746C6"
 			tasks: [{
-				id: "1BEED1F9ADBCF305"
+				id: "08AACCA589A9FC73"
 				item: "flopper:flopper"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 10.0d
+			x: 17.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"6A6B90543CC164EB"
+				"2643B24DFCECC5CA"
+				"43916DB63E377C6A"
+			]
+			id: "75DE0B46A8FAE2B2"
+			tasks: [{
+				id: "0725A6AD3EB5476E"
+				item: "minecraft:bowl"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 6.0d
 		}
 	]
 	title: "起源时代"

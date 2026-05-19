@@ -14,6 +14,16 @@
 				item = true
 				bee = true
 				pig = true
+				lightning_bolt = true
+				zombie = true
+				skeleton = true
+				witch = true
+				wither_skeleton = true
+				experience_orb = true
+				arrow = true
+				potion = true
+				wandering_trader = true
+				trader_llama = true
 
 			[light_sources.settings.entities.create]
 				stationary_contraption = true
@@ -23,4 +33,18 @@
 
 			[light_sources.settings.entities.productivebees]
 				configurable_bee = true
+				ashy_mining_bee = true
+
+			[light_sources.settings.entities.botanicpledge]
+				yggdrasil_guardian = true
+				yggdrasil_warden = true
+				yggd_focus = true
+
+			[light_sources.settings.entities.botania]
+				magic_missile = true
+				pixie = true
+				magic_landmine = true
+
+			[light_sources.settings.entities.corpse]
+				corpse = true
 

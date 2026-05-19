@@ -66,6 +66,10 @@ ServerEvents.recipes((event) => {
         "gtceu:shaped/mortar_grind_steel",
         "gtceu:shaped/mortar_grind_gold",
         "gtceu:shaped/paper_dust",
+        "gtceu:shaped_fluid_container/paper",
+        "gtceu:shaped/stick_saw",
+        "gtceu:shaped/stick_long_wood",
+        "gtceu:shaped/lever",
 
         // opolisutilities
         "opolisutilities:sticks",
@@ -77,8 +81,6 @@ ServerEvents.recipes((event) => {
         "strainers:dirt",
 
         // farmersdelight
-        "farmersdelight:flint_knife",
-        "farmersdelight:iron_knife",
         "farmersdelight:wheat_dough_from_water",
         "farmersdelight:paper_from_tree_bark",
 
@@ -88,6 +90,7 @@ ServerEvents.recipes((event) => {
         "minecraft:lime_dye_from_smelting",
         "minecraft:green_dye",
         "minecraft:lime_dye",
+        "minecraft:brick",
 
         // botania
         "botania:petal_white",
@@ -123,10 +126,26 @@ ServerEvents.recipes((event) => {
         "botania:petal_black",
         "botania:petal_black_double",
         "botania:runic_altar_alt",
-        "botania:dye_lime",
-        "botania:dye_green",
         "botania:dye_white",
+        "botania:dye_orange",
+        "botania:dye_magenta",
+        "botania:dye_light_blue",
+        "botania:dye_yellow",
+        "botania:dye_lime",
+        "botania:dye_pink",
+        "botania:dye_gray",
+        "botania:dye_light_gray",
+        "botania:dye_cyan",
+        "botania:dye_purple",
+        "botania:dye_blue",
+        "botania:dye_brown",
+        "botania:dye_green",
+        "botania:dye_red",
         "botania:dye_black",
+        "botania:vial",
+        "botania:flask",
+        "botania:open_bucket",
+        "botania:mana_infusion/mana_powder_dye",
 
         // create
         "create:crafting/materials/copper_ingot",
@@ -188,6 +207,21 @@ ServerEvents.recipes((event) => {
         "immersiveengineering:crafting/raw_hammercrushing_tungsten",
         "immersiveengineering:crafting/raw_hammercrushing_zinc",
         "immersiveengineering:crafting/paper_from_sawdust",
+        "immersiveengineering:crafting/hammercrushing_zinc",
+        "immersiveengineering:crafting/hammercrushing_silver",
+        "immersiveengineering:crafting/hammercrushing_nickel",
+        "immersiveengineering:crafting/hammercrushing_lead",
+        "immersiveengineering:crafting/hammercrushing_platinum",
+        "immersiveengineering:crafting/hammercrushing_cobalt",
+        "immersiveengineering:crafting/hammercrushing_iron",
+        "immersiveengineering:crafting/hammercrushing_copper",
+        "immersiveengineering:crafting/hammercrushing_tungsten",
+        "immersiveengineering:crafting/hammercrushing_gold",
+        "immersiveengineering:crafting/hammercrushing_aluminum",
+        "immersiveengineering:crafting/hammercrushing_uranium",
+        "immersiveengineering:crafting/hammercrushing_tin",
+        "immersiveengineering:smelting/lead_red",
+        "immersiveengineering:crafting/torch",
 
         // thermal_extra
         "thermal_extra:sticky_ball_to_paper",
@@ -195,6 +229,32 @@ ServerEvents.recipes((event) => {
         // thermal
         "thermal:mycelium_crafting",
         "thermal:bottler_molten_iron_bucket",
+        "thermal:smelting/redstone_from_spores_smelting",
+
+        // create_netherless
+        "create_netherless:coal_rod_recipe",
+
+        // createmetallurgy
+        "createmetallurgy:milling/crushed_raw_zinc",
+        "createmetallurgy:milling/crushed_raw_gold",
+        "createmetallurgy:crafting/content/faucet",
+
+        // create_connected
+        "create_connected:crafting/palettes/copycat_catwalk",
+
+        // botanypots
+        "botanypots:botanypots/crafting/terracotta_botany_pot",
+        "botanypots:botanypots/crafting/terracotta_compact_hopper_botany_pot",
+
+        // apotheosis
+        "apotheosis:torch",
+
+        // silentgear
+        "silentgear:gear/rough/knife",
+        "silentgear:gear/rough/axe",
+        "silentgear:gear/rough/shovel",
+        "silentgear:rough_rod",
+        "silentgear:gear/rough/pickaxe",
     ];
 
     // 定义 removeRecipesUsedItemInput 数组
@@ -206,10 +266,34 @@ ServerEvents.recipes((event) => {
         "farmersdelight:cutting_board",
 
         // gtceu
-        "gtceu:flint_axe",
         "gtceu:empty_wooden_form",
         "gtceu:brick_wooden_form",
         "gtceu:andesite_alloy_ingot",
+        "gtceu:empty_mold",
+        "gtceu:plate_casting_mold",
+        "gtceu:gear_casting_mold",
+        "gtceu:bottle_casting_mold",
+        "gtceu:ingot_casting_mold",
+        "gtceu:ball_casting_mold",
+        "gtceu:block_casting_mold",
+        "gtceu:nugget_casting_mold",
+        "gtceu:cylinder_casting_mold",
+        "gtceu:anvil_casting_mold",
+        "gtceu:name_casting_mold",
+        "gtceu:small_gear_casting_mold",
+        "gtceu:rotor_casting_mold",
+        "gtceu:pill_casting_mold",
+        "gtceu:tiny_pipe_casting_mold",
+        "gtceu:small_pipe_casting_mold",
+        "gtceu:normal_pipe_casting_mold",
+        "gtceu:large_pipe_casting_mold",
+        "gtceu:huge_pipe_casting_mold",
+        "gtceu:rod_extruder_mold",
+        "gtceu:ring_extruder_mold",
+        "gtceu:ingot_extruder_mold",
+        "gtceu:foil_extruder_mold",
+        "gtceu:rotor_extruder_mold",
+        "gtceu:wood_gear",
 
         // minecraft
         "minecraft:campfire",
@@ -243,7 +327,6 @@ ServerEvents.recipes((event) => {
         "minecraft:bowl",
 
         // strainers
-        "strainers:mulch",
         "strainers:purifying_salt_mulch",
         "strainers:flint_mesh",
         "strainers:copper_mesh",
@@ -254,9 +337,6 @@ ServerEvents.recipes((event) => {
         // compactcrafting
         "compactcrafting:base",
         "compactcrafting:projector_dish",
-
-        // woodenshears
-        "woodenshears:wooden_shears",
 
         // brickfurnace
         "brickfurnace:brick_furnace",
@@ -331,6 +411,7 @@ ServerEvents.recipes((event) => {
         "create:copper_valve_handle",
         "create:empty_blaze_burner",
         "create:whisk",
+        "create:propeller",
 
         // ae2
         "ae2:crank",
@@ -355,14 +436,12 @@ ServerEvents.recipes((event) => {
         // ceramicbucket
         "ceramicbucket:ceramic_bucket",
 
-        // brewinandchewin
-        "brewinandchewin:keg",
-
         // vintage
         "vintage:spring_coiling_machine_wheel",
         "vintage:spring_coiling_machine",
         "vintage:centrifuge",
         "vintage:vacuum_chamber",
+        "vintage:curving_press",
 
         // createaddition
         "createaddition:rolling_mill",
@@ -373,10 +452,192 @@ ServerEvents.recipes((event) => {
         "create_hc:gear_large",
         "create_hc:press_head",
         "create_hc:saw_blade",
+
+        // youkaisfeasts
+        "youkaisfeasts:wood_basin",
+
+        // mysticalagriculture
+        "mysticalagriculture:infusion_altar",
+        "mysticalagriculture:infusion_pedestal",
     ];
 
     // 定义 removeRecipesUsedItemInputAndOutput 数组
     const removeRecipesUsedItemInputAndOutput = [
+        // gtceu
+        "gtceu:rose_gold_knife",
+        "gtceu:naquadah_alloy_knife",
+        "gtceu:netherite_knife",
+        "gtceu:diamond_knife",
+        "gtceu:flint_knife",
+        "gtceu:neutronium_knife",
+        "gtceu:duranium_knife",
+        "gtceu:blue_steel_knife",
+        "gtceu:damascus_steel_knife",
+        "gtceu:wrought_iron_knife",
+        "gtceu:cobalt_brass_knife",
+        "gtceu:tungsten_carbide_knife",
+        "gtceu:ultimet_knife",
+        "gtceu:titanium_knife",
+        "gtceu:aluminium_knife",
+        "gtceu:hsse_knife",
+        "gtceu:stainless_steel_knife",
+        "gtceu:iron_knife",
+        "gtceu:red_steel_knife",
+        "gtceu:vanadium_steel_knife",
+        "gtceu:tungsten_steel_knife",
+        "gtceu:steel_knife",
+        "gtceu:sterling_silver_knife",
+        "gtceu:invar_knife",
+        "gtceu:bronze_knife",
+        "gtceu:rose_gold_axe",
+        "gtceu:naquadah_alloy_axe",
+        "gtceu:netherite_axe",
+        "gtceu:diamond_axe",
+        "gtceu:flint_axe",
+        "gtceu:neutronium_axe",
+        "gtceu:duranium_axe",
+        "gtceu:blue_steel_axe",
+        "gtceu:damascus_steel_axe",
+        "gtceu:wrought_iron_axe",
+        "gtceu:cobalt_brass_axe",
+        "gtceu:tungsten_carbide_axe",
+        "gtceu:ultimet_axe",
+        "gtceu:titanium_axe",
+        "gtceu:aluminium_axe",
+        "gtceu:hsse_axe",
+        "gtceu:stainless_steel_axe",
+        "gtceu:iron_axe",
+        "gtceu:red_steel_axe",
+        "gtceu:vanadium_steel_axe",
+        "gtceu:tungsten_steel_axe",
+        "gtceu:steel_axe",
+        "gtceu:sterling_silver_axe",
+        "gtceu:invar_axe",
+        "gtceu:bronze_axe",
+        "gtceu:rose_gold_saw",
+        "gtceu:naquadah_alloy_saw",
+        "gtceu:netherite_saw",
+        "gtceu:diamond_saw",
+        "gtceu:neutronium_saw",
+        "gtceu:duranium_saw",
+        "gtceu:blue_steel_saw",
+        "gtceu:damascus_steel_saw",
+        "gtceu:wrought_iron_saw",
+        "gtceu:cobalt_brass_saw",
+        "gtceu:tungsten_carbide_saw",
+        "gtceu:ultimet_saw",
+        "gtceu:titanium_saw",
+        "gtceu:aluminium_saw",
+        "gtceu:hsse_saw",
+        "gtceu:stainless_steel_saw",
+        "gtceu:iron_saw",
+        "gtceu:red_steel_saw",
+        "gtceu:vanadium_steel_saw",
+        "gtceu:tungsten_steel_saw",
+        "gtceu:steel_saw",
+        "gtceu:sterling_silver_saw",
+        "gtceu:invar_saw",
+        "gtceu:bronze_saw",
+        "gtceu:red_steel_buzzsaw",
+        "gtceu:bronze_buzzsaw",
+        "gtceu:titanium_buzzsaw",
+        "gtceu:cobalt_brass_buzzsaw",
+        "gtceu:rose_gold_buzzsaw",
+        "gtceu:damascus_steel_buzzsaw",
+        "gtceu:diamond_buzzsaw",
+        "gtceu:iron_buzzsaw",
+        "gtceu:tungsten_carbide_buzzsaw",
+        "gtceu:sterling_silver_buzzsaw",
+        "gtceu:vanadium_steel_buzzsaw",
+        "gtceu:ultimet_buzzsaw",
+        "gtceu:aluminium_buzzsaw",
+        "gtceu:stainless_steel_buzzsaw",
+        "gtceu:naquadah_alloy_buzzsaw",
+        "gtceu:hsse_buzzsaw",
+        "gtceu:duranium_buzzsaw",
+        "gtceu:blue_steel_buzzsaw",
+        "gtceu:tungsten_steel_buzzsaw",
+        "gtceu:invar_buzzsaw",
+        "gtceu:neutronium_buzzsaw",
+        "gtceu:wrought_iron_buzzsaw",
+        "gtceu:steel_buzzsaw",
+        "gtceu:netherite_buzzsaw",
+        "gtceu:rose_gold_shovel",
+        "gtceu:naquadah_alloy_shovel",
+        "gtceu:netherite_shovel",
+        "gtceu:diamond_shovel",
+        "gtceu:flint_shovel",
+        "gtceu:neutronium_shovel",
+        "gtceu:duranium_shovel",
+        "gtceu:blue_steel_shovel",
+        "gtceu:damascus_steel_shovel",
+        "gtceu:wrought_iron_shovel",
+        "gtceu:cobalt_brass_shovel",
+        "gtceu:tungsten_carbide_shovel",
+        "gtceu:ultimet_shovel",
+        "gtceu:titanium_shovel",
+        "gtceu:aluminium_shovel",
+        "gtceu:hsse_shovel",
+        "gtceu:stainless_steel_shovel",
+        "gtceu:iron_shovel",
+        "gtceu:red_steel_shovel",
+        "gtceu:vanadium_steel_shovel",
+        "gtceu:tungsten_steel_shovel",
+        "gtceu:steel_shovel",
+        "gtceu:sterling_silver_shovel",
+        "gtceu:invar_shovel",
+        "gtceu:bronze_shovel",
+        "gtceu:aluminium_hoe",
+        "gtceu:bronze_hoe",
+        "gtceu:wrought_iron_hoe",
+        "gtceu:hsse_hoe",
+        "gtceu:cobalt_brass_hoe",
+        "gtceu:ultimet_hoe",
+        "gtceu:rose_gold_hoe",
+        "gtceu:red_steel_hoe",
+        "gtceu:sterling_silver_hoe",
+        "gtceu:vanadium_steel_hoe",
+        "gtceu:diamond_hoe",
+        "gtceu:neutronium_hoe",
+        "gtceu:steel_hoe",
+        "gtceu:tungsten_carbide_hoe",
+        "gtceu:titanium_hoe",
+        "gtceu:duranium_hoe",
+        "gtceu:flint_hoe",
+        "gtceu:naquadah_alloy_hoe",
+        "gtceu:stainless_steel_hoe",
+        "gtceu:iron_hoe",
+        "gtceu:damascus_steel_hoe",
+        "gtceu:tungsten_steel_hoe",
+        "gtceu:netherite_hoe",
+        "gtceu:blue_steel_hoe",
+        "gtceu:invar_hoe",
+        "gtceu:neutronium_pickaxe",
+        "gtceu:naquadah_alloy_pickaxe",
+        "gtceu:hsse_pickaxe",
+        "gtceu:sterling_silver_pickaxe",
+        "gtceu:cobalt_brass_pickaxe",
+        "gtceu:red_steel_pickaxe",
+        "gtceu:tungsten_carbide_pickaxe",
+        "gtceu:invar_pickaxe",
+        "gtceu:damascus_steel_pickaxe",
+        "gtceu:bronze_pickaxe",
+        "gtceu:iron_pickaxe",
+        "gtceu:netherite_pickaxe",
+        "gtceu:tungsten_steel_pickaxe",
+        "gtceu:diamond_pickaxe",
+        "gtceu:rose_gold_pickaxe",
+        "gtceu:aluminium_pickaxe",
+        "gtceu:flint_pickaxe",
+        "gtceu:ultimet_pickaxe",
+        "gtceu:duranium_pickaxe",
+        "gtceu:stainless_steel_pickaxe",
+        "gtceu:titanium_pickaxe",
+        "gtceu:wrought_iron_pickaxe",
+        "gtceu:vanadium_steel_pickaxe",
+        "gtceu:steel_pickaxe",
+        "gtceu:blue_steel_pickaxe",
+
         // mysticalagriculture
         "#mysticalagriculture:seeds",
         "#mysticalagriculture:essences",
@@ -436,13 +697,15 @@ ServerEvents.recipes((event) => {
 
         // create
         "create:pressing",
-        // "create:item_application",
+        "create:item_application",
 
         // createdieselgenerators
         "createdieselgenerators:compression_molding",
 
         // vintage
         "vintage:centrifugation",
+        "vintage:curving",
+        "vintage:polishing",
 
         // botanypots
         "botanypots:crop",
@@ -451,6 +714,13 @@ ServerEvents.recipes((event) => {
         // cagedmobs
         "cagedmobs:entity_data",
         "cagedmobs:environment_data",
+
+        // productivebees
+        "productivebees:bee_spawning",
+        "productivebees:bee_conversion",
+        "productivebees:bee_breeding",
+        "productivebees:bee_fishing",
+        "productivebees:centrifuge",
     ];
 
     // 定义 removeRecipesUsedTypeAndInput 数组
@@ -491,6 +761,7 @@ ServerEvents.recipes((event) => {
         { type: "minecraft:crafting_shaped", output: "#forge:plates" },
         { type: "minecraft:crafting_shapeless", output: "#forge:impure_dusts" },
         { type: "minecraft:crafting_shapeless", output: "#forge:pure_dusts" },
+        { type: "minecraft:crafting_shaped", output: "minecraft:torch" },
     ];
 
     // 输出配方类型
@@ -544,14 +815,34 @@ ServerEvents.recipes((event) => {
 
     // removeRecipesUsedTypeAndInput
     removeRecipesUsedTypeAndInput.forEach((obj) => {
-        // remove type and input
-        event.remove({ type: obj.type, input: Ingredient.of(obj.input) });
+        if (obj.input.startsWith("#")) {
+            Ingredient.of(obj.input)
+                .getItemIds()
+                .forEach((item) => {
+                    // remove type and input
+                    event.remove({
+                        type: obj.type,
+                        input: item,
+                    });
+                });
+
+            // remove type and input
+            event.remove({ type: obj.type, input: Ingredient.of(obj.input) });
+        } else {
+            // remove type and input
+            event.remove({ type: obj.type, input: obj.input });
+        }
     });
 
     // removeRecipesUsedTypeAndOutput
     removeRecipesUsedTypeAndOutput.forEach((obj) => {
-        // remove type and output
-        event.remove({ type: obj.type, output: Ingredient.of(obj.output) });
+        if (obj.output.startsWith("#")) {
+            // remove type and output
+            event.remove({ type: obj.type, output: Ingredient.of(obj.output) });
+        } else {
+            // remove type and output
+            event.remove({ type: obj.type, output: obj.output });
+        }
     });
 
     // removeRecipesUsedTagAndInputAndOutputList

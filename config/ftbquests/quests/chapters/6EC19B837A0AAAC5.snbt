@@ -6,7 +6,7 @@
 	group: "45A16BFA512291EC"
 	icon: "toms_storage:ts.storage_terminal"
 	id: "6EC19B837A0AAAC5"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [{
 		id: "004E850420779F98"

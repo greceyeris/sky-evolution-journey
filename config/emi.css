@@ -66,7 +66,7 @@
 	/**
 	 * Whether to add mod name to item tooltips, in case another mod provides behavior
 	 */
-	append-item-mod-id: true;
+	append-item-mod-id: false;
 
 	/**
 	 * Prevents recipes being quick crafted from shifting around under the cursor.
@@ -212,7 +212,7 @@
 	/**
 	 * How many columns and rows of ingredients to limit the right sidebar to
 	 */
-	right-sidebar-size: 12, 100;
+	right-sidebar-size: 10, 100;
 
 	/**
 	 * How much space to maintain between the right sidebar and obstructions, in pixels

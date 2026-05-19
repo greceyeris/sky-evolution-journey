@@ -32,4 +32,12 @@ ServerEvents.recipes((event) => {
         result: { item: "minecraft:black_dye" },
         energy_cost: 4000,
     });
+
+    // 添加 minecraft:red_dye 的配方
+    event.custom({
+        type: "ae2cs:crystal_pulverizer_recipe_serializer",
+        input: { ingredient: { item: "botania:red_petal" } },
+        result: { item: "minecraft:red_dye" },
+        energy_cost: 4000,
+    });
 });

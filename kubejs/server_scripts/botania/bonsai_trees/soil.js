@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
     event.custom({
         type: "bonsaitrees3:soil",
         soil: { item: "botania:vivid_grass" },
-        tickModifier: 4.0,
+        tickModifier: 3.0,
         compatibleSoilTags: ["vivid_grass"],
         display: { block: "botania:vivid_grass" },
     });

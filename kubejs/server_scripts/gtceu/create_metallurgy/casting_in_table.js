@@ -12,10 +12,7 @@ ServerEvents.recipes((event) => {
     // 添加 gtceu:andesite_alloy_ingot 的配方
     event.recipes.createmetallurgy.casting_in_table(
         "gtceu:andesite_alloy_ingot",
-        [
-            Fluid.of("gtceu:andesite_alloy", 144),
-            "createmetallurgy:graphite_ingot_mold",
-        ],
+        [Fluid.of("gtceu:andesite_alloy", 144), "gtceu:ingot_casting_mold"],
         200,
     );
 });

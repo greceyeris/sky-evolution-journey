@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
     event.custom({
         type: "bonsaitrees3:soil",
         soil: { item: "minecraft:dirt" },
-        tickModifier: 6.0,
+        tickModifier: 4.5,
         compatibleSoilTags: ["dirt"],
         display: { block: "minecraft:dirt" },
     });
@@ -14,7 +14,7 @@ ServerEvents.recipes((event) => {
     event.custom({
         type: "bonsaitrees3:soil",
         soil: { item: "minecraft:grass_block" },
-        tickModifier: 4.0,
+        tickModifier: 3.0,
         compatibleSoilTags: ["grass"],
         display: { block: "minecraft:grass_block" },
     });

@@ -17,4 +17,10 @@ ServerEvents.recipes((event) => {
         A: "vintage:andesite_sheet",
         B: "create:cogwheel",
     });
+
+    // 添加 create:propeller 的配方
+    event.shaped("create:propeller", [" A ", "ABA", " A "], {
+        A: "vintage:andesite_sheet",
+        B: "gtceu:andesite_alloy_ingot",
+    });
 });

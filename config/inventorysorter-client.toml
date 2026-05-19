@@ -1,8 +1,11 @@
 
-#Inventory sorter modules
-[modules]
-	#Sorting module
-	sortingmodule = true
-	#Wheel move module
-	wheelmovemodule = true
+#Inventory sorter
+[sortingRules]
+	#Sort order
+	#Allowed Values: QUARK, CREATIVE, ITEM_ID, ITEM_NAME, DISPLAY_NAME
+	sortOrder = "QUARK"
+	#Sort by count first
+	sortByCountFirst = true
+	#Exclude hotbar from sorting
+	excludeHotbar = false
 

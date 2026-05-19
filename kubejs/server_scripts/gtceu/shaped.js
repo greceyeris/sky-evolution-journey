@@ -1,12 +1,6 @@
 ServerEvents.recipes((event) => {
     // 添加配方
     // shaped
-    // 添加 gtceu:flint_axe 的配方
-    event.shaped("gtceu:flint_axe", ["AA", "AB"], {
-        A: "minecraft:flint",
-        B: "minecraft:stick",
-    });
-
     // 添加 gtceu:flint_block 的配方
     event.shaped("gtceu:flint_block", ["AAA", "AAA", "AAA"], {
         A: "minecraft:flint",
@@ -19,5 +13,11 @@ ServerEvents.recipes((event) => {
             "ceramicbucket:ceramic_bucket",
             '{Fluid:{Amount:1000,FluidName:"minecraft:water"}}',
         ).strongNBT(),
+    });
+
+    // 添加 gtceu:wood_gear 的配方
+    event.shaped("gtceu:wood_gear", ["ABA", "BBB", "ABA"], {
+        A: "#forge:rods/wooden",
+        B: "#minecraft:planks",
     });
 });

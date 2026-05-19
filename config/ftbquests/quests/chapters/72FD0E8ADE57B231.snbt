@@ -1,0 +1,214 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "72FD0E8ADE57B231"
+	group: "45A16BFA512291EC"
+	icon: {
+		Count: 1
+		id: "patchouli:guide_book"
+		tag: {
+			"patchouli:book": "productivebees:guide"
+		}
+	}
+	id: "72FD0E8ADE57B231"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4C78B8B01F7D4F52"
+			tasks: [{
+				id: "395C5133E8A77996"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:copper"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			id: "52405D8569B3B440"
+			tasks: [{
+				id: "08FBC2A74DA67FB0"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:iron"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47CB4A9E97A24405"]
+			id: "3A7010560BD7CE84"
+			rewards: [{
+				id: "1270D2939D3FAC58"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "productivebees:guide"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4832E3F3D2EE0BA2"
+				item: "minecraft:beehive"
+				title: "从这里开始！"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A7010560BD7CE84"]
+			id: "69F6F95339075BD9"
+			tasks: [{
+				id: "518AA115DBB867F1"
+				item: "productivebees:feeder"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A7010560BD7CE84"]
+			id: "4A9A123F9132775F"
+			tasks: [{
+				id: "09C32B323317AAD2"
+				item: "productivebees:advanced_oak_beehive"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A9A123F9132775F"]
+			id: "0E359F99DA3FDDEF"
+			tasks: [{
+				id: "5FF27E1BED498DFF"
+				item: "productivebees:advanced_oak_canvas_beehive"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E359F99DA3FDDEF"]
+			id: "4031BDEC306ADC23"
+			tasks: [{
+				id: "6FAAF272E3DA9724"
+				item: "mystianapiary:upgrade_block"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "38D976C340D26316"
+			tasks: [{
+				id: "43E6082A3C355AE1"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:coal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			id: "1BF219F45BDE9FB8"
+			tasks: [{
+				id: "71E356BAC4F1F541"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:redstone"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "16D27E3CF10978D8"
+			tasks: [{
+				id: "322C5A350446571A"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:lapis"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "677F5B50D0A47533"
+			tasks: [{
+				id: "412EEFB4C59CCB24"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:sphalerite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			id: "68B6EE7871F8786B"
+			tasks: [{
+				id: "539391BBAE40DB0B"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:graphite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+	]
+	title: "资源蜜蜂"
+}

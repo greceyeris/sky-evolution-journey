@@ -25,7 +25,7 @@
 		{
 			dependencies: [
 				"6A761249B3C6D453"
-				"339995152E4BACC1"
+				"0B241EA0DA761907"
 			]
 			id: "4DDC3154B02C82CC"
 			tasks: [{
@@ -54,6 +54,7 @@
 			dependencies: [
 				"1AB462ED4D52AF7C"
 				"5B4EC323974966C6"
+				"403D8F81F0FD23D1"
 			]
 			id: "68EBC66CD840223B"
 			tasks: [{
@@ -108,7 +109,7 @@
 		{
 			dependencies: [
 				"68656787365E8A55"
-				"3A4C76FA4181C310"
+				"7EB60415DB8A3FCD"
 			]
 			id: "0291862F4C24722E"
 			shape: "diamond"
@@ -121,20 +122,6 @@
 			title: "解锁“铁器时代”"
 			x: 17.5d
 			y: 0.0d
-		}
-		{
-			dependencies: [
-				"34D67E21F038C05A"
-				"7E28B260708EB142"
-			]
-			id: "3A4C76FA4181C310"
-			tasks: [{
-				id: "229DBA53E00C30A3"
-				item: "createmetallurgy:graphite_ingot_mold"
-				type: "item"
-			}]
-			x: 17.5d
-			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -196,8 +183,8 @@
 				item: "vintage:spring_coiling_machine_wheel"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 6.0d
+			x: 12.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -211,23 +198,8 @@
 				item: "gtceu:andesite_alloy_block"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 8.0d
-		}
-		{
-			dependencies: [
-				"5F07CCEC71B11DA9"
-				"6F21441FE8834AC5"
-				"2643B24DFCECC5CA"
-			]
-			id: "798B2733E5DDCF9C"
-			tasks: [{
-				id: "22AD06506603F09E"
-				item: "create:cogwheel"
-				type: "item"
-			}]
-			x: 15.0d
-			y: 8.0d
+			x: 2.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -242,18 +214,15 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
 				"7254CC7A5837A7A4"
 				"52E6A8A2D0D1BD26"
-				"3474576B389C3F0D"
-				"282FA7119B7B1F3C"
-				"3FC4B560295A2FD0"
-				"4FCB13A7F75CC2F9"
-				"3FFA860888989CB2"
-				"4472876DA2093019"
+				"090CBDC9A2E3E33F"
+				"1CCEFD32A87E5F14"
+				"177179A6C4DBB139"
 			]
 			id: "6A761249B3C6D453"
 			tasks: [{
@@ -277,22 +246,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 4.0d
-		}
-		{
-			dependencies: [
-				"3E0807327C6CC494"
-				"6D912D9E767A39BB"
-				"2643B24DFCECC5CA"
-			]
-			id: "34D67E21F038C05A"
-			tasks: [{
-				id: "13CB98E4E9F0BECB"
-				item: "create:mechanical_saw"
-				type: "item"
-			}]
-			x: 15.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -307,7 +261,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -320,12 +274,11 @@
 				item: "vintage:andesite_rod"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.0d
+			x: 15.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
-				"0C18AB90113E694F"
 				"239B544B4B42A148"
 				"2B1C62D0370ADCF8"
 				"7C478A0A41C6B333"
@@ -337,14 +290,14 @@
 				item: "createaddition:rolling_mill"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 2.0d
+			x: 15.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
-				"339995152E4BACC1"
 				"795A717A0F220EAE"
 				"2643B24DFCECC5CA"
+				"0B241EA0DA761907"
 			]
 			id: "6F3506BC80F9BC79"
 			tasks: [{
@@ -353,7 +306,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -366,8 +319,8 @@
 				item: "createmetallurgy:foundry_lid"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 2.0d
+			x: 17.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -402,8 +355,8 @@
 		{
 			dependencies: [
 				"6D0FBE4BC158AD55"
-				"73E08C51C07052E0"
 				"2643B24DFCECC5CA"
+				"1D248CD9B20890B6"
 			]
 			id: "198A25A0A7ABB1CA"
 			tasks: [{
@@ -418,6 +371,7 @@
 			dependencies: [
 				"2D41BFB07012D687"
 				"0E2A93E7648A0C3D"
+				"6A8DF80AFA0883CA"
 			]
 			id: "51D8125007E05951"
 			tasks: [{
@@ -425,14 +379,14 @@
 				item: "create_hc:press_head"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 5.0d
 			y: 6.0d
 		}
 		{
 			dependencies: [
 				"5E6F983BD167AC40"
-				"73E08C51C07052E0"
 				"2643B24DFCECC5CA"
+				"1D248CD9B20890B6"
 			]
 			id: "42334327A716629F"
 			tasks: [{
@@ -440,34 +394,8 @@
 				item: "create_hc:shaft"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["798B2733E5DDCF9C"]
-			id: "3E0807327C6CC494"
-			tasks: [{
-				id: "0039FD4656D96153"
-				item: "create_hc:saw_blade"
-				type: "item"
-			}]
-			x: 15.0d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"781AA51567A8B98F"
-				"5B9D087734EB1E34"
-				"79251E30AD4B636A"
-			]
-			id: "7E28B260708EB142"
-			tasks: [{
-				id: "78012B955699FF45"
-				item: "createmetallurgy:graphite_blank_mold"
-				type: "item"
-			}]
-			x: 17.5d
-			y: 4.0d
+			x: 2.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -476,8 +404,8 @@
 			]
 			id: "781AA51567A8B98F"
 			tasks: [{
-				id: "6CE513B2084963DF"
-				item: "createmetallurgy:graphite"
+				id: "4A6F627FBE47795E"
+				item: "ftbmaterials:graphite_ingot"
 				type: "item"
 			}]
 			x: 17.5d
@@ -486,7 +414,7 @@
 		{
 			dependencies: [
 				"2E50556DA0413BEA"
-				"339995152E4BACC1"
+				"0B241EA0DA761907"
 			]
 			id: "03D595364EE84756"
 			tasks: [{
@@ -503,11 +431,9 @@
 				"76E7E6819BA8B2FC"
 				"16AE3111E25E113D"
 				"7254CC7A5837A7A4"
-				"3474576B389C3F0D"
-				"282FA7119B7B1F3C"
-				"3FC4B560295A2FD0"
-				"4FCB13A7F75CC2F9"
-				"3FFA860888989CB2"
+				"090CBDC9A2E3E33F"
+				"1CCEFD32A87E5F14"
+				"177179A6C4DBB139"
 			]
 			id: "2E50556DA0413BEA"
 			tasks: [{
@@ -650,15 +576,14 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -6.0d
+			x: 7.5d
+			y: -8.0d
 		}
 		{
 			dependencies: [
-				"769042D621E1F271"
-				"4D821675C34E26E1"
 				"1FA5D3ABEDFF4163"
 				"6A8DF80AFA0883CA"
+				"5DCC47CFDAABB64F"
 			]
 			id: "0EBE6CF96FB14C27"
 			tasks: [{
@@ -666,27 +591,13 @@
 				item: "minecraft:paper"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -6.0d
-		}
-		{
-			dependencies: [
-				"1DC5306427863011"
-				"350F6A1107EE344F"
-			]
-			id: "769042D621E1F271"
-			tasks: [{
-				id: "032391CDD757D624"
-				item: "gtceu:paper_dust"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -8.0d
+			x: 7.5d
+			y: -10.0d
 		}
 		{
 			dependencies: [
 				"318B4B8B31223555"
-				"339995152E4BACC1"
+				"0B241EA0DA761907"
 			]
 			id: "36C5DB611B5D27DE"
 			tasks: [{
@@ -694,18 +605,16 @@
 				item: "gtceu:raw_coal"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -8.0d
+			x: 10.0d
+			y: -10.0d
 		}
 		{
 			dependencies: [
 				"5477747A31E47E0B"
 				"16AE3111E25E113D"
-				"3474576B389C3F0D"
-				"282FA7119B7B1F3C"
-				"3FC4B560295A2FD0"
-				"3FFA860888989CB2"
-				"4FCB13A7F75CC2F9"
+				"177179A6C4DBB139"
+				"1CCEFD32A87E5F14"
+				"090CBDC9A2E3E33F"
 			]
 			id: "318B4B8B31223555"
 			tasks: [{
@@ -713,45 +622,7 @@
 				item: "gtceu:coal_ore"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -10.0d
-		}
-		{
-			dependencies: [
-				"6C0AC18227A20E51"
-				"0AD148B6DD9BAC84"
-				"19FA86B3DBA5CA21"
-				"1FA5D3ABEDFF4163"
-			]
-			id: "1DC5306427863011"
-			tasks: [{
-				id: "12923E3DCC2E3803"
-				item: "minecraft:sugar_cane"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -8.0d
-		}
-		{
-			dependencies: [
-				"458B57107988B4A1"
-				"60DFBBF1A808E2CF"
-				"428BB954E1F196E2"
-				"6A8DF80AFA0883CA"
-			]
-			id: "6C0AC18227A20E51"
-			tasks: [{
-				id: "718C2142DD8D3A43"
-				item: {
-					Count: 1
-					id: "strainers:copper_mesh"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 5.0d
+			x: 12.5d
 			y: -10.0d
 		}
 		{
@@ -804,8 +675,8 @@
 		{
 			dependencies: [
 				"795C9DC8A28743E8"
-				"22AD06506603F09E"
 				"6A8DF80AFA0883CA"
+				"78779464DD6E4C5B"
 			]
 			id: "1AA282EFED1E1823"
 			tasks: [{
@@ -827,8 +698,8 @@
 				item: "botania:white_petal_block"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -4.0d
+			x: 2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -841,8 +712,8 @@
 				item: "botania:black_petal_block"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -10.0d
+			x: 12.5d
+			y: -12.0d
 		}
 		{
 			dependencies: [
@@ -876,49 +747,225 @@
 		}
 		{
 			dependencies: [
-				"43916DB63E377C6A"
-				"458B57107988B4A1"
-				"6A8DF80AFA0883CA"
+				"455344CACB23EB52"
+				"7D96D53F301F34C9"
+				"1ECCAF970C3B7307"
+				"685D9489569167DA"
 			]
-			id: "4D821675C34E26E1"
+			id: "7EB60415DB8A3FCD"
 			tasks: [{
-				id: "34CF0410BFEC7438"
-				item: {
-					Count: 1
-					id: "gtceu:wood_mallet"
-					tag: {
-						Damage: 0
-						DisallowContainerItem: 0b
-						GT.Behaviours: { }
-						GT.Tool: {
-							DefaultEnchantments: [ ]
-							MaxDamage: 127
-						}
-						HideFlags: 2
-					}
-				}
+				id: "1DB3105A06F04481"
+				item: "gtceu:ingot_casting_mold"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -4.0d
+			x: 17.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
-				"3FC4B560295A2FD0"
-				"239B544B4B42A148"
-				"5D8967FDD969BC45"
-				"282FA7119B7B1F3C"
-				"4FCB13A7F75CC2F9"
-				"3FFA860888989CB2"
+				"781AA51567A8B98F"
+				"5B9D087734EB1E34"
+				"79251E30AD4B636A"
 			]
-			id: "4472876DA2093019"
+			id: "455344CACB23EB52"
 			tasks: [{
-				id: "7549B4B750A90DAF"
-				item: "botania:mana_pool"
+				id: "0DAD5A7503996ABB"
+				item: "gtceu:empty_mold"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7C478A0A41C6B333"
+				"2B1C62D0370ADCF8"
+				"4FD9BE97F3E19BE5"
+				"6A8DF80AFA0883CA"
+			]
+			id: "7D96D53F301F34C9"
+			tasks: [{
+				id: "73996B08D6B0023F"
+				item: "vintage:curving_press"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["68656787365E8A55"]
+			id: "138855891F48198B"
+			shape: "square"
+			tasks: [{
+				id: "32CE1591B46741E5"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6EF489518B4EE40D"
+				"33D6F9100B324FAA"
+			]
+			id: "403D8F81F0FD23D1"
+			tasks: [{
+				id: "12E8BF0EDB7FAA6C"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0C18AB90113E694F"]
+			id: "6EF489518B4EE40D"
+			tasks: [{
+				id: "3144D4EDEFBCB91F"
+				item: "create:propeller"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["150F7FFE1ED066F7"]
+			id: "33D6F9100B324FAA"
+			tasks: [{
+				id: "768D8D9D476F3A78"
+				item: "create:gearshift"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["38B73C212011834C"]
+			id: "150F7FFE1ED066F7"
+			tasks: [{
+				id: "14D8F2CD1937DE46"
+				item: "create:clutch"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"67AD1BB4E199B66E"
+				"426DA70E175C3384"
+			]
+			id: "38B73C212011834C"
+			tasks: [{
+				id: "2DBE051891C4D040"
+				item: "minecraft:redstone_torch"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"514DCCB187316997"
+				"2E5670A1CEE4834E"
+			]
+			id: "67AD1BB4E199B66E"
+			tasks: [{
+				id: "2D2DB5B6C2B12EA8"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"2E5670A1CEE4834E"
+				"458B57107988B4A1"
+			]
+			id: "426DA70E175C3384"
+			tasks: [{
+				id: "35005ECC5CDD4E20"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"59C15DD053E3F1E7"
+				"0B241EA0DA761907"
+			]
+			id: "514DCCB187316997"
+			tasks: [{
+				id: "732741724A0EA8B4"
+				item: "gtceu:raw_redstone"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"7C189D4F68BAA00B"
+				"0B8805848B42FB5F"
+				"177179A6C4DBB139"
+				"090CBDC9A2E3E33F"
+				"1CCEFD32A87E5F14"
+			]
+			id: "59C15DD053E3F1E7"
+			tasks: [{
+				id: "5860B0D3C5D15EE3"
+				item: "gtceu:redstone_ore"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"0B8805848B42FB5F"
+				"6A8DF80AFA0883CA"
+			]
+			id: "7C189D4F68BAA00B"
+			tasks: [{
+				id: "4E713E7AE2D893DE"
+				item: "botania:red_petal_block"
 				type: "item"
 			}]
 			x: 2.5d
-			y: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"350F6A1107EE344F"
+				"007737623D15EAC7"
+			]
+			id: "5DCC47CFDAABB64F"
+			tasks: [{
+				id: "1ABE4D7319081A93"
+				item: "gtceu:paper_dust"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"2B1C62D0370ADCF8"
+				"6F21441FE8834AC5"
+				"2643B24DFCECC5CA"
+			]
+			id: "78779464DD6E4C5B"
+			tasks: [{
+				id: "14C74645385CAAD6"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -10.0d
 		}
 	]
 	title: "安山时代"

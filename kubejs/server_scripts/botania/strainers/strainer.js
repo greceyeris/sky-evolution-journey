@@ -12,7 +12,7 @@ ServerEvents.recipes((event) => {
                 aboveFluid: "minecraft:water",
                 minMeshTier: 1,
                 duration: 200,
-                chance: 0.05,
+                chance: 0.075,
                 chanceIncreasePerTier: 0.0,
             });
         });

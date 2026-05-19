@@ -9,6 +9,31 @@ ServerEvents.recipes((event) => {
         tool: { tag: "forge:tools/knives" },
     });
 
+    // 添加 minecraft:dirt 的配方
+    event.custom({
+        type: "farmersdelight:cutting",
+        ingredients: [{ item: "kubejs:organic_matter_clump" }],
+        result: [{ item: "minecraft:dirt" }],
+        tool: { tag: "forge:tools/hoes" },
+    });
+
+    // 添加 minecraft:dirt 和 minecraft:clay_ball 的配方
+    event.custom({
+        type: "farmersdelight:cutting",
+        ingredients: [{ item: "minecraft:dirt" }],
+        result: [
+            {
+                item: "minecraft:dirt",
+                chance: 0.65,
+            },
+            {
+                item: "minecraft:clay_ball",
+                chance: 0.05,
+            },
+        ],
+        tool: { tag: "forge:tools/hoes" },
+    });
+
     // 添加 minecraft:stone_slab 的配方
     event.custom({
         type: "farmersdelight:cutting",
@@ -44,7 +69,21 @@ ServerEvents.recipes((event) => {
                     { item: item.replace("minecraft:", "minecraft:stripped_") },
                     { item: "farmersdelight:tree_bark" },
                 ],
-                tool: { tag: "minecraft:axes" },
+                tool: { tag: "forge:tools/axes" },
+            });
+        });
+
+    Ingredient.of("#minecraft:all_logs_and_woods")
+        .getItemIds()
+        .forEach((item) => {
+            event.custom({
+                type: "farmersdelight:cutting",
+                ingredients: [{ item: item }],
+                result: [
+                    { item: item.replace("minecraft:", "minecraft:stripped_") },
+                    { item: "farmersdelight:tree_bark" },
+                ],
+                tool: { tag: "forge:tools/paxels" },
             });
         });
 
@@ -56,7 +95,17 @@ ServerEvents.recipes((event) => {
             { item: "minecraft:stripped_bamboo_block" },
             { item: "farmersdelight:straw" },
         ],
-        tool: { tag: "minecraft:axes" },
+        tool: { tag: "forge:tools/axes" },
+    });
+
+    event.custom({
+        type: "farmersdelight:cutting",
+        ingredients: [{ item: "minecraft:bamboo_block" }],
+        result: [
+            { item: "minecraft:stripped_bamboo_block" },
+            { item: "farmersdelight:straw" },
+        ],
+        tool: { tag: "forge:tools/paxels" },
     });
 
     // 添加 minecraft:oak_planks 的配方
@@ -248,7 +297,7 @@ ServerEvents.recipes((event) => {
         type: "farmersdelight:cutting",
         ingredients: [{ item: "minecraft:clay" }],
         result: [{ item: "minecraft:clay_ball", count: 4 }],
-        tool: { tag: "minecraft:shovels" },
+        tool: { tag: "forge:tools/shovels" },
     });
 
     // 添加 minecraft:mycelium 的配方
@@ -257,5 +306,21 @@ ServerEvents.recipes((event) => {
         ingredients: [{ item: "minecraft:dirt" }],
         result: [{ item: "minecraft:mycelium" }],
         tool: { item: "botania:mycelium_seeds" },
+    });
+
+    // 添加 minecraft:sugar 的配方
+    event.custom({
+        type: "farmersdelight:cutting",
+        ingredients: [{ item: "minecraft:sugar_cane" }],
+        result: [{ item: "minecraft:sugar" }],
+        tool: { tag: "forge:tools/hammers" },
+    });
+
+    // 添加 minecraft:soul_sand 的配方
+    event.custom({
+        type: "farmersdelight:cutting",
+        ingredients: [{ item: "minecraft:sand" }],
+        result: [{ item: "minecraft:soul_sand" }],
+        tool: { item: "minecraft:bone_block" },
     });
 });

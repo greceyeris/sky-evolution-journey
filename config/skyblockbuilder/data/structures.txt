@@ -1,4 +1,8 @@
 ae2:meteorite
+apotheosis:tower_leaf
+apotheosis:tower_main
+apotheosis:tower_sand
+apotheosis:tower_spruce
 minecraft:ancient_city
 minecraft:bastion_remnant
 minecraft:buried_treasure
