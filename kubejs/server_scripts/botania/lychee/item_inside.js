@@ -16,6 +16,5 @@ ServerEvents.recipes((event) => {
                 item: "botania:fertilizer",
             },
         ],
-        time: 2,
     });
 });

@@ -8,9 +8,14 @@ const addItemTags = [
             // minecraft
             "#minecraft:leaves",
             "#minecraft:saplings",
+            "#minecraft:all_seeds",
 
             // farmersdelight
             "farmersdelight:tree_bark",
+            "farmersdelight:straw",
+
+            // gtceu
+            "gtceu:wood_dust",
         ],
     },
     {
@@ -36,8 +41,9 @@ const addItemTags = [
         items: ["botania:red_mystical_flower", "botania:red_double_flower"],
     },
     {
-        tag: "#minecraft:all_logs_and_woods",
+        tag: "#kubejs:all_logs_and_woods",
         items: [
+            // minecraft
             "minecraft:oak_log",
             "minecraft:spruce_log",
             "minecraft:birch_log",
@@ -58,70 +64,76 @@ const addItemTags = [
             "minecraft:cherry_wood",
             "minecraft:crimson_hyphae",
             "minecraft:warped_hyphae",
+
+            // botania
+            "botania:livingwood_log",
+            "botania:livingwood",
+            "botania:dreamwood_log",
+            "botania:dreamwood",
         ],
     },
     {
-        tag: "#minecraft:stripped_oak_logs",
+        tag: "#minecraft:stripped_oaks",
         items: ["minecraft:stripped_oak_log", "minecraft:stripped_oak_wood"],
     },
     {
-        tag: "#minecraft:stripped_spruce_logs",
+        tag: "#minecraft:stripped_spruces",
         items: [
             "minecraft:stripped_spruce_log",
             "minecraft:stripped_spruce_wood",
         ],
     },
     {
-        tag: "#minecraft:stripped_birch_logs",
+        tag: "#minecraft:stripped_birchs",
         items: [
             "minecraft:stripped_birch_log",
             "minecraft:stripped_birch_wood",
         ],
     },
     {
-        tag: "#minecraft:stripped_jungle_logs",
+        tag: "#minecraft:stripped_jungles",
         items: [
             "minecraft:stripped_jungle_log",
             "minecraft:stripped_jungle_wood",
         ],
     },
     {
-        tag: "#minecraft:stripped_acacia_logs",
+        tag: "#minecraft:stripped_acacias",
         items: [
             "minecraft:stripped_acacia_log",
             "minecraft:stripped_acacia_wood",
         ],
     },
     {
-        tag: "#minecraft:stripped_dark_oak_logs",
+        tag: "#minecraft:stripped_dark_oaks",
         items: [
             "minecraft:stripped_dark_oak_log",
             "minecraft:stripped_dark_oak_wood",
         ],
     },
     {
-        tag: "#minecraft:stripped_mangrove_logs",
+        tag: "#minecraft:stripped_mangroves",
         items: [
             "minecraft:stripped_mangrove_log",
             "minecraft:stripped_mangrove_wood",
         ],
     },
     {
-        tag: "#minecraft:stripped_cherry_logs",
+        tag: "#minecraft:stripped_cherrys",
         items: [
             "minecraft:stripped_cherry_log",
             "minecraft:stripped_cherry_wood",
         ],
     },
     {
-        tag: "#minecraft:stripped_crimson_logs",
+        tag: "#minecraft:stripped_crimsons",
         items: [
             "minecraft:stripped_crimson_stem",
             "minecraft:stripped_crimson_hyphae",
         ],
     },
     {
-        tag: "#minecraft:stripped_warped_logs",
+        tag: "#minecraft:stripped_warpeds",
         items: [
             "minecraft:stripped_warped_stem",
             "minecraft:stripped_warped_hyphae",
@@ -557,8 +569,66 @@ const addItemTags = [
         tag: "#gtceu:tools/crafting_hammers",
         items: ["silentgear:hammer"],
     },
+    {
+        tag: "#botania:stripped_livingwoods",
+        items: [
+            "botania:stripped_livingwood_log",
+            "botania:stripped_livingwood",
+            "botania:glimmering_stripped_livingwood_log",
+            "botania:glimmering_stripped_livingwood",
+        ],
+    },
+    {
+        tag: "#botania:stripped_dreamwoods",
+        items: [
+            "botania:stripped_dreamwood_log",
+            "botania:stripped_dreamwood",
+            "botania:glimmering_stripped_dreamwood_log",
+            "botania:glimmering_stripped_dreamwood",
+        ],
+    },
+    {
+        tag: "#minecraft:mushrooms",
+        items: ["minecraft:red_mushroom", "minecraft:brown_mushroom"],
+    },
+    {
+        tag: "#forge:dusts/saltpeter",
+        items: ["#forge:dusts/niter"],
+    },
+    {
+        tag: "#forge:dusts/saltpeter",
+        items: ["#forge:dusts/niter"],
+    },
+    {
+        tag: "#forge:gems/saltpeter",
+        items: ["ftbmaterials:niter"],
+    },
+    {
+        tag: "#forge:storage_blocks/saltpeter",
+        items: ["ftbmaterials:niter_block"],
+    },
+    {
+        tag: "#minecraft:dyes",
+        items: [
+            "minecraft:white_dye",
+            "minecraft:light_gray_dye",
+            "minecraft:gray_dye",
+            "minecraft:black_dye",
+            "minecraft:brown_dye",
+            "minecraft:red_dye",
+            "minecraft:orange_dye",
+            "minecraft:yellow_dye",
+            "minecraft:lime_dye",
+            "minecraft:green_dye",
+            "minecraft:cyan_dye",
+            "minecraft:light_blue_dye",
+            "minecraft:blue_dye",
+            "minecraft:purple_dye",
+            "minecraft:magenta_dye",
+            "minecraft:pink_dye",
+        ],
+    },
 ];
-
 // 定义 addBlockTags 数组
 const addBlockTags = [
     {

@@ -30,12 +30,12 @@
 		{
 			dependencies: [
 				"497E2D92667AD17A"
-				"5E6F983BD167AC40"
 				"282FA7119B7B1F3C"
 				"4FCB13A7F75CC2F9"
 				"3FFA860888989CB2"
 				"3FC4B560295A2FD0"
 				"6B5E9D9CC2FAFDB5"
+				"715668E872CD1886"
 			]
 			id: "329E75E8489012AE"
 			shape: "diamond"
@@ -62,8 +62,8 @@
 				item: "botania:orange_mystical_flower"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -6.0d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -102,6 +102,7 @@
 				"7254CC7A5837A7A4"
 			]
 			id: "7CCB69E7FB4338B6"
+			size: 1.25d
 			tasks: [{
 				id: "03C6AF5E1BC40631"
 				item: "botania:pure_daisy"
@@ -117,6 +118,7 @@
 				"6A6B90543CC164EB"
 			]
 			id: "0166707B2F6CAE87"
+			size: 1.25d
 			tasks: [{
 				id: "7254CC7A5837A7A4"
 				item: "botania:white_petal"
@@ -133,6 +135,7 @@
 				"19FA86B3DBA5CA21"
 			]
 			id: "693E26715CC751A0"
+			size: 1.25d
 			tasks: [{
 				id: "1E61A620599CBFA5"
 				item: "botania:white_mystical_flower"
@@ -164,6 +167,7 @@
 				"0166707B2F6CAE87"
 			]
 			id: "7836B7388CFAC9A4"
+			size: 1.25d
 			tasks: [{
 				id: "2831471FE27A58A9"
 				item: "botania:apothecary_default"
@@ -190,9 +194,8 @@
 			dependencies: [
 				"5FB2BBA1E7BB9C61"
 				"6E1CFD8E2F42533F"
-				"3D1F3E65F7967982"
-				"494642725C7C8357"
 				"090CBDC9A2E3E33F"
+				"36ABEE1E2C0E737D"
 			]
 			id: "276268280DC8AC2B"
 			tasks: [{
@@ -251,13 +254,12 @@
 				item: "botania:orange_double_flower"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -8.0d
+			x: 5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
 				"773F26CA44A78B98"
-				"43916DB63E377C6A"
 				"6A8DF80AFA0883CA"
 			]
 			id: "34D84FDFC45CEDD8"
@@ -370,6 +372,7 @@
 				"23F0DE89D6BBACA9"
 			]
 			id: "3C4CF8C4C59844FA"
+			size: 1.25d
 			tasks: [{
 				id: "3FC4B560295A2FD0"
 				item: "botania:livingrock"
@@ -385,6 +388,7 @@
 				"6A8DF80AFA0883CA"
 			]
 			id: "6B5E9D9CC2FAFDB5"
+			size: 1.25d
 			tasks: [{
 				id: "3474576B389C3F0D"
 				item: "botania:runic_altar"
@@ -657,8 +661,9 @@
 		}
 		{
 			dependencies: [
-				"31AD27DF3CBCD952"
-				"65DE8C97497A6115"
+				"693E26715CC751A0"
+				"4A37898820CCC9D5"
+				"1CCBF43EF8B2356A"
 			]
 			id: "63E21367E4DF27B2"
 			optional: true
@@ -668,39 +673,8 @@
 				item: "botania:vivid_grass"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -2.0d
-		}
-		{
-			dependencies: [
-				"23D422F68D1E2580"
-				"1843036D0F2FCFF4"
-			]
-			id: "31AD27DF3CBCD952"
-			tasks: [{
-				id: "6C2BCCAC8519A9FE"
-				item: "botania:vivid_seeds"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -4.0d
-		}
-		{
-			dependencies: [
-				"6A3B5F24950FB151"
-				"5D8967FDD969BC45"
-				"4FCB13A7F75CC2F9"
-				"3FFA860888989CB2"
-				"282FA7119B7B1F3C"
-			]
-			id: "23D422F68D1E2580"
-			tasks: [{
-				id: "322ECD85BA5A95B4"
-				item: "botania:grass_seeds"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -6.0d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -746,65 +720,6 @@
 			}]
 			x: 17.5d
 			y: 2.0d
-		}
-		{
-			dependencies: [
-				"0659A68F00F65078"
-				"645BEC733315BB80"
-			]
-			id: "6A3B5F24950FB151"
-			tasks: [{
-				id: "11787E998C39F2B1"
-				item: "minecraft:grass"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -8.0d
-		}
-		{
-			dependencies: [
-				"2FFF4CECA2F897D2"
-				"6E69B4A85A08B00E"
-			]
-			id: "1843036D0F2FCFF4"
-			tasks: [{
-				id: "45EFB8A6FD48167A"
-				item: "minecraft:green_dye"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -4.0d
-		}
-		{
-			dependencies: [
-				"4BE71B3D88F172AC"
-				"2643B24DFCECC5CA"
-				"6A6B90543CC164EB"
-			]
-			id: "2FFF4CECA2F897D2"
-			tasks: [{
-				id: "2BF552153D9630B6"
-				item: "botania:green_petal"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -6.0d
-		}
-		{
-			dependencies: [
-				"428BB954E1F196E2"
-				"060CFCB7F3C6F8DD"
-				"1FA5D3ABEDFF4163"
-				"19FA86B3DBA5CA21"
-			]
-			id: "4BE71B3D88F172AC"
-			tasks: [{
-				id: "07C57FAE32ECB3D8"
-				item: "botania:green_mystical_flower"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -880,31 +795,9 @@
 		}
 		{
 			dependencies: [
-				"1CBCD9334D568DFA"
-				"3FC4B560295A2FD0"
-				"685D9489569167DA"
-				"6A8DF80AFA0883CA"
-				"09B20FA66068F1FF"
+				"24498538158B60ED"
+				"5D8967FDD969BC45"
 			]
-			id: "3D1F3E65F7967982"
-			tasks: [
-				{
-					id: "1CCEFD32A87E5F14"
-					item: "mysticalagriculture:infusion_altar"
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "6479B83E2F41F4B2"
-					item: { Count: 8, id: "mysticalagriculture:infusion_pedestal" }
-					type: "item"
-				}
-			]
-			x: 12.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["24498538158B60ED"]
 			id: "494642725C7C8357"
 			tasks: [{
 				id: "177179A6C4DBB139"
@@ -912,7 +805,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -966,7 +859,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: -6.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -982,7 +875,7 @@
 				type: "item"
 			}]
 			x: 17.5d
-			y: -6.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -1015,21 +908,69 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: -8.0d
+			y: -10.0d
 		}
 		{
 			dependencies: [
-				"458B57107988B4A1"
-				"2FBE82E7F31D658A"
+				"1CBCD9334D568DFA"
+				"494642725C7C8357"
+				"71137A762CB733ED"
+				"160C2BEAA66576A9"
+				"6A8DF80AFA0883CA"
 			]
-			id: "09B20FA66068F1FF"
+			id: "36ABEE1E2C0E737D"
 			tasks: [{
-				id: "4B5E2D32371B2A11"
-				item: "minecraft:lever"
+				id: "5E56FB1B5DC19143"
+				item: "summoningrituals:altar"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"3782291A9A34DE43"
+				"2643B24DFCECC5CA"
+				"41DEF2FE6D874A30"
+			]
+			id: "71137A762CB733ED"
+			tasks: [{
+				id: "62B0C753FB2E14EC"
+				item: "botania:livingwood_planks_slab"
 				type: "item"
 			}]
 			x: 10.0d
 			y: -6.0d
+		}
+		{
+			dependencies: [
+				"30FD49FE1CF218D0"
+				"2643B24DFCECC5CA"
+				"41DEF2FE6D874A30"
+			]
+			id: "3782291A9A34DE43"
+			tasks: [{
+				id: "569A986DDA1F970C"
+				item: "botania:livingwood_planks"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"160C2BEAA66576A9"
+				"2643B24DFCECC5CA"
+				"1D248CD9B20890B6"
+			]
+			id: "30FD49FE1CF218D0"
+			tasks: [{
+				id: "6AE93FE51C3A0160"
+				item: "botania:stripped_livingwood_log"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -8.0d
 		}
 	]
 	title: "植物魔法时代 I"

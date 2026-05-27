@@ -16,4 +16,12 @@ ServerEvents.recipes((event) => {
         result: [{ item: "gtceu:brick_wooden_form" }],
         tool: { tag: "forge:tools/knives" },
     });
+
+    // 添加 gtceu:compressed_clay 的配方
+    event.custom({
+        type: "farmersdelight:cutting",
+        ingredients: [{ item: "minecraft:clay_ball" }],
+        result: [{ item: "gtceu:compressed_clay" }],
+        tool: { item: "gtceu:brick_wooden_form" },
+    });
 });

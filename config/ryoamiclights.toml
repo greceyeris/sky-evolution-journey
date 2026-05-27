@@ -24,6 +24,7 @@
 				potion = true
 				wandering_trader = true
 				trader_llama = true
+				item_frame = true
 
 			[light_sources.settings.entities.create]
 				stationary_contraption = true
@@ -44,6 +45,7 @@
 				magic_missile = true
 				pixie = true
 				magic_landmine = true
+				mana_burst = true
 
 			[light_sources.settings.entities.corpse]
 				corpse = true

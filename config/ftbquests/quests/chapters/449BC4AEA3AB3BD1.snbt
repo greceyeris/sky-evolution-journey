@@ -42,6 +42,7 @@
 				"4AB08B1574B73DDD"
 			]
 			id: "1AB462ED4D52AF7C"
+			size: 1.25d
 			tasks: [{
 				id: "44F6AECE617FB8D6"
 				item: "gtceu:crushed_iron_ore"
@@ -57,6 +58,7 @@
 				"403D8F81F0FD23D1"
 			]
 			id: "68EBC66CD840223B"
+			size: 1.25d
 			tasks: [{
 				id: "194523061FCA1E62"
 				item: "gtceu:purified_iron_ore"
@@ -71,6 +73,7 @@
 				"0DEE758D92E53886"
 			]
 			id: "2A06ED02204C4799"
+			size: 1.25d
 			tasks: [{
 				id: "6C9EE6EEB5B869BB"
 				item: "gtceu:refined_iron_ore"
@@ -87,6 +90,7 @@
 				"0F8BD8D4BAE21C53"
 			]
 			id: "68656787365E8A55"
+			size: 1.25d
 			tasks: [{
 				id: "6A22D25CE8A7D557"
 				item: {
@@ -190,7 +194,7 @@
 			dependencies: [
 				"5B4EC323974966C6"
 				"2A68E85A777FCB56"
-				"772019D40D406A1A"
+				"09BA36FD9C34A8D0"
 			]
 			id: "0E2A93E7648A0C3D"
 			tasks: [{
@@ -198,14 +202,13 @@
 				item: "gtceu:andesite_alloy_block"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 6.0d
+			x: 5.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
-				"239B544B4B42A148"
 				"42334327A716629F"
-				"2643B24DFCECC5CA"
+				"02263B49664596DD"
 			]
 			id: "2D41BFB07012D687"
 			tasks: [{
@@ -213,16 +216,15 @@
 				item: "create:shaft"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 8.0d
+			x: 7.5d
+			y: 10.0d
 		}
 		{
 			dependencies: [
 				"7254CC7A5837A7A4"
 				"52E6A8A2D0D1BD26"
 				"090CBDC9A2E3E33F"
-				"1CCEFD32A87E5F14"
-				"177179A6C4DBB139"
+				"5E56FB1B5DC19143"
 			]
 			id: "6A761249B3C6D453"
 			tasks: [{
@@ -237,7 +239,6 @@
 			dependencies: [
 				"6D912D9E767A39BB"
 				"51D8125007E05951"
-				"2643B24DFCECC5CA"
 			]
 			id: "3CD71C8A34001415"
 			tasks: [{
@@ -326,9 +327,9 @@
 			dependencies: [
 				"2272C09CC091D7F2"
 				"090CBDC9A2E3E33F"
-				"2643B24DFCECC5CA"
 			]
 			id: "4AB08B1574B73DDD"
+			size: 1.25d
 			tasks: [{
 				id: "350F6A1107EE344F"
 				item: "create:millstone"
@@ -341,9 +342,9 @@
 			dependencies: [
 				"198A25A0A7ABB1CA"
 				"0E089AEC30282CD0"
-				"2643B24DFCECC5CA"
 			]
 			id: "2272C09CC091D7F2"
+			size: 1.25d
 			tasks: [{
 				id: "6D912D9E767A39BB"
 				item: "create:gearbox"
@@ -354,9 +355,8 @@
 		}
 		{
 			dependencies: [
-				"6D0FBE4BC158AD55"
-				"2643B24DFCECC5CA"
 				"1D248CD9B20890B6"
+				"6DBA82BBFE12FBCA"
 			]
 			id: "198A25A0A7ABB1CA"
 			tasks: [{
@@ -365,7 +365,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -379,14 +379,14 @@
 				item: "create_hc:press_head"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 6.0d
+			x: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
-				"5E6F983BD167AC40"
 				"2643B24DFCECC5CA"
 				"1D248CD9B20890B6"
+				"715668E872CD1886"
 			]
 			id: "42334327A716629F"
 			tasks: [{
@@ -394,8 +394,8 @@
 				item: "create_hc:shaft"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 8.0d
+			x: 7.5d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -432,8 +432,7 @@
 				"16AE3111E25E113D"
 				"7254CC7A5837A7A4"
 				"090CBDC9A2E3E33F"
-				"1CCEFD32A87E5F14"
-				"177179A6C4DBB139"
+				"5E56FB1B5DC19143"
 			]
 			id: "2E50556DA0413BEA"
 			tasks: [{
@@ -612,8 +611,7 @@
 			dependencies: [
 				"5477747A31E47E0B"
 				"16AE3111E25E113D"
-				"177179A6C4DBB139"
-				"1CCEFD32A87E5F14"
+				"5E56FB1B5DC19143"
 				"090CBDC9A2E3E33F"
 			]
 			id: "318B4B8B31223555"
@@ -661,7 +659,6 @@
 			dependencies: [
 				"1AA282EFED1E1823"
 				"6D912D9E767A39BB"
-				"2643B24DFCECC5CA"
 			]
 			id: "0B574615A5EE0481"
 			tasks: [{
@@ -698,8 +695,8 @@
 				item: "botania:white_petal_block"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -2.0d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -719,7 +716,6 @@
 			dependencies: [
 				"5B4CC14708341096"
 				"7C478A0A41C6B333"
-				"2643B24DFCECC5CA"
 			]
 			id: "33B266C55B9599A6"
 			tasks: [{
@@ -733,8 +729,7 @@
 		{
 			dependencies: [
 				"239B544B4B42A148"
-				"6D0FBE4BC158AD55"
-				"2643B24DFCECC5CA"
+				"6DBA82BBFE12FBCA"
 			]
 			id: "5B4CC14708341096"
 			tasks: [{
@@ -747,10 +742,10 @@
 		}
 		{
 			dependencies: [
-				"455344CACB23EB52"
-				"7D96D53F301F34C9"
 				"1ECCAF970C3B7307"
 				"685D9489569167DA"
+				"455344CACB23EB52"
+				"7D96D53F301F34C9"
 			]
 			id: "7EB60415DB8A3FCD"
 			tasks: [{
@@ -819,7 +814,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["0C18AB90113E694F"]
+			dependencies: [
+				"0C18AB90113E694F"
+				"239B544B4B42A148"
+			]
 			id: "6EF489518B4EE40D"
 			tasks: [{
 				id: "3144D4EDEFBCB91F"
@@ -830,7 +828,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["150F7FFE1ED066F7"]
+			dependencies: [
+				"150F7FFE1ED066F7"
+				"6F21441FE8834AC5"
+			]
 			id: "33D6F9100B324FAA"
 			tasks: [{
 				id: "768D8D9D476F3A78"
@@ -841,7 +842,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["38B73C212011834C"]
+			dependencies: [
+				"38B73C212011834C"
+				"6D912D9E767A39BB"
+			]
 			id: "150F7FFE1ED066F7"
 			tasks: [{
 				id: "14D8F2CD1937DE46"
@@ -853,8 +857,8 @@
 		}
 		{
 			dependencies: [
-				"67AD1BB4E199B66E"
 				"426DA70E175C3384"
+				"23CFFE95A57BD1FA"
 			]
 			id: "38B73C212011834C"
 			tasks: [{
@@ -867,22 +871,8 @@
 		}
 		{
 			dependencies: [
-				"514DCCB187316997"
-				"2E5670A1CEE4834E"
-			]
-			id: "67AD1BB4E199B66E"
-			tasks: [{
-				id: "2D2DB5B6C2B12EA8"
-				item: "minecraft:redstone"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 10.0d
-		}
-		{
-			dependencies: [
-				"2E5670A1CEE4834E"
 				"458B57107988B4A1"
+				"7379DAAA202DCB88"
 			]
 			id: "426DA70E175C3384"
 			tasks: [{
@@ -890,52 +880,7 @@
 				item: "minecraft:torch"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 8.0d
-		}
-		{
-			dependencies: [
-				"59C15DD053E3F1E7"
-				"0B241EA0DA761907"
-			]
-			id: "514DCCB187316997"
-			tasks: [{
-				id: "732741724A0EA8B4"
-				item: "gtceu:raw_redstone"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 10.0d
-		}
-		{
-			dependencies: [
-				"7C189D4F68BAA00B"
-				"0B8805848B42FB5F"
-				"177179A6C4DBB139"
-				"090CBDC9A2E3E33F"
-				"1CCEFD32A87E5F14"
-			]
-			id: "59C15DD053E3F1E7"
-			tasks: [{
-				id: "5860B0D3C5D15EE3"
-				item: "gtceu:redstone_ore"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 10.0d
-		}
-		{
-			dependencies: [
-				"0B8805848B42FB5F"
-				"6A8DF80AFA0883CA"
-			]
-			id: "7C189D4F68BAA00B"
-			tasks: [{
-				id: "4E713E7AE2D893DE"
-				item: "botania:red_petal_block"
-				type: "item"
-			}]
-			x: 2.5d
+			x: 10.0d
 			y: 10.0d
 		}
 		{
@@ -966,6 +911,55 @@
 			}]
 			x: 15.0d
 			y: -10.0d
+		}
+		{
+			dependencies: ["239B544B4B42A148"]
+			id: "02263B49664596DD"
+			tasks: [{
+				id: "6619A5BE0925770B"
+				item: "gtceu:andesite_alloy_nugget"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"239B544B4B42A148"
+				"7A35D4F0EC10527D"
+			]
+			id: "09BA36FD9C34A8D0"
+			tasks: [{
+				id: "47AFA2D817758CEC"
+				item: {
+					Count: 1
+					id: "ceramicbucket:ceramic_bucket"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:andesite_alloy"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"55AC5788296A3680"
+				"6E69B4A85A08B00E"
+			]
+			id: "7379DAAA202DCB88"
+			tasks: [{
+				id: "1E18AE53614B6B5C"
+				item: "gtceu:charcoal_dust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 12.0d
 		}
 	]
 	title: "安山时代"

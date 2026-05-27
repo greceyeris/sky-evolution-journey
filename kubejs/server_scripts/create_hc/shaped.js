@@ -6,10 +6,4 @@ ServerEvents.recipes((event) => {
         A: "create:shaft",
         B: "gtceu:andesite_alloy_block",
     });
-
-    // 添加 create_hc:saw_blade 的配方
-    event.shaped("create_hc:saw_blade", ["AAA", "ABA", "AAA"], {
-        A: "vintage:andesite_sheet",
-        B: "create:cogwheel",
-    });
 });

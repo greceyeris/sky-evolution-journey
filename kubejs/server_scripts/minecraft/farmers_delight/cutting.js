@@ -24,11 +24,11 @@ ServerEvents.recipes((event) => {
         result: [
             {
                 item: "minecraft:dirt",
-                chance: 0.65,
+                chance: 0.85,
             },
             {
                 item: "minecraft:clay_ball",
-                chance: 0.05,
+                chance: 0.15,
             },
         ],
         tool: { tag: "forge:tools/hoes" },
@@ -58,35 +58,6 @@ ServerEvents.recipes((event) => {
         tool: { tag: "forge:tools/saws" },
     });
 
-    // 添加 minecraft:all_logs_and_woods, farmersdelight:tree_bark 的配方
-    Ingredient.of("#minecraft:all_logs_and_woods")
-        .getItemIds()
-        .forEach((item) => {
-            event.custom({
-                type: "farmersdelight:cutting",
-                ingredients: [{ item: item }],
-                result: [
-                    { item: item.replace("minecraft:", "minecraft:stripped_") },
-                    { item: "farmersdelight:tree_bark" },
-                ],
-                tool: { tag: "forge:tools/axes" },
-            });
-        });
-
-    Ingredient.of("#minecraft:all_logs_and_woods")
-        .getItemIds()
-        .forEach((item) => {
-            event.custom({
-                type: "farmersdelight:cutting",
-                ingredients: [{ item: item }],
-                result: [
-                    { item: item.replace("minecraft:", "minecraft:stripped_") },
-                    { item: "farmersdelight:tree_bark" },
-                ],
-                tool: { tag: "forge:tools/paxels" },
-            });
-        });
-
     // 添加 minecraft:stripped_bamboo_block, farmersdelight:straw 的配方
     event.custom({
         type: "farmersdelight:cutting",
@@ -111,7 +82,7 @@ ServerEvents.recipes((event) => {
     // 添加 minecraft:oak_planks 的配方
     event.custom({
         type: "farmersdelight:cutting",
-        ingredients: [{ tag: "minecraft:stripped_oak_logs" }],
+        ingredients: [{ tag: "minecraft:stripped_oaks" }],
         result: [{ item: "minecraft:oak_planks", count: 4 }],
         tool: { tag: "forge:tools/saws" },
     });
@@ -119,7 +90,7 @@ ServerEvents.recipes((event) => {
     // 添加 minecraft:spruce_planks 的配方
     event.custom({
         type: "farmersdelight:cutting",
-        ingredients: [{ tag: "minecraft:stripped_spruce_logs" }],
+        ingredients: [{ tag: "minecraft:stripped_spruces" }],
         result: [{ item: "minecraft:spruce_planks", count: 4 }],
         tool: { tag: "forge:tools/saws" },
     });
@@ -127,7 +98,7 @@ ServerEvents.recipes((event) => {
     // 添加 minecraft:birch_planks 的配方
     event.custom({
         type: "farmersdelight:cutting",
-        ingredients: [{ tag: "minecraft:stripped_birch_logs" }],
+        ingredients: [{ tag: "minecraft:stripped_birchs" }],
         result: [{ item: "minecraft:birch_planks", count: 4 }],
         tool: { tag: "forge:tools/saws" },
     });
@@ -135,7 +106,7 @@ ServerEvents.recipes((event) => {
     // 添加 minecraft:jungle_planks 的配方
     event.custom({
         type: "farmersdelight:cutting",
-        ingredients: [{ tag: "minecraft:stripped_jungle_logs" }],
+        ingredients: [{ tag: "minecraft:stripped_jungles" }],
         result: [{ item: "minecraft:jungle_planks", count: 4 }],
         tool: { tag: "forge:tools/saws" },
     });
@@ -143,7 +114,7 @@ ServerEvents.recipes((event) => {
     // 添加 minecraft:acacia_planks 的配方
     event.custom({
         type: "farmersdelight:cutting",
-        ingredients: [{ tag: "minecraft:stripped_acacia_logs" }],
+        ingredients: [{ tag: "minecraft:stripped_acacias" }],
         result: [{ item: "minecraft:acacia_planks", count: 4 }],
         tool: { tag: "forge:tools/saws" },
     });
@@ -151,7 +122,7 @@ ServerEvents.recipes((event) => {
     // 添加 minecraft:dark_oak_planks 的配方
     event.custom({
         type: "farmersdelight:cutting",
-        ingredients: [{ tag: "minecraft:stripped_dark_oak_logs" }],
+        ingredients: [{ tag: "minecraft:stripped_dark_oaks" }],
         result: [{ item: "minecraft:dark_oak_planks", count: 4 }],
         tool: { tag: "forge:tools/saws" },
     });
@@ -159,7 +130,7 @@ ServerEvents.recipes((event) => {
     // 添加 minecraft:mangrove_planks 的配方
     event.custom({
         type: "farmersdelight:cutting",
-        ingredients: [{ tag: "minecraft:stripped_mangrove_logs" }],
+        ingredients: [{ tag: "minecraft:stripped_mangroves" }],
         result: [{ item: "minecraft:mangrove_planks", count: 4 }],
         tool: { tag: "forge:tools/saws" },
     });
@@ -167,7 +138,7 @@ ServerEvents.recipes((event) => {
     // 添加 minecraft:cherry_planks 的配方
     event.custom({
         type: "farmersdelight:cutting",
-        ingredients: [{ tag: "minecraft:stripped_cherry_logs" }],
+        ingredients: [{ tag: "minecraft:stripped_cherrys" }],
         result: [{ item: "minecraft:cherry_planks", count: 4 }],
         tool: { tag: "forge:tools/saws" },
     });
@@ -175,7 +146,7 @@ ServerEvents.recipes((event) => {
     // 添加 minecraft:crimson_planks 的配方
     event.custom({
         type: "farmersdelight:cutting",
-        ingredients: [{ tag: "minecraft:stripped_crimson_logs" }],
+        ingredients: [{ tag: "minecraft:stripped_crimsons" }],
         result: [{ item: "minecraft:crimson_planks", count: 4 }],
         tool: { tag: "forge:tools/saws" },
     });
@@ -183,7 +154,7 @@ ServerEvents.recipes((event) => {
     // 添加 minecraft:warped_planks 的配方
     event.custom({
         type: "farmersdelight:cutting",
-        ingredients: [{ tag: "minecraft:stripped_warped_logs" }],
+        ingredients: [{ tag: "minecraft:stripped_warpeds" }],
         result: [{ item: "minecraft:warped_planks", count: 4 }],
         tool: { tag: "forge:tools/saws" },
     });
@@ -300,14 +271,6 @@ ServerEvents.recipes((event) => {
         tool: { tag: "forge:tools/shovels" },
     });
 
-    // 添加 minecraft:mycelium 的配方
-    event.custom({
-        type: "farmersdelight:cutting",
-        ingredients: [{ item: "minecraft:dirt" }],
-        result: [{ item: "minecraft:mycelium" }],
-        tool: { item: "botania:mycelium_seeds" },
-    });
-
     // 添加 minecraft:sugar 的配方
     event.custom({
         type: "farmersdelight:cutting",
@@ -316,11 +279,11 @@ ServerEvents.recipes((event) => {
         tool: { tag: "forge:tools/hammers" },
     });
 
-    // 添加 minecraft:soul_sand 的配方
+    // 添加 minecraft:wheat 的配方
     event.custom({
         type: "farmersdelight:cutting",
-        ingredients: [{ item: "minecraft:sand" }],
-        result: [{ item: "minecraft:soul_sand" }],
-        tool: { item: "minecraft:bone_block" },
+        ingredients: [{ item: "minecraft:hay_block" }],
+        result: [{ item: "minecraft:wheat", count: 9 }],
+        tool: { tag: "forge:tools/knives" },
     });
 });

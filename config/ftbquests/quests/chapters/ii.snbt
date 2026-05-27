@@ -25,13 +25,15 @@
 		{
 			dependencies: ["24EDB0CC704CEA2E"]
 			id: "660A2D374B162D45"
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				id: "4638BDA3B35C97A9"
 				item: "create:brass_casing"
 				type: "item"
 			}]
-			x: 50.0d
-			y: 0.0d
+			x: 15.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["09FA1DD09AE00E24"]
@@ -56,7 +58,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3680C2A6DA259B49"]
+			dependencies: [
+				"3680C2A6DA259B49"
+				"5162E4C1894B7672"
+			]
 			id: "0262FC7B84B7FDA0"
 			tasks: [{
 				id: "2FEFDB89A00308FE"
@@ -74,8 +79,8 @@
 				item: "gtceu:brass_ingot"
 				type: "item"
 			}]
-			x: 47.5d
-			y: 0.0d
+			x: 12.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["57F706D9E53773FB"]
@@ -85,8 +90,8 @@
 				item: "gtceu:brass_dust"
 				type: "item"
 			}]
-			x: 45.0d
-			y: 0.0d
+			x: 10.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["11DB3936716694B6"]
@@ -96,8 +101,8 @@
 				item: "gtceu:zinc_dust"
 				type: "item"
 			}]
-			x: 42.5d
-			y: 0.0d
+			x: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6F350748EF032435"]
@@ -107,8 +112,8 @@
 				item: "gtceu:zinc_ingot"
 				type: "item"
 			}]
-			x: 40.0d
-			y: 0.0d
+			x: 5.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["617B43355123872E"]
@@ -118,8 +123,8 @@
 				item: "gtceu:raw_sphalerite"
 				type: "item"
 			}]
-			x: 32.5d
-			y: -2.0d
+			x: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0F4907FC8B7EF259"]
@@ -129,8 +134,8 @@
 				item: "gtceu:purified_sphalerite_ore"
 				type: "item"
 			}]
-			x: 35.0d
-			y: -2.0d
+			x: 2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["262F1E4E62878699"]
@@ -140,8 +145,8 @@
 				item: "gtceu:refined_sphalerite_ore"
 				type: "item"
 			}]
-			x: 37.5d
-			y: -2.0d
+			x: 2.5d
+			y: 6.0d
 		}
 		{
 			id: "617B43355123872E"
@@ -150,8 +155,8 @@
 				item: "gtceu:sphalerite_ore"
 				type: "item"
 			}]
-			x: 30.0d
-			y: -2.0d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -161,22 +166,11 @@
 			id: "6F350748EF032435"
 			tasks: [{
 				id: "67BD82EC7E340A40"
-				item: {
-					Count: 1
-					id: "ceramicbucket:ceramic_bucket"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:zinc"
-						}
-					}
-				}
-				match_nbt: true
+				item: "gtceu:zinc_bucket"
 				type: "item"
-				weak_nbt_match: true
 			}]
-			x: 37.5d
-			y: 0.0d
+			x: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -190,17 +184,18 @@
 				item: "mythicbotany:alfsteel_ingot"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 0.0d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["0262FC7B84B7FDA0"]
 			id: "34E631387A60CF27"
 			tasks: [{
 				id: "52F4C07BA52138BF"
 				item: "botania:elementium_ingot"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
@@ -214,8 +209,8 @@
 				item: "mythicbotany:mana_infuser"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 0.0d
+			x: 10.0d
+			y: 2.0d
 		}
 		{
 			id: "1405691BF4B3DF68"
@@ -224,19 +219,8 @@
 				item: "botania:glimmering_dreamwood"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 12.5d
 			y: 2.0d
-		}
-		{
-			dependencies: ["5162E4C1894B7672"]
-			id: "0B41322A1393B722"
-			tasks: [{
-				id: "1ABFF43F4AFC9635"
-				item: "botania:glimmering_livingwood"
-				type: "item"
-			}]
-			x: 10.0d
-			y: -2.0d
 		}
 		{
 			dependencies: ["57828535B9E29A09"]
@@ -246,8 +230,8 @@
 				item: "minecraft:glowstone_dust"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -4.0d
+			x: 7.5d
+			y: -2.0d
 		}
 		{
 			id: "57828535B9E29A09"
@@ -256,8 +240,8 @@
 				item: "minecraft:prismarine_crystals"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -6.0d
+			x: 7.5d
+			y: -4.0d
 		}
 		{
 			id: "043683F62E37D8AF"
@@ -266,8 +250,8 @@
 				item: "botania:pixie_dust"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 2.0d
+			x: 10.0d
+			y: 6.0d
 		}
 		{
 			id: "3B187F40AAD35CCD"
@@ -276,85 +260,43 @@
 				item: "botania:dragonstone"
 				type: "item"
 			}]
-			x: 17.5d
-			y: -2.0d
+			x: 12.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["1F162D34845EE5CA"]
-			id: "738DF2C4DE63A282"
-			tasks: [{
-				id: "13FF49F437A3C534"
-				item: "botania:gaia_pylon"
-				type: "item"
-			}]
-			x: 25.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5AF8A5D2821D115D"]
-			id: "1F162D34845EE5CA"
-			tasks: [{
-				id: "0A805679494730B0"
-				item: "mythicbotany:alfsteel_pylon"
-				type: "item"
-			}]
-			x: 22.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["738DF2C4DE63A282"]
-			id: "6A105BA410FF5517"
-			tasks: [{
-				id: "09861AC81F4EBF86"
-				item: "botania:life_essence"
-				type: "item"
-			}]
-			x: 27.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6A105BA410FF5517"]
-			id: "164DEB29C7C8424F"
-			tasks: [{
-				id: "0B42BBEDACD75766"
-				item: "botania:gaia_ingot"
-				type: "item"
-			}]
-			x: 30.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["740E82AAE6458ED2"]
-			id: "5AF8A5D2821D115D"
-			tasks: [{
-				id: "4A13A982E0E9BA01"
-				item: "mythicbotany:alfsteel_nugget"
-				type: "item"
-			}]
-			x: 20.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2DF2BBA4A13CC558"]
+			dependencies: ["61287DA043F18CAE"]
 			id: "49FA7DD225793EE9"
 			tasks: [{
 				id: "7FA14443754DF9D0"
 				item: "createmetallurgy:foundry_mixer"
 				type: "item"
 			}]
-			x: 35.0d
-			y: 0.0d
+			x: 5.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["164DEB29C7C8424F"]
-			id: "2DF2BBA4A13CC558"
+			dependencies: [
+				"740E82AAE6458ED2"
+				"654D306E4344BC4C"
+			]
+			id: "61287DA043F18CAE"
 			tasks: [{
-				id: "5A9F43FA21385586"
-				item: "extrabotany:orichalcos_ingot"
+				id: "58C2381A25BC58B3"
+				item: "createmetallurgy:sturdy_whisk"
 				type: "item"
 			}]
-			x: 32.5d
-			y: 0.0d
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			id: "654D306E4344BC4C"
+			tasks: [{
+				id: "45EF2660B572F283"
+				item: "gtceu:obsidian_plate"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
 		}
 	]
 	title: "植物魔法时代 II"

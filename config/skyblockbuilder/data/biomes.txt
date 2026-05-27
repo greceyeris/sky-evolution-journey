@@ -69,8 +69,3 @@ mythicbotany:alfheim_lakes
 mythicbotany:alfheim_plains
 mythicbotany:dreamwood_forest
 mythicbotany:golden_fields
-terrablender:deferred_placeholder
-youkaisfeasts:animal_path
-youkaisfeasts:sakura_birch_forest
-youkaisfeasts:sakura_forest
-youkaisfeasts:sakura_taiga

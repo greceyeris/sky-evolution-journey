@@ -10,9 +10,9 @@ ServerEvents.recipes((event) => {
     // 添加 minecraft:copper_ingot 的配方
     event.smelting("minecraft:copper_ingot", "minecraft:raw_copper");
 
-    // 添加 minecraft:torch 的配方
-    event.smelting("minecraft:torch", "#forge:rods/wooden");
-
     // 添加 minecraft:redstone 的配方
-    event.smelting("minecraft:redstone", "gtceu:raw_redstone");
+    event.smelting("5x minecraft:redstone", "gtceu:raw_redstone");
+
+    // 添加 minecraft:lapis_lazuli 的配方
+    event.smelting("6x minecraft:lapis_lazuli", "gtceu:raw_lapis");
 });

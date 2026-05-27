@@ -10,11 +10,11 @@ const cancelRightClicked = [
     },
     {
         item: "botania:living_root",
-        blackList: ["minecraft:grass_block", "minecraft:moss_block"],
+        whiteList: ["#minecraft:saplings", "#minecraft:crops"],
     },
     {
         item: "minecraft:bone_meal",
-        blackList: ["#botania:mystical_flowers"],
+        whiteList: ["#minecraft:saplings", "#minecraft:crops"],
     },
     {
         item: "botania:fertilizer",

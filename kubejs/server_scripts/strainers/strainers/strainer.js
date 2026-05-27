@@ -8,7 +8,7 @@ ServerEvents.recipes((event) => {
         output: { item: "strainers:stone_pebble" },
         aboveFluid: "minecraft:water",
         minMeshTier: 1,
-        duration: 200,
+        duration: 150,
         chance: 0.6,
         chanceIncreasePerTier: 0.03,
     });
@@ -19,7 +19,7 @@ ServerEvents.recipes((event) => {
         output: { item: "strainers:stone_pebble" },
         aboveFluid: "minecraft:water",
         minMeshTier: 1,
-        duration: 200,
+        duration: 150,
         chance: 0.5,
         chanceIncreasePerTier: 0.03,
     });
@@ -30,7 +30,7 @@ ServerEvents.recipes((event) => {
         output: { item: "strainers:stone_pebble" },
         aboveFluid: "minecraft:water",
         minMeshTier: 1,
-        duration: 200,
+        duration: 150,
         chance: 0.4,
         chanceIncreasePerTier: 0.02,
     });
@@ -41,7 +41,7 @@ ServerEvents.recipes((event) => {
         output: { item: "strainers:stone_pebble" },
         aboveFluid: "minecraft:water",
         minMeshTier: 1,
-        duration: 200,
+        duration: 150,
         chance: 0.3,
         chanceIncreasePerTier: 0.02,
     });
@@ -52,7 +52,7 @@ ServerEvents.recipes((event) => {
         output: { item: "strainers:stone_pebble" },
         aboveFluid: "minecraft:water",
         minMeshTier: 1,
-        duration: 200,
+        duration: 150,
         chance: 0.2,
         chanceIncreasePerTier: 0.01,
     });

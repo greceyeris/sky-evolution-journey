@@ -333,6 +333,10 @@ productivebees:sugar_cane_nest
 productivebees:warped_fungus_bees
 productivebees:warped_fungus_bees_grown
 ratatouille_fried_delights:cola_tree
+rftoolsbase:dimshard_dimensions
+rftoolsbase:dimshard_end
+rftoolsbase:dimshard_nether
+rftoolsbase:dimshard_overworld
 silentgear:azure_silver_ore
 silentgear:bort_ore
 silentgear:crimson_iron_ore
@@ -361,11 +365,3 @@ waystones:end_stone_waystone
 waystones:mossy_waystone
 waystones:sandy_waystone
 waystones:waystone
-youkaisfeasts:black_grape
-youkaisfeasts:cucumber
-youkaisfeasts:red_grape
-youkaisfeasts:redbean
-youkaisfeasts:soybean
-youkaisfeasts:tea
-youkaisfeasts:udumbara
-youkaisfeasts:white_grape

@@ -18,3 +18,13 @@ manager.highlight_color: 00AAFF
 schematic.allow_ae2_config_copy: true
 # [Schematic] Allow the Placement Planner 'Build All' button to place real blocks in the world. Disabled by default ¡ª the planner is a planning tool, not a builder.
 schematic.planner_build_all_enabled: false
+
+# --- Auto-added missing keys ---
+#  Registry IDs of blocks the Schematic Interface will NEVER copy or paste.
+#  Use this to block unobtainable or modpack-internal blocks (e.g. barriers, custom casings).
+#  Example: - minecraft:bedrock, - kubejs:custom_block
+schematic.block_blacklist:
+#  Registry IDs of blocks the Dismantler will NEVER refund or remove.
+#  Use this to protect blocks that cannot normally be obtained (e.g. bedrock, barriers, etc.)
+# - minecraft:bedrock, - minecraft; barriers, -kubejs:custom_block. 
+dismantler.block_blacklist:

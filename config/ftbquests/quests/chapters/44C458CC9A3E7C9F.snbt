@@ -32,6 +32,7 @@
 				"11C3CCD46712E124"
 			]
 			id: "61DEBF41EE0BC3D0"
+			size: 1.25d
 			tasks: [{
 				id: "2E5670A1CEE4834E"
 				item: "minecraft:furnace"
@@ -46,6 +47,7 @@
 				"32CF8FE6DDC3EDA4"
 			]
 			id: "1DBB13628CE87303"
+			size: 1.25d
 			tasks: [{
 				id: "0268E8F5A618F937"
 				item: "minecraft:gravel"
@@ -60,6 +62,7 @@
 				"6E69B4A85A08B00E"
 			]
 			id: "134488251EEC39CE"
+			size: 1.25d
 			tasks: [{
 				id: "0AD148B6DD9BAC84"
 				item: "minecraft:sand"
@@ -74,6 +77,7 @@
 				"6E69B4A85A08B00E"
 			]
 			id: "61BD3E1E417A2828"
+			size: 1.25d
 			tasks: [{
 				id: "7EC15B979D1B0B3C"
 				item: "gtceu:quartz_sand_dust"
@@ -117,6 +121,7 @@
 				"6A8DF80AFA0883CA"
 			]
 			id: "59C0C2053F33D2BD"
+			size: 1.25d
 			tasks: [{
 				id: "4797AA8A02431EC3"
 				item: "gtceu:glass_dust"
@@ -130,7 +135,6 @@
 				"6367C65CB0E9AA91"
 				"6E69B4A85A08B00E"
 			]
-			description: ["&6燧石&r &c放入&r &a挤压机&r 中，再 &c站上去跳跃&r 可获得"]
 			id: "0FDA92C7E0D7EA06"
 			tasks: [{
 				id: "23C59CC9E019C163"
@@ -146,6 +150,7 @@
 				"4D88B341DCC1DF4A"
 			]
 			id: "62759B0070D23A19"
+			size: 1.25d
 			tasks: [{
 				id: "4B71C7AFC7D2C261"
 				item: "minecraft:glass"
@@ -160,6 +165,7 @@
 				"2643B24DFCECC5CA"
 			]
 			id: "590FDCF6AE733F40"
+			size: 1.25d
 			tasks: [{
 				id: "213B60E8483BA67F"
 				item: "minecraft:glass_pane"
@@ -175,6 +181,7 @@
 				"685D9489569167DA"
 			]
 			id: "4904A49A2D83FC7C"
+			size: 1.25d
 			tasks: [{
 				id: "01021C6DC53EC245"
 				item: "compactcrafting:projector_dish"
@@ -189,6 +196,7 @@
 				"740F8CBC59B2C143"
 			]
 			id: "42F37AA6B72F1BDB"
+			size: 1.25d
 			tasks: [{
 				count: 4L
 				id: "0A2679B3FC8ABF2D"
@@ -232,6 +240,7 @@
 			dependencies: [
 				"587B04E055A7C34B"
 				"056D4AECEA99D68C"
+				"2643B24DFCECC5CA"
 			]
 			id: "7DFB75ECB4D04D90"
 			tasks: [{
@@ -260,8 +269,8 @@
 		{
 			dependencies: [
 				"2643B24DFCECC5CA"
-				"6D0FBE4BC158AD55"
-				"377D36B48E2414DB"
+				"05B619DE5660E7C0"
+				"41DEF2FE6D874A30"
 			]
 			id: "00229D33BA8E82CB"
 			tasks: [{
@@ -276,7 +285,6 @@
 			dependencies: [
 				"2643B24DFCECC5CA"
 				"090CBDC9A2E3E33F"
-				"377D36B48E2414DB"
 			]
 			id: "639CECBFA2C82A25"
 			tasks: [{
@@ -310,6 +318,7 @@
 				"6E69B4A85A08B00E"
 			]
 			id: "43D550A88EE99BDF"
+			size: 1.25d
 			tasks: [{
 				id: "0659A68F00F65078"
 				item: "minecraft:bone_meal"
@@ -336,8 +345,11 @@
 			dependencies: [
 				"028A0DC0C4AEFC9A"
 				"24280FCFA7B027A5"
+				"44157C2B272DCEBD"
 			]
+			description: ["&6净化盐&r &c右键&r &a有机覆盖物&r 可 &c转化&r 成 &b净化水方块&r"]
 			id: "7E27CB4F4713FC53"
+			size: 1.25d
 			tasks: [{
 				id: "2E0067C561E78E8A"
 				item: {
@@ -364,8 +376,8 @@
 				"6A8DF80AFA0883CA"
 				"1E7724C0894C4563"
 			]
-			description: ["&6净化盐&r &c右键&r &a有机覆盖物&r 可 &c转化&r 成 &b净化水方块&r"]
 			id: "028A0DC0C4AEFC9A"
+			size: 1.25d
 			tasks: [{
 				id: "0E0344043251B77A"
 				item: "strainers:purifying_salt_mulch"
@@ -380,6 +392,7 @@
 				"03D76A6E52A940A0"
 			]
 			id: "4FBAE391909C0BA7"
+			size: 1.25d
 			tasks: [{
 				id: "469FB328AE4C7C8C"
 				item: "opolisutilities:mini_charcoal"
@@ -442,6 +455,7 @@
 				"428BB954E1F196E2"
 			]
 			id: "2A427C0E3099E1DA"
+			size: 1.25d
 			tasks: [{
 				id: "31A2091ECF7FD94C"
 				item: "minecraft:calcite"
@@ -458,6 +472,7 @@
 				"7E27CB4F4713FC53"
 			]
 			id: "741FDE8F20C40FC5"
+			size: 1.25d
 			tasks: [{
 				id: "6180B97A46CEE978"
 				item: "minecraft:diorite"
@@ -470,7 +485,6 @@
 			dependencies: [
 				"2643B24DFCECC5CA"
 				"3F4FCB3CF08A69F7"
-				"377D36B48E2414DB"
 			]
 			id: "384E63CEEE0D07BF"
 			tasks: [{
@@ -516,9 +530,11 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["2E5670A1CEE4834E"]
+			dependencies: [
+				"2E5670A1CEE4834E"
+				"3C86BB68B2306D9E"
+			]
 			id: "072CFBF350A48FFF"
-			shape: "square"
 			tasks: [{
 				id: "11D21CE0A3AD22BE"
 				item: "minecraft:terracotta"
@@ -556,6 +572,130 @@
 			}]
 			x: 5.0d
 			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2643B24DFCECC5CA"
+				"2FC6C8A678AE5C50"
+			]
+			id: "05B619DE5660E7C0"
+			shape: "circle"
+			tasks: [{
+				id: "6DBA82BBFE12FBCA"
+				item: "minecraft:oak_slab"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"2643B24DFCECC5CA"
+				"4652C823EFBCE994"
+				"69760E41D90BC620"
+			]
+			id: "2FC6C8A678AE5C50"
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "5B705C1F119512EB"
+				item: "minecraft:oak_planks"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"6747E4FA822CED5E"
+				"1D248CD9B20890B6"
+			]
+			id: "4652C823EFBCE994"
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "715668E872CD1886"
+				item: "minecraft:stripped_oak_log"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"6367C65CB0E9AA91"
+				"458B57107988B4A1"
+				"6A8DF80AFA0883CA"
+				"645BEC733315BB80"
+			]
+			id: "69760E41D90BC620"
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "41DEF2FE6D874A30"
+				item: {
+					Count: 1
+					id: "silentgear:saw"
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+						SGear_UUID: [I;
+							1478063967
+							-1892528201
+							-1454051223
+							770313582
+						]
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2FC6C8A678AE5C50"]
+			id: "547AC1D8E0D7CCD6"
+			tasks: [{
+				id: "791AC187A68FA75D"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["056D4AECEA99D68C"]
+			id: "3C86BB68B2306D9E"
+			tasks: [{
+				id: "2738E79DFD079A29"
+				item: "minecraft:clay"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"32CF8FE6DDC3EDA4"
+				"2E5670A1CEE4834E"
+				"458B57107988B4A1"
+				"5B705C1F119512EB"
+				"090CBDC9A2E3E33F"
+				"6A8DF80AFA0883CA"
+			]
+			id: "6D3278277A668E70"
+			tasks: [{
+				id: "3D9FEB16E9182243"
+				item: "industrialforegoing:pitiful_generator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
 		}
 	]
 	title: "石器时代"

@@ -14,7 +14,7 @@ ServerEvents.recipes((event) => {
                 '{EntityTag:{type:"productivebees:copper"}}',
             ).strongNBT(),
         )
-        .processingTime(200)
+        .processingTime(150)
         .minimalRPM(128);
 
     event.recipes.vintage
@@ -29,6 +29,17 @@ ServerEvents.recipes((event) => {
                 '{EntityTag:{type:"productivebees:copper"}}',
             ).strongNBT(),
         )
-        .processingTime(600)
+        .processingTime(400)
         .minimalRPM(128);
+
+    // 添加 minecraft:mushrooms 的配方
+    event.recipes.vintage
+        .centrifugation(
+            Ingredient.of("#minecraft:mushrooms")
+                .getItemIds()
+                .map((item) => Item.of(item).withChance(0.2)),
+            "minecraft:mycelium",
+        )
+        .processingTime(150)
+        .minimalRPM(64);
 });

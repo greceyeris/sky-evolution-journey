@@ -9,6 +9,13 @@ ServerEvents.recipes((event) => {
         tool: { tag: "forge:tools/axes" },
     });
 
+    event.custom({
+        type: "farmersdelight:cutting",
+        ingredients: [{ tag: "minecraft:wooden_slabs" }],
+        result: [{ item: "create_hc:gear_small" }],
+        tool: { tag: "forge:tools/paxels" },
+    });
+
     // 添加 create_hc:gear_large 的配方
     event.custom({
         type: "farmersdelight:cutting",
@@ -17,11 +24,25 @@ ServerEvents.recipes((event) => {
         tool: { tag: "forge:tools/axes" },
     });
 
+    event.custom({
+        type: "farmersdelight:cutting",
+        ingredients: [{ tag: "minecraft:planks" }],
+        result: [{ item: "create_hc:gear_large" }],
+        tool: { tag: "forge:tools/paxels" },
+    });
+
     // 添加 create_hc:shaft 的配方
     event.custom({
         type: "farmersdelight:cutting",
         ingredients: [{ tag: "forge:stripped_logs" }],
         result: [{ item: "create_hc:shaft" }],
         tool: { tag: "forge:tools/axes" },
+    });
+
+    event.custom({
+        type: "farmersdelight:cutting",
+        ingredients: [{ tag: "forge:stripped_logs" }],
+        result: [{ item: "create_hc:shaft" }],
+        tool: { tag: "forge:tools/paxels" },
     });
 });

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iii"
+	group: "0F76479A11B06095"
+	icon: "minecraft:beacon"
+	id: "3FAFBA933E6A95EE"
+	order_index: 8
+	quest_links: [ ]
+	quests: [ ]
+	title: "植物魔法时代 III"
+}

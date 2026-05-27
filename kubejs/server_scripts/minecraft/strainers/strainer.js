@@ -8,7 +8,7 @@ ServerEvents.recipes((event) => {
         output: { item: "minecraft:andesite" },
         aboveFluid: "strainers:purified_water_fluid",
         minMeshTier: 1,
-        duration: 200,
+        duration: 150,
         chance: 0.35,
         chanceIncreasePerTier: 0.02,
     });
@@ -20,7 +20,7 @@ ServerEvents.recipes((event) => {
         output: { item: "minecraft:granite" },
         aboveFluid: "strainers:purified_water_fluid",
         minMeshTier: 1,
-        duration: 200,
+        duration: 150,
         chance: 0.35,
         chanceIncreasePerTier: 0.02,
     });
@@ -32,7 +32,7 @@ ServerEvents.recipes((event) => {
         output: { item: "minecraft:diorite" },
         aboveFluid: "strainers:purified_water_fluid",
         minMeshTier: 1,
-        duration: 200,
+        duration: 150,
         chance: 0.35,
         chanceIncreasePerTier: 0.02,
     });
@@ -44,8 +44,8 @@ ServerEvents.recipes((event) => {
         output: { item: "minecraft:calcite" },
         aboveFluid: "minecraft:water",
         minMeshTier: 1,
-        duration: 200,
-        chance: 0.6,
+        duration: 150,
+        chance: 0.75,
         chanceIncreasePerTier: 0.05,
     });
 
@@ -56,8 +56,20 @@ ServerEvents.recipes((event) => {
         output: { item: "minecraft:flint" },
         aboveFluid: "minecraft:water",
         minMeshTier: 1,
-        duration: 200,
+        duration: 150,
         chance: 0.65,
+        chanceIncreasePerTier: 0.05,
+    });
+
+    // 添加 minecraft:clay_ball 的配方
+    event.custom({
+        type: "strainers:strainer",
+        ingredients: [{ item: "minecraft:dirt" }],
+        output: { item: "minecraft:clay_ball" },
+        aboveFluid: "minecraft:water",
+        minMeshTier: 1,
+        duration: 150,
+        chance: 0.75,
         chanceIncreasePerTier: 0.05,
     });
 
@@ -71,11 +83,23 @@ ServerEvents.recipes((event) => {
                 output: { item: item },
                 aboveFluid: "minecraft:water",
                 minMeshTier: 1,
-                duration: 200,
-                chance: 0.05,
+                duration: 150,
+                chance: 0.15,
                 chanceIncreasePerTier: 0.0,
             });
         });
+
+    // 添加 minecraft:grass 的配方
+    event.custom({
+        type: "strainers:strainer",
+        ingredients: [{ item: "minecraft:bone_meal" }],
+        output: { item: "minecraft:grass" },
+        aboveFluid: "minecraft:water",
+        minMeshTier: 1,
+        duration: 150,
+        chance: 0.75,
+        chanceIncreasePerTier: 0.0,
+    });
 
     // 添加 minecraft:all_seeds 的配方
     Ingredient.of("#minecraft:all_seeds")
@@ -87,7 +111,7 @@ ServerEvents.recipes((event) => {
                 output: { item: item },
                 aboveFluid: "minecraft:water",
                 minMeshTier: 1,
-                duration: 200,
+                duration: 150,
                 chance: 0.2,
                 chanceIncreasePerTier: 0.0,
             });
@@ -100,7 +124,7 @@ ServerEvents.recipes((event) => {
         output: { item: "minecraft:sugar_cane" },
         aboveFluid: "minecraft:water",
         minMeshTier: 1,
-        duration: 200,
+        duration: 150,
         chance: 0.05,
         chanceIncreasePerTier: 0.01,
     });
@@ -112,7 +136,7 @@ ServerEvents.recipes((event) => {
         output: { item: "minecraft:kelp" },
         aboveFluid: "minecraft:water",
         minMeshTier: 2,
-        duration: 200,
+        duration: 150,
         chance: 0.05,
         chanceIncreasePerTier: 0.01,
     });
@@ -124,7 +148,7 @@ ServerEvents.recipes((event) => {
         output: { item: "minecraft:cactus" },
         aboveFluid: "minecraft:water",
         minMeshTier: 2,
-        duration: 200,
+        duration: 150,
         chance: 0.05,
         chanceIncreasePerTier: 0.01,
     });
@@ -136,7 +160,7 @@ ServerEvents.recipes((event) => {
         output: { item: "minecraft:seagrass" },
         aboveFluid: "minecraft:water",
         minMeshTier: 2,
-        duration: 200,
+        duration: 150,
         chance: 0.05,
         chanceIncreasePerTier: 0.01,
     });
@@ -148,7 +172,7 @@ ServerEvents.recipes((event) => {
         output: { item: "minecraft:sea_pickle" },
         aboveFluid: "minecraft:water",
         minMeshTier: 2,
-        duration: 200,
+        duration: 150,
         chance: 0.05,
         chanceIncreasePerTier: 0.01,
     });

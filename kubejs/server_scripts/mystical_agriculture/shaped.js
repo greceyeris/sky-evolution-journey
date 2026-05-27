@@ -1,21 +1,13 @@
 ServerEvents.recipes((event) => {
     // 添加配方
     // shaped
-    // 添加 mysticalagriculture:infusion_altar 的配方
-    event.shaped("mysticalagriculture:infusion_altar", ["ABA", "BCB", "CCC"], {
-        A: "minecraft:brick",
-        B: "minecraft:red_wool",
-        C: "botania:livingrock",
-    });
-
-    // 添加 mysticalagriculture:infusion_pedestal 的配方
+    // 添加 mysticalagriculture:soulium_gemstone 的配方
     event.shaped(
-        "mysticalagriculture:infusion_pedestal",
-        ["ABA", " C ", " C "],
+        "mysticalagriculture:soulium_gemstone",
+        [" A ", "ABA", " A "],
         {
-            A: "minecraft:brick",
-            B: "minecraft:red_wool",
-            C: "botania:livingrock",
+            A: "mysticalagriculture:soulium_dust",
+            B: "mysticalagriculture:prosperity_gemstone",
         },
     );
 });

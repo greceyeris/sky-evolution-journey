@@ -120,14 +120,17 @@ const hideObjectsUsedBlacklist = [
     {
         name: "@rechiseled",
         blacklist: ["rechiseled:chisel"],
+        notRemoveAllTags: true,
     },
     {
         name: "@rechiseledcreate",
         blacklist: ["rechiseledcreate:mechanical_chisel"],
+        notRemoveAllTags: true,
     },
     {
         name: "@rechiseledae",
         blacklist: ["rechiseledae:chiseling_pattern_encoder"],
+        notRemoveAllTags: true,
     },
 ];
 
@@ -157,6 +160,11 @@ ServerEvents.tags("item", (event) => {
                     if (!object.blacklist.includes(objectId)) {
                         // add
                         event.add("c:hidden_from_recipe_viewers", objectId);
+
+                        if (object.notRemoveAllTags) {
+                            // add
+                            event.add("kubejs:reserve_tags", objectId);
+                        }
                     }
                 });
         }
@@ -207,6 +215,11 @@ ServerEvents.tags("block", (event) => {
                     if (!object.blacklist.includes(objectId)) {
                         // add
                         event.add("c:hidden_from_recipe_viewers", objectId);
+
+                        if (object.notRemoveAllTags) {
+                            // add
+                            event.add("kubejs:reserve_tags", objectId);
+                        }
                     }
                 });
         }

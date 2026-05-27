@@ -1,12 +1,36 @@
 ServerEvents.recipes((event) => {
     // 添加配方
     // ae2cs:crystal_pulverizer_recipe_serializer
+    // 添加 minecraft:cobblestone 的配方
+    event.custom({
+        type: "ae2cs:crystal_pulverizer_recipe_serializer",
+        input: { ingredient: { item: "minecraft:stone" } },
+        result: { item: "minecraft:cobblestone" },
+        energy_cost: 4800,
+    });
+
+    // 添加 minecraft:gravel 的配方
+    event.custom({
+        type: "ae2cs:crystal_pulverizer_recipe_serializer",
+        input: { ingredient: { item: "minecraft:cobblestone" } },
+        result: { item: "minecraft:gravel" },
+        energy_cost: 3200,
+    });
+
+    // 添加 minecraft:sand 的配方
+    event.custom({
+        type: "ae2cs:crystal_pulverizer_recipe_serializer",
+        input: { ingredient: { item: "minecraft:gravel" } },
+        result: { item: "minecraft:sand" },
+        energy_cost: 1600,
+    });
+
     // 添加 minecraft:bone_meal 的配方
     event.custom({
         type: "ae2cs:crystal_pulverizer_recipe_serializer",
         input: { ingredient: { item: "minecraft:calcite" } },
         result: { item: "minecraft:bone_meal" },
-        energy_cost: 4000,
+        energy_cost: 3200,
     });
 
     // 添加 minecraft:lime_dye 的配方
@@ -14,7 +38,7 @@ ServerEvents.recipes((event) => {
         type: "ae2cs:crystal_pulverizer_recipe_serializer",
         input: { ingredient: { item: "botania:lime_petal" } },
         result: { item: "minecraft:lime_dye" },
-        energy_cost: 4000,
+        energy_cost: 1600,
     });
 
     // 添加 minecraft:green_dye 的配方
@@ -22,7 +46,7 @@ ServerEvents.recipes((event) => {
         type: "ae2cs:crystal_pulverizer_recipe_serializer",
         input: { ingredient: { item: "botania:green_petal" } },
         result: { item: "minecraft:green_dye" },
-        energy_cost: 4000,
+        energy_cost: 1600,
     });
 
     // 添加 minecraft:black_dye 的配方
@@ -30,7 +54,7 @@ ServerEvents.recipes((event) => {
         type: "ae2cs:crystal_pulverizer_recipe_serializer",
         input: { ingredient: { item: "botania:black_petal" } },
         result: { item: "minecraft:black_dye" },
-        energy_cost: 4000,
+        energy_cost: 1600,
     });
 
     // 添加 minecraft:red_dye 的配方
@@ -38,6 +62,14 @@ ServerEvents.recipes((event) => {
         type: "ae2cs:crystal_pulverizer_recipe_serializer",
         input: { ingredient: { item: "botania:red_petal" } },
         result: { item: "minecraft:red_dye" },
-        energy_cost: 4000,
+        energy_cost: 1600,
+    });
+
+    // 添加 minecraft:orange_dye 的配方
+    event.custom({
+        type: "ae2cs:crystal_pulverizer_recipe_serializer",
+        input: { ingredient: { item: "botania:orange_petal" } },
+        result: { item: "minecraft:orange_dye" },
+        energy_cost: 1600,
     });
 });

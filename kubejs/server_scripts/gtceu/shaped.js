@@ -15,9 +15,8 @@ ServerEvents.recipes((event) => {
         ).strongNBT(),
     });
 
-    // 添加 gtceu:wood_gear 的配方
-    event.shaped("gtceu:wood_gear", ["ABA", "BBB", "ABA"], {
-        A: "#forge:rods/wooden",
-        B: "#minecraft:planks",
+    // 添加 gtceu:andesite_alloy_ingot 的配方
+    event.shaped("gtceu:andesite_alloy_ingot", ["AAA", "AAA", "AAA"], {
+        A: "gtceu:andesite_alloy_nugget",
     });
 });

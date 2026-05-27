@@ -5,14 +5,31 @@ ServerEvents.recipes((event) => {
     event.custom({
         type: "lychee:block_interacting",
         item_in: { tag: "forge:tools/knives" },
-        block_in: { tag: "minecraft:dirt" },
+        block_in: { blocks: ["minecraft:moss_block"] },
         post: [
             { type: "damage_item" },
             { type: "add_item_cooldown", s: 0.2 },
             {
                 type: "drop_item",
                 item: "botania:living_root",
-                contextual: { type: "chance", chance: 0.5 },
+                contextual: { type: "chance", chance: 0.65 },
+            },
+        ],
+    });
+
+    // 添加 botania:vivid_grass 的配方
+    event.custom({
+        type: "lychee:block_interacting",
+        item_in: { item: "botania:vivid_seeds" },
+        block_in: { blocks: ["minecraft:dirt"] },
+        post: [
+            {
+                type: "drop_item",
+                item: "botania:vivid_grass",
+            },
+            {
+                type: "place",
+                block: "minecraft:air",
             },
         ],
     });

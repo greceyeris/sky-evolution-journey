@@ -26,9 +26,9 @@
 			dependencies: [
 				"29E7B54329EAC883"
 				"7DC52761EF6DA5EF"
-				"2643B24DFCECC5CA"
 			]
 			id: "78BD7EA9D30996C1"
+			size: 1.25d
 			tasks: [{
 				id: "5B4EC323974966C6"
 				item: "create:spout"
@@ -42,7 +42,7 @@
 				"685D9489569167DA"
 				"4CD40E1C5AB72D50"
 				"6A8DF80AFA0883CA"
-				"29F2D4F59287C77D"
+				"0528FAAF20976492"
 			]
 			id: "66F61B20C5F71E46"
 			tasks: [{
@@ -98,6 +98,7 @@
 				"5A609D37632E8133"
 				"1E89186893A1D83F"
 				"5B4EC323974966C6"
+				"486CAB79B03EB10B"
 			]
 			id: "5307BD63A5FED754"
 			tasks: [{
@@ -355,6 +356,7 @@
 				"60B7AA4639ADB5C9"
 			]
 			id: "670DC4D9D447E2A5"
+			size: 1.25d
 			tasks: [{
 				id: "239B544B4B42A148"
 				item: "gtceu:andesite_alloy_ingot"
@@ -374,32 +376,6 @@
 				item: "gtceu:andesite_dust"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 2.0d
-		}
-		{
-			dependencies: [
-				"60DFBBF1A808E2CF"
-				"24280FCFA7B027A5"
-				"7A35D4F0EC10527D"
-			]
-			id: "7ED8FC02667FF92B"
-			tasks: [{
-				id: "68B1088ECD592921"
-				item: {
-					Count: 1
-					id: "ceramicbucket:ceramic_bucket"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:copper"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-				weak_nbt_match: true
-			}]
 			x: 5.0d
 			y: 2.0d
 		}
@@ -408,9 +384,10 @@
 				"740483555E02784E"
 				"78BD7EA9D30996C1"
 				"6CFE69B96C4661CD"
-				"7ED8FC02667FF92B"
+				"636F3468854294D1"
 			]
 			id: "3DB3BFFA026B2D85"
+			size: 1.25d
 			tasks: [{
 				id: "596E38679BA4ECD2"
 				item: "gtceu:andesite_alloy_dust"
@@ -421,10 +398,10 @@
 		}
 		{
 			dependencies: [
-				"677EB3B905FCBE7B"
-				"486CAB79B03EB10B"
-				"5E6F983BD167AC40"
 				"5B4EC323974966C6"
+				"2A68E85A777FCB56"
+				"670DC4D9D447E2A5"
+				"7A35D4F0EC10527D"
 			]
 			id: "3905DD8695AF4497"
 			shape: "diamond"
@@ -435,7 +412,7 @@
 				type: "item"
 			}]
 			title: "解锁“安山时代”"
-			x: 15.0d
+			x: 12.5d
 			y: 0.0d
 		}
 		{
@@ -451,12 +428,12 @@
 				item: "minecraft:andesite"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 4.0d
+			x: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
-				"29F2D4F59287C77D"
+				"685D9489569167DA"
 				"60DFBBF1A808E2CF"
 				"6A8DF80AFA0883CA"
 			]
@@ -466,15 +443,14 @@
 				item: "createmetallurgy:casting_basin"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -2.0d
+			x: 0.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
 				"60DFBBF1A808E2CF"
 				"685D9489569167DA"
 				"6A8DF80AFA0883CA"
-				"0528FAAF20976492"
 			]
 			id: "6CFE69B96C4661CD"
 			tasks: [{
@@ -484,31 +460,6 @@
 			}]
 			x: 7.5d
 			y: -2.0d
-		}
-		{
-			dependencies: [
-				"670DC4D9D447E2A5"
-				"24280FCFA7B027A5"
-			]
-			id: "677EB3B905FCBE7B"
-			tasks: [{
-				id: "772019D40D406A1A"
-				item: {
-					Count: 1
-					id: "ceramicbucket:ceramic_bucket"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:andesite_alloy"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-				weak_nbt_match: true
-			}]
-			x: 12.5d
-			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -559,9 +510,9 @@
 			dependencies: [
 				"46FEB744D52105F0"
 				"213B60E8483BA67F"
-				"2643B24DFCECC5CA"
 			]
 			id: "29E7B54329EAC883"
+			size: 1.25d
 			tasks: [{
 				id: "52B8279A80D90D77"
 				item: "create:fluid_tank"
@@ -586,22 +537,6 @@
 		}
 		{
 			dependencies: [
-				"7ED8FC02667FF92B"
-				"5B4EC323974966C6"
-				"2A68E85A777FCB56"
-			]
-			id: "69D93952C25FD399"
-			shape: "square"
-			tasks: [{
-				id: "2235D8689BD02273"
-				item: "minecraft:copper_block"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 2.0d
-		}
-		{
-			dependencies: [
 				"11C3CCD46712E124"
 				"7570BEC9A294208B"
 				"7455FE2AE3607A91"
@@ -616,6 +551,91 @@
 			}]
 			x: 2.5d
 			y: -10.0d
+		}
+		{
+			dependencies: [
+				"7A929160A5B29694"
+				"2254DF86DF2071B8"
+				"24280FCFA7B027A5"
+				"685D9489569167DA"
+				"6A8DF80AFA0883CA"
+			]
+			id: "636F3468854294D1"
+			tasks: [{
+				id: "35709F8EC5C5516F"
+				item: "pipez:fluid_pipe"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2E5670A1CEE4834E"
+				"10B50763409AC879"
+			]
+			id: "7A929160A5B29694"
+			tasks: [{
+				id: "23CFFE95A57BD1FA"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0B241EA0DA761907"
+				"4C740F2ADB22CB00"
+			]
+			id: "10B50763409AC879"
+			tasks: [{
+				id: "4CEDDC8A9059F8B7"
+				item: "gtceu:raw_redstone"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0B8805848B42FB5F"
+				"090CBDC9A2E3E33F"
+				"2D759E8B93CB8611"
+				"5E56FB1B5DC19143"
+			]
+			id: "4C740F2ADB22CB00"
+			tasks: [{
+				id: "47372C0F3C99BE0B"
+				item: "gtceu:redstone_ore"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0B8805848B42FB5F"
+				"6A8DF80AFA0883CA"
+			]
+			id: "2D759E8B93CB8611"
+			tasks: [{
+				id: "6F1DAF103C91A5AC"
+				item: "botania:red_petal_block"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			id: "2254DF86DF2071B8"
+			tasks: [{
+				id: "4FECE32D0B4417AC"
+				item: "pipez:wrench"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
 		}
 	]
 	title: "铜器时代"

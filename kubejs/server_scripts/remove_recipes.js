@@ -67,15 +67,17 @@ ServerEvents.recipes((event) => {
         "gtceu:shaped/mortar_grind_gold",
         "gtceu:shaped/paper_dust",
         "gtceu:shaped_fluid_container/paper",
-        "gtceu:shaped/stick_saw",
         "gtceu:shaped/stick_long_wood",
         "gtceu:shaped/lever",
+        "gtceu:shapeless/compressed_clay",
+        "gtceu:shapeless/hay_block_to_hay",
 
         // opolisutilities
         "opolisutilities:sticks",
         "opolisutilities:charcoal",
         "opolisutilities:mini_charcoal",
         "opolisutilities:fishing_rod",
+        "opolisutilities:green_wool",
 
         // strainers
         "strainers:dirt",
@@ -87,10 +89,8 @@ ServerEvents.recipes((event) => {
         // minecraft
         "minecraft:diorite",
         "minecraft:bone_meal",
-        "minecraft:lime_dye_from_smelting",
-        "minecraft:green_dye",
-        "minecraft:lime_dye",
         "minecraft:brick",
+        "minecraft:torch",
 
         // botania
         "botania:petal_white",
@@ -146,6 +146,8 @@ ServerEvents.recipes((event) => {
         "botania:flask",
         "botania:open_bucket",
         "botania:mana_infusion/mana_powder_dye",
+        "botania:livingwood_planks",
+        "botania:dreamwood_planks",
 
         // create
         "create:crafting/materials/copper_ingot",
@@ -170,6 +172,8 @@ ServerEvents.recipes((event) => {
         "create:crafting/kinetics/encased_fan",
         "create:crafting/kinetics/gearshift",
         "create:crafting/kinetics/clutch",
+        "create:crafting/kinetics/encased_chain_drive",
+        "create:crafting/kinetics/mechanical_mixer",
 
         // botanicalmachinery
         "botanicalmachinery:runic_altar",
@@ -180,6 +184,9 @@ ServerEvents.recipes((event) => {
         "ae2cs:pulverizer/red_sand",
         "ae2cs:pulverizer/gunpowder",
         "ae2cs:pulverizer/flour",
+        "ae2cs:pulverizer/cobblestone",
+        "ae2cs:pulverizer/gravel",
+        "ae2cs:pulverizer/sand",
 
         // immersiveengineering
         "immersiveengineering:crafting/plate_copper_hammering",
@@ -222,6 +229,8 @@ ServerEvents.recipes((event) => {
         "immersiveengineering:crafting/hammercrushing_tin",
         "immersiveengineering:smelting/lead_red",
         "immersiveengineering:crafting/torch",
+        "immersiveengineering:crafting/gunpowder_from_dusts",
+        "immersiveengineering:crafting/lead_white",
 
         // thermal_extra
         "thermal_extra:sticky_ball_to_paper",
@@ -230,9 +239,11 @@ ServerEvents.recipes((event) => {
         "thermal:mycelium_crafting",
         "thermal:bottler_molten_iron_bucket",
         "thermal:smelting/redstone_from_spores_smelting",
+        "thermal:gunpowder_4",
 
         // create_netherless
         "create_netherless:coal_rod_recipe",
+        "create_netherless:soulsand_by_manual_application",
 
         // createmetallurgy
         "createmetallurgy:milling/crushed_raw_zinc",
@@ -255,6 +266,9 @@ ServerEvents.recipes((event) => {
         "silentgear:gear/rough/shovel",
         "silentgear:rough_rod",
         "silentgear:gear/rough/pickaxe",
+
+        // hauntfurnace
+        "hauntfurnace:haunting/compat/create/crimson_fungus",
     ];
 
     // 定义 removeRecipesUsedItemInput 数组
@@ -293,7 +307,6 @@ ServerEvents.recipes((event) => {
         "gtceu:ingot_extruder_mold",
         "gtceu:foil_extruder_mold",
         "gtceu:rotor_extruder_mold",
-        "gtceu:wood_gear",
 
         // minecraft
         "minecraft:campfire",
@@ -325,6 +338,7 @@ ServerEvents.recipes((event) => {
         "minecraft:beehive",
         "minecraft:chest",
         "minecraft:bowl",
+        "minecraft:flint_and_steel",
 
         // strainers
         "strainers:purifying_salt_mulch",
@@ -451,14 +465,18 @@ ServerEvents.recipes((event) => {
         "create_hc:gear_small",
         "create_hc:gear_large",
         "create_hc:press_head",
-        "create_hc:saw_blade",
 
-        // youkaisfeasts
-        "youkaisfeasts:wood_basin",
+        // rainbowcompound
+        "rainbowcompound:strange_colored_ingot",
 
-        // mysticalagriculture
-        "mysticalagriculture:infusion_altar",
-        "mysticalagriculture:infusion_pedestal",
+        // pipez
+        "pipez:wrench",
+
+        // manaliquidizer
+        "manaliquidizer:mana_liquidizer",
+
+        // industrialforegoing
+        "industrialforegoing:pitiful_generator",
     ];
 
     // 定义 removeRecipesUsedItemInputAndOutput 数组
@@ -639,7 +657,6 @@ ServerEvents.recipes((event) => {
         "gtceu:blue_steel_pickaxe",
 
         // mysticalagriculture
-        "#mysticalagriculture:seeds",
         "#mysticalagriculture:essences",
 
         // c
@@ -697,7 +714,7 @@ ServerEvents.recipes((event) => {
 
         // create
         "create:pressing",
-        "create:item_application",
+        // "create:item_application",
 
         // createdieselgenerators
         "createdieselgenerators:compression_molding",
@@ -748,11 +765,19 @@ ServerEvents.recipes((event) => {
         { type: "minecraft:crafting_shapeless", input: "#forge:refined_ores" },
         {
             type: "minecraft:crafting_shapeless",
-            input: "#forge:flawless_gems",
+            input: "hostilenetworks:overworld_prediction",
         },
         {
             type: "minecraft:crafting_shapeless",
-            input: "#forge:exquisite_gems",
+            input: "hostilenetworks:nether_prediction",
+        },
+        {
+            type: "minecraft:crafting_shapeless",
+            input: "hostilenetworks:end_prediction",
+        },
+        {
+            type: "create:splashing",
+            input: "#forge:crushed_ores",
         },
     ];
 
@@ -761,7 +786,35 @@ ServerEvents.recipes((event) => {
         { type: "minecraft:crafting_shaped", output: "#forge:plates" },
         { type: "minecraft:crafting_shapeless", output: "#forge:impure_dusts" },
         { type: "minecraft:crafting_shapeless", output: "#forge:pure_dusts" },
-        { type: "minecraft:crafting_shaped", output: "minecraft:torch" },
+        {
+            type: "minecraft:crafting_shapeless",
+            output: "#forge:flawless_gems",
+        },
+        {
+            type: "minecraft:crafting_shapeless",
+            output: "#forge:gems",
+        },
+        {
+            type: "minecraft:crafting_shaped",
+            output: "#forge:plates",
+        },
+        {
+            type: "mysticalagriculture:infusion",
+            output: "#mysticalagriculture:seeds",
+        },
+        {
+            type: "minecraft:crafting_shaped",
+            output: "#forge:bolts",
+        },
+        {
+            type: "minecraft:crafting_shaped",
+            output: "#minecraft:dyes",
+        },
+        {
+            type: "minecraft:crafting_shapeless",
+            output: "#minecraft:dyes",
+        },
+        { type: "minecraft:smelting", output: "#minecraft:dyes" },
     ];
 
     // 输出配方类型
@@ -816,16 +869,6 @@ ServerEvents.recipes((event) => {
     // removeRecipesUsedTypeAndInput
     removeRecipesUsedTypeAndInput.forEach((obj) => {
         if (obj.input.startsWith("#")) {
-            Ingredient.of(obj.input)
-                .getItemIds()
-                .forEach((item) => {
-                    // remove type and input
-                    event.remove({
-                        type: obj.type,
-                        input: item,
-                    });
-                });
-
             // remove type and input
             event.remove({ type: obj.type, input: Ingredient.of(obj.input) });
         } else {

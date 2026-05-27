@@ -442,11 +442,103 @@ ServerEvents.recipes((event) => {
         tool: { tag: "forge:tools/saws" },
     });
 
-    // 添加 botania:vivid_grass 的配方
+    // 添加 botania:livingwood_planks 的配方
     event.custom({
         type: "farmersdelight:cutting",
-        ingredients: [{ item: "minecraft:dirt" }],
-        result: [{ item: "botania:vivid_grass" }],
-        tool: { item: "botania:vivid_seeds" },
+        ingredients: [{ tag: "botania:stripped_livingwoods" }],
+        result: [{ item: "botania:livingwood_planks", count: 4 }],
+        tool: { tag: "forge:tools/saws" },
+    });
+
+    // 添加 botania:dreamwood_planks 的配方
+    event.custom({
+        type: "farmersdelight:cutting",
+        ingredients: [{ tag: "botania:stripped_dreamwoods" }],
+        result: [{ item: "botania:dreamwood_planks", count: 4 }],
+        tool: { tag: "forge:tools/saws" },
+    });
+
+    // 添加 botania:glimmering_stripped_livingwood_log 的配方
+    event.custom({
+        type: "farmersdelight:cutting",
+        ingredients: [{ item: "botania:glimmering_livingwood_log" }],
+        result: [
+            { item: "botania:glimmering_stripped_livingwood_log" },
+            { item: "farmersdelight:tree_bark" },
+        ],
+        tool: { tag: "forge:tools/axes" },
+    });
+
+    event.custom({
+        type: "farmersdelight:cutting",
+        ingredients: [{ item: "botania:glimmering_livingwood_log" }],
+        result: [
+            { item: "botania:glimmering_stripped_livingwood_log" },
+            { item: "farmersdelight:tree_bark" },
+        ],
+        tool: { tag: "forge:tools/paxels" },
+    });
+
+    // 添加 botania:glimmering_stripped_livingwood 的配方
+    event.custom({
+        type: "farmersdelight:cutting",
+        ingredients: [{ item: "botania:glimmering_livingwood" }],
+        result: [
+            { item: "botania:glimmering_stripped_livingwood" },
+            { item: "farmersdelight:tree_bark" },
+        ],
+        tool: { tag: "forge:tools/axes" },
+    });
+
+    event.custom({
+        type: "farmersdelight:cutting",
+        ingredients: [{ item: "botania:glimmering_livingwood" }],
+        result: [
+            { item: "botania:glimmering_stripped_livingwood" },
+            { item: "farmersdelight:tree_bark" },
+        ],
+        tool: { tag: "forge:tools/paxels" },
+    });
+
+    // 添加 botania:glimmering_stripped_dreamwood_log 的配方
+    event.custom({
+        type: "farmersdelight:cutting",
+        ingredients: [{ item: "botania:glimmering_dreamwood_log" }],
+        result: [
+            { item: "botania:glimmering_stripped_dreamwood_log" },
+            { item: "farmersdelight:tree_bark" },
+        ],
+        tool: { tag: "forge:tools/axes" },
+    });
+
+    event.custom({
+        type: "farmersdelight:cutting",
+        ingredients: [{ item: "botania:glimmering_dreamwood_log" }],
+        result: [
+            { item: "botania:glimmering_stripped_dreamwood_log" },
+            { item: "farmersdelight:tree_bark" },
+        ],
+        tool: { tag: "forge:tools/paxels" },
+    });
+
+    // 添加 botania:glimmering_stripped_dreamwood 的配方
+    event.custom({
+        type: "farmersdelight:cutting",
+        ingredients: [{ item: "botania:glimmering_dreamwood" }],
+        result: [
+            { item: "botania:glimmering_stripped_dreamwood" },
+            { item: "farmersdelight:tree_bark" },
+        ],
+        tool: { tag: "forge:tools/axes" },
+    });
+
+    event.custom({
+        type: "farmersdelight:cutting",
+        ingredients: [{ item: "botania:glimmering_dreamwood" }],
+        result: [
+            { item: "botania:glimmering_stripped_dreamwood" },
+            { item: "farmersdelight:tree_bark" },
+        ],
+        tool: { tag: "forge:tools/paxels" },
     });
 });

@@ -6,38 +6,6 @@ ServerEvents.recipes((event) => {
         A: "kubejs:mossy_twig",
     });
 
-    event
-        .shaped("4x minecraft:stick", ["A", "B", "B"], {
-            A: Ingredient.of({
-                type: "forge:partial_nbt",
-                item: "silentgear:saw",
-                nbt: "{SGear_Data:{}}",
-            }),
-            B: "#minecraft:planks",
-        })
-        .damageIngredient("silentgear:saw", 2);
-
-    event.recipes
-        .shaped("2x minecraft:stick", ["A", "B"], {
-            A: Ingredient.of({
-                type: "forge:partial_nbt",
-                item: "silentgear:saw",
-                nbt: "{SGear_Data:{}}",
-            }),
-            B: "gtceu:long_wood_rod",
-        })
-        .damageIngredient("silentgear:saw", 2);
-
-    // 添加 minecraft:flint 的配方
-    event.shaped("minecraft:flint", ["AA", "AA"], {
-        A: "kubejs:mossy_flint_shard",
-    });
-
-    // 添加 minecraft:dirt 的配方
-    event.shaped("minecraft:dirt", ["AA", "AA"], {
-        A: "kubejs:dirt_pile",
-    });
-
     // 添加 minecraft:campfire 的配方
     event.shaped("minecraft:campfire", [" A ", "ABA", "CCC"], {
         A: "#forge:rods/wooden",
@@ -166,5 +134,32 @@ ServerEvents.recipes((event) => {
     // 添加 minecraft:sandstone 的配方
     event.shaped("minecraft:sandstone", ["AA", "AA"], {
         A: "minecraft:sand",
+    });
+
+    // 添加 minecraft:copper_ingot 的配方
+    event.shaped("minecraft:copper_ingot", ["AAA", "AAA", "AAA"], {
+        A: "gtceu:copper_nugget",
+    });
+
+    // 添加 minecraft:clay 的配方
+    event.shaped("minecraft:clay", ["AA", "AA"], {
+        A: "minecraft:clay_ball",
+    });
+
+    // 添加 minecraft:hay_block 的配方
+    event.shaped("minecraft:hay_block", ["AAA", "AAA", "AAA"], {
+        A: "minecraft:wheat",
+    });
+
+    // 添加 minecraft:flint_and_steel 的配方
+    event.shaped("minecraft:flint_and_steel", ["A", "B", "C"], {
+        A: "gtceu:small_iron_gear",
+        B: "minecraft:flint",
+        C: "gtceu:small_iron_spring",
+    });
+
+    // 添加 minecraft:lapis_block 的配方
+    event.shaped("minecraft:lapis_block", ["AAA", "AAA", "AAA"], {
+        A: "minecraft:lapis_lazuli",
     });
 });

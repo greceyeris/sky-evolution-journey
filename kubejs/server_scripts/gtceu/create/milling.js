@@ -18,4 +18,7 @@ ServerEvents.recipes((event) => {
         ["2x gtceu:crushed_copper_ore", "gtceu:stone_dust"],
         "minecraft:raw_copper",
     );
+
+    // 添加 gtceu:wood_dust 的配方
+    event.recipes.create.milling(["6x gtceu:wood_dust"], "#minecraft:planks");
 });

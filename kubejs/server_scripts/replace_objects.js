@@ -350,6 +350,94 @@ const replaceItems = [
         item: "#forge:tools/hammers",
         targetItem: "silentgear:hammer",
     },
+    {
+        item: "create:cinder_flour",
+        targetItem: "gtceu:netherrack_dust",
+    },
+    {
+        item: "#forge:gems/niter",
+        targetItem: "ftbmaterials:niter",
+    },
+    {
+        item: "#forge:storage_blocks/niter",
+        targetItem: "ftbmaterials:niter_block",
+    },
+    {
+        item: "#forge:dusts/saltpeter",
+        targetItem: "gtceu:saltpeter_dust",
+    },
+    {
+        item: "#forge:storage_blocks/sulfur",
+        targetItem: "ftbmaterials:sulfur_block",
+    },
+    {
+        item: "#forge:gems/sulfur",
+        targetItem: "ftbmaterials:sulfur",
+    },
+    {
+        item: "#forge:dusts/sulfur",
+        targetItem: "gtceu:sulfur_dust",
+    },
+    {
+        item: "ftbmaterials:niter_stone_ore",
+        targetItem: "gtceu:saltpeter_ore",
+    },
+    {
+        item: "ftbmaterials:niter_deepslate_ore",
+        targetItem: "gtceu:deepslate_saltpeter_ore",
+    },
+    {
+        item: "ftbmaterials:niter_nether_ore",
+        targetItem: "gtceu:netherrack_saltpeter_ore",
+    },
+    {
+        item: "ftbmaterials:niter_end_ore",
+        targetItem: "gtceu:endstone_saltpeter_ore",
+    },
+    {
+        item: "thermal:niter_ore",
+        targetItem: "gtceu:saltpeter_ore",
+    },
+    {
+        item: "thermal:deepslate_niter_ore",
+        targetItem: "gtceu:deepslate_saltpeter_ore",
+    },
+    {
+        item: "ftbmaterials:sulfur_stone_ore",
+        targetItem: "gtceu:sulfur_ore",
+    },
+    {
+        item: "ftbmaterials:sulfur_deepslate_ore",
+        targetItem: "gtceu:deepslate_sulfur_ore",
+    },
+    {
+        item: "ftbmaterials:sulfur_nether_ore",
+        targetItem: "gtceu:netherrack_sulfur_ore",
+    },
+    {
+        item: "ftbmaterials:sulfur_end_ore",
+        targetItem: "gtceu:endstone_sulfur_ore",
+    },
+    {
+        item: "thermal:sulfur_ore",
+        targetItem: "gtceu:sulfur_ore",
+    },
+    {
+        item: "thermal:deepslate_sulfur_ore",
+        targetItem: "gtceu:deepslate_sulfur_ore",
+    },
+    {
+        item: "#forge:dusts/charcoal",
+        targetItem: "gtceu:charcoal_dust",
+    },
+    {
+        item: "#forge:dusts/coal",
+        targetItem: "gtceu:coal_dust",
+    },
+    {
+        item: "#forge:dusts/phosphorus",
+        targetItem: "gtceu:phosphorus_dust",
+    },
 ];
 
 // 定义 replaceFluids 数组

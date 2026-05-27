@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
     event.custom({
         type: "lychee:block_interacting",
         item_in: { item: "minecraft:air" },
-        block_in: { tag: "minecraft:dirt" },
+        block_in: { blocks: ["minecraft:moss_block"] },
         contextual: { type: "is_sneaking" },
         post: [
             {
@@ -17,7 +17,7 @@ ServerEvents.recipes((event) => {
                 item: "kubejs:mossy_twig",
                 contextual: {
                     type: "chance",
-                    chance: 0.5,
+                    chance: 0.55,
                 },
             },
         ],
@@ -27,13 +27,13 @@ ServerEvents.recipes((event) => {
     event.custom({
         type: "lychee:block_interacting",
         item_in: { item: "minecraft:stick" },
-        block_in: { tag: "minecraft:dirt" },
+        block_in: { blocks: ["minecraft:moss_block"] },
         post: [
             {
                 type: "prevent_default",
                 contextual: {
                     type: "chance",
-                    chance: 0.85,
+                    chance: 0.9,
                 },
             },
             {
@@ -45,7 +45,7 @@ ServerEvents.recipes((event) => {
                 item: "kubejs:mossy_flint_shard",
                 contextual: {
                     type: "chance",
-                    chance: 0.55,
+                    chance: 0.65,
                 },
             },
         ],
