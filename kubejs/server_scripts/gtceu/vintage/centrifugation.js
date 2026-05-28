@@ -11,7 +11,7 @@ ServerEvents.recipes((event) => {
             ],
             "gtceu:purified_iron_ore",
         )
-        .processingTime(200)
+        .processingTime(150)
         .minimalRPM(128);
 
     // 添加 gtceu:refined_copper_ore, gtceu:stone_dust 和 gtceu:tiny_gold_dust 的配方
@@ -24,6 +24,6 @@ ServerEvents.recipes((event) => {
             ],
             "gtceu:purified_copper_ore",
         )
-        .processingTime(200)
+        .processingTime(150)
         .minimalRPM(128);
 });

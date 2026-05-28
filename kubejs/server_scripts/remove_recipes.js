@@ -174,6 +174,10 @@ ServerEvents.recipes((event) => {
         "create:crafting/kinetics/clutch",
         "create:crafting/kinetics/encased_chain_drive",
         "create:crafting/kinetics/mechanical_mixer",
+        "create:milling/cobblestone",
+        "create:milling/gravel",
+        "create:milling/andesite",
+        "create:milling/bone",
 
         // botanicalmachinery
         "botanicalmachinery:runic_altar",
@@ -231,6 +235,8 @@ ServerEvents.recipes((event) => {
         "immersiveengineering:crafting/torch",
         "immersiveengineering:crafting/gunpowder_from_dusts",
         "immersiveengineering:crafting/lead_white",
+        "immersiveengineering:crafting/alloybrick",
+        "immersiveengineering:crafting/sawdust",
 
         // thermal_extra
         "thermal_extra:sticky_ball_to_paper",
@@ -269,6 +275,9 @@ ServerEvents.recipes((event) => {
 
         // hauntfurnace
         "hauntfurnace:haunting/compat/create/crimson_fungus",
+
+        // createaddition
+        "createaddition:compat/immersiveengineering/item_application/kiln_brick",
     ];
 
     // 定义 removeRecipesUsedItemInput 数组
@@ -339,6 +348,7 @@ ServerEvents.recipes((event) => {
         "minecraft:chest",
         "minecraft:bowl",
         "minecraft:flint_and_steel",
+        "minecraft:blast_furnace",
 
         // strainers
         "strainers:purifying_salt_mulch",
@@ -443,6 +453,7 @@ ServerEvents.recipes((event) => {
         "createmetallurgy:casting_basin",
         "createmetallurgy:casting_table",
         "createmetallurgy:graphite",
+        "createmetallurgy:foundry_basin",
 
         // hauntfurnace
         "hauntfurnace:haunt_furnace",
@@ -738,6 +749,9 @@ ServerEvents.recipes((event) => {
         "productivebees:bee_breeding",
         "productivebees:bee_fishing",
         "productivebees:centrifuge",
+
+        // create_mechanical_extruder
+        "create_mechanical_extruder:extruding",
     ];
 
     // 定义 removeRecipesUsedTypeAndInput 数组
@@ -779,6 +793,10 @@ ServerEvents.recipes((event) => {
             type: "create:splashing",
             input: "#forge:crushed_ores",
         },
+        {
+            type: "create:splashing",
+            input: "#minecraft:all_small_flowers",
+        },
     ];
 
     // 定义 removeRecipesUsedTypeAndOutput 数组
@@ -815,6 +833,14 @@ ServerEvents.recipes((event) => {
             output: "#minecraft:dyes",
         },
         { type: "minecraft:smelting", output: "#minecraft:dyes" },
+        {
+            type: "minecraft:crafting_shaped",
+            output: "#forge:double_plates",
+        },
+        {
+            type: "minecraft:crafting_shaped",
+            output: "gtceu:iron_rod",
+        },
     ];
 
     // 输出配方类型

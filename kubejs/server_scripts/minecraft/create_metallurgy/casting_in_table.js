@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
     event.recipes.createmetallurgy.casting_in_table(
         "minecraft:iron_ingot",
         [Fluid.of("gtceu:iron", 144), "gtceu:ingot_casting_mold"],
-        200,
+        150,
     );
 
     // 添加 minecraft:paper 的配方

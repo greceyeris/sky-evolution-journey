@@ -438,6 +438,10 @@ const replaceItems = [
         item: "#forge:dusts/phosphorus",
         targetItem: "gtceu:phosphorus_dust",
     },
+    {
+        item: "#forge:dusts/wood",
+        targetItem: "gtceu:wood_dust",
+    },
 ];
 
 // 定义 replaceFluids 数组

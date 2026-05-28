@@ -5,21 +5,21 @@ ServerEvents.recipes((event) => {
     event.recipes.createmetallurgy.casting_in_basin(
         "minecraft:copper_block",
         Fluid.of("gtceu:copper", 1296),
-        200,
+        150,
     );
 
     // 添加 minecraft:iron_block 的配方
     event.recipes.createmetallurgy.casting_in_basin(
         "minecraft:iron_block",
         Fluid.of("gtceu:iron", 1296),
-        200,
+        150,
     );
 
     // 添加 minecraft:magma_block 的配方
     event.recipes.createmetallurgy.casting_in_basin(
         "minecraft:magma_block",
         [Fluid.of("minecraft:lava", 500), "minecraft:blackstone"],
-        200,
+        150,
         true,
     );
 
@@ -27,7 +27,7 @@ ServerEvents.recipes((event) => {
     event.recipes.createmetallurgy.casting_in_basin(
         "minecraft:netherrack",
         [Fluid.of("minecraft:water", 1000), "minecraft:magma_block"],
-        200,
+        150,
         true,
     );
 });

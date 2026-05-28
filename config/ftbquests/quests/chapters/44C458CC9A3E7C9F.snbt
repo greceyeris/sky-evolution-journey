@@ -683,14 +683,15 @@
 			dependencies: [
 				"32CF8FE6DDC3EDA4"
 				"2E5670A1CEE4834E"
-				"458B57107988B4A1"
-				"5B705C1F119512EB"
+				"2FBE82E7F31D658A"
 				"090CBDC9A2E3E33F"
+				"5B705C1F119512EB"
+				"458B57107988B4A1"
 				"6A8DF80AFA0883CA"
 			]
-			id: "6D3278277A668E70"
+			id: "35783BDA20ED6ACA"
 			tasks: [{
-				id: "3D9FEB16E9182243"
+				id: "5DD9611C13AB7D4D"
 				item: "industrialforegoing:pitiful_generator"
 				type: "item"
 			}]

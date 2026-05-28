@@ -187,15 +187,13 @@
 				item: "minecraft:raw_copper"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -2.0d
+			x: 15.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
 				"5FB2BBA1E7BB9C61"
-				"6E1CFD8E2F42533F"
 				"090CBDC9A2E3E33F"
-				"36ABEE1E2C0E737D"
 			]
 			id: "276268280DC8AC2B"
 			tasks: [{
@@ -792,185 +790,6 @@
 			}]
 			x: 2.5d
 			y: 2.0d
-		}
-		{
-			dependencies: [
-				"24498538158B60ED"
-				"5D8967FDD969BC45"
-			]
-			id: "494642725C7C8357"
-			tasks: [{
-				id: "177179A6C4DBB139"
-				item: "botania:mana_powder"
-				type: "item"
-			}]
-			x: 15.0d
-			y: -6.0d
-		}
-		{
-			dependencies: [
-				"03C792DCB86C09AD"
-				"0BE0BCA014BD6E78"
-			]
-			id: "1CBCD9334D568DFA"
-			tasks: [{
-				id: "7A3609292C7A944C"
-				item: "minecraft:red_wool"
-				type: "item"
-			}]
-			x: 12.5d
-			y: -8.0d
-		}
-		{
-			dependencies: ["59E52400B6A31D8E"]
-			id: "03C792DCB86C09AD"
-			tasks: [{
-				id: "12DE02771DD0F643"
-				item: "minecraft:white_wool"
-				type: "item"
-			}]
-			x: 12.5d
-			y: -10.0d
-		}
-		{
-			dependencies: [
-				"0B8805848B42FB5F"
-				"6E69B4A85A08B00E"
-			]
-			id: "0BE0BCA014BD6E78"
-			tasks: [{
-				id: "0478E1907216475A"
-				item: "minecraft:red_dye"
-				type: "item"
-			}]
-			x: 10.0d
-			y: -8.0d
-		}
-		{
-			dependencies: [
-				"54D39CFAB2CD9AA4"
-				"2643B24DFCECC5CA"
-				"49D9948C5BCF9975"
-			]
-			id: "24498538158B60ED"
-			tasks: [{
-				id: "4056B63105AEBCE6"
-				item: "minecraft:sugar"
-				type: "item"
-			}]
-			x: 15.0d
-			y: -8.0d
-		}
-		{
-			dependencies: [
-				"0AD148B6DD9BAC84"
-				"428BB954E1F196E2"
-				"1FA5D3ABEDFF4163"
-				"19FA86B3DBA5CA21"
-			]
-			id: "54D39CFAB2CD9AA4"
-			tasks: [{
-				id: "007737623D15EAC7"
-				item: "minecraft:sugar_cane"
-				type: "item"
-			}]
-			x: 17.5d
-			y: -8.0d
-		}
-		{
-			dependencies: [
-				"6367C65CB0E9AA91"
-				"458B57107988B4A1"
-				"6A8DF80AFA0883CA"
-				"645BEC733315BB80"
-			]
-			id: "49D9948C5BCF9975"
-			tasks: [{
-				id: "726834744B9ED3E2"
-				item: {
-					Count: 1
-					id: "silentgear:hammer"
-					tag: {
-						Damage: 0
-						SGear_Data: {
-							Construction: { }
-							Properties: { }
-							Rendering: { }
-						}
-						SGear_UUID: [I;
-							-1964890163
-							1132481975
-							-1789992123
-							-1109350336
-						]
-					}
-				}
-				type: "item"
-			}]
-			x: 15.0d
-			y: -10.0d
-		}
-		{
-			dependencies: [
-				"1CBCD9334D568DFA"
-				"494642725C7C8357"
-				"71137A762CB733ED"
-				"160C2BEAA66576A9"
-				"6A8DF80AFA0883CA"
-			]
-			id: "36ABEE1E2C0E737D"
-			tasks: [{
-				id: "5E56FB1B5DC19143"
-				item: "summoningrituals:altar"
-				type: "item"
-			}]
-			x: 12.5d
-			y: -6.0d
-		}
-		{
-			dependencies: [
-				"3782291A9A34DE43"
-				"2643B24DFCECC5CA"
-				"41DEF2FE6D874A30"
-			]
-			id: "71137A762CB733ED"
-			tasks: [{
-				id: "62B0C753FB2E14EC"
-				item: "botania:livingwood_planks_slab"
-				type: "item"
-			}]
-			x: 10.0d
-			y: -6.0d
-		}
-		{
-			dependencies: [
-				"30FD49FE1CF218D0"
-				"2643B24DFCECC5CA"
-				"41DEF2FE6D874A30"
-			]
-			id: "3782291A9A34DE43"
-			tasks: [{
-				id: "569A986DDA1F970C"
-				item: "botania:livingwood_planks"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -6.0d
-		}
-		{
-			dependencies: [
-				"160C2BEAA66576A9"
-				"2643B24DFCECC5CA"
-				"1D248CD9B20890B6"
-			]
-			id: "30FD49FE1CF218D0"
-			tasks: [{
-				id: "6AE93FE51C3A0160"
-				item: "botania:stripped_livingwood_log"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -8.0d
 		}
 	]
 	title: "植物魔法时代 I"

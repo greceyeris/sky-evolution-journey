@@ -162,4 +162,11 @@ ServerEvents.recipes((event) => {
     event.shaped("minecraft:lapis_block", ["AAA", "AAA", "AAA"], {
         A: "minecraft:lapis_lazuli",
     });
+
+    // 添加 minecraft:blast_furnace 的配方
+    event.shaped("minecraft:blast_furnace", ["AAA", "ABA", "CCC"], {
+        A: "gtceu:andesite_alloy_ingot",
+        B: "minecraft:furnace",
+        C: "minecraft:smooth_stone",
+    });
 });

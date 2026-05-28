@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
     event.recipes.createmetallurgy.casting_in_basin(
         "create:andesite_casing",
         [Fluid.of("gtceu:andesite_alloy", 864), "#forge:stripped_logs"],
-        200,
+        150,
         true,
     );
 });

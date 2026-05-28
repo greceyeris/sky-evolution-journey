@@ -10,12 +10,46 @@ ServerEvents.recipes((event) => {
         block_in: "minecraft:stone",
         post: [
             {
-                type: "place",
-                block: "*",
-            },
-            {
                 type: "drop_item",
                 item: "mysticalagriculture:soulstone",
+            },
+            {
+                type: "place",
+                block: "minecraft:air",
+            },
+        ],
+    });
+
+    // 添加 mysticalagriculture:prosperity_ore 的配方
+    event.custom({
+        type: "lychee:block_interacting",
+        item_in: { item: "botania:cyan_petal_block" },
+        block_in: { blocks: ["gtceu:iron_ore"] },
+        post: [
+            {
+                type: "drop_item",
+                item: "mysticalagriculture:prosperity_ore",
+            },
+            {
+                type: "place",
+                block: "minecraft:air",
+            },
+        ],
+    });
+
+    // 添加 mysticalagriculture:soulium_ore 的配方
+    event.custom({
+        type: "lychee:block_interacting",
+        item_in: { item: "botania:brown_petal_block" },
+        block_in: { blocks: ["mysticalagriculture:soulstone"] },
+        post: [
+            {
+                type: "drop_item",
+                item: "mysticalagriculture:soulium_ore",
+            },
+            {
+                type: "place",
+                block: "minecraft:air",
             },
         ],
     });

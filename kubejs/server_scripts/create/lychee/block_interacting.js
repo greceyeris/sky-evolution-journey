@@ -18,11 +18,43 @@ ServerEvents.recipes((event) => {
         ],
     });
 
+    event.custom({
+        type: "lychee:block_interacting",
+        item_in: { item: "create:shaft" },
+        block_in: { blocks: ["create_hc:gear_small"] },
+        post: [
+            {
+                type: "drop_item",
+                item: "create:cogwheel",
+            },
+            {
+                type: "place",
+                block: "minecraft:air",
+            },
+        ],
+    });
+
     // 添加 create:large_cogwheel 的配方
     event.custom({
         type: "lychee:block_interacting",
         item_in: { item: "create_hc:gear_large" },
         block_in: { blocks: ["create:shaft"] },
+        post: [
+            {
+                type: "drop_item",
+                item: "create:large_cogwheel",
+            },
+            {
+                type: "place",
+                block: "minecraft:air",
+            },
+        ],
+    });
+
+    event.custom({
+        type: "lychee:block_interacting",
+        item_in: { item: "create:shaft" },
+        block_in: { blocks: ["create_hc:gear_large"] },
         post: [
             {
                 type: "drop_item",

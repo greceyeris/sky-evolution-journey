@@ -2,6 +2,17 @@
 
 ---
 
+### Version: _0.16.0_
+
+### Date: _2026-05-29_
+
+**Changes:**
+
+- Adjusted some recipes.
+- Adjusted some quests.
+
+---
+
 ### Version: _0.15.0_
 
 ### Date: _2026-05-27_

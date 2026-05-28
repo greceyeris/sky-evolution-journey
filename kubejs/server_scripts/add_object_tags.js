@@ -181,7 +181,13 @@ const addItemTags = [
     },
     {
         tag: "#vintage:curving_heads",
-        items: ["minecraft:brick"],
+        items: [
+            // minecraft
+            "minecraft:brick",
+
+            // gtceu
+            "gtceu:wood_plate",
+        ],
     },
     {
         tag: "#forge:tools/knives",
