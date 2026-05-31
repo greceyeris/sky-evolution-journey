@@ -2,6 +2,92 @@
 
 ---
 
+### Version: _0.17.0_
+
+### Date: _2026-06-01_
+
+### Changes:
+
+**Mods:**
+
+- Removed: `ae2alchemistryaddon`, `alchemistry`, `alchemylib`, `bonsaitrees3`, `brickfurnace`, `chemlib`, `kubejsalchem`, `legendarytooltips`.
+
+- Added: `enderbotanypots`, `globalgamerules`.
+
+- Updated `justdirethings` 1.0.28 -> 1.0.29.
+
+**Recipes:**
+
+- **`bonsaitrees3:sapling`:**
+    - Removed: `#botania:mystical_flowers`, `minecraft:crimson_fungus`, `minecraft:oak_sapling`, `minecraft:sugar_cane`.
+
+- **`bonsaitrees3:soil`:**
+    - Removed: `botania:vivid_grass`, `minecraft:crimson_nylium`, `minecraft:dirt`, `minecraft:grass_block`, `minecraft:netherrack`, `minecraft:red_sand`, `minecraft:sand`.
+
+- **`botanypots:crop`:**
+    - Added: `#botania:double_flowers`, `#botania:mystical_flowers`, `minecraft:crimson_fungus`, `minecraft:oak_sapling`, `minecraft:sugar_cane`.
+
+- **`botanypots:soil`:**
+    - Added: `botania:vivid_grass`, `minecraft:crimson_nylium`, `minecraft:dirt`, `minecraft:grass_block`, `minecraft:netherrack`, `minecraft:sand`.
+
+- **`brickfurnace:smelting`:**
+    - Removed: `ceramicbucket:ceramic_bucket`, `minecraft:brick`, `minecraft:glass`, `minecraft:smooth_stone`, `minecraft:stone`.
+
+- **`create:milling`:**
+    - Added: `minecraft:lime_dye`, `minecraft:green_dye`, `minecraft:black_dye`, `minecraft:red_dye`, `minecraft:orange_dye`.
+
+    - Changed processing time to default for `minecraft:raw_iron`, `minecraft:iron_ingot`, `minecraft:sugar_cane`, `minecraft:raw_copper`, `#minecraft:planks`, `minecraft:wheat`, `minecraft:copper_ingot`, `minecraft:andesite`, `minecraft:nether_wart_block`, `minecraft:stone`, `minecraft:cobblestone`, `minecraft:gravel`.
+
+- **`createmetallurgy:casting_in_table`:**
+    - Added: `minecraft:copper_ingot`.
+
+- **`createmetallurgy:melting`:**
+    - Added: `gtceu:iron` from `minecraft:iron_ingot`.
+
+- **`minecraft:blasting`:**
+    - Changed cooking time for `minecraft:copper_ingot` and `gtceu:andesite_alloy_ingot`: 150t -> 100t.
+
+- **`minecraft:campfire_cooking`:**
+    - Added: `minecraft:stone`, `minecraft:smooth_stone`, `minecraft:glass`, `minecraft:baked_potato`.
+
+    - Changed `minecraft:brick` and `ceramicbucket:ceramic_bucket`: 400t 0.1xp -> 300t 0xp.
+
+- **`minecraft:crafting_shaped`:**
+    - Removed: `brickfurnace:brick_furnace`.
+
+    - Added: `minecraft:flower_pot`, `rechiseled:chisel`.
+
+    - Changed `botanypots:terracotta_hopper_botany_pot` to use `woodenhopper:wooden_hopper` + `minecraft:flower_pot`.
+    - Changed output for `compactcrafting:base` and `compactcrafting:projector_dish`: 4x -> 1x.
+
+- **`minecraft:crafting_shapeless`:**
+    - Added: `botanypots:terracotta_hopper_botany_pot`.
+
+- **`minecraft:smelting`:**
+    - Added: `minecraft:brick`, `minecraft:terracotta`, `minecraft:baked_potato`, `minecraft:stone`, `minecraft:smooth_stone`.
+
+    - Changed `minecraft:coal` output: 1x -> 2x.
+
+- **`minecraft:smoking`:**
+    - Added: `minecraft:baked_potato`.
+
+**Quests:**
+
+- Removed: `bonsaitrees3:bonsaipot`, `brickfurnace:brick_furnace`.
+
+- Added: `botanypots:terracotta_hopper_botany_pot`, `gtceu:brick_wooden_form`, `gtceu:compressed_clay`, `gtceu:empty_wooden_form`, `minecraft:brick`, `minecraft:chest`, `minecraft:clay`, `minecraft:flower_pot`, `minecraft:oak_planks`, `minecraft:oak_slab`, `minecraft:stripped_oak_log`, `minecraft:terracotta`, `woodenhopper:wooden_hopper`.
+
+- Moved: `minecraft:obsidian`, `create:powdered_obsidian`, and `botania:blaze_block` quests to the `Botania II` chapter.
+
+- Changed:
+    - Removed prerequisite `minecraft:obsidian` from `create:chromatic_compound`, prerequisite `minecraft:beehive` from `productivebees:configurable_honeycomb (iron)`.
+
+    - Added prerequisite `create:millstone` to `botania:green_mystical_flower`, prerequisite `rainbowcompound:strange_colored_ingot` to `minecraft:ancient_debris`, prerequisite `create:powdered_obsidian` to `gtceu:obsidian_plate`.
+
+    - Replaced prerequisite of `minecraft:amethyst_shard`: `botania:blaze_block` -> `minecraft:dragon_breath`.
+
+---
+
 ### Version: _0.16.0_
 
 ### Date: _2026-05-29_

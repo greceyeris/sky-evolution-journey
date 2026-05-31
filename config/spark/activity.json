@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "GreceyEris",
+      "uniqueId": "07d766eb-c5a8-4e05-92c8-7a895a29ec75"
+    },
+    "time": 1780060626647,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/uWKTd6lwVZ"
+    }
+  }
+]

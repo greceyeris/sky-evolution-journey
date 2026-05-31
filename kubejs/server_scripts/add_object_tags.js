@@ -635,15 +635,28 @@ const addItemTags = [
         ],
     },
 ];
+
 // 定义 addBlockTags 数组
 const addBlockTags = [
     {
         tag: "#minecraft:mineable/pickaxe",
-        blocks: ["compactcrafting:field_projector"],
+        blocks: [
+            // compactcrafting
+            "compactcrafting:field_projector",
+
+            // flopper
+            "flopper:flopper",
+        ],
     },
     {
         tag: "#forge:needs_wood_tool",
-        blocks: ["compactcrafting:field_projector"],
+        blocks: [
+            // compactcrafting
+            "compactcrafting:field_projector",
+
+            // flopper
+            "flopper:flopper",
+        ],
     },
 ];
 

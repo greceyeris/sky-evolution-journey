@@ -10,6 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["2B3BF33E976492AE"]
 			id: "09FA1DD09AE00E24"
 			shape: "hexagon"
 			size: 1.5d
@@ -123,8 +124,8 @@
 				item: "gtceu:raw_sphalerite"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.0d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0F4907FC8B7EF259"]
@@ -134,8 +135,8 @@
 				item: "gtceu:purified_sphalerite_ore"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["262F1E4E62878699"]
@@ -289,6 +290,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["53067C5D837EFD27"]
 			id: "654D306E4344BC4C"
 			tasks: [{
 				id: "45EF2660B572F283"
@@ -297,6 +299,38 @@
 			}]
 			x: 7.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["7AF1096E6AF97F71"]
+			id: "53067C5D837EFD27"
+			tasks: [{
+				id: "5C9247ADE70128D4"
+				item: "create:powdered_obsidian"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["54C0B0053B9196B3"]
+			id: "7AF1096E6AF97F71"
+			tasks: [{
+				id: "34E23E909B6AB14D"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "54C0B0053B9196B3"
+			tasks: [{
+				id: "61EFB056AD8CAC80"
+				item: "botania:blaze_block"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
 		}
 	]
 	title: "植物魔法时代 II"

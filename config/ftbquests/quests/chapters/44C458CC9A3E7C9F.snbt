@@ -88,8 +88,8 @@
 		}
 		{
 			dependencies: [
-				"4D88B341DCC1DF4A"
 				"349DC65B0CDA9B6D"
+				"7455FE2AE3607A91"
 			]
 			id: "3F4FCB3CF08A69F7"
 			tasks: [{
@@ -97,13 +97,13 @@
 				item: "minecraft:smooth_stone"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -2.0d
+			x: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
 				"2FBE82E7F31D658A"
-				"59BA836679411B26"
+				"7455FE2AE3607A91"
 			]
 			id: "349DC65B0CDA9B6D"
 			tasks: [{
@@ -111,8 +111,8 @@
 				item: "minecraft:stone"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -2.0d
+			x: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -147,7 +147,7 @@
 		{
 			dependencies: [
 				"59C0C2053F33D2BD"
-				"4D88B341DCC1DF4A"
+				"7455FE2AE3607A91"
 			]
 			id: "62759B0070D23A19"
 			size: 1.25d
@@ -178,7 +178,7 @@
 			dependencies: [
 				"590FDCF6AE733F40"
 				"6A8DF80AFA0883CA"
-				"685D9489569167DA"
+				"0D4E819D7B6AD802"
 			]
 			id: "4904A49A2D83FC7C"
 			size: 1.25d
@@ -208,10 +208,10 @@
 		}
 		{
 			dependencies: [
-				"639CECBFA2C82A25"
-				"685D9489569167DA"
 				"6A8DF80AFA0883CA"
 				"458B57107988B4A1"
+				"639CECBFA2C82A25"
+				"093CDFEB8330AC24"
 			]
 			id: "740F8CBC59B2C143"
 			tasks: [{
@@ -221,65 +221,6 @@
 			}]
 			x: 10.0d
 			y: 6.0d
-		}
-		{
-			dependencies: [
-				"7DFB75ECB4D04D90"
-				"7455FE2AE3607A91"
-			]
-			id: "47FC3A8447628366"
-			tasks: [{
-				id: "685D9489569167DA"
-				item: "minecraft:brick"
-				type: "item"
-			}]
-			x: 10.0d
-			y: -4.0d
-		}
-		{
-			dependencies: [
-				"587B04E055A7C34B"
-				"056D4AECEA99D68C"
-				"2643B24DFCECC5CA"
-			]
-			id: "7DFB75ECB4D04D90"
-			tasks: [{
-				id: "1CE5D333DA571DDF"
-				item: "gtceu:compressed_clay"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -4.0d
-		}
-		{
-			dependencies: [
-				"00229D33BA8E82CB"
-				"2643B24DFCECC5CA"
-				"6A6B90543CC164EB"
-			]
-			id: "587B04E055A7C34B"
-			tasks: [{
-				id: "396799E968E3BCEC"
-				item: "gtceu:brick_wooden_form"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -4.0d
-		}
-		{
-			dependencies: [
-				"2643B24DFCECC5CA"
-				"05B619DE5660E7C0"
-				"41DEF2FE6D874A30"
-			]
-			id: "00229D33BA8E82CB"
-			tasks: [{
-				id: "0BFE34283B30C605"
-				item: "gtceu:empty_wooden_form"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -403,52 +344,6 @@
 		}
 		{
 			dependencies: [
-				"6A8DF80AFA0883CA"
-				"47FC3A8447628366"
-			]
-			id: "5E892825914F458F"
-			shape: "square"
-			tasks: [{
-				id: "0915B4251A28E4A8"
-				item: "bonsaitrees3:bonsaipot"
-				type: "item"
-			}]
-			x: 10.0d
-			y: -6.0d
-		}
-		{
-			dependencies: [
-				"7684FD70C570319F"
-				"685D9489569167DA"
-				"7455FE2AE3607A91"
-				"6A8DF80AFA0883CA"
-			]
-			id: "59BA836679411B26"
-			tasks: [{
-				id: "4D88B341DCC1DF4A"
-				item: "brickfurnace:brick_furnace"
-				type: "item"
-			}]
-			x: 12.5d
-			y: -2.0d
-		}
-		{
-			dependencies: [
-				"47FC3A8447628366"
-				"1FA5D3ABEDFF4163"
-				"6A8DF80AFA0883CA"
-			]
-			id: "7684FD70C570319F"
-			tasks: [{
-				id: "67014E09A86B50C4"
-				item: "minecraft:bricks"
-				type: "item"
-			}]
-			x: 12.5d
-			y: -4.0d
-		}
-		{
-			dependencies: [
 				"741FDE8F20C40FC5"
 				"1FA5D3ABEDFF4163"
 				"19FA86B3DBA5CA21"
@@ -485,6 +380,7 @@
 			dependencies: [
 				"2643B24DFCECC5CA"
 				"3F4FCB3CF08A69F7"
+				"673CC5D2B0BF314C"
 			]
 			id: "384E63CEEE0D07BF"
 			tasks: [{
@@ -493,7 +389,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -511,37 +407,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -2.0d
-		}
-		{
-			dependencies: [
-				"5E892825914F458F"
-				"072CFBF350A48FFF"
-				"6A8DF80AFA0883CA"
-			]
-			id: "4735B0E80E70248A"
-			shape: "square"
-			tasks: [{
-				id: "0B7CC7DA7C348419"
-				item: "botanypots:terracotta_botany_pot"
-				type: "item"
-			}]
-			x: 12.5d
-			y: -6.0d
-		}
-		{
-			dependencies: [
-				"2E5670A1CEE4834E"
-				"3C86BB68B2306D9E"
-			]
-			id: "072CFBF350A48FFF"
-			tasks: [{
-				id: "11D21CE0A3AD22BE"
-				item: "minecraft:terracotta"
-				type: "item"
-			}]
-			x: 12.5d
-			y: -8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -555,7 +421,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -4.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -575,51 +441,98 @@
 		}
 		{
 			dependencies: [
-				"2643B24DFCECC5CA"
-				"2FC6C8A678AE5C50"
+				"32CF8FE6DDC3EDA4"
+				"2E5670A1CEE4834E"
+				"2FBE82E7F31D658A"
+				"090CBDC9A2E3E33F"
+				"458B57107988B4A1"
+				"6A8DF80AFA0883CA"
 			]
-			id: "05B619DE5660E7C0"
+			id: "35783BDA20ED6ACA"
+			tasks: [{
+				id: "5DD9611C13AB7D4D"
+				item: "industrialforegoing:pitiful_generator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7455FE2AE3607A91"
+				"439C7608BF5F60E6"
+			]
+			id: "0D4E819D7B6AD802"
+			tasks: [{
+				id: "093CDFEB8330AC24"
+				item: "minecraft:brick"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2643B24DFCECC5CA"
+				"6A6B90543CC164EB"
+				"0C866C5EDF93D042"
+			]
+			id: "0A624E4CBDEC49BB"
+			tasks: [{
+				id: "194F0CEB4033B0BD"
+				item: "gtceu:brick_wooden_form"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2643B24DFCECC5CA"
+				"3FC3E99823FFB008"
+				"673CC5D2B0BF314C"
+			]
+			id: "0C866C5EDF93D042"
+			tasks: [{
+				id: "401F2C5561AA340F"
+				item: "gtceu:empty_wooden_form"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2643B24DFCECC5CA"
+				"13073559071E676C"
+				"673CC5D2B0BF314C"
+			]
+			id: "3FC3E99823FFB008"
 			shape: "circle"
 			tasks: [{
-				id: "6DBA82BBFE12FBCA"
+				id: "2AD6A3A5571ABFC7"
 				item: "minecraft:oak_slab"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -6.0d
+			x: 12.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
 				"2643B24DFCECC5CA"
-				"4652C823EFBCE994"
-				"69760E41D90BC620"
+				"41E79B020B91A575"
+				"63BB4B9DBCDC5593"
 			]
-			id: "2FC6C8A678AE5C50"
+			id: "13073559071E676C"
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
-				id: "5B705C1F119512EB"
+				id: "5B9D6EF4F7B865BE"
 				item: "minecraft:oak_planks"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -8.0d
-		}
-		{
-			dependencies: [
-				"6747E4FA822CED5E"
-				"1D248CD9B20890B6"
-			]
-			id: "4652C823EFBCE994"
-			shape: "circle"
-			size: 1.0d
-			tasks: [{
-				id: "715668E872CD1886"
-				item: "minecraft:stripped_oak_log"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -10.0d
+			x: 10.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -628,11 +541,11 @@
 				"6A8DF80AFA0883CA"
 				"645BEC733315BB80"
 			]
-			id: "69760E41D90BC620"
+			id: "41E79B020B91A575"
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
-				id: "41DEF2FE6D874A30"
+				id: "673CC5D2B0BF314C"
 				item: {
 					Count: 1
 					id: "silentgear:saw"
@@ -654,49 +567,40 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 5.0d
-			y: -8.0d
-		}
-		{
-			dependencies: ["2FC6C8A678AE5C50"]
-			id: "547AC1D8E0D7CCD6"
-			tasks: [{
-				id: "791AC187A68FA75D"
-				item: "minecraft:chest"
-				type: "item"
-			}]
-			x: 10.0d
-			y: -8.0d
-		}
-		{
-			dependencies: ["056D4AECEA99D68C"]
-			id: "3C86BB68B2306D9E"
-			tasks: [{
-				id: "2738E79DFD079A29"
-				item: "minecraft:clay"
-				type: "item"
-			}]
-			x: 12.5d
-			y: -10.0d
+			x: 7.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
-				"32CF8FE6DDC3EDA4"
-				"2E5670A1CEE4834E"
-				"2FBE82E7F31D658A"
-				"090CBDC9A2E3E33F"
-				"5B705C1F119512EB"
-				"458B57107988B4A1"
-				"6A8DF80AFA0883CA"
+				"6747E4FA822CED5E"
+				"1D248CD9B20890B6"
+				"2643B24DFCECC5CA"
 			]
-			id: "35783BDA20ED6ACA"
+			id: "63BB4B9DBCDC5593"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
-				id: "5DD9611C13AB7D4D"
-				item: "industrialforegoing:pitiful_generator"
+				id: "3096768DA0FAB65E"
+				item: "minecraft:stripped_oak_log"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.0d
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"0A624E4CBDEC49BB"
+				"2643B24DFCECC5CA"
+				"056D4AECEA99D68C"
+			]
+			id: "439C7608BF5F60E6"
+			tasks: [{
+				id: "5CE56A9B82A3C8A8"
+				item: "gtceu:compressed_clay"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
 		}
 	]
 	title: "石器时代"

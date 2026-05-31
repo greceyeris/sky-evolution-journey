@@ -15,4 +15,11 @@ ServerEvents.recipes((event) => {
         100,
         true,
     );
+
+    // 添加 minecraft:copper_ingot 的配方
+    event.recipes.createmetallurgy.casting_in_table(
+        "minecraft:copper_ingot",
+        [Fluid.of("gtceu:copper", 144), "gtceu:ingot_casting_mold"],
+        150,
+    );
 });

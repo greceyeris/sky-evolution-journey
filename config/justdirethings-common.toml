@@ -198,4 +198,8 @@
 	#mB of polymorphic fluid consumed per targeted polymorph
 	#Range: > 0
 	target_polymorph_cost = 1000
+	#Entities or mods that the Polymorphic Wand cannot create.
+	#Use full entity IDs (e.g. "somebossmod:big_boss") for specific entities,
+	#or just the mod ID (e.g. "somebossmod") to block all entities from that mod.
+	polymorph_blacklist = []
 

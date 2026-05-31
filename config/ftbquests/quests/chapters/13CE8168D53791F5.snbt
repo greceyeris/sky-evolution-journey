@@ -35,7 +35,6 @@
 				"3FFA860888989CB2"
 				"3FC4B560295A2FD0"
 				"6B5E9D9CC2FAFDB5"
-				"715668E872CD1886"
 			]
 			id: "329E75E8489012AE"
 			shape: "diamond"
@@ -240,9 +239,8 @@
 		{
 			dependencies: [
 				"3BD9FC069710D847"
-				"0915B4251A28E4A8"
 				"4A37898820CCC9D5"
-				"47CB4A9E97A24405"
+				"15E4B9C10A84A915"
 			]
 			id: "17F9FA9D8ADC79D9"
 			optional: true
@@ -254,69 +252,6 @@
 			}]
 			x: 5.0d
 			y: -2.0d
-		}
-		{
-			dependencies: [
-				"773F26CA44A78B98"
-				"6A8DF80AFA0883CA"
-			]
-			id: "34D84FDFC45CEDD8"
-			tasks: [{
-				id: "47CB4A9E97A24405"
-				item: "minecraft:beehive"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["35D36B7B564BED0A"]
-			id: "773F26CA44A78B98"
-			tasks: [{
-				id: "734C6BB9AD0AFEFE"
-				item: "minecraft:honeycomb"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["491B9F753CCA8A25"]
-			description: ["当 &a橡树树苗/白桦树苗&r 周围 &e水平 2 格&r 内存在 &e花/盛开的杜鹃花丛/盛开的杜鹃树叶/红树胎生苗&r 时，树木长成后有 &e5%&r 概率生成带有 &e1-3 只&r 蜜蜂的 &b蜂巢&r。"]
-			id: "35D36B7B564BED0A"
-			tasks: [{
-				icon: "minecraft:bee_nest"
-				id: "4E24ECC4535F971A"
-				observe_type: 0
-				timer: 20L
-				to_observe: "minecraft:bee_nest"
-				type: "observation"
-			}]
-			x: 0.0d
-			y: -8.0d
-		}
-		{
-			dependencies: [
-				"0659A68F00F65078"
-				"1FA5D3ABEDFF4163"
-				"428BB954E1F196E2"
-				"19FA86B3DBA5CA21"
-			]
-			id: "491B9F753CCA8A25"
-			tasks: [{
-				id: "6EBCF8246FFF608D"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "minecraft:all_small_flowers"
-					}
-				}
-				title: "Any #minecraft:all_small_flowers"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -434,7 +369,7 @@
 				"38F36385F668B2D7"
 				"7254CC7A5837A7A4"
 				"6A8DF80AFA0883CA"
-				"685D9489569167DA"
+				"093CDFEB8330AC24"
 			]
 			id: "64580201F4A63979"
 			tasks: [{
@@ -722,9 +657,8 @@
 		{
 			dependencies: [
 				"693E26715CC751A0"
-				"34D84FDFC45CEDD8"
-				"0915B4251A28E4A8"
 				"4A37898820CCC9D5"
+				"2D6C4DCBDA4BF33E"
 			]
 			id: "65DE8C97497A6115"
 			optional: true
@@ -739,10 +673,9 @@
 		}
 		{
 			dependencies: [
-				"0915B4251A28E4A8"
 				"4A37898820CCC9D5"
-				"47CB4A9E97A24405"
 				"11ACAE47BAFFB3E4"
+				"15E4B9C10A84A915"
 			]
 			id: "4A4510D2FB7747C9"
 			optional: true
@@ -758,9 +691,8 @@
 		{
 			dependencies: [
 				"2B745C5F0F700235"
-				"0915B4251A28E4A8"
 				"4A37898820CCC9D5"
-				"47CB4A9E97A24405"
+				"15E4B9C10A84A915"
 			]
 			id: "6082B62B7CC721D2"
 			optional: true
@@ -776,9 +708,8 @@
 		{
 			dependencies: [
 				"1CCFA037875E66C8"
-				"0915B4251A28E4A8"
 				"4A37898820CCC9D5"
-				"47CB4A9E97A24405"
+				"15E4B9C10A84A915"
 			]
 			id: "2153D13FF3CB4EAB"
 			optional: true
@@ -790,6 +721,91 @@
 			}]
 			x: 2.5d
 			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6747E4FA822CED5E"
+				"6367C65CB0E9AA91"
+				"6A8DF80AFA0883CA"
+				"5B9D6EF4F7B865BE"
+			]
+			id: "326D012879B10951"
+			tasks: [{
+				id: "06BA7F59D0F7392C"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"2E5670A1CEE4834E"
+				"01878A1051282985"
+			]
+			id: "2DC4F02BE83B6934"
+			tasks: [{
+				id: "0CA880E03C5C93E9"
+				item: "minecraft:terracotta"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["056D4AECEA99D68C"]
+			id: "01878A1051282985"
+			tasks: [{
+				id: "760BF3272234F1C2"
+				item: "minecraft:clay"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A8DF80AFA0883CA"
+				"093CDFEB8330AC24"
+			]
+			id: "6CC3B4F835309DBF"
+			tasks: [{
+				id: "119F5C05F79CB63A"
+				item: "minecraft:flower_pot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6CC3B4F835309DBF"
+				"2DC4F02BE83B6934"
+				"205FF3C77943F897"
+			]
+			id: "2D6C4DCBDA4BF33E"
+			tasks: [{
+				id: "15E4B9C10A84A915"
+				item: "botanypots:terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"326D012879B10951"
+				"6A8DF80AFA0883CA"
+				"5B9D6EF4F7B865BE"
+			]
+			id: "205FF3C77943F897"
+			tasks: [{
+				id: "795B3D9AB97FD827"
+				item: "woodenhopper:wooden_hopper"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
 		}
 	]
 	title: "植物魔法时代 I"

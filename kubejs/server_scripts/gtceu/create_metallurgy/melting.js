@@ -40,6 +40,13 @@ ServerEvents.recipes((event) => {
 
     // 添加 gtceu:iron 的配方
     event.recipes.createmetallurgy.melting(
+        Fluid.of("gtceu:iron", 144),
+        "minecraft:iron_ingot",
+        150,
+        "heated",
+    );
+
+    event.recipes.createmetallurgy.melting(
         Fluid.of("gtceu:iron", 216),
         "gtceu:refined_iron_ore",
         150,
