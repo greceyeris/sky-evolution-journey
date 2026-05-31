@@ -229,10 +229,7 @@
 			y: 10.0d
 		}
 		{
-			dependencies: [
-				"0CC34661FB0485E2"
-				"321799C11A00F507"
-			]
+			dependencies: ["321799C11A00F507"]
 			id: "75FF11960F5270D2"
 			tasks: [{
 				id: "6A61B19346A0C82F"
@@ -244,17 +241,6 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["472A2E35697A0388"]
-			id: "0CC34661FB0485E2"
-			tasks: [{
-				id: "174B3B2E057B803B"
-				item: "create:powdered_obsidian"
-				type: "item"
-			}]
-			x: 10.0d
 			y: 2.0d
 		}
 		{
@@ -551,27 +537,6 @@
 			}]
 			x: 5.0d
 			y: 10.0d
-		}
-		{
-			dependencies: ["7DD79CE4591A49AD"]
-			id: "472A2E35697A0388"
-			tasks: [{
-				id: "1D16576A838C23CF"
-				item: "minecraft:obsidian"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 2.0d
-		}
-		{
-			id: "7DD79CE4591A49AD"
-			tasks: [{
-				id: "546A907D7BCBD343"
-				item: "botania:blaze_block"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 2.0d
 		}
 		{
 			dependencies: ["4FD1CF7EEE0BBC46"]

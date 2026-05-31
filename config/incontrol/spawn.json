@@ -32,7 +32,11 @@
         "result": "deny"
     },
     {
-        "mob": ["minecraft:phantom", "minecraft:wandering_trader"],
+        "mob": [
+            "minecraft:phantom",
+            "minecraft:wandering_trader",
+            "minecraft:trader_llama"
+        ],
         "when": "onjoin",
         "result": "deny"
     }

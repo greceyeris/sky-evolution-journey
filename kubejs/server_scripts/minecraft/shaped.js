@@ -169,4 +169,9 @@ ServerEvents.recipes((event) => {
         B: "minecraft:furnace",
         C: "minecraft:smooth_stone",
     });
+
+    // 添加 minecraft:flower_pot 的配方
+    event.shaped("minecraft:flower_pot", ["A A", " A "], {
+        A: "minecraft:brick",
+    });
 });
