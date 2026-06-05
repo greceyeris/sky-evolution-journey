@@ -1,5 +1,5 @@
-// 定义 cancelRightClicked 数组
-const cancelRightClicked = [
+// 定义 rightClicked 数组
+const rightClicked = [
     {
         item: "#forge:tools/axes",
         blackList: ["#minecraft:logs"],
@@ -27,7 +27,7 @@ BlockEvents.rightClicked((event) => {
     const mainHandItem = player.getMainHandItem();
     const offHandItem = player.getOffHandItem();
 
-    cancelRightClicked.forEach((obj) => {
+    rightClicked.forEach((obj) => {
         let itemMatch = false;
         let blackMatch = false;
 
