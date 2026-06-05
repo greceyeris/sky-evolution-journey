@@ -12,4 +12,10 @@ ServerEvents.recipes((event) => {
         A: "minecraft:brick",
         B: "minecraft:copper_ingot",
     });
+
+    // 添加 createmetallurgy:sturdy_whisk 的配方
+    event.shaped("createmetallurgy:sturdy_whisk", [" A ", "BAB", "BBB"], {
+        A: "mythicbotany:alfsteel_ingot",
+        B: "gtceu:obsidian_plate",
+    });
 });

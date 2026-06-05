@@ -190,4 +190,206 @@ ServerEvents.recipes((event) => {
         catalyst: "mysticalagriculture:soulium_gemstone",
         outputs: ["minecraft:creeper_spawn_egg"],
     });
+
+    // 添加 minecraft:spider_spawn_egg 的配方
+    event.custom({
+        type: "compactcrafting:miniaturization",
+        recipeSize: 7,
+        layers: [
+            {
+                type: "compactcrafting:mixed",
+                pattern: [
+                    ["A", "A", "A", "A", "A", "A", "A"],
+                    ["A", "A", "A", "A", "A", "A", "A"],
+                    ["A", "A", "A", "A", "A", "A", "A"],
+                    ["A", "A", "A", "A", "A", "A", "A"],
+                    ["A", "A", "A", "A", "A", "A", "A"],
+                    ["A", "A", "A", "A", "A", "A", "A"],
+                    ["A", "B", "A", "A", "A", "B", "A"],
+                ],
+            },
+            {
+                type: "compactcrafting:mixed",
+                pattern: [
+                    ["A", "A", "A", "A", "A", "A", "A"],
+                    ["A", "E", "E", "E", "E", "E", "A"],
+                    ["A", "E", "E", "E", "E", "E", "A"],
+                    ["A", "E", "E", "E", "E", "E", "A"],
+                    ["A", "E", "E", "E", "E", "E", "A"],
+                    ["A", "E", "E", "E", "E", "E", "A"],
+                    ["A", "A", "B", "A", "B", "A", "A"],
+                ],
+            },
+            {
+                type: "compactcrafting:mixed",
+                pattern: [
+                    ["A", "A", "A", "A", "A", "A", "A"],
+                    ["A", "E", "E", "E", "E", "E", "A"],
+                    ["A", "E", "E", "E", "E", "E", "A"],
+                    ["A", "E", "E", "E", "E", "E", "A"],
+                    ["A", "E", "E", "E", "E", "E", "A"],
+                    ["A", "E", "E", "E", "E", "E", "A"],
+                    ["B", "A", "A", "A", "A", "A", "B"],
+                ],
+            },
+            {
+                type: "compactcrafting:mixed",
+                pattern: [
+                    ["A", "A", "A", "A", "A", "A", "A"],
+                    ["A", "E", "E", "E", "E", "E", "A"],
+                    ["A", "E", "E", "E", "E", "E", "A"],
+                    ["A", "E", "E", "E", "E", "E", "A"],
+                    ["A", "E", "E", "E", "E", "E", "A"],
+                    ["A", "E", "E", "E", "E", "E", "A"],
+                    ["B", "A", "B", "B", "B", "A", "B"],
+                ],
+            },
+            {
+                type: "compactcrafting:mixed",
+                pattern: [
+                    ["A", "A", "A", "A", "A", "A", "A"],
+                    ["A", "E", "E", "E", "E", "E", "A"],
+                    ["A", "E", "E", "E", "E", "E", "A"],
+                    ["A", "E", "E", "E", "E", "E", "A"],
+                    ["A", "E", "E", "E", "E", "E", "A"],
+                    ["A", "E", "E", "E", "E", "E", "A"],
+                    ["A", "A", "B", "B", "B", "A", "A"],
+                ],
+            },
+            {
+                type: "compactcrafting:mixed",
+                pattern: [
+                    ["A", "A", "A", "A", "A", "A", "A"],
+                    ["A", "E", "E", "E", "E", "E", "A"],
+                    ["A", "E", "E", "E", "E", "E", "A"],
+                    ["A", "E", "E", "E", "E", "E", "A"],
+                    ["A", "E", "E", "E", "E", "E", "A"],
+                    ["A", "E", "E", "E", "E", "E", "A"],
+                    ["A", "D", "C", "A", "C", "D", "A"],
+                ],
+            },
+            {
+                type: "compactcrafting:mixed",
+                pattern: [
+                    ["A", "A", "A", "A", "A", "A", "A"],
+                    ["A", "A", "A", "A", "A", "A", "A"],
+                    ["A", "A", "A", "A", "A", "A", "A"],
+                    ["A", "A", "A", "A", "A", "A", "A"],
+                    ["A", "A", "A", "A", "A", "A", "A"],
+                    ["A", "A", "A", "A", "A", "A", "A"],
+                    ["A", "D", "C", "A", "C", "D", "A"],
+                ],
+            },
+        ],
+        components: {
+            A: {
+                type: "compactcrafting:block",
+                block: "minecraft:gray_wool",
+            },
+            B: {
+                type: "compactcrafting:block",
+                block: "minecraft:red_wool",
+            },
+            C: {
+                type: "compactcrafting:block",
+                block: "minecraft:black_wool",
+            },
+            D: {
+                type: "compactcrafting:block",
+                block: "minecraft:light_gray_wool",
+            },
+            E: {
+                type: "compactcrafting:block",
+                block: "minecraft:cobweb",
+            },
+        },
+        catalyst: "mysticalagriculture:soulium_gemstone",
+        outputs: ["minecraft:spider_spawn_egg"],
+    });
+
+    // 添加 minecraft:cow_spawn_egg 的配方
+    event.custom({
+        type: "compactcrafting:miniaturization",
+        recipeSize: 5,
+        layers: [
+            {
+                type: "compactcrafting:mixed",
+                pattern: [
+                    ["A", "A", "A", "A", "A"],
+                    ["A", "A", "A", "A", "A"],
+                    ["A", "A", "A", "A", "A"],
+                    ["A", "A", "A", "A", "A"],
+                    ["B", "B", "A", "B", "B"],
+                ],
+            },
+            {
+                type: "compactcrafting:mixed",
+                pattern: [
+                    ["A", "A", "A", "A", "A"],
+                    ["A", "C", "C", "C", "A"],
+                    ["A", "C", "C", "C", "A"],
+                    ["A", "C", "C", "C", "A"],
+                    ["D", "E", "A", "E", "D"],
+                ],
+            },
+            {
+                type: "compactcrafting:mixed",
+                pattern: [
+                    ["A", "A", "A", "A", "A"],
+                    ["A", "C", "C", "C", "A"],
+                    ["A", "C", "C", "C", "A"],
+                    ["A", "C", "C", "C", "A"],
+                    ["A", "A", "A", "A", "A"],
+                ],
+            },
+            {
+                type: "compactcrafting:mixed",
+                pattern: [
+                    ["A", "A", "A", "A", "A"],
+                    ["A", "C", "C", "C", "A"],
+                    ["A", "C", "C", "C", "A"],
+                    ["A", "C", "C", "C", "A"],
+                    ["A", "B", "B", "B", "A"],
+                ],
+            },
+            {
+                type: "compactcrafting:mixed",
+                pattern: [
+                    ["A", "A", "A", "A", "A"],
+                    ["A", "A", "A", "A", "A"],
+                    ["A", "A", "A", "A", "A"],
+                    ["A", "A", "A", "A", "A"],
+                    ["B", "D", "F", "D", "B"],
+                ],
+            },
+        ],
+        components: {
+            A: {
+                type: "compactcrafting:block",
+                block: "minecraft:brown_wool",
+            },
+            B: {
+                type: "compactcrafting:block",
+                block: "minecraft:light_gray_wool",
+            },
+            C: {
+                type: "compactcrafting:block",
+                block: "minecraft:hay_block",
+            },
+            D: {
+                type: "compactcrafting:block",
+                block: "minecraft:black_wool",
+            },
+            E: {
+                type: "compactcrafting:block",
+                block: "minecraft:white_wool",
+            },
+            F: {
+                type: "compactcrafting:block",
+                block: "minecraft:gray_wool",
+            },
+        },
+        catalyst: "mysticalagriculture:soulium_gemstone",
+        outputs: ["minecraft:cow_spawn_egg"],
+    });
 });

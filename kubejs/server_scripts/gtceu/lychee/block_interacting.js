@@ -10,6 +10,7 @@ ServerEvents.recipes((event) => {
             {
                 type: "drop_item",
                 item: "gtceu:copper_ore",
+                count: 2,
             },
             {
                 type: "place",
@@ -27,6 +28,7 @@ ServerEvents.recipes((event) => {
             {
                 type: "drop_item",
                 item: "gtceu:iron_ore",
+                count: 2,
             },
             {
                 type: "place",
@@ -44,6 +46,7 @@ ServerEvents.recipes((event) => {
             {
                 type: "drop_item",
                 item: "gtceu:coal_ore",
+                count: 2,
             },
             {
                 type: "place",
@@ -94,6 +97,7 @@ ServerEvents.recipes((event) => {
             {
                 type: "drop_item",
                 item: "gtceu:redstone_ore",
+                count: 2,
             },
             {
                 type: "place",
@@ -128,6 +132,7 @@ ServerEvents.recipes((event) => {
             {
                 type: "drop_item",
                 item: "gtceu:sulfur_ore",
+                count: 2,
             },
             {
                 type: "place",
@@ -145,6 +150,56 @@ ServerEvents.recipes((event) => {
             {
                 type: "drop_item",
                 item: "gtceu:saltpeter_ore",
+            },
+            {
+                type: "place",
+                block: "minecraft:air",
+            },
+        ],
+    });
+
+    // 添加 gtceu:sphalerite_ore 的配方
+    event.custom({
+        type: "lychee:block_interacting",
+        item_in: { item: "botania:brown_petal_block" },
+        block_in: { blocks: ["gtceu:sulfur_ore"] },
+        post: [
+            {
+                type: "drop_item",
+                item: "gtceu:sphalerite_ore",
+            },
+            {
+                type: "place",
+                block: "minecraft:air",
+            },
+        ],
+    });
+
+    // 添加 gtceu:gold_ore 的配方
+    event.custom({
+        type: "lychee:block_interacting",
+        item_in: { item: "botania:orange_petal_block" },
+        block_in: { blocks: ["gtceu:sulfur_ore"] },
+        post: [
+            {
+                type: "drop_item",
+                item: "gtceu:gold_ore",
+            },
+            {
+                type: "place",
+                block: "minecraft:air",
+            },
+        ],
+    });
+
+    event.custom({
+        type: "lychee:block_interacting",
+        item_in: { item: "botania:yellow_petal_block" },
+        block_in: { blocks: ["gtceu:copper_ore"] },
+        post: [
+            {
+                type: "drop_item",
+                item: "gtceu:gold_ore",
             },
             {
                 type: "place",

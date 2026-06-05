@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ii"
@@ -24,7 +23,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["24EDB0CC704CEA2E"]
+			dependencies: [
+				"24EDB0CC704CEA2E"
+				"664203FC3C351161"
+				"3096768DA0FAB65E"
+			]
 			id: "660A2D374B162D45"
 			shape: "diamond"
 			size: 2.0d
@@ -33,11 +36,17 @@
 				item: "create:brass_casing"
 				type: "item"
 			}]
-			x: 15.0d
+			title: "解锁“黄铜时代”"
+			x: 12.5d
 			y: 8.0d
 		}
 		{
-			dependencies: ["09FA1DD09AE00E24"]
+			dependencies: [
+				"09FA1DD09AE00E24"
+				"4E351D20951B5CC0"
+				"5FB83EAE5418E30C"
+				"6E4F3C82154B8EE0"
+			]
 			id: "727BA5A53A64DAFD"
 			tasks: [{
 				id: "1010AF3F78EBD29F"
@@ -61,108 +70,125 @@
 		{
 			dependencies: [
 				"3680C2A6DA259B49"
+				"4FAA87B7383AE195"
 				"5162E4C1894B7672"
+				"5D8967FDD969BC45"
+				"3FC4B560295A2FD0"
+				"239B544B4B42A148"
+				"3474576B389C3F0D"
+				"282FA7119B7B1F3C"
+				"44F388537DF57485"
+				"6A8DF80AFA0883CA"
 			]
 			id: "0262FC7B84B7FDA0"
-			tasks: [{
-				id: "2FEFDB89A00308FE"
-				item: "botania:alfheim_portal"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2FEFDB89A00308FE"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "68746A819FB74DB8"
+					item: { Count: 8, id: "botania:livingwood_log" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "69199F720D05492D"
+					item: "botania:glimmering_livingwood_log"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5E37660B89F3F6ED"
+					item: { Count: 2, id: "botania:mana_pool" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "39BE307F9B71FF11"
+					item: { Count: 2, id: "botania:natura_pylon" }
+					type: "item"
+				}
+			]
+			title: "多方块结构：精灵门"
 			x: 7.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["6C9D34697DA4D0B5"]
+			dependencies: ["49023ED7726300E9"]
 			id: "24EDB0CC704CEA2E"
 			tasks: [{
 				id: "31EF19F79FBCDDE8"
 				item: "gtceu:brass_ingot"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 8.0d
-		}
-		{
-			dependencies: ["57F706D9E53773FB"]
-			id: "6C9D34697DA4D0B5"
-			tasks: [{
-				id: "747DECB8295C8B78"
-				item: "gtceu:brass_dust"
-				type: "item"
-			}]
 			x: 10.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["11DB3936716694B6"]
-			id: "57F706D9E53773FB"
-			tasks: [{
-				id: "46A64B1712677C4F"
-				item: "gtceu:zinc_dust"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 8.0d
-		}
-		{
-			dependencies: ["6F350748EF032435"]
-			id: "11DB3936716694B6"
-			tasks: [{
-				id: "1C2FF20C1F5D554C"
-				item: "gtceu:zinc_ingot"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["617B43355123872E"]
+			dependencies: [
+				"617B43355123872E"
+				"0B241EA0DA761907"
+			]
 			id: "0F4907FC8B7EF259"
 			tasks: [{
 				id: "1BE71AD06269E92A"
 				item: "gtceu:raw_sphalerite"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: 5.0d
+			y: 12.0d
 		}
 		{
-			dependencies: ["0F4907FC8B7EF259"]
+			dependencies: [
+				"52E5FE1E4762DF44"
+				"12E8BF0EDB7FAA6C"
+				"1FA5D3ABEDFF4163"
+			]
 			id: "262F1E4E62878699"
 			tasks: [{
 				id: "156CBCE11967DA5E"
 				item: "gtceu:purified_sphalerite_ore"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 6.0d
+			x: 10.0d
+			y: 12.0d
 		}
 		{
-			dependencies: ["262F1E4E62878699"]
+			dependencies: [
+				"262F1E4E62878699"
+				"271E92C680E59F33"
+			]
 			id: "3BCC7650C240DB20"
 			tasks: [{
 				id: "056B87087879EDB7"
 				item: "gtceu:refined_sphalerite_ore"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 6.0d
+			x: 10.0d
+			y: 10.0d
 		}
 		{
+			dependencies: [
+				"2E7C9761CAFCDC92"
+				"436F77289F76641F"
+			]
 			id: "617B43355123872E"
 			tasks: [{
 				id: "417E3741E4AFDBF2"
 				item: "gtceu:sphalerite_ore"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: 5.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
 				"3BCC7650C240DB20"
-				"49FA7DD225793EE9"
+				"0C853334DFA66D75"
+				"6419502B98E4FB68"
 			]
 			id: "6F350748EF032435"
 			tasks: [{
@@ -170,14 +196,15 @@
 				item: "gtceu:zinc_bucket"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 6.0d
+			x: 7.5d
+			y: 10.0d
 		}
 		{
 			dependencies: [
 				"74C2FCDE483162BB"
 				"3B187F40AAD35CCD"
 				"043683F62E37D8AF"
+				"52F4C07BA52138BF"
 			]
 			id: "740E82AAE6458ED2"
 			tasks: [{
@@ -185,24 +212,32 @@
 				item: "mythicbotany:alfsteel_ingot"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 5.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["0262FC7B84B7FDA0"]
+			dependencies: [
+				"0262FC7B84B7FDA0"
+				"4E351D20951B5CC0"
+			]
 			id: "34E631387A60CF27"
 			tasks: [{
 				id: "52F4C07BA52138BF"
 				item: "botania:elementium_ingot"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
 				"34E631387A60CF27"
 				"1405691BF4B3DF68"
+				"48C88389598CB0AC"
+				"5CC55D4FA590A28D"
+				"4F8FAA236AB6F95D"
+				"1CBEEC0C23C5DC3E"
+				"6A8DF80AFA0883CA"
 			]
 			id: "74C2FCDE483162BB"
 			tasks: [{
@@ -210,62 +245,73 @@
 				item: "mythicbotany:mana_infuser"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 2.0d
+			x: 7.5d
+			y: 4.0d
 		}
 		{
+			dependencies: [
+				"4DC1713718357733"
+				"718AA389B57D2368"
+			]
 			id: "1405691BF4B3DF68"
 			tasks: [{
 				id: "4E0724DE3EEB1F9E"
 				item: "botania:glimmering_dreamwood"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 5.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["57828535B9E29A09"]
+			dependencies: [
+				"23CFFE95A57BD1FA"
+				"12E8BF0EDB7FAA6C"
+				"212C496A88D37A9A"
+			]
 			id: "5162E4C1894B7672"
 			tasks: [{
 				id: "718AA389B57D2368"
 				item: "minecraft:glowstone_dust"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 10.0d
 			y: -2.0d
 		}
 		{
-			id: "57828535B9E29A09"
-			tasks: [{
-				id: "0B23E4EE1D8F7141"
-				item: "minecraft:prismarine_crystals"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -4.0d
-		}
-		{
+			dependencies: [
+				"5FB83EAE5418E30C"
+				"2FEFDB89A00308FE"
+			]
 			id: "043683F62E37D8AF"
 			tasks: [{
 				id: "3639D1EEEF2C06A8"
 				item: "botania:pixie_dust"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 2.5d
 			y: 6.0d
 		}
 		{
+			dependencies: [
+				"2FEFDB89A00308FE"
+				"16F50CC5E77C9895"
+			]
 			id: "3B187F40AAD35CCD"
 			tasks: [{
 				id: "38248CE0CC2DC321"
 				item: "botania:dragonstone"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 2.5d
 			y: 4.0d
 		}
 		{
-			dependencies: ["61287DA043F18CAE"]
+			dependencies: [
+				"61287DA043F18CAE"
+				"134FE6C9871F29FF"
+				"14C74645385CAAD6"
+				"6A8DF80AFA0883CA"
+			]
 			id: "49FA7DD225793EE9"
 			tasks: [{
 				id: "7FA14443754DF9D0"
@@ -273,12 +319,13 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 4.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
 				"740E82AAE6458ED2"
 				"654D306E4344BC4C"
+				"6A8DF80AFA0883CA"
 			]
 			id: "61287DA043F18CAE"
 			tasks: [{
@@ -286,33 +333,42 @@
 				item: "createmetallurgy:sturdy_whisk"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 4.0d
+			x: 5.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["53067C5D837EFD27"]
+			dependencies: [
+				"53067C5D837EFD27"
+				"76A913FD18680FA8"
+			]
 			id: "654D306E4344BC4C"
 			tasks: [{
 				id: "45EF2660B572F283"
 				item: "gtceu:obsidian_plate"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 2.0d
+			x: 2.5d
+			y: 8.0d
 		}
 		{
-			dependencies: ["7AF1096E6AF97F71"]
+			dependencies: [
+				"7AF1096E6AF97F71"
+				"350F6A1107EE344F"
+			]
 			id: "53067C5D837EFD27"
 			tasks: [{
-				id: "5C9247ADE70128D4"
-				item: "create:powdered_obsidian"
+				id: "752602438F0FBDA8"
+				item: "gtceu:obsidian_dust"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: 2.5d
+			y: 10.0d
 		}
 		{
-			dependencies: ["54C0B0053B9196B3"]
+			dependencies: [
+				"54C0B0053B9196B3"
+				"03C6AF5E1BC40631"
+			]
 			id: "7AF1096E6AF97F71"
 			tasks: [{
 				id: "34E23E909B6AB14D"
@@ -320,17 +376,669 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 2.0d
+			y: 12.0d
 		}
 		{
+			dependencies: [
+				"7F893867F634FC3E"
+				"6A8DF80AFA0883CA"
+			]
 			id: "54C0B0053B9196B3"
 			tasks: [{
 				id: "61EFB056AD8CAC80"
 				item: "botania:blaze_block"
 				type: "item"
 			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"49FA7DD225793EE9"
+				"6F350748EF032435"
+				"60DFBBF1A808E2CF"
+				"7A35D4F0EC10527D"
+				"6599B88040791760"
+			]
+			id: "49023ED7726300E9"
+			tasks: [{
+				id: "0769625EC7723213"
+				item: "gtceu:brass_bucket"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2A47D82B5F7A5546"]
+			id: "4DC1713718357733"
+			tasks: [{
+				id: "3F84DBFDD5A3D136"
+				item: "botania:dreamwood"
+				type: "item"
+			}]
 			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"160C2BEAA66576A9"
+				"2FEFDB89A00308FE"
+			]
+			id: "2A47D82B5F7A5546"
+			tasks: [{
+				id: "5B027CA531619BC2"
+				item: "botania:dreamwood_log"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3A73DE6145E53033"
+				"16F50CC5E77C9895"
+				"4E351D20951B5CC0"
+				"6A8DF80AFA0883CA"
+			]
+			id: "4FAA87B7383AE195"
+			tasks: [{
+				id: "62776665526D8D70"
+				item: "botania:mana_pylon"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3598E426B6EE673D"
+				"0C853334DFA66D75"
+				"6419502B98E4FB68"
+				"5B4EC323974966C6"
+				"49BADFE7055A4B7E"
+				"1DB3105A06F04481"
+			]
+			id: "3A73DE6145E53033"
+			tasks: [{
+				id: "6978FC11D20E0B69"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"55457C6A101A778B"
+				"2E3D31FD9303D820"
+				"738F3F0E511BDD4F"
+				"0A7D214E401FCB92"
+				"3FC4B560295A2FD0"
+				"3474576B389C3F0D"
+				"282FA7119B7B1F3C"
+			]
+			id: "5CC55D4FA590A28D"
+			tasks: [{
+				id: "7FCE6F3DAFAB9A73"
+				item: "botania:rune_spring"
+				type: "item"
+			}]
+			x: 10.0d
 			y: 4.0d
+		}
+		{
+			dependencies: [
+				"169B53BEE67E2323"
+				"7B01122F1F23C4B8"
+				"0AD148B6DD9BAC84"
+				"5083350F9EEFC6F3"
+				"0B340C8D85C04969"
+				"3474576B389C3F0D"
+				"3FC4B560295A2FD0"
+				"282FA7119B7B1F3C"
+			]
+			id: "48C88389598CB0AC"
+			tasks: [{
+				id: "0D083A20925A3952"
+				item: "botania:rune_summer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"02F3A2351A62927A"
+				"618D04AFE10AEE3E"
+				"0A7D214E401FCB92"
+				"0B340C8D85C04969"
+				"3474576B389C3F0D"
+				"3FC4B560295A2FD0"
+				"282FA7119B7B1F3C"
+			]
+			id: "49F9A82FADA1C1D0"
+			tasks: [{
+				id: "235FCDAAFCBC6452"
+				item: "botania:rune_autumn"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5F85F4E2D294A1D6"
+				"4201CAC38231E07F"
+				"738F3F0E511BDD4F"
+				"5083350F9EEFC6F3"
+				"3474576B389C3F0D"
+				"3FC4B560295A2FD0"
+				"282FA7119B7B1F3C"
+			]
+			id: "4F8FAA236AB6F95D"
+			tasks: [{
+				id: "53A7A64A9966B1F8"
+				item: "botania:rune_winter"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"10B4CD37BCC9056D"
+				"49F9A82FADA1C1D0"
+			]
+			id: "1CBEEC0C23C5DC3E"
+			tasks: [{
+				id: "51E1A07CA33D5C15"
+				item: "mythicbotany:asgard_rune"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0A7D214E401FCB92"
+				"0D083A20925A3952"
+				"16F50CC5E77C9895"
+				"3474576B389C3F0D"
+				"3FC4B560295A2FD0"
+				"282FA7119B7B1F3C"
+			]
+			id: "10B4CD37BCC9056D"
+			tasks: [{
+				id: "40C80ECCDA14C673"
+				item: "botania:rune_pride"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3771CA7F08E2CDDA"
+				"15E4B9C10A84A915"
+				"4A37898820CCC9D5"
+			]
+			id: "169B53BEE67E2323"
+			tasks: [{
+				id: "72B44DA4277FA7EE"
+				item: "minecraft:melon_slice"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1E280B4459095EF9"
+				"19FA86B3DBA5CA21"
+				"1FA5D3ABEDFF4163"
+				"428BB954E1F196E2"
+			]
+			id: "3771CA7F08E2CDDA"
+			tasks: [{
+				id: "443A4D8CA622DB5D"
+				item: "minecraft:melon_seeds"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"35EE8D476DF82CF5"
+				"0CEA70FB20E05E62"
+				"4CCBDD301B41E3E9"
+				"56DD70DD7A123F92"
+			]
+			id: "5F85F4E2D294A1D6"
+			tasks: [{
+				id: "339A2ED378F147B2"
+				item: "minecraft:cake"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"590514B43C9F0CC7"
+				"2E5670A1CEE4834E"
+			]
+			id: "35EE8D476DF82CF5"
+			tasks: [{
+				id: "11D1572B4982FF06"
+				item: "gtmfo:cake_bottom_baked"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"6B1E2CC9A55A1F93"
+				"6A8DF80AFA0883CA"
+			]
+			id: "590514B43C9F0CC7"
+			tasks: [{
+				id: "547B5AD32CD0C1F4"
+				item: "gtmfo:cake_bottom"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"21D89B73FC21D8C3"
+				"54A85475542215CB"
+			]
+			id: "6B1E2CC9A55A1F93"
+			tasks: [{
+				id: "665021C5CD3E00B1"
+				item: "gtmfo:sugary_dough"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6092BEB11B9E5FDA"
+				"2643B24DFCECC5CA"
+				"33CFBC5C811D28FC"
+			]
+			id: "21D89B73FC21D8C3"
+			tasks: [{
+				id: "4CCBDD301B41E3E9"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"43C46490D87827A3"
+				"7EAC4D4224F50A90"
+				"090CBDC9A2E3E33F"
+			]
+			id: "02F3A2351A62927A"
+			tasks: [{
+				id: "27F096C3B059E3AD"
+				item: "minecraft:spider_eye"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1ABE03C719654670"
+				"2EF903C22321D803"
+				"0A2679B3FC8ABF2D"
+			]
+			id: "43C46490D87827A3"
+			tasks: [{
+				id: "02DC68DDBB3A80CA"
+				item: "minecraft:spider_spawn_egg"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"66ADD998EE3E4831"
+				"7EAC4D4224F50A90"
+			]
+			id: "0CEA70FB20E05E62"
+			tasks: [{
+				id: "496438300618C9C1"
+				item: "minecraft:egg"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"785BEBDE08FB97FB"
+				"5D8967FDD969BC45"
+			]
+			id: "6E4F3C82154B8EE0"
+			tasks: [{
+				id: "16F50CC5E77C9895"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7F893867F634FC3E"
+				"0C853334DFA66D75"
+				"6419502B98E4FB68"
+				"6599B88040791760"
+				"49BADFE7055A4B7E"
+				"5B4EC323974966C6"
+				"32979B674155E7D3"
+			]
+			id: "44F388537DF57485"
+			tasks: [{
+				id: "714BF341263B012A"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6DE7F9E0B255DA86"
+				"0B241EA0DA761907"
+			]
+			id: "478EA5EFE03004E9"
+			tasks: [{
+				id: "2DDD32F9E6C3812C"
+				item: "minecraft:raw_gold"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"707F857D83E00849"
+				"12E8BF0EDB7FAA6C"
+				"1FA5D3ABEDFF4163"
+			]
+			id: "56F70F290DB65B3D"
+			tasks: [{
+				id: "00DBBBCB34276052"
+				item: "gtceu:purified_gold_ore"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"56F70F290DB65B3D"
+				"271E92C680E59F33"
+			]
+			id: "3598E426B6EE673D"
+			tasks: [{
+				id: "3AF8EBA04A393103"
+				item: "gtceu:refined_gold_ore"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"0F4907FC8B7EF259"
+				"350F6A1107EE344F"
+			]
+			id: "52E5FE1E4762DF44"
+			tasks: [{
+				id: "7B889C6B94ED344B"
+				item: "gtceu:crushed_sphalerite_ore"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"478EA5EFE03004E9"
+				"350F6A1107EE344F"
+			]
+			id: "707F857D83E00849"
+			tasks: [{
+				id: "21A2818C4863FA58"
+				item: "gtceu:crushed_gold_ore"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2E7C9761CAFCDC92"
+				"4CB3701D7E6ECDC2"
+			]
+			id: "6DE7F9E0B255DA86"
+			tasks: [{
+				id: "243A02C2C4EA30D0"
+				item: "gtceu:gold_ore"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"1FA5D3ABEDFF4163"
+				"03C6AF5E1BC40631"
+			]
+			id: "4201CAC38231E07F"
+			tasks: [{
+				id: "61BB22ABC4AED1D2"
+				item: "minecraft:snow_block"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0CA8C9264A0BDDD9"
+				"52F06E5D484E6F41"
+			]
+			id: "56DD70DD7A123F92"
+			tasks: [{
+				id: "7A3CE519EB336D87"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2FBDF353DE4F52E8"
+				"7EAC4D4224F50A90"
+				"090CBDC9A2E3E33F"
+			]
+			id: "0CA8C9264A0BDDD9"
+			tasks: [{
+				id: "60577C6B3E3B2C43"
+				item: "cagedmobs:milk_drop"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4C62CB216176C0FD"
+				"2EF903C22321D803"
+				"0A2679B3FC8ABF2D"
+			]
+			id: "2FBDF353DE4F52E8"
+			tasks: [{
+				id: "4B4B91E79C7AC8E4"
+				item: "minecraft:cow_spawn_egg"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3A8515415737130D"
+				"42C41CFEA99B4291"
+			]
+			id: "664203FC3C351161"
+			tasks: [{
+				icon: "immersiveengineering:alloy_smelter"
+				id: "7BB3D62C9523DAEB"
+				observe_type: 0
+				timer: 10L
+				to_observe: "immersiveengineering:alloy_smelter"
+				type: "observation"
+			}]
+			x: 12.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"60DFBBF1A808E2CF"
+				"7A35D4F0EC10527D"
+				"16D6C042A117E477"
+				"5B4EC323974966C6"
+				"2A68E85A777FCB56"
+			]
+			id: "3A8515415737130D"
+			tasks: [{
+				count: 8L
+				id: "132F934D777D8229"
+				item: { Count: 8, id: "immersiveengineering:alloybrick" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"12DE0485C3699ABE"
+				"2A1F55D8A068D3E0"
+			]
+			id: "1ABE03C719654670"
+			tasks: [
+				{
+					count: 196L
+					id: "247BAB978BDC6F10"
+					item: { Count: 196, id: "minecraft:gray_wool" }
+					type: "item"
+				}
+				{
+					count: 125L
+					id: "3FC8C50DE91606F9"
+					item: { Count: 125, id: "minecraft:cobweb" }
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "139F25F506BBFFC3"
+					item: { Count: 14, id: "minecraft:red_wool" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "534AA70CB1A36797"
+					item: { Count: 4, id: "minecraft:black_wool" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "63FD33CBDF950BB4"
+					item: "minecraft:light_gray_wool"
+					type: "item"
+				}
+			]
+			title: "多方块结构：蜘蛛刷怪蛋"
+			x: 12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"59E52400B6A31D8E"
+				"40B5C84089FAB3CD"
+				"6A8DF80AFA0883CA"
+			]
+			id: "2A1F55D8A068D3E0"
+			tasks: [{
+				id: "53D58566C4753D2C"
+				item: "minecraft:cobweb"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"12DE0485C3699ABE"
+				"7BE060AECBEF4E75"
+			]
+			id: "4C62CB216176C0FD"
+			tasks: [
+				{
+					count: 82L
+					id: "17C4B1C7B903A7F5"
+					item: { Count: 82, id: "minecraft:brown_wool" }
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "06CF30F912B7C70E"
+					item: { Count: 27, id: "minecraft:hay_block" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "07074ACB7DDFF521"
+					item: { Count: 9, id: "minecraft:light_gray_wool" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "01657EA4957C3607"
+					item: { Count: 4, id: "minecraft:black_wool" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6308CD5B9649A695"
+					item: { Count: 2, id: "minecraft:white_wool" }
+					type: "item"
+				}
+				{
+					id: "7EDDEF5995AF8ECF"
+					item: "minecraft:gray_wool"
+					type: "item"
+				}
+			]
+			title: "多方块结构：牛刷怪蛋"
+			x: 17.5d
+			y: -2.0d
 		}
 	]
 	title: "植物魔法时代 II"

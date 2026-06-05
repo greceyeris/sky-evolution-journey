@@ -286,7 +286,6 @@
 			dependencies: [
 				"028A0DC0C4AEFC9A"
 				"24280FCFA7B027A5"
-				"44157C2B272DCEBD"
 			]
 			description: ["&6净化盐&r &c右键&r &a有机覆盖物&r 可 &c转化&r 成 &b净化水方块&r"]
 			id: "7E27CB4F4713FC53"
@@ -315,7 +314,7 @@
 				"4FBAE391909C0BA7"
 				"618D04AFE10AEE3E"
 				"6A8DF80AFA0883CA"
-				"1E7724C0894C4563"
+				"1E280B4459095EF9"
 			]
 			id: "028A0DC0C4AEFC9A"
 			size: 1.25d
@@ -422,22 +421,6 @@
 			}]
 			x: 2.5d
 			y: 4.0d
-		}
-		{
-			dependencies: [
-				"618D04AFE10AEE3E"
-				"6A8DF80AFA0883CA"
-				"4A37898820CCC9D5"
-			]
-			description: ["&6锄头&r &c右键&r &a有机覆盖物&r 可 &c转化&r 成 &b水方块&r"]
-			id: "1E7724C0894C4563"
-			tasks: [{
-				id: "44157C2B272DCEBD"
-				item: "strainers:mulch"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 8.0d
 		}
 		{
 			dependencies: [

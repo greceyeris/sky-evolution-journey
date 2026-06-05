@@ -26,4 +26,30 @@ ServerEvents.recipes((event) => {
         )
         .processingTime(150)
         .minimalRPM(128);
+
+    // 添加 gtceu:refined_gold_ore, gtceu:stone_dust 和 gtceu:tiny_nickel_dust 的配方
+    event.recipes.vintage
+        .centrifugation(
+            [
+                "gtceu:refined_gold_ore",
+                "gtceu:stone_dust",
+                Item.of("gtceu:tiny_nickel_dust").withChance(0.16),
+            ],
+            "gtceu:purified_gold_ore",
+        )
+        .processingTime(150)
+        .minimalRPM(128);
+
+    // 添加 gtceu:refined_sphalerite_ore, gtceu:stone_dust 和 gtceu:tiny_gallium_dust 的配方
+    event.recipes.vintage
+        .centrifugation(
+            [
+                "gtceu:refined_sphalerite_ore",
+                "gtceu:stone_dust",
+                Item.of("gtceu:tiny_gallium_dust").withChance(0.16),
+            ],
+            "gtceu:purified_sphalerite_ore",
+        )
+        .processingTime(150)
+        .minimalRPM(128);
 });

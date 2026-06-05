@@ -12,4 +12,10 @@ ServerEvents.recipes((event) => {
         .curving("gtceu:plate_casting_mold", "gtceu:empty_mold")
         .mode(5)
         .head("gtceu:wood_plate");
+
+    // 添加 gtceu:cylinder_casting_mold 的配方
+    event.recipes.vintage
+        .curving("gtceu:cylinder_casting_mold", "gtceu:empty_mold")
+        .mode(5)
+        .head("create_hc:shaft");
 });

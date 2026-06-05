@@ -2,6 +2,209 @@
 
 ---
 
+### Version: _0.18.0_
+
+### Date: _2026-06-05_
+
+### Changes:
+
+**Files:**
+
+- **Updated:** `README.md`.
+
+**Mods:**
+
+- **Updated:**
+
+| Mod                                  | Previous       | Current        |
+| ------------------------------------ | -------------- | -------------- |
+| `Botanical Machinery Extra Reforked` | `1.2.9.6`      | `1.2.9.7`      |
+| `Compressed Engineering`             | `1.4.5`        | `1.4.6`        |
+| `Create: Rainbow Compound`           | `1.3.4c`       | `1.3.5.a`      |
+| `Create: Vintage`                    | `1.5.9`        | `1.6.0`        |
+| `ExtraLib`                           | `3.0.4`        | `3.0.5-FIXED`  |
+| `Just Dire Things [Forge]`           | `1.0.29`       | `1.0.30`       |
+| `Masterful Machinery Fork`           | `0.1.33.4`     | `0.1.33.6`     |
+| `Sophisticated Backpacks`            | `3.24.43.1789` | `3.24.46.1803` |
+| `Sophisticated Core`                 | `1.3.38.1893`  | `1.3.40.1925`  |
+| `Sophisticated Storage`              | `1.4.48.1754`  | `1.4.51.1769`  |
+
+**Items:**
+
+- **Changed:**
+    - **Tags:** Added compatibility tags for item unification.
+
+    - **Replacements:** Added batch replacement mappings to unify items and tags.
+
+**Recipes:**
+
+- **Removed:**
+    - **Used IDs:**
+        - `apotheosis:cobweb`.
+        - `bucketlib:cake`.
+        - `create:brass_casing`.
+        - `create:crafting/curiosities/cake`.
+        - `create:crushing/blaze_rod`, `create:crushing/diamond_horse_armor`, `create:crushing/diorite`, `create:crushing/diorite_recycling`, `create:crushing/gravel`, `create:crushing/leather_horse_armor`, `create:crushing/netherrack`, `create:crushing/obsidian`, `create:crushing/wool`.
+        - `create:crushing/compat/immersiveengineering/coke_block`.
+        - `create:milling/granite`, `create:milling/saddle`, `create:milling/sandstone`, `create:milling/terracotta`, `create:milling/wheat`.
+        - `createaddition:compat/immersiveengineering/crushing/coal_coke`, `createaddition:compat/immersiveengineering/crushing/coke_block`, `createaddition:compat/immersiveengineering/crushing/steel_ingot`.
+        - `createfood:minecraft/crafting/shaped/cake_from_shaped`.
+        - `createmetallurgy:milling/crushed_raw_iron`.
+        - `farmersdelight:cake_from_milk_bottle`.
+        - `gtceu:shaped/cake`.
+        - `gtmfo:shaped/cake_bottom_by_hand`, `gtmfo:cake_bottom_baked`.
+        - `immersiveengineering:crafting/raw_hammercrushing_osmium`.
+
+    - **Used Types:**
+        - `immersiveengineering:alloy`: all recipes.
+
+    - **Used Type and Input:**
+        - `create:crushing`: input `#forge:ores`.
+
+    - **Used Type and Output:**
+        - `minecraft:crafting_shapeless`: output `minecraft:black_wool`, `minecraft:green_wool`, `minecraft:orange_wool`, `minecraft:red_wool`.
+        - `create:crushing`: output `apotheosis:gem_dust`, `#forge:crushed_ores`, `#forge:nuggets`.
+
+- **Added:**
+    - `botanypots:crop`: `minecraft:melon_seeds`.
+
+    - `cagedmobs:entity_data`: `minecraft:cow`, `minecraft:spider`.
+
+    - `compactcrafting:miniaturization`: `minecraft:cow_spawn_egg`, `minecraft:spider_spawn_egg`.
+
+    - `create:milling`:
+        - `botania:blue_petal` -> `minecraft:blue_dye`.
+        - `botania:brown_petal` -> `minecraft:brown_dye`.
+        - `botania:cyan_petal` -> `minecraft:cyan_dye`.
+        - `botania:gray_petal` -> `minecraft:gray_dye`.
+        - `botania:light_blue_petal` -> `minecraft:light_blue_dye`.
+        - `botania:light_gray_petal` -> `minecraft:light_gray_dye`.
+        - `botania:magenta_petal` -> `minecraft:magenta_dye`.
+        - `botania:pink_petal` -> `minecraft:pink_dye`.
+        - `botania:purple_petal` -> `minecraft:purple_dye`.
+        - `botania:white_petal` -> `minecraft:white_dye`.
+        - `botania:yellow_petal` -> `minecraft:yellow_dye`.
+        - `gtceu:raw_sphalerite` -> `2x gtceu:crushed_sphalerite_ore` + `gtceu:stone_dust`.
+        - `minecraft:obsidian` -> `gtceu:obsidian_dust`.
+        - `minecraft:raw_gold` -> `2x gtceu:crushed_gold_ore` + `gtceu:stone_dust`.
+
+    - `create:splashing`:
+        - `gtceu:crushed_gold_ore` -> `gtceu:purified_gold_ore` + `gtceu:stone_dust` + `gtceu:tiny_copper_dust`.
+        - `gtceu:crushed_iron_ore` -> `gtceu:purified_iron_ore` + `gtceu:stone_dust` + `gtceu:tiny_nickel_dust`.
+        - `gtceu:crushed_sphalerite_ore` -> `gtceu:purified_sphalerite_ore` + `gtceu:stone_dust` + `gtceu:tiny_yellow_garnet_dust`.
+        - `minecraft:black_wool` -> `minecraft:white_wool`.
+        - `minecraft:blue_wool` -> `minecraft:white_wool`.
+        - `minecraft:brown_wool` -> `minecraft:white_wool`.
+        - `minecraft:cyan_wool` -> `minecraft:white_wool`.
+        - `minecraft:gray_wool` -> `minecraft:white_wool`.
+        - `minecraft:green_wool` -> `minecraft:white_wool`.
+        - `minecraft:light_blue_wool` -> `minecraft:white_wool`.
+        - `minecraft:light_gray_wool` -> `minecraft:white_wool`.
+        - `minecraft:lime_wool` -> `minecraft:white_wool`.
+        - `minecraft:magenta_wool` -> `minecraft:white_wool`.
+        - `minecraft:orange_wool` -> `minecraft:white_wool`.
+        - `minecraft:pink_wool` -> `minecraft:white_wool`.
+        - `minecraft:purple_wool` -> `minecraft:white_wool`.
+        - `minecraft:red_wool` -> `minecraft:white_wool`.
+        - `minecraft:yellow_wool` -> `minecraft:white_wool`.
+
+    - `createmetallurgy:alloying`:
+        - `gtceu:copper (144mb)` + `gtceu:zinc (144mb)` -> `gtceu:brass (288mb)`.
+
+    - `createmetallurgy:casting_in_table`:
+        - `gtceu:blaze (144mb)` + `minecraft:ender_pearl` -> `minecraft:ender_eye`.
+        - `gtceu:brass (144mb)` + `gtceu:ingot_casting_mold` -> `gtceu:brass_ingot`.
+        - `gtceu:gold (144mb)` + `gtceu:ingot_casting_mold` -> `minecraft:gold_ingot`.
+        - `gtceu:zinc (144mb)` + `gtceu:ingot_casting_mold` -> `gtceu:zinc_ingot`.
+
+    - `createmetallurgy:melting`:
+        - `gtceu:refined_gold_ore` -> `gtceu:gold (216mb)`.
+        - `gtceu:refined_sphalerite_ore` -> `gtceu:zinc (216mb)`.
+        - `gtceu:zinc_block` -> `gtceu:zinc (1296mb)`.
+        - `gtceu:zinc_ingot` -> `gtceu:zinc (144mb)`.
+        - `minecraft:blaze_rod` -> `gtceu:blaze (432mb)`.
+        - `minecraft:gold_block` -> `gtceu:gold (1296mb)`.
+        - `minecraft:gold_ingot` -> `gtceu:gold (144mb)`.
+
+    - `immersiveengineering:alloy`:
+        - `4x gtceu:brass_ingot` + `#forge:stripped_logs` -> `create:brass_casing`.
+
+    - `lychee:block_interacting`:
+        - `botania:brown_petal_block` + `gtceu:sulfur_ore` -> `gtceu:sphalerite_ore`.
+        - `botania:orange_petal_block` + `gtceu:sulfur_ore` -> `gtceu:gold_ore`.
+        - `botania:yellow_petal_block` + `gtceu:copper_ore` -> `gtceu:gold_ore`.
+
+    - `melter:melting`:
+        - `#kubejs:stones` -> `minecraft:lava (125mb)`.
+        - `#kubejs:netherracks` -> `minecraft:lava (200mb)`.
+
+    - `minecraft:crafting_shaped`:
+        - `mythicbotany:alfsteel_ingot` + `gtceu:obsidian_plate` -> `createmetallurgy:sturdy_whisk`.
+        - `gtmfo:sugary_dough` + `gtceu:cylinder_casting_mold` -> `gtmfo:cake_bottom`.
+
+    - `minecraft:crafting_shapeless`:
+        - `minecraft:white_wool` + `minecraft:blue_dye` -> `minecraft:blue_wool`.
+        - `minecraft:white_wool` + `minecraft:brown_dye` -> `minecraft:brown_wool`.
+        - `minecraft:white_wool` + `minecraft:cyan_dye` -> `minecraft:cyan_wool`.
+        - `minecraft:white_wool` + `minecraft:gray_dye` -> `minecraft:gray_wool`.
+        - `minecraft:white_wool` + `minecraft:light_blue_dye` -> `minecraft:light_blue_wool`.
+        - `minecraft:white_wool` + `minecraft:light_gray_dye` -> `minecraft:light_gray_wool`.
+        - `minecraft:white_wool` + `minecraft:lime_dye` -> `minecraft:lime_wool`.
+        - `minecraft:white_wool` + `minecraft:magenta_dye` -> `minecraft:magenta_wool`.
+        - `minecraft:white_wool` + `minecraft:pink_dye` -> `minecraft:pink_wool`.
+        - `minecraft:white_wool` + `minecraft:purple_dye` -> `minecraft:purple_wool`.
+        - `minecraft:white_wool` + `minecraft:yellow_dye` -> `minecraft:yellow_wool`.
+
+    - `minecraft:smelting`:
+        - `gtmfo:cake_bottom` -> `gtmfo:cake_bottom_baked`.
+
+    - `vintage:centrifugation`:
+        - `gtceu:purified_gold_ore` -> `gtceu:refined_gold_ore` + `gtceu:stone_dust` + `gtceu:tiny_nickel_dust`.
+        - `gtceu:purified_sphalerite_ore` -> `gtceu:refined_sphalerite_ore` + `gtceu:stone_dust` + `gtceu:tiny_gallium_dust`.
+
+    - `vintage:curving`: `gtceu:empty_mold` + `create_hc:shaft` -> `gtceu:cylinder_casting_mold`.
+
+    - `vintage:pressurizing`:
+        - `9x minecraft:coal_block` -> `minecraft:diamond`.
+        - `gtceu:obsidian_dust` -> `gtceu:obsidian_plate`.
+
+- **Changed:**
+    - `botanypots:crop`: tag of `#botania:double_flowers` -> `#botania:double_mystical_flowers`.
+
+    - `cagedmobs:entity_data`: output of `minecraft:chicken`: added normal output `minecraft:egg` and cooked output `farmersdelight:fried_egg`.
+
+    - `lychee:block_interacting`: output of `gtceu:coal_ore`, `gtceu:copper_ore`, `gtceu:iron_ore`, `gtceu:redstone_ore`, `gtceu:sulfur_ore`, `mysticalagriculture:soulium_ore`: `1x` -> `2x`.
+
+    - `melter:melting`: input of `#forge:cobblestone` -> `#kubejs:cobblestones`.
+
+**Quests:**
+
+- **Removed:**
+    - `Botania Age II` chapter: `create:powdered_obsidian`, `gtceu:brass_dust`, `gtceu:zinc_dust`, `gtceu:zinc_ingot`, `minecraft:prismarine_crystals`.
+
+    - `Iron Age` chapter: `minecraft:wheat`.
+
+    - `Stone Age` chapter: `strainers:mulch`.
+
+- **Added:**
+    - `Botania Age I` chapter: `gtceu:copper_nugget`.
+
+    - `Botania Age II` chapter: `botania:dreamwood`, `botania:dreamwood_log`, `botania:glimmering_livingwood_log`, `botania:mana_diamond`, `botania:mana_pylon`, `botania:rune_autumn`, `botania:rune_pride`, `botania:rune_spring`, `botania:rune_summer`, `botania:rune_winter`, `cagedmobs:milk_drop`, `gtceu:brass_bucket`, `gtceu:crushed_gold_ore`, `gtceu:crushed_sphalerite_ore`, `gtceu:gold_ore`, `gtceu:obsidian_dust`, `gtceu:purified_gold_ore`, `gtceu:refined_gold_ore`, `gtmfo:cake_bottom`, `gtmfo:cake_bottom_baked`, `gtmfo:sugary_dough`, `minecraft:cake`, `minecraft:cobweb`, `minecraft:cow_spawn_egg`, `minecraft:egg`, `minecraft:ender_eye`, `minecraft:gold_ingot`, `minecraft:gray_wool`, `minecraft:light_gray_wool`, `minecraft:melon_seeds`, `minecraft:melon_slice`, `minecraft:milk_bucket`, `minecraft:raw_gold`, `minecraft:snow_block`, `minecraft:spider_eye`, `minecraft:spider_spawn_egg`, `minecraft:sugar`, `mythicbotany:asgard_rune`.
+
+- **Changed:**
+    - `Andesite Age` chapter:
+        - `create_hc:gear_small`, `create:turntable` quests: added prerequisite `minecraft:oak_slab`.
+
+    - `Botania Age II` chapter: made visible.
+
+    - `Copper Age` chapter:
+        - `create:copper_casing`, `botania:mana_string`, `gtceu:andesite_alloy_dust`, `create:andesite_casing` quests: added description.
+
+    - `Iron Age` chapter:
+        - `botania:blue_double_flower`, `botania:cyan_double_flower`, `botania:green_double_flower`, `botania:yellow_double_flower` quests: set to optional.
+
+---
+
 ### Version: _0.17.0_
 
 ### Date: _2026-06-01_
@@ -18,7 +221,7 @@
 
 - **Added:** `enderbotanypots`, `globalgamerules`.
 
-- **Updated:** `justdirethings` `1.0.28` -> `1.0.29`.
+- **Updated:** `justdirethings`: `1.0.28` -> `1.0.29`.
 
 **Recipes:**
 
@@ -120,7 +323,7 @@
 
 - **Removed:** `logisticsnetwork`, `summoningrituals`.
 
-- **Updated:** `justdirethings` `1.0.27` -> `1.0.28`.
+- **Updated:** `justdirethings`: `1.0.27` -> `1.0.28`.
 
 **Recipes:**
 
@@ -236,24 +439,27 @@
 - **Added:** `ae2alchemistryaddon`, `alchemistry`, `alchemylib`, `caelus`, `chemlib`, `createsifter`, `createhalitosis`, `framedblocks`, `justdirethings`, `kubejsalchem`, `oworld2create`, `pccard`, `rainbowcompound`, `rftoolsbase`, `soulpliedenergistics`, `summoningrituals`, `ultiminerewind`, `xnet`.
 
 - **Updated:**
-    - `betteradvancements`: `0.4.2.59` -> `0.4.2.60`.
-    - `botania`: `1.20.1-452` -> `1.20.1-453`.
-    - `cognition`: `2.4.11` -> `2.4.12`.
-    - `create_connected`: `1.1.13` -> `1.2.0`.
-    - `creativecore`: `2.12.37` -> `2.12.38`.
-    - `culturaldelights`: `0.16.5` -> `0.16.7`.
-    - `extralib`: `3.0.3` -> `3.0.4`.
-    - `gtceuterminals`: `4.6.1` -> `5.6.2`.
-    - `itemphysic`: `1.8.12` -> `1.8.13`.
-    - `justenoughcharacters`: `4.6.3` -> `4.6.4`.
-    - `logisticsnetwork`: `1.3.2` -> `1.3.3`.
-    - `modernfix`: `5.27.25` -> `5.27.40`.
-    - `sophisticatedbackpacks`: `3.24.39.1743` -> `3.24.43.1789`.
-    - `sophisticatedcore`: `1.3.35.1851` -> `1.3.38.1893`.
-    - `sophisticatedstorage`: `1.4.44.1725` -> `1.4.48.1754`.
-    - `structurify`: `2.0.24` -> `2.0.25`.
-    - `toomanyrecipeviewers`: `0.7.3` -> `0.8.1`.
-    - `xaeroplus`: `2.31.3` -> `2.31.5`.
+
+| Mod                       | Previous       | Current        |
+| ------------------------- | -------------- | -------------- |
+| `Better Advancements`     | `0.4.2.59`     | `0.4.2.60`     |
+| `Botania`                 | `1.20.1-452`   | `1.20.1-453`   |
+| `Cognition`               | `2.4.11`       | `2.4.12`       |
+| `Create: Connected`       | `1.1.13`       | `1.2.0`        |
+| `CreativeCore`            | `2.12.37`      | `2.12.38`      |
+| `Cultural Delights`       | `0.16.5`       | `0.16.7`       |
+| `ExtraLib`                | `3.0.3`        | `3.0.4`        |
+| `GTCEu Terminals`         | `4.6.1`        | `5.6.2`        |
+| `ItemPhysic`              | `1.8.12`       | `1.8.13`       |
+| `Just Enough Characters`  | `4.6.3`        | `4.6.4`        |
+| `Logistics Network`       | `1.3.2`        | `1.3.3`        |
+| `ModernFix`               | `5.27.25`      | `5.27.40`      |
+| `Sophisticated Backpacks` | `3.24.39.1743` | `3.24.43.1789` |
+| `Sophisticated Core`      | `1.3.35.1851`  | `1.3.38.1893`  |
+| `Sophisticated Storage`   | `1.4.44.1725`  | `1.4.48.1754`  |
+| `Structurify`             | `2.0.24`       | `2.0.25`       |
+| `Too Many Recipe Viewers` | `0.7.3`        | `0.8.1`        |
+| `XaeroPlus`               | `2.31.3`       | `2.31.5`       |
 
 **Recipes:**
 
@@ -394,30 +600,33 @@
 - **Added:** `angelring`, `antiportals`, `apotheosis`, `apotheosisadditions`, `apothicattributes`, `baguettelib`, `chargers`, `cognition`, `colorfulhearts`, `corpse`, `corpse_curios`, `createjetpack`, `customportalapi`, `customportalbuilder`, `dysonsphereproject`, `extrahostilenetworks`, `ftbessentials`, `ftbmaterials`, `fluxnetworks`, `freecam`, `gtceufo`, `hostilenetworks`, `inventorysorterconf`, `ironjetpacks`, `justenoughtime`, `logisticsnetwork`, `modnamtooltip`, `observable`, `rechiseled`, `rechiseled_ae2`, `rechiseled_create`, `silentgear`, `silentlib`, `sfm`, `ubedelight`, `whenwasthatagain`, `apotheosis`, `appliedflux`.
 
 - **Updated:**
-    - `ae2crystalscience`: `1.1.4.514` -> `1.1.4.515`.
-    - `betteradvancements`: `0.4.2.25` -> `0.4.2.59`.
-    - `chloride`: `1.7.5` -> `1.7.7`.
-    - `expandedae`: `1.3.3` -> `1.4.1.b`.
-    - `extralib`: `3.0.2` -> `3.0.3`.
-    - `farmersdelight`: `1.3.1` -> `1.3.2`.
-    - `ftbquests`: `2001.4.21` -> `2001.4.22`.
-    - `frightsdelight`: `1.4.6` -> `1.4.8`.
-    - `gtceutrueageofsteam`: `0.2.3` -> `0.3.0`.
-    - `kubejsthermal`: `2001.1.10-build.2` -> `2001.1.10-build.5`.
-    - `lychee`: `5.2.0` -> `5.2.1`.
-    - `masterfulmanufacturing`: `0.1.33.3` -> `0.1.33.4`.
-    - `modernfix`: `5.27.15` -> `5.27.25`.
-    - `mysticalag`: `7.0.23` -> `7.0.24`.
-    - `emi`: `1.1.22` -> `1.1.24`.
-    - `openpartiesandclaims`: `0.26.2` -> `0.26.3`.
-    - `certainquestingadditions`: `1.1.6` -> `1.1.7`.
-    - `sophisticatedbackpacks`: `3.24.36.1713` -> `3.24.39.1743`.
-    - `sophisticatedcore`: `1.3.30.1809` -> `1.3.35.1851`.
-    - `sophisticatedstorage`: `1.4.42.1701` -> `1.4.44.1725`.
-    - `structurify`: `2.0.22` -> `2.0.24`.
-    - `xaerominimap`: `25.3.10` -> `25.3.13`.
-    - `xaeroworldmap`: `1.40.11` -> `1.40.16`.
-    - `xaeroplus`: `2.31.1` -> `2.31.3`.
+
+| Mod                            | Previous            | Current             |
+| ------------------------------ | ------------------- | ------------------- |
+| `AE2 Crystal Science`          | `1.1.4.514`         | `1.1.4.515`         |
+| `Better Advancements`          | `0.4.2.25`          | `0.4.2.59`          |
+| `Chloride`                     | `1.7.5`             | `1.7.7`             |
+| `Expanded AE`                  | `1.3.3`             | `1.4.1.b`           |
+| `ExtraLib`                     | `3.0.2`             | `3.0.3`             |
+| `Farmer's Delight`             | `1.3.1`             | `1.3.2`             |
+| `FTB Quests`                   | `2001.4.21`         | `2001.4.22`         |
+| `Fright's Delight`             | `1.4.6`             | `1.4.8`             |
+| `GTCEu: The True Age of Steam` | `0.2.3`             | `0.3.0`             |
+| `KubeJS Thermal`               | `2001.1.10-build.2` | `2001.1.10-build.5` |
+| `Lychee`                       | `5.2.0`             | `5.2.1`             |
+| `Masterful Manufacturing`      | `0.1.33.3`          | `0.1.33.4`          |
+| `ModernFix`                    | `5.27.15`           | `5.27.25`           |
+| `Mystical Agriculture`         | `7.0.23`            | `7.0.24`            |
+| `EMI`                          | `1.1.22`            | `1.1.24`            |
+| `Open Parties and Claims`      | `0.26.2`            | `0.26.3`            |
+| `Certain Questing Additions`   | `1.1.6`             | `1.1.7`             |
+| `Sophisticated Backpacks`      | `3.24.36.1713`      | `3.24.39.1743`      |
+| `Sophisticated Core`           | `1.3.30.1809`       | `1.3.35.1851`       |
+| `Sophisticated Storage`        | `1.4.42.1701`       | `1.4.44.1725`       |
+| `Structurify`                  | `2.0.22`            | `2.0.24`            |
+| `Xaero's Minimap`              | `25.3.10`           | `25.3.13`           |
+| `Xaero's World Map`            | `1.40.11`           | `1.40.16`           |
+| `XaeroPlus`                    | `2.31.1`            | `2.31.3`            |
 
 **Recipes:**
 
@@ -430,8 +639,8 @@
 
 - **Added:**
     - `create:splashing`:
-        - `gtceu:crushed_iron_ore` -> `gtceu:purified_iron_ore` + `gtceu:stone_dust` + `gtceu:tiny_nickel_dust (16%)`.
-        - `gtceu:crushed_copper_ore` -> `gtceu:purified_copper_ore` + `gtceu:stone_dust` + `gtceu:tiny_cobalt_dust (16%)`.
+        - `gtceu:crushed_iron_ore` -> `gtceu:purified_iron_ore` + `gtceu:stone_dust` + `gtceu:tiny_nickel_dust`.
+        - `gtceu:crushed_copper_ore` -> `gtceu:purified_copper_ore` + `gtceu:stone_dust` + `gtceu:tiny_cobalt_dust`.
 
     - `createmetallurgy:casting_in_basin`:
         - `gtceu:copper (1296mb)` -> `minecraft:copper_block`.
@@ -524,29 +733,32 @@
 - **Added:** `alternatingcurrent`, `biggertrees`, `brewinandchewin`, `buildingpadgets`, `cofhcore`, `compactmachines`, `compatdelight`, `connectivity`, `createaddition`, `createhandcrafting`, `cucumber`, `cullleaves`, `culturaldelights`, `cupboard`, `delightfulcreators`, `dimban`, `endsdelight`, `enderstorage`, `entangled`, `fallingleaves`, `frightsdelight`, `industrialforegoing`, `industrialforegoingextraupgrades`, `industrialforegoingsouls`, `jeimultiblocks`, `kubejsindustrialforegoing`, `kubejsmysticalag`, `kubejsthermal`, `kubejsthermalaugments`, `lightspeedre`, `mifa`, `midnightlib`, `modelgapfix`, `mysticalag`, `mysticalagadditions`, `mysticalagtieredcrystals`, `mystianapiary`, `mysticalextendedtier`, `mynethersdelight`, `nohandbreak`, `productivebees`, `saturn`, `smoothboot`, `thermalcultivation`, `thermalendergy`, `thermalexpansion`, `thermalextra`, `thermalfoundation`, `thermalinnovation`, `thermalintegration`, `thermallocomotion`, `watercondenser`.
 
 - **Updated:**
-    - `ae2overclocked`: `1.2.3-fix2` -> `1.2.3-fix3`.
-    - `botanicalmachineryextra`: `1.2.9.5` -> `1.2.9.6`.
-    - `botania`: `1.20.1-451` -> `1.20.1-452`.
-    - `collective`: `1.20.1-8.20` -> `1.20.1-8.22`.
-    - `compactcrafting`: `4.0.5` -> `4.0.6`.
-    - `crafttweaks`: `18.2.8` -> `18.2.9`.
-    - `creativcore`: `2.12.36` -> `2.12.37`.
-    - `cyclopscore`: `1.22.0` -> `1.22.1`.
-    - `extendedae`: `1.4.14` -> `1.4.15`.
-    - `extralib`: `2.1.4` -> `3.0.2`.
-    - `extraquests`: `1.6.2` -> `1.7.0`.
-    - `farmersdelight`: `1.2.11a` -> `1.3.1`.
-    - `frightsdelight`: `1.3.4` -> `1.4.6`.
-    - `itemphysic`: `1.8.11` -> `1.8.12`.
-    - `kubejs`: `2001.6.5-build.16` -> `2001.6.5-build.26`.
-    - `masterfulmanufacturing`: `0.1.33.2` -> `0.1.33.3`.
-    - `modernfix`: `5.27.12` -> `5.27.15`.
-    - `openpartiesandclaims`: `0.26.1` -> `0.26.2`.
-    - `sophisticatedbackpacks`: `3.24.35.1675` -> `3.24.36.1713`.
-    - `sophisticatedcore`: `1.3.22.1715` -> `1.3.30.1809`.
-    - `sophisticatedstorage`: `1.4.41.1679` -> `1.4.42.1701`.
-    - `titanium`: `3.8.32` -> `3.8.34`.
-    - `toomanyrecipeviewers`: `0.7.2` -> `0.7.3`.
+
+| Mod                                  | Previous            | Current             |
+| ------------------------------------ | ------------------- | ------------------- |
+| `AE2 Overclocked`                    | `1.2.3-fix2`        | `1.2.3-fix3`        |
+| `Botanical Machinery Extra Reforked` | `1.2.9.5`           | `1.2.9.6`           |
+| `Botania`                            | `1.20.1-451`        | `1.20.1-452`        |
+| `Collective`                         | `1.20.1-8.20`       | `1.20.1-8.22`       |
+| `Compact Crafting`                   | `4.0.5`             | `4.0.6`             |
+| `CraftTweaks`                        | `18.2.8`            | `18.2.9`            |
+| `CreativeCore`                       | `2.12.36`           | `2.12.37`           |
+| `Cyclops Core`                       | `1.22.0`            | `1.22.1`            |
+| `ExtendedAE`                         | `1.4.14`            | `1.4.15`            |
+| `ExtraLib`                           | `2.1.4`             | `3.0.2`             |
+| `Extra Quests`                       | `1.6.2`             | `1.7.0`             |
+| `Farmer's Delight`                   | `1.2.11a`           | `1.3.1`             |
+| `Fright's Delight`                   | `1.3.4`             | `1.4.6`             |
+| `ItemPhysic`                         | `1.8.11`            | `1.8.12`            |
+| `KubeJS`                             | `2001.6.5-build.16` | `2001.6.5-build.26` |
+| `Masterful Manufacturing`            | `0.1.33.2`          | `0.1.33.3`          |
+| `ModernFix`                          | `5.27.12`           | `5.27.15`           |
+| `Open Parties and Claims`            | `0.26.1`            | `0.26.2`            |
+| `Sophisticated Backpacks`            | `3.24.35.1675`      | `3.24.36.1713`      |
+| `Sophisticated Core`                 | `1.3.22.1715`       | `1.3.30.1809`       |
+| `Sophisticated Storage`              | `1.4.41.1679`       | `1.4.42.1701`       |
+| `Titanium`                           | `3.8.32`            | `3.8.34`            |
+| `Too Many Recipe Viewers`            | `0.7.2`             | `0.7.3`             |
 
 **Recipes:**
 

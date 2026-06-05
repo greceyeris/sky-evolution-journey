@@ -203,3 +203,15 @@
 	#or just the mod ID (e.g. "somebossmod") to block all entities from that mod.
 	polymorph_blacklist = []
 
+#Block Swapper
+[block_swapper]
+	#Entities or mods that the Block Swapper cannot teleport.
+	#Use full entity IDs (e.g. "draconicevolution:chaos_guardian") for specific entities,
+	#or just the mod ID (e.g. "draconicevolution") to block all entities from that mod.
+	swapper_entity_blacklist = []
+	#Blocks or mods that the Block Swapper cannot move.
+	#Use full block IDs (e.g. "draconicevolution:chaos_crystal") for specific blocks,
+	#or just the mod ID (e.g. "draconicevolution") to block all blocks from that mod.
+	#Note: the swapper_deny block tag also controls this and is checked first.
+	swapper_block_blacklist = []
+

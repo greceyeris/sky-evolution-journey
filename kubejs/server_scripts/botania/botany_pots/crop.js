@@ -20,8 +20,8 @@ ServerEvents.recipes((event) => {
             );
         });
 
-    // 添加 botania:double_flowers 的配方
-    Ingredient.of("#botania:double_flowers")
+    // 添加 botania:double_mystical_flowers 的配方
+    Ingredient.of("#botania:double_mystical_flowers")
         .getItemIds()
         .forEach((item) => {
             event.recipes.botanypots.crop(

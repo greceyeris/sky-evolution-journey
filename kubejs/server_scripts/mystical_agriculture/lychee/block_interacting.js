@@ -7,7 +7,7 @@ ServerEvents.recipes((event) => {
         item_in: {
             item: "thermal_extra:soul_sand_dust",
         },
-        block_in: "minecraft:stone",
+        block_in: { blocks: ["minecraft:stone"] },
         post: [
             {
                 type: "drop_item",
@@ -46,6 +46,7 @@ ServerEvents.recipes((event) => {
             {
                 type: "drop_item",
                 item: "mysticalagriculture:soulium_ore",
+                count: 2,
             },
             {
                 type: "place",
