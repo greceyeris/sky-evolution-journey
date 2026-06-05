@@ -2,6 +2,49 @@
 
 ---
 
+### Version: _0.19.0_
+
+### Date: _2026-06-06_
+
+### Changes:
+
+**Files:**
+
+- **Updated:**
+    - `README.md`.
+
+**Mods:**
+
+- **Updated:**
+
+| Mod                         | Previous       | Current        |
+| --------------------------- | -------------- | -------------- |
+| `GregTech Modern Utilities` | `2.9.1`        | `2.9.2`        |
+| `ModernFix`                 | `5.27.40`      | `5.27.44`      |
+| `Sophisticated Backpacks`   | `3.24.46.1803` | `3.24.47.1814` |
+| `Sophisticated Core`        | `1.3.40.1925`  | `1.3.41.1939`  |
+| `Sophisticated Storage`     | `1.4.51.1769`  | `1.4.52.1783`  |
+
+**Items:**
+
+- **Removed:**
+    - **Replacements:**
+        - `farmersdelight:flint_knife` -> `gtceu:flint_knife`.
+        - `farmersdelight:iron_knife` -> `gtceu:iron_knife`.
+
+- **Added:**
+    - **Replacements:**
+        - `productivebees:honey_bucket` -> `create:honey_bucket`.
+        - `ceramicbucket:ceramic_bucket` with `productivebees:honey` -> `ceramicbucket:ceramic_bucket` with `create:honey`.
+
+**Fluids:**
+
+- **Changed:**
+    - **Replacements:**
+        - `#forge:honey` -> `create:honey` => `productivebees:honey` -> `create:honey`.
+
+---
+
 ### Version: _0.18.0_
 
 ### Date: _2026-06-05_

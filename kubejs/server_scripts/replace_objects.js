@@ -3,14 +3,6 @@
 // 定义 replaceItems 数组
 const replaceItems = [
     {
-        item: "farmersdelight:flint_knife",
-        targetItem: "gtceu:flint_knife",
-    },
-    {
-        item: "farmersdelight:iron_knife",
-        targetItem: "gtceu:iron_knife",
-    },
-    {
         item: "minecraft:copper_ore",
         targetItem: "gtceu:copper_ore",
     },
@@ -2034,12 +2026,26 @@ const replaceItems = [
         item: "immersiveengineering:stairs_treated_wood_horizontal",
         targetItem: "gtceu:treated_wood_stairs",
     },
+    {
+        item: "productivebees:honey_bucket",
+        targetItem: "create:honey_bucket",
+    },
+    {
+        item: Item.of(
+            "ceramicbucket:ceramic_bucket",
+            '{Fluid:{Amount:1000,FluidName:"productivebees:honey"}}',
+        ),
+        targetItem: Item.of(
+            "ceramicbucket:ceramic_bucket",
+            '{Fluid:{Amount:1000,FluidName:"create:honey"}}',
+        ),
+    },
 ];
 
 // 定义 replaceFluids 数组
 const replaceFluids = [
     {
-        fluid: "#forge:honey",
+        fluid: "productivebees:honey",
         targetFluid: "create:honey",
     },
 ];
@@ -2047,10 +2053,12 @@ const replaceFluids = [
 ServerEvents.recipes((event) => {
     // replaceItems
     replaceItems.forEach((obj) => {
-        if (obj.item.startsWith("#")) {
+        if (typeof obj.item === "string" && obj.item.startsWith("#")) {
             Ingredient.of(obj.item)
                 .getItemIds()
-                .filter((item) => ![obj.targetItem].includes(item))
+                .filter(
+                    (item) => ![String(obj.targetItem)].includes(String(item)),
+                )
                 .forEach((item) => {
                     // replaceInput
                     event.replaceInput({}, item, obj.targetItem);
@@ -2058,12 +2066,6 @@ ServerEvents.recipes((event) => {
                     // replaceOutput
                     event.replaceOutput({}, item, obj.targetItem);
                 });
-
-            // replaceInput
-            event.replaceInput({}, obj.item, obj.targetItem);
-
-            // replaceOutput
-            event.replaceOutput({}, obj.item, obj.targetItem);
         } else {
             // replaceInput
             event.replaceInput({}, obj.item, obj.targetItem);
@@ -2075,47 +2077,19 @@ ServerEvents.recipes((event) => {
 
     // replaceFluids
     replaceFluids.forEach((obj) => {
-        if (obj.fluid.startsWith("#")) {
-            Ingredient.of(obj.fluid)
-                .getItemIds()
-                .forEach((fluid) => {
-                    if (String(fluid) !== obj.targetFluid) {
-                        // replaceInput
-                        event.replaceInput(
-                            {},
-                            Fluid.of(String(fluid)),
-                            Fluid.of(obj.targetFluid),
-                        );
+        // replaceInput
+        event.replaceInput({}, Fluid.of(obj.fluid), Fluid.of(obj.targetFluid));
 
-                        // replaceOutput
-                        event.replaceOutput(
-                            {},
-                            Fluid.of(String(fluid)),
-                            Fluid.of(obj.targetFluid),
-                        );
-                    }
-                });
-        } else {
-            // replaceInput
-            event.replaceInput(
-                {},
-                Fluid.of(obj.fluid),
-                Fluid.of(obj.targetFluid),
-            );
-
-            // replaceOutput
-            event.replaceOutput(
-                {},
-                Fluid.of(obj.fluid),
-                Fluid.of(obj.targetFluid),
-            );
-        }
+        // replaceOutput
+        event.replaceOutput({}, Fluid.of(obj.fluid), Fluid.of(obj.targetFluid));
     });
 });
 
 ServerEvents.tags("item", (event) => {
     // replaceItems
     replaceItems.forEach((obj) => {
+        if (typeof obj.item !== "string") return;
+
         if (obj.item.startsWith("#")) {
             event
                 .get(obj.item.slice(1))
@@ -2190,6 +2164,8 @@ ServerEvents.tags("fluid", (event) => {
 ServerEvents.tags("block", (event) => {
     // replaceItems
     replaceItems.forEach((obj) => {
+        if (typeof obj.item !== "string") return;
+
         if (obj.item.startsWith("#")) {
             event
                 .get(obj.item.slice(1))

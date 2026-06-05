@@ -1,6 +1,6 @@
 # Sky Evolution Journey
 
-![Minecraft](https://img.shields.io/badge/Minecraft-1.20.1-62b47a) ![Forge](https://img.shields.io/badge/Forge-47.4.20-e04a00) ![Mods](https://img.shields.io/badge/Mods-288-blue) ![Release](https://img.shields.io/github/v/tag/greceyeris/sky-evolution-journey?sort=semver&filter=v*&label=Release&cacheSeconds=3600) ![Status](https://img.shields.io/badge/Status-Closed%20Beta-yellow)
+![Minecraft](https://img.shields.io/badge/Minecraft-1.20.1-62b47a) ![Forge](https://img.shields.io/badge/Forge-47.4.20-e04a00) ![Mods](https://img.shields.io/badge/Mods-288-blue) ![Release](https://img.shields.io/github/v/tag/greceyeris/sky-evolution-journey?sort=semver&filter=v*&label=Release&cacheSeconds=1800) ![Status](https://img.shields.io/badge/Status-Closed%20Beta-yellow)
 
 [English](#english) | [简体中文](#简体中文)
 
