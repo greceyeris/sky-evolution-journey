@@ -33,4 +33,52 @@ ServerEvents.recipes((event) => {
         "minecraft:orange_dye",
         "botania:orange_petal",
     );
+
+    // 添加 minecraft:white_dye 的配方
+    event.recipes.create.milling("minecraft:white_dye", "botania:white_petal");
+
+    // 添加 minecraft:magenta_dye 的配方
+    event.recipes.create.milling(
+        "minecraft:magenta_dye",
+        "botania:magenta_petal",
+    );
+
+    // 添加 minecraft:light_blue_dye 的配方
+    event.recipes.create.milling(
+        "minecraft:light_blue_dye",
+        "botania:light_blue_petal",
+    );
+
+    // 添加 minecraft:yellow_dye 的配方
+    event.recipes.create.milling(
+        "minecraft:yellow_dye",
+        "botania:yellow_petal",
+    );
+
+    // 添加 minecraft:pink_dye 的配方
+    event.recipes.create.milling("minecraft:pink_dye", "botania:pink_petal");
+
+    // 添加 minecraft:gray_dye 的配方
+    event.recipes.create.milling("minecraft:gray_dye", "botania:gray_petal");
+
+    // 添加 minecraft:light_gray_dye 的配方
+    event.recipes.create.milling(
+        "minecraft:light_gray_dye",
+        "botania:light_gray_petal",
+    );
+
+    // 添加 minecraft:cyan_dye 的配方
+    event.recipes.create.milling("minecraft:cyan_dye", "botania:cyan_petal");
+
+    // 添加 minecraft:purple_dye 的配方
+    event.recipes.create.milling(
+        "minecraft:purple_dye",
+        "botania:purple_petal",
+    );
+
+    // 添加 minecraft:blue_dye 的配方
+    event.recipes.create.milling("minecraft:blue_dye", "botania:blue_petal");
+
+    // 添加 minecraft:brown_dye 的配方
+    event.recipes.create.milling("minecraft:brown_dye", "botania:brown_petal");
 });

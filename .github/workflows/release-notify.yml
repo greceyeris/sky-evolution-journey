@@ -1,0 +1,30 @@
+name: Release Notify
+
+on:
+    release:
+        types: [published]
+
+jobs:
+    notify:
+        runs-on: ubuntu-latest
+
+        env:
+            RELEASE_URL: ${{ github.event.release.html_url }}
+            DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+            KOOK_MESSAGE_CREATE_URL: ${{ secrets.KOOK_MESSAGE_CREATE_URL }}
+            KOOK_BOT_TOKEN: ${{ secrets.KOOK_BOT_TOKEN }}
+            KOOK_CHANNEL_ID: ${{ secrets.KOOK_CHANNEL_ID }}
+
+        steps:
+            - name: Discord
+              run: |
+                  curl -fsS -X POST "$DISCORD_WEBHOOK_URL" \
+                      -H "Content-Type: application/json" \
+                      -d "{\"content\":\"New release published: $RELEASE_URL\"}"
+
+            - name: KOOK
+              run: |
+                  curl -fsS -X POST "$KOOK_MESSAGE_CREATE_URL" \
+                      -H "Authorization: Bot $KOOK_BOT_TOKEN" \
+                      -H "Content-Type: application/json; charset=utf-8" \
+                      -d "{\"target_id\":\"$KOOK_CHANNEL_ID\",\"content\":\"新版本已发布：$RELEASE_URL\"}"

@@ -42,18 +42,18 @@ Sky Evolution Journey brings together the vast majority of tech, magic, and (upc
 
 #### Links
 
-| Platform   | Link                                                                                    |
-| ---------- | --------------------------------------------------------------------------------------- |
-| GitHub     | [greceyeris/sky-evolution-journey](https://github.com/greceyeris/sky-evolution-journey) |
-| CurseForge | Coming soon                                                                             |
-| Modrinth   | Coming soon                                                                             |
-| Discord    | Coming soon                                                                             |
+| Platform   | Link                                                                         |
+| ---------- | ---------------------------------------------------------------------------- |
+| GitHub     | [Sky Evolution Journey](https://github.com/greceyeris/sky-evolution-journey) |
+| CurseForge | Coming soon                                                                  |
+| Modrinth   | Coming soon                                                                  |
+| Discord    | [Sky Evolution Journey](https://discord.gg/wEzBMj3su)                        |
 
 #### License
 
 The source code (KubeJS scripts, configuration files, and all other code) is licensed under the [MIT License](LICENSE-MIT).
 
-All artwork, textures, and other non-code assets are licensed under [CC BY-NC-SA 4.0](LICENSE-CC-BY-NC-SA-4.0). You may share and adapt them for non-commercial purposes, provided you give appropriate credit and distribute under the same license.
+All artwork, textures, and other non-code assets are licensed under [CC BY-NC-SA 4.0 License](LICENSE-CC-BY-NC-SA-4.0). You may share and adapt them for non-commercial purposes, provided you give appropriate credit and distribute under the same license.
 
 ---
 
@@ -93,12 +93,12 @@ Sky Evolution Journey 收录了 Forge 1.20.1 绝大部分科技、魔法及（�
 
 #### 链接
 
-| 平台       | 地址                                                                                    |
-| ---------- | --------------------------------------------------------------------------------------- |
-| GitHub     | [greceyeris/sky-evolution-journey](https://github.com/greceyeris/sky-evolution-journey) |
-| CurseForge | 即将上线                                                                                |
-| Modrinth   | 即将上线                                                                                |
-| QQ 频道    | 即将上线                                                                                |
+| 平台       | 地址                                                                         |
+| ---------- | ---------------------------------------------------------------------------- |
+| GitHub     | [Sky Evolution Journey](https://github.com/greceyeris/sky-evolution-journey) |
+| CurseForge | 即将上线                                                                     |
+| Modrinth   | 即将上线                                                                     |
+| KOOK       | [Sky Evolution Journey](https://kook.vip/zH3T3x)                             |
 
 #### 许可
 

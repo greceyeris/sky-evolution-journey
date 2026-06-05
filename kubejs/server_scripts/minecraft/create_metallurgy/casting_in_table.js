@@ -22,4 +22,19 @@ ServerEvents.recipes((event) => {
         [Fluid.of("gtceu:copper", 144), "gtceu:ingot_casting_mold"],
         150,
     );
+
+    // 添加 minecraft:gold_ingot 的配方
+    event.recipes.createmetallurgy.casting_in_table(
+        "minecraft:gold_ingot",
+        [Fluid.of("gtceu:gold", 144), "gtceu:ingot_casting_mold"],
+        150,
+    );
+
+    // 添加 minecraft:ender_eye 的配方
+    event.recipes.createmetallurgy.casting_in_table(
+        "minecraft:ender_eye",
+        [Fluid.of("gtceu:blaze", 144), "minecraft:ender_pearl"],
+        150,
+        true,
+    );
 });

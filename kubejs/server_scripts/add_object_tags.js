@@ -187,6 +187,9 @@ const addItemTags = [
 
             // gtceu
             "gtceu:wood_plate",
+
+            // create_hc
+            "create_hc:shaft",
         ],
     },
     {
@@ -633,6 +636,209 @@ const addItemTags = [
             "minecraft:magenta_dye",
             "minecraft:pink_dye",
         ],
+    },
+    {
+        tag: "#kubejs:cobblestones",
+        items: ["minecraft:cobblestone"],
+    },
+    {
+        tag: "#kubejs:stones",
+        items: [
+            "minecraft:stone",
+            "minecraft:andesite",
+            "minecraft:granite",
+            "minecraft:diorite",
+            "minecraft:calcite",
+        ],
+    },
+    {
+        tag: "#kubejs:netherracks",
+        items: ["minecraft:netherrack", "minecraft:blackstone"],
+    },
+    {
+        tag: "#forge:crushed_ores",
+        items: [
+            "create:crushed_raw_osmium",
+            "create:crushed_raw_quicksilver",
+            "createmetallurgy:crushed_raw_tungsten",
+        ],
+    },
+    {
+        tag: "#forge:storage_blocks/raw_aluminium",
+        items: ["#forge:storage_blocks/raw_aluminum"],
+    },
+    {
+        tag: "#forge:ingots/aluminium",
+        items: ["#forge:ingots/aluminum"],
+    },
+    {
+        tag: "#forge:ores/aluminium",
+        items: ["#forge:ores/aluminum"],
+    },
+    {
+        tag: "#forge:raw_materials/aluminium",
+        items: ["#forge:raw_materials/aluminum"],
+    },
+    {
+        tag: "#forge:rods/aluminium",
+        items: ["#forge:rods/aluminum"],
+    },
+    {
+        tag: "#forge:storage_blocks/aluminium",
+        items: ["#forge:storage_blocks/aluminum"],
+    },
+    {
+        tag: "#forge:plates/aluminium",
+        items: ["#forge:plates/aluminum"],
+    },
+    {
+        tag: "#forge:impure_dusts/aluminium",
+        items: ["#forge:dirty_dusts/aluminum"],
+    },
+    {
+        tag: "#forge:small_dusts/aluminium",
+        items: ["#forge:small_dusts/aluminum"],
+    },
+    {
+        tag: "#forge:tiny_dusts/aluminium",
+        items: ["#forge:tiny_dusts/aluminum"],
+    },
+    {
+        tag: "#forge:nuggets/aluminium",
+        items: ["#forge:nuggets/aluminum"],
+    },
+    {
+        tag: "#forge:dusts/aluminium",
+        items: ["#forge:dusts/aluminum"],
+    },
+    {
+        tag: "#forge:dusts/aluminum",
+        items: ["gtceu:aluminium_dust"],
+    },
+    {
+        tag: "#forge:storage_blocks/raw_aluminum",
+        items: ["gtceu:raw_aluminium_block"],
+    },
+    {
+        tag: "#forge:ingots/aluminum",
+        items: ["gtceu:aluminium_ingot"],
+    },
+    {
+        tag: "#forge:ores/aluminum",
+        items: [
+            "gtceu:endstone_aluminium_ore",
+            "gtceu:aluminium_ore",
+            "gtceu:netherrack_aluminium_ore",
+            "gtceu:deepslate_aluminium_ore",
+        ],
+    },
+    {
+        tag: "#forge:raw_materials/aluminum",
+        items: ["gtceu:raw_aluminium"],
+    },
+    {
+        tag: "#forge:storage_blocks/aluminum",
+        items: ["gtceu:aluminium_block"],
+    },
+    {
+        tag: "#forge:dirty_dusts/aluminum",
+        items: ["gtceu:impure_aluminium_dust"],
+    },
+    {
+        tag: "#forge:tiny_dusts/aluminum",
+        items: ["gtceu:tiny_aluminium_dust"],
+    },
+    {
+        tag: "#forge:small_dusts/aluminum",
+        items: ["gtceu:small_aluminium_dust"],
+    },
+    {
+        tag: "#forge:nuggets/aluminum",
+        items: ["gtceu:aluminium_nugget"],
+    },
+    {
+        tag: "#forge:rods/aluminum",
+        items: ["gtceu:aluminium_rod"],
+    },
+    {
+        tag: "#forge:plates/aluminum",
+        items: ["gtceu:aluminium_plate"],
+    },
+    {
+        tag: "#forge:sawdust",
+        items: ["gtceu:wood_dust"],
+    },
+    {
+        tag: "#forge:impure_dusts/copper",
+        items: ["ftbmaterials:copper_dirty_dust"],
+    },
+    {
+        tag: "#forge:impure_dusts/diamond",
+        items: ["ftbmaterials:diamond_dirty_dust"],
+    },
+    {
+        tag: "#forge:impure_dusts/gold",
+        items: ["ftbmaterials:gold_dirty_dust"],
+    },
+    {
+        tag: "#forge:impure_dusts/iron",
+        items: ["ftbmaterials:iron_dirty_dust"],
+    },
+    {
+        tag: "#forge:impure_dusts/lead",
+        items: ["ftbmaterials:lead_dirty_dust"],
+    },
+    {
+        tag: "#forge:impure_dusts/nickel",
+        items: ["ftbmaterials:nickel_dirty_dust"],
+    },
+    {
+        tag: "#forge:impure_dusts/osmium",
+        items: ["ftbmaterials:osmium_dirty_dust"],
+    },
+    {
+        tag: "#forge:impure_dusts/silver",
+        items: ["ftbmaterials:silver_dirty_dust"],
+    },
+    {
+        tag: "#forge:impure_dusts/sulfur",
+        items: ["ftbmaterials:sulfur_dirty_dust"],
+    },
+    {
+        tag: "#forge:impure_dusts/tin",
+        items: ["ftbmaterials:tin_dirty_dust"],
+    },
+    {
+        tag: "#forge:dusts/lapis",
+        items: ["#forge:dusts/lapis_lazuli"],
+    },
+    {
+        tag: "#forge:tiny_dusts/lapis",
+        items: ["#forge:tiny_dusts/lapis_lazuli"],
+    },
+    {
+        tag: "#forge:dusts/lapis_lazuli",
+        items: ["gtceu:lapis_dust"],
+    },
+    {
+        tag: "#forge:tiny_dusts/lapis_lazuli",
+        items: ["gtceu:tiny_lapis_dust"],
+    },
+    {
+        tag: "#forge:impure_dusts/quartz",
+        items: ["ftbmaterials:quartz_dirty_dust"],
+    },
+    {
+        tag: "#forge:impure_dusts/platinum",
+        items: ["ftbmaterials:platinum_dirty_dust"],
+    },
+    {
+        tag: "#forge:impure_dusts/plutonium",
+        items: ["ftbmaterials:plutonium_dirty_dust"],
+    },
+    {
+        tag: "#forge:ores/quartz",
+        items: ["gtceu:nether_quartz_ore"],
     },
 ];
 

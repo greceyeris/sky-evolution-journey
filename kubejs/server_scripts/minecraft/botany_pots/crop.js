@@ -1,7 +1,7 @@
 ServerEvents.recipes((event) => {
-    // 添加配方
+    // 添加作物
     // botanypots:crop
-    // 添加 minecraft:oak_sapling 的配方
+    // 添加 minecraft:oak_sapling 的作物
     event.recipes.botanypots.crop(
         "minecraft:oak_sapling",
         ["dirt", "grass"],
@@ -17,7 +17,7 @@ ServerEvents.recipes((event) => {
         1,
     );
 
-    // 添加 minecraft:sugar_cane 的配方
+    // 添加 minecraft:sugar_cane 的作物
     event.recipes.botanypots.crop(
         "minecraft:sugar_cane",
         ["sand"],
@@ -27,7 +27,7 @@ ServerEvents.recipes((event) => {
         1,
     );
 
-    // 添加 minecraft:crimson_fungus 的配方
+    // 添加 minecraft:crimson_fungus 的作物
     event.recipes.botanypots.crop(
         "minecraft:crimson_fungus",
         ["netherrack", "crimson_nylium"],
@@ -42,6 +42,16 @@ ServerEvents.recipes((event) => {
             Item.of("minecraft:crimson_fungus").withChance(0.1).withRolls(1, 1),
         ],
         1200,
+        1,
+    );
+
+    // 添加 minecraft:melon_seeds 的作物
+    event.recipes.botanypots.crop(
+        "minecraft:melon_seeds",
+        ["dirt", "grass"],
+        { block: "minecraft:melon" },
+        [Item.of("minecraft:melon_slice").withChance(1).withRolls(3, 7)],
+        900,
         1,
     );
 });

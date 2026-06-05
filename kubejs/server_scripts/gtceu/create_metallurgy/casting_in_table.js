@@ -36,4 +36,18 @@ ServerEvents.recipes((event) => {
         [Fluid.of("gtceu:copper", 144), "gtceu:plate_casting_mold"],
         150,
     );
+
+    // 添加 gtceu:brass_ingot 的配方
+    event.recipes.createmetallurgy.casting_in_table(
+        "gtceu:brass_ingot",
+        [Fluid.of("gtceu:brass", 144), "gtceu:ingot_casting_mold"],
+        150,
+    );
+
+    // 添加 gtceu:zinc_ingot 的配方
+    event.recipes.createmetallurgy.casting_in_table(
+        "gtceu:zinc_ingot",
+        [Fluid.of("gtceu:zinc", 144), "gtceu:ingot_casting_mold"],
+        150,
+    );
 });

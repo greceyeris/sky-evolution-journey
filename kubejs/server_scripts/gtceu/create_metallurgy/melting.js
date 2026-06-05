@@ -59,4 +59,56 @@ ServerEvents.recipes((event) => {
         150,
         "heated",
     );
+
+    // 添加 gtceu:gold 的配方
+    event.recipes.createmetallurgy.melting(
+        Fluid.of("gtceu:gold", 216),
+        "gtceu:refined_gold_ore",
+        150,
+        "heated",
+    );
+
+    event.recipes.createmetallurgy.melting(
+        Fluid.of("gtceu:gold", 144),
+        "minecraft:gold_ingot",
+        150,
+        "heated",
+    );
+
+    event.recipes.createmetallurgy.melting(
+        Fluid.of("gtceu:gold", 1296),
+        "minecraft:gold_block",
+        150,
+        "heated",
+    );
+
+    // 添加 gtceu:zinc 的配方
+    event.recipes.createmetallurgy.melting(
+        Fluid.of("gtceu:zinc", 216),
+        "gtceu:refined_sphalerite_ore",
+        150,
+        "heated",
+    );
+
+    event.recipes.createmetallurgy.melting(
+        Fluid.of("gtceu:zinc", 144),
+        "gtceu:zinc_ingot",
+        150,
+        "heated",
+    );
+
+    event.recipes.createmetallurgy.melting(
+        Fluid.of("gtceu:zinc", 1296),
+        "gtceu:zinc_block",
+        150,
+        "heated",
+    );
+
+    // 添加 gtceu:blaze 的配方
+    event.recipes.createmetallurgy.melting(
+        Fluid.of("gtceu:blaze", 432),
+        "minecraft:blaze_rod",
+        150,
+        "heated",
+    );
 });

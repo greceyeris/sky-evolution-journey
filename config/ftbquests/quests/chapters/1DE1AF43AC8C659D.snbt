@@ -170,8 +170,6 @@
 				"4E351D20951B5CC0"
 				"3474576B389C3F0D"
 				"282FA7119B7B1F3C"
-				"4FCB13A7F75CC2F9"
-				"3FFA860888989CB2"
 				"3FC4B560295A2FD0"
 				"4FDD926DEDD96D68"
 			]
@@ -191,8 +189,6 @@
 				"4E351D20951B5CC0"
 				"3474576B389C3F0D"
 				"282FA7119B7B1F3C"
-				"4FCB13A7F75CC2F9"
-				"3FFA860888989CB2"
 				"3FC4B560295A2FD0"
 				"3B773541511D65A0"
 			]
@@ -211,8 +207,6 @@
 				"5FB83EAE5418E30C"
 				"3474576B389C3F0D"
 				"282FA7119B7B1F3C"
-				"4FCB13A7F75CC2F9"
-				"3FFA860888989CB2"
 				"3FC4B560295A2FD0"
 			]
 			id: "75BEF372C3C2DF34"
@@ -231,8 +225,6 @@
 				"59E52400B6A31D8E"
 				"4E351D20951B5CC0"
 				"282FA7119B7B1F3C"
-				"4FCB13A7F75CC2F9"
-				"3FFA860888989CB2"
 				"3474576B389C3F0D"
 				"3FC4B560295A2FD0"
 			]
@@ -253,8 +245,6 @@
 				"4E351D20951B5CC0"
 				"3474576B389C3F0D"
 				"282FA7119B7B1F3C"
-				"4FCB13A7F75CC2F9"
-				"3FFA860888989CB2"
 				"3FC4B560295A2FD0"
 			]
 			id: "408A5E27A348F3D7"
@@ -698,6 +688,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["498FDF1018D03C66"]
 			id: "38291CEF2411D0D9"
 			tasks: [{
 				id: "456892A670D37781"
@@ -726,6 +717,7 @@
 			dependencies: [
 				"579829A9B5F89364"
 				"221A5669F95067CF"
+				"6A8DF80AFA0883CA"
 			]
 			id: "710B63A9AF346C43"
 			tasks: [{
@@ -740,6 +732,7 @@
 			dependencies: [
 				"046176E87E2352DD"
 				"4B0590B61886E05D"
+				"6A8DF80AFA0883CA"
 			]
 			id: "579829A9B5F89364"
 			tasks: [{
@@ -751,7 +744,12 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["45E31572E48C6FE9"]
+			dependencies: [
+				"45E31572E48C6FE9"
+				"2EE6495A2EC6AB31"
+				"5B9D087734EB1E34"
+				"6599B88040791760"
+			]
 			id: "046176E87E2352DD"
 			tasks: [{
 				id: "785BEBDE08FB97FB"
@@ -807,6 +805,12 @@
 			y: 18.0d
 		}
 		{
+			dependencies: [
+				"49BADFE7055A4B7E"
+				"4B0B14A009B924EF"
+				"60DFBBF1A808E2CF"
+				"7A35D4F0EC10527D"
+			]
 			id: "4CCA91E2F87BD296"
 			tasks: [{
 				id: "3D1FF77BC2780B7D"
@@ -906,6 +910,7 @@
 				"264C2B55C7BA8592"
 				"5FC11720E050B81A"
 				"2EE6495A2EC6AB31"
+				"12DE0485C3699ABE"
 			]
 			id: "268A6E6BED594810"
 			tasks: [
@@ -944,7 +949,10 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["6A268935325A7DBC"]
+			dependencies: [
+				"12DE0485C3699ABE"
+				"682764484F770886"
+			]
 			id: "789F56668B1478C3"
 			tasks: [
 				{
@@ -1088,6 +1096,7 @@
 				"15E4B9C10A84A915"
 			]
 			id: "5D0E4B5C1F377ED0"
+			optional: true
 			shape: "square"
 			tasks: [{
 				id: "66F56C463120D955"
@@ -1166,6 +1175,7 @@
 				"15E4B9C10A84A915"
 			]
 			id: "41946C8D9A94994D"
+			optional: true
 			shape: "square"
 			tasks: [{
 				id: "7AA9882C72ECBEC2"
@@ -1382,6 +1392,7 @@
 				"4A37898820CCC9D5"
 			]
 			id: "07EDE71334F9A78F"
+			optional: true
 			shape: "square"
 			tasks: [{
 				id: "4D4EE4032B654A05"
@@ -1507,34 +1518,6 @@
 		}
 		{
 			dependencies: [
-				"5706D4B24BC2C2B0"
-				"6A8DF80AFA0883CA"
-			]
-			id: "6A268935325A7DBC"
-			tasks: [{
-				id: "1A7B070F7393ABD0"
-				item: "minecraft:hay_block"
-				type: "item"
-			}]
-			x: 22.5d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"15334732138FCCCE"
-				"6A342648B83C60F1"
-			]
-			id: "5706D4B24BC2C2B0"
-			tasks: [{
-				id: "770E52FBD9543A3E"
-				item: "minecraft:wheat"
-				type: "item"
-			}]
-			x: 25.0d
-			y: 6.0d
-		}
-		{
-			dependencies: [
 				"57EF28DB7E1CE250"
 				"6A8DF80AFA0883CA"
 			]
@@ -1548,7 +1531,11 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["690C2160970BABF5"]
+			dependencies: [
+				"690C2160970BABF5"
+				"2643B24DFCECC5CA"
+				"6A6B90543CC164EB"
+			]
 			id: "40BF27195B859539"
 			tasks: [{
 				id: "4071BF4361C7A1C1"
@@ -1595,6 +1582,7 @@
 				"15E4B9C10A84A915"
 			]
 			id: "59FBE45D42E33F10"
+			optional: true
 			shape: "square"
 			tasks: [{
 				id: "285B8B06E8416AAD"
@@ -1713,6 +1701,30 @@
 			}]
 			x: -2.5d
 			y: 4.0d
+		}
+		{
+			id: "498FDF1018D03C66"
+			tasks: [{
+				id: "12DE0485C3699ABE"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2E3D31FD9303D820"
+				"6A8DF80AFA0883CA"
+			]
+			id: "682764484F770886"
+			tasks: [{
+				id: "7BE060AECBEF4E75"
+				item: "minecraft:hay_block"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 6.0d
 		}
 	]
 	title: "铁器时代"

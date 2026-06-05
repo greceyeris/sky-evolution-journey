@@ -38,6 +38,7 @@ ServerEvents.recipes((event) => {
 
         // apotheosis
         "apotheosis:torch",
+        "apotheosis:cobweb",
 
         // botania
         "botania:dreamwood_planks",
@@ -84,7 +85,11 @@ ServerEvents.recipes((event) => {
         // botanicalmachinery
         "botanicalmachinery:runic_altar",
 
+        // bucketlib
+        "bucketlib:cake",
+
         // create
+        "create:crafting/curiosities/cake",
         "create:crafting/kinetics/basin",
         "create:crafting/kinetics/chute",
         "create:crafting/kinetics/clutch",
@@ -113,6 +118,24 @@ ServerEvents.recipes((event) => {
         "create:milling/cobblestone",
         "create:milling/gravel",
         "create:milling/sugar_cane",
+        "create:milling/wheat",
+        "create:crushing/wool",
+        "create:crushing/leather_horse_armor",
+        "create:crushing/obsidian",
+        "create:crushing/gravel",
+        "create:crushing/diorite_recycling",
+        "create:crushing/diorite",
+        "create:crushing/diamond_horse_armor",
+        "create:crushing/blaze_rod",
+        "create:crushing/netherrack",
+        "create:milling/sandstone",
+        "create:milling/saddle",
+        "create:milling/granite",
+        "create:milling/terracotta",
+        "create:crushing/compat/immersiveengineering/coke_block",
+
+        // createfood
+        "createfood:minecraft/crafting/shaped/cake_from_shaped",
 
         // create_connected
         "create_connected:crafting/palettes/copycat_catwalk",
@@ -123,13 +146,18 @@ ServerEvents.recipes((event) => {
 
         // createaddition
         "createaddition:compat/immersiveengineering/item_application/kiln_brick",
+        "createaddition:compat/immersiveengineering/crushing/steel_ingot",
+        "createaddition:compat/immersiveengineering/crushing/coke_block",
+        "createaddition:compat/immersiveengineering/crushing/coal_coke",
 
         // createmetallurgy
         "createmetallurgy:crafting/content/faucet",
         "createmetallurgy:milling/crushed_raw_gold",
         "createmetallurgy:milling/crushed_raw_zinc",
+        "createmetallurgy:milling/crushed_raw_iron",
 
         // farmersdelight
+        "farmersdelight:cake_from_milk_bottle",
         "farmersdelight:paper_from_tree_bark",
         "farmersdelight:wheat_dough_from_water",
 
@@ -179,6 +207,10 @@ ServerEvents.recipes((event) => {
         "gtceu:shapeless/gravel_to_flint",
         "gtceu:shapeless/hay_block_to_hay",
         "gtceu:shapeless/wheat_to_dust",
+        "gtceu:shaped/cake",
+
+        // gtmfo
+        "gtmfo:shaped/cake_bottom_by_hand",
 
         // hauntfurnace
         "hauntfurnace:haunting/compat/create/crimson_fungus",
@@ -228,6 +260,7 @@ ServerEvents.recipes((event) => {
         "immersiveengineering:crafting/sawdust",
         "immersiveengineering:crafting/torch",
         "immersiveengineering:smelting/lead_red",
+        "immersiveengineering:crafting/raw_hammercrushing_osmium",
 
         // minecraft
         "minecraft:bone_meal",
@@ -317,6 +350,9 @@ ServerEvents.recipes((event) => {
         "gtceu:ingot_extruder_mold",
         "gtceu:foil_extruder_mold",
         "gtceu:rotor_extruder_mold",
+
+        // gtmfo
+        "gtmfo:cake_bottom_baked",
 
         // minecraft
         "minecraft:campfire",
@@ -433,6 +469,7 @@ ServerEvents.recipes((event) => {
         "create:empty_blaze_burner",
         "create:whisk",
         "create:propeller",
+        "create:brass_casing",
 
         // ae2
         "ae2:crank",
@@ -719,10 +756,6 @@ ServerEvents.recipes((event) => {
 
         // create
         "create:pressing",
-        // "create:item_application",
-
-        // createdieselgenerators
-        "createdieselgenerators:compression_molding",
 
         // vintage
         "vintage:centrifugation",
@@ -747,19 +780,16 @@ ServerEvents.recipes((event) => {
         // create_mechanical_extruder
         "create_mechanical_extruder:extruding",
 
-        // minecraft
-        // "minecraft:campfire_cooking",
-        // "minecraft:smelting",
-        // "minecraft:blasting",
-        // "minecraft:smoking",
+        // immersiveengineering
+        "immersiveengineering:alloy",
     ];
 
     // 定义 removeRecipesUsedTypeAndInput 数组
     const removeRecipesUsedTypeAndInput = [
-        { type: "minecraft:smelting", input: "#forge:raw_materials" },
-        { type: "minecraft:blasting", input: "#forge:raw_materials" },
         { type: "minecraft:smelting", input: "#forge:ores" },
         { type: "minecraft:blasting", input: "#forge:ores" },
+        { type: "minecraft:smelting", input: "#forge:raw_materials" },
+        { type: "minecraft:blasting", input: "#forge:raw_materials" },
         { type: "minecraft:smelting", input: "#forge:crushed_ores" },
         { type: "minecraft:blasting", input: "#forge:crushed_ores" },
         { type: "minecraft:smelting", input: "#forge:purified_ores" },
@@ -797,6 +827,7 @@ ServerEvents.recipes((event) => {
             type: "create:splashing",
             input: "#minecraft:all_small_flowers",
         },
+        { type: "create:crushing", input: "#forge:ores" },
     ];
 
     // 定义 removeRecipesUsedTypeAndOutput 数组
@@ -841,6 +872,9 @@ ServerEvents.recipes((event) => {
             output: "gtceu:iron_rod",
         },
         { type: "create:milling", output: "#minecraft:dyes" },
+        { type: "create:crushing", output: "apotheosis:gem_dust" },
+        { type: "create:crushing", output: "#forge:crushed_ores" },
+        { type: "create:crushing", output: "#forge:nuggets" },
     ];
 
     // 输出配方类型

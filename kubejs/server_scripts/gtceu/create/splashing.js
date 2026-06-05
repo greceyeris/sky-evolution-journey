@@ -20,4 +20,24 @@ ServerEvents.recipes((event) => {
         ],
         "gtceu:crushed_copper_ore",
     );
+
+    // 添加 gtceu:purified_gold_ore, gtceu:stone_dust 和 gtceu:tiny_copper_dust 的配方
+    event.recipes.create.splashing(
+        [
+            "gtceu:purified_gold_ore",
+            "gtceu:stone_dust",
+            Item.of("gtceu:tiny_copper_dust").withChance(0.16),
+        ],
+        "gtceu:crushed_gold_ore",
+    );
+
+    // 添加 gtceu:purified_sphalerite_ore, gtceu:stone_dust 和 gtceu:tiny_yellow_garnet_dust 的配方
+    event.recipes.create.splashing(
+        [
+            "gtceu:purified_sphalerite_ore",
+            "gtceu:stone_dust",
+            Item.of("gtceu:tiny_yellow_garnet_dust").withChance(0.16),
+        ],
+        "gtceu:crushed_sphalerite_ore",
+    );
 });

@@ -30,4 +30,19 @@ ServerEvents.recipes((event) => {
 
     // 添加 gtceu:andesite_dust 的配方
     event.recipes.create.milling("gtceu:andesite_dust", "minecraft:andesite");
+
+    // 添加 gtceu:crushed_sphalerite_ore 和 gtceu:stone_dust 的配方
+    event.recipes.create.milling(
+        ["2x gtceu:crushed_sphalerite_ore", "gtceu:stone_dust"],
+        "gtceu:raw_sphalerite",
+    );
+
+    // 添加 gtceu:crushed_gold_ore 和 gtceu:stone_dust 的配方
+    event.recipes.create.milling(
+        ["2x gtceu:crushed_gold_ore", "gtceu:stone_dust"],
+        "minecraft:raw_gold",
+    );
+
+    // 添加 gtceu:obsidian_dust 的配方
+    event.recipes.create.milling(["gtceu:obsidian_dust"], "minecraft:obsidian");
 });
