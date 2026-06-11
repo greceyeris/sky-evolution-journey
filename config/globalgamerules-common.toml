@@ -1,9 +1,19 @@
 
 #Gamerules that are set when a world is loaded
 [gamerules]
+
 	#Modded gamerules
 	#The modded gamerules should be populated after loading the game, only integer and boolean values are valid
-	modded = {}
+	[gamerules.modded]
+
+		[gamerules.modded.player]
+			allowGlobalBlueprints = false
+			allowNBTDataCopy = false
+			blueprintsCooldown = 0
+			businessVillagerEnabled = false
+			maxBlueprintContainers = 20
+			maxDigitizedStructuresForPlayer = 20
+			maxScannerBlockCount = 30000
 
 	[gamerules.chat]
 		#Whether advancements should be announced in chat.

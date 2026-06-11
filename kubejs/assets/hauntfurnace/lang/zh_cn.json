@@ -1,0 +1,17 @@
+{
+    "item.hauntfurnace.haunt_furnace": "缠魂熔炉",
+    "item.hauntfurnace.powered_haunt_furnace": "动力缠魂熔炉",
+
+    "stat.hauntfurnace.interact_with_haunt_furnace": "与缠魂熔炉交互次数",
+
+    "container.haunt_furnace": "缠魂熔炉",
+    "container.powered_haunt_furnace": "动力缠魂熔炉",
+
+    "hauntfurnace.action.haunting": "缠魂",
+
+    "emi.category.hauntfurnace.haunt_furnace": "缠魂",
+
+    "gui.screen.hauntfurnace.energy": "%d E / %d E",
+
+    "gui.recipebook.toggleRecipes.hauntable": "显示可缠魂配方"
+}

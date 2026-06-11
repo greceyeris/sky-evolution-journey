@@ -1,0 +1,51 @@
+{
+  "nome": "kubejs_hauntfurnace_huant_furnac",
+  "altezza": 3,
+  "lunghezzaX": 3,
+  "lunghezzaZ": 3,
+  "offset": {
+    "f_123285_": 0,
+    "f_123286_": 0,
+    "f_123289_": 0
+  },
+  "BlocksData": {
+    "0": {
+      "x\u003d2,y\u003d0,z\u003d0": "\u003cbid\u003eminecraft:smooth_stone\u003c/bid\u003enull",
+      "x\u003d2,y\u003d0,z\u003d1": "\u003cbid\u003eminecraft:smooth_stone\u003c/bid\u003enull",
+      "x\u003d2,y\u003d0,z\u003d2": "\u003cbid\u003eminecraft:smooth_stone\u003c/bid\u003enull",
+      "x\u003d1,y\u003d0,z\u003d0": "\u003cbid\u003eminecraft:smooth_stone\u003c/bid\u003enull",
+      "x\u003d1,y\u003d0,z\u003d1": "\u003cbid\u003egtceu:flint_block\u003c/bid\u003enull",
+      "x\u003d1,y\u003d0,z\u003d2": "\u003cbid\u003eminecraft:smooth_stone\u003c/bid\u003enull",
+      "x\u003d0,y\u003d0,z\u003d0": "\u003cbid\u003eminecraft:smooth_stone\u003c/bid\u003enull",
+      "x\u003d0,y\u003d0,z\u003d1": "\u003cbid\u003eminecraft:smooth_stone\u003c/bid\u003enull",
+      "x\u003d0,y\u003d0,z\u003d2": "\u003cbid\u003eminecraft:smooth_stone\u003c/bid\u003enull"
+    },
+    "1": {
+      "x\u003d0,y\u003d1,z\u003d1": "\u003cbid\u003eminecraft:cobblestone\u003c/bid\u003enull",
+      "x\u003d0,y\u003d1,z\u003d2": "\u003cbid\u003eminecraft:cobblestone\u003c/bid\u003enull",
+      "x\u003d0,y\u003d1,z\u003d0": "\u003cbid\u003eminecraft:cobblestone\u003c/bid\u003enull",
+      "x\u003d2,y\u003d1,z\u003d2": "\u003cbid\u003eminecraft:cobblestone\u003c/bid\u003enull",
+      "x\u003d2,y\u003d1,z\u003d1": "\u003cbid\u003eminecraft:cobblestone\u003c/bid\u003enull",
+      "x\u003d2,y\u003d1,z\u003d0": "\u003cbid\u003eminecraft:cobblestone\u003c/bid\u003enull",
+      "x\u003d1,y\u003d1,z\u003d0": "\u003cbid\u003eminecraft:cobblestone\u003c/bid\u003enull",
+      "x\u003d1,y\u003d1,z\u003d1": "\u003cbid\u003eminecraft:soul_campfire\u003c/bid\u003e\u003cproperties\u003e\u003cpropertie\u003e\u003cname\u003efacing\u003c/name\u003e\u003cvalue\u003enorth\u003c/value\u003e\u003cclasse\u003enet.minecraft.core.Direction\u003c/classe\u003e\u003c/propertie\u003e;!v!;\u003cpropertie\u003e\u003cname\u003elit\u003c/name\u003e\u003cvalue\u003etrue\u003c/value\u003e\u003cclasse\u003ejava.lang.Boolean\u003c/classe\u003e\u003c/propertie\u003e;!v!;\u003cpropertie\u003e\u003cname\u003esignal_fire\u003c/name\u003e\u003cvalue\u003efalse\u003c/value\u003e\u003cclasse\u003ejava.lang.Boolean\u003c/classe\u003e\u003c/propertie\u003e;!v!;\u003cpropertie\u003e\u003cname\u003ewaterlogged\u003c/name\u003e\u003cvalue\u003efalse\u003c/value\u003e\u003cclasse\u003ejava.lang.Boolean\u003c/classe\u003e\u003c/propertie\u003e;!v!;\u003c/properties\u003e"
+    },
+    "2": {
+      "x\u003d1,y\u003d2,z\u003d1": "\u003cbid\u003eminecraft:cobblestone\u003c/bid\u003enull",
+      "x\u003d1,y\u003d2,z\u003d2": "\u003cbid\u003eminecraft:cobblestone\u003c/bid\u003enull",
+      "x\u003d0,y\u003d2,z\u003d0": "\u003cbid\u003eminecraft:cobblestone\u003c/bid\u003enull",
+      "x\u003d0,y\u003d2,z\u003d1": "\u003cbid\u003eminecraft:cobblestone\u003c/bid\u003enull",
+      "x\u003d2,y\u003d2,z\u003d1": "\u003cbid\u003eminecraft:cobblestone\u003c/bid\u003enull",
+      "x\u003d2,y\u003d2,z\u003d0": "\u003cbid\u003eminecraft:cobblestone\u003c/bid\u003enull",
+      "x\u003d2,y\u003d2,z\u003d2": "\u003cbid\u003eminecraft:cobblestone\u003c/bid\u003enull",
+      "x\u003d0,y\u003d2,z\u003d2": "\u003cbid\u003eminecraft:cobblestone\u003c/bid\u003enull",
+      "x\u003d1,y\u003d2,z\u003d0": "\u003cbid\u003eminecraft:cobblestone\u003c/bid\u003enull"
+    }
+  },
+  "NotSolidBlocksData": {},
+  "BlocksNBT": {
+    "1": {
+      "x\u003d1,y\u003d1,z\u003d1": "{CookingTimes:[I;0,0,0,0],CookingTotalTimes:[I;0,0,0,0],ForgeCaps:{},Items:[],id:\"minecraft:campfire\",x:-16,y:82,z:-6}"
+    }
+  }
+}

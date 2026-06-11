@@ -942,6 +942,23 @@
 				"2A1F55D8A068D3E0"
 			]
 			id: "1ABE03C719654670"
+			rewards: [{
+				id: "1BBFB3A1D77DE0E0"
+				item: {
+					Count: 1
+					id: "portable_blueprints:worn_blueprint"
+					tag: {
+						blueprint_name: "minecraft_spider_spawn_egg"
+						display: {
+							Name: "{\"translate\":\"item.kubejs.blueprintminecraft_spider_spawn_egg\",\"italic\":false}"
+						}
+						nome: "minecraft_spider_spawn_egg"
+						owner_name: "Sky Evolution Journey"
+						remaining_uses: 2147483647
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 196L
@@ -999,6 +1016,23 @@
 				"7BE060AECBEF4E75"
 			]
 			id: "4C62CB216176C0FD"
+			rewards: [{
+				id: "7F5B0AD94C65D3E5"
+				item: {
+					Count: 1
+					id: "portable_blueprints:worn_blueprint"
+					tag: {
+						blueprint_name: "minecraft_cow_spawn_egg"
+						display: {
+							Name: "{\"translate\":\"item.kubejs.blueprintminecraft_cow_spawn_egg\",\"italic\":false}"
+						}
+						nome: "minecraft_cow_spawn_egg"
+						owner_name: "Sky Evolution Journey"
+						remaining_uses: 2147483647
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 82L

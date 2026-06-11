@@ -2,6 +2,117 @@
 
 ---
 
+### Version: _0.20.0_
+
+### Date: _2026-06-11_
+
+### Changes:
+
+**Files:**
+
+- **Removed:**
+    - `config/mbtool-common.toml`.
+    - `kubejs/assets/mbtool/lang/zh_cn.json`.
+
+- **Added:**
+    - `config/portable_blueprints-client.toml`.
+    - `config/portable_blueprints/world_injection_worn_blueprints/*.bp`.
+    - `config/portable_blueprints/world_injection_worn_blueprints/settings.json`.
+    - `config/portable_blueprints/custom_block_propriety_handle/mirror_settings.json`.
+    - `config/portable_blueprints/custom_block_propriety_handle/rotation_settings.json`.
+    - `kubejs/assets/ceramicbucket/lang/zh_cn.json`.
+    - `kubejs/assets/gtceu/lang/zh_cn.json`.
+    - `kubejs/assets/hauntfurnace/lang/zh_cn.json`.
+    - `kubejs/assets/portable_blueprints/lang/zh_cn.json`.
+    - `kubejs/assets/vintage/lang/zh_cn.json`.
+
+- **Updated:**
+    - `README.md`.
+    - `emi.json`.
+    - `kubejs/assets/kubejs/lang/zh_cn.json`.
+
+**Mods:**
+
+- **Removed:** `Multi Builder Tool`.
+
+- **Added:** `Portable Blueprints`.
+
+- **Updated:**
+
+| Mod                                          | Previous                   | Current                  |
+| -------------------------------------------- | -------------------------- | ------------------------ |
+| `Collective`                                 | `1.20.1-8.22`              | `1.20.1-8.25`            |
+| `Compressed Engineering`                     | `1.4.6`                    | `1.4.7`                  |
+| `Create: Connected`                          | `1.2.0`                    | `1.2.2`                  |
+| `Create: Enchantment Industry`               | `1.3.3-for-create-6.0.6`   | `1.4.0-for-create-6.0.8` |
+| `ExtendedAE`                                 | `1.20-1.4.15`              | `1.20-1.4.16`            |
+| `ExtraLib`                                   | `3.0.5-1.20.1-Forge-FIXED` | `3.0.6`                  |
+| `FTB Library (NeoForge)`                     | `2001.2.12`                | `2001.2.13`              |
+| `GuideME`                                    | `20.1.14`                  | `20.1.15`                |
+| `Jade Addons (Neo/Forge)`                    | `5.5.0`                    | `5.5.1`                  |
+| `Just Dire Things [Forge]`                   | `1.0.30`                   | `1.0.31`                 |
+| `ModernFix`                                  | `5.27.44`                  | `5.27.49`                |
+| `Skyblock Builder`                           | `1.20.1-5.1.32`            | `1.20.1-5.1.33`          |
+| `Sophisticated Backpacks`                    | `1.20.1-3.24.47.1814`      | `1.20.1-3.24.51.1864`    |
+| `Sophisticated Backpacks Create Integration` | `1.20.1-0.1.5.30`          | `1.20.1-0.1.7.112`       |
+| `Sophisticated Core`                         | `1.20.1-1.3.41.1939`       | `1.20.1-1.3.47.1995`     |
+| `Sophisticated Storage`                      | `1.20.1-1.4.52.1783`       | `1.20.1-1.4.54.1827`     |
+| `Sophisticated Storage Create Integration`   | `1.20.1-0.1.19.125`        | `1.20.1-0.1.20.164`      |
+
+**Items:**
+
+- **Added:**
+    - Added `portable_blueprints:worn_blueprint` item with NBT variants:
+        - `compactcrafting_miniaturization_3x3x3`.
+        - `compactcrafting_miniaturization_5x5x5`.
+        - `compactcrafting_miniaturization_7x7x7`.
+        - `compactcrafting_miniaturization_9x9x9`.
+        - `hauntfurnace_haunt_furnace`.
+        - `minecraft_chicken_spawn_egg`.
+        - `minecraft_cow_spawn_egg`.
+        - `minecraft_creeper_spawn_egg`.
+        - `minecraft_furnace`.
+        - `minecraft_spider_spawn_egg`.
+
+**Recipes:**
+
+- **Removed:**
+    - **Used Type:** `lychee:item_inside`: `minecraft:bone_meal` + `strainers:purified_water_block` -> `botania:fertilizer`.
+
+- **Added:**
+    - **Used Type:**
+        - `ae2cs:crystal_pulverizer_recipe_serializer`: `#minecraft:planks` -> `6x gtceu:wood_dust`.
+        - `strainers:strainer`: `minecraft:bone_meal` + `strainers:purified_water_fluid` -> `botania:fertilizer`.
+
+**Quests:**
+
+- **Added:**
+    - `Stone Age` chapter: `minecraft:furnace (multiblock)` quest:
+        - added prerequisite quests: `Origin Age: minecraft:cobblestone`, `Origin Age: minecraft:campfire`, `minecraft:smooth_stone`, `gtceu:flint_block`.
+        - added reward: `portable_blueprints:worn_blueprint (minecraft_furnace)`.
+    - `Copper Age` chapter: `hauntfurnace:haunt_furnace (multiblock)` quest:
+        - added prerequisite quests: `Origin Age: minecraft:cobblestone`, `minecraft:soul_campfire`, `minecraft:smooth_stone`, `gtceu:flint_block`.
+        - added reward: `portable_blueprints:worn_blueprint (hauntfurnace_haunt_furnace)`.
+
+- **Changed:**
+    - `Stone Age` chapter:
+        - `compactcrafting:field_projector` quest: added rewards: `portable_blueprints:worn_blueprint (compactcrafting_miniaturization_3x3x3)`, `portable_blueprints:worn_blueprint (compactcrafting_miniaturization_5x5x5)`, `portable_blueprints:worn_blueprint (compactcrafting_miniaturization_7x7x7)`, `portable_blueprints:worn_blueprint (compactcrafting_miniaturization_9x9x9)`.
+        - `minecraft:furnace` quest:
+            - replaced prerequisite quests: [`Origin Age: minecraft:cobblestone`, `Origin Age: minecraft:campfire`, `minecraft:smooth_stone`, `gtceu:flint_block`] → `minecraft:furnace (multiblock)`.
+            - adjusted positions of `minecraft:smooth_stone`, `minecraft:stone`, `minecraft:smooth_stone_slab`, `ae2cs:quartz_grindstone`, `ae2:crank`, `industrialforegoing:pitiful_generator`, `gtceu:flint_block` quests.
+    - `Copper Age` chapter:
+        - `hauntfurnace:haunt_furnace` quest:
+            - replaced prerequisite quests: [`Origin Age: minecraft:cobblestone`, `minecraft:soul_campfire`, `minecraft:smooth_stone`, `gtceu:flint_block`] → `hauntfurnace:haunt_furnace (multiblock)`.
+            - adjusted positions of `minecraft:soul_campfire`, `minecraft:soul_sand`, `minecraft:bone_block` quests.
+    - `Iron Age` chapter:
+        - `minecraft:creeper_spawn_egg` quest: added reward: `portable_blueprints:worn_blueprint (minecraft_creeper_spawn_egg)`.
+        - `minecraft:chicken_spawn_egg` quest: added reward: `portable_blueprints:worn_blueprint (minecraft_chicken_spawn_egg)`.
+    - `Botania Age II` chapter:
+        - `minecraft:spider_spawn_egg` quest: added reward: `portable_blueprints:worn_blueprint (minecraft_spider_spawn_egg)`.
+        - `minecraft:cow_spawn_egg` quest: added reward: `portable_blueprints:worn_blueprint (minecraft_cow_spawn_egg)`.
+
+---
+
 ### Version: _0.19.0_
 
 ### Date: _2026-06-06_
@@ -10,8 +121,7 @@
 
 **Files:**
 
-- **Updated:**
-    - `README.md`.
+- **Updated:** `README.md`.
 
 **Mods:**
 
@@ -98,7 +208,7 @@
         - `gtmfo:shaped/cake_bottom_by_hand`, `gtmfo:cake_bottom_baked`.
         - `immersiveengineering:crafting/raw_hammercrushing_osmium`.
 
-    - **Used Types:**
+    - **Used Type:**
         - `immersiveengineering:alloy`: all recipes.
 
     - **Used Type and Input:**

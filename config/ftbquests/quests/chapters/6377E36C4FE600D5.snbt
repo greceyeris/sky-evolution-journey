@@ -180,12 +180,9 @@
 		}
 		{
 			dependencies: [
-				"0A0A1E5DF7B5EA48"
-				"2533AC4389C19037"
-				"2FBE82E7F31D658A"
-				"11C3CCD46712E124"
-				"44B23F5CFCEFF609"
 				"0A2679B3FC8ABF2D"
+				"573DD6A0C2D16E8E"
+				"0A0A1E5DF7B5EA48"
 			]
 			id: "157A569540DDDA29"
 			tasks: [{
@@ -477,7 +474,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -6.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -492,7 +489,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -8.0d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -506,7 +503,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -10.0d
+			y: -12.0d
 		}
 		{
 			dependencies: [
@@ -654,6 +651,60 @@
 			}]
 			x: 5.0d
 			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7795899D01590BB9"
+				"7455FE2AE3607A91"
+				"2FBE82E7F31D658A"
+				"11C3CCD46712E124"
+				"2533AC4389C19037"
+			]
+			id: "573DD6A0C2D16E8E"
+			rewards: [{
+				id: "17DB33F92FD82650"
+				item: {
+					Count: 1
+					id: "portable_blueprints:worn_blueprint"
+					tag: {
+						blueprint_name: "hauntfurnace_haunt_furnace"
+						display: {
+							Name: "{\"translate\":\"item.kubejs.blueprint.hauntfurnace_haunt_furnace\",\"italic\":false}"
+						}
+						nome: "hauntfurnace_haunt_furnace"
+						owner_name: "Sky Evolution Journey"
+						remaining_uses: 2147483647
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "735D0F09221A3129"
+					item: { Count: 16, id: "minecraft:cobblestone" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2251CB80E9C65643"
+					item: { Count: 8, id: "minecraft:smooth_stone" }
+					type: "item"
+				}
+				{
+					id: "6DD6F07082BD8C70"
+					item: "minecraft:soul_campfire"
+					type: "item"
+				}
+				{
+					id: "02A040AF75651A66"
+					item: "gtceu:flint_block"
+					type: "item"
+				}
+			]
+			title: "多方块结构：缠魂熔炉"
+			x: 10.0d
+			y: -6.0d
 		}
 	]
 	title: "铜器时代"

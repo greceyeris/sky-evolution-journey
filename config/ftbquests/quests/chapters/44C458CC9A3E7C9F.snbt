@@ -24,12 +24,9 @@
 		}
 		{
 			dependencies: [
+				"19C2B9DD17C2E45C"
 				"42F37AA6B72F1BDB"
-				"7795899D01590BB9"
 				"6367C65CB0E9AA91"
-				"7455FE2AE3607A91"
-				"2FBE82E7F31D658A"
-				"11C3CCD46712E124"
 			]
 			id: "61DEBF41EE0BC3D0"
 			size: 1.25d
@@ -98,7 +95,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -111,8 +108,8 @@
 				item: "minecraft:stone"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 6.0d
+			x: 7.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -196,6 +193,76 @@
 				"740F8CBC59B2C143"
 			]
 			id: "42F37AA6B72F1BDB"
+			rewards: [
+				{
+					id: "513649528D168D17"
+					item: {
+						Count: 1
+						id: "portable_blueprints:worn_blueprint"
+						tag: {
+							blueprint_name: "compactcrafting_miniaturization_3x3x3"
+							display: {
+								Name: "{\"translate\":\"item.kubejs.blueprint.compactcrafting_miniaturization_3x3x3\",\"italic\":false}"
+							}
+							nome: "compactcrafting_miniaturization_3x3x3"
+							owner_name: "Sky Evolution Journey"
+							remaining_uses: 2147483647
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D11C7A952A5F374"
+					item: {
+						Count: 1
+						id: "portable_blueprints:worn_blueprint"
+						tag: {
+							blueprint_name: "compactcrafting_miniaturization_5x5x5"
+							display: {
+								Name: "{\"translate\":\"item.kubejs.blueprint.compactcrafting_miniaturization_5x5x5\",\"italic\":false}"
+							}
+							nome: "compactcrafting_miniaturization_5x5x5"
+							owner_name: "Sky Evolution Journey"
+							remaining_uses: 2147483647
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "014BDBA21E3149DB"
+					item: {
+						Count: 1
+						id: "portable_blueprints:worn_blueprint"
+						tag: {
+							blueprint_name: "compactcrafting_miniaturization_7x7x7"
+							display: {
+								Name: "{\"translate\":\"item.kubejs.blueprint.compactcrafting_miniaturization_7x7x7\",\"italic\":false}"
+							}
+							nome: "compactcrafting_miniaturization_7x7x7"
+							owner_name: "Sky Evolution Journey"
+							remaining_uses: 2147483647
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F24DAECF7851706"
+					item: {
+						Count: 1
+						id: "portable_blueprints:worn_blueprint"
+						tag: {
+							blueprint_name: "compactcrafting_miniaturization_9x9x9"
+							display: {
+								Name: "{\"translate\":\"item.kubejs.blueprint.compactcrafting_miniaturization_9x9x9\",\"italic\":false}"
+							}
+							nome: "compactcrafting_miniaturization_9x9x9"
+							owner_name: "Sky Evolution Journey"
+							remaining_uses: 2147483647
+						}
+					}
+					type: "item"
+				}
+			]
 			size: 1.25d
 			tasks: [{
 				count: 4L
@@ -251,7 +318,7 @@
 			}]
 			title: "解锁“植物魔法第一阶段”"
 			x: 20.0d
-			y: 8.0d
+			y: 8.125d
 		}
 		{
 			dependencies: [
@@ -266,7 +333,7 @@
 				type: "item"
 			}]
 			x: 17.5d
-			y: 8.0d
+			y: 8.125d
 		}
 		{
 			dependencies: [
@@ -279,7 +346,7 @@
 				item: "gtceu:flint_block"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 5.0d
 			y: 2.0d
 		}
 		{
@@ -307,7 +374,7 @@
 				weak_nbt_match: true
 			}]
 			x: 10.0d
-			y: 8.0d
+			y: 8.125d
 		}
 		{
 			dependencies: [
@@ -324,7 +391,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 8.0d
+			y: 8.125d
 		}
 		{
 			dependencies: [
@@ -339,7 +406,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 6.0d
+			y: 6.125d
 		}
 		{
 			dependencies: [
@@ -356,7 +423,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 8.0d
+			y: 8.125d
 		}
 		{
 			dependencies: [
@@ -373,7 +440,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: 8.0d
+			y: 8.125d
 		}
 		{
 			dependencies: [
@@ -387,8 +454,8 @@
 				item: "minecraft:smooth_stone_slab"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: 2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -406,7 +473,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -419,8 +486,8 @@
 				item: "ae2:crank"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.0d
+			x: 5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -438,7 +505,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -583,6 +650,59 @@
 				type: "item"
 			}]
 			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7795899D01590BB9"
+				"7455FE2AE3607A91"
+				"2FBE82E7F31D658A"
+				"11C3CCD46712E124"
+			]
+			id: "19C2B9DD17C2E45C"
+			rewards: [{
+				id: "2272D2BF29EDD6E2"
+				item: {
+					Count: 1
+					id: "portable_blueprints:worn_blueprint"
+					tag: {
+						blueprint_name: "minecraft_furnace"
+						display: {
+							Name: "{\"translate\":\"item.kubejs.blueprint.minecraft_furnace\",\"italic\":false}"
+						}
+						nome: "minecraft_furnace"
+						owner_name: "Sky Evolution Journey"
+						remaining_uses: 2147483647
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "04FC30B92357FCB6"
+					item: { Count: 16, id: "minecraft:cobblestone" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1413B897E013D44E"
+					item: { Count: 8, id: "minecraft:smooth_stone" }
+					type: "item"
+				}
+				{
+					id: "32E1389E47DF8344"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					id: "40648DA2CA02937D"
+					item: "gtceu:flint_block"
+					type: "item"
+				}
+			]
+			title: "多方块结构：熔炉"
+			x: 7.5d
 			y: 2.0d
 		}
 	]

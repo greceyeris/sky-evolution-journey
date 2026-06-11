@@ -1,0 +1,28 @@
+{
+  "nome": "kubejs_miniaturization_5x5x5",
+  "altezza": 1,
+  "lunghezzaX": 13,
+  "lunghezzaZ": 13,
+  "offset": {
+    "f_123285_": 0,
+    "f_123286_": 0,
+    "f_123289_": 0
+  },
+  "BlocksData": {
+    "0": {
+      "x\u003d0,y\u003d0,z\u003d6": "\u003cbid\u003ecompactcrafting:field_projector\u003c/bid\u003e\u003cproperties\u003e\u003cpropertie\u003e\u003cname\u003efacing\u003c/name\u003e\u003cvalue\u003eeast\u003c/value\u003e\u003cclasse\u003enet.minecraft.core.Direction\u003c/classe\u003e\u003c/propertie\u003e;!v!;\u003cpropertie\u003e\u003cname\u003efield\u003c/name\u003e\u003cvalue\u003eMEDIUM\u003c/value\u003e\u003cclasse\u003edev.compactmods.crafting.api.field.MiniaturizationFieldSize\u003c/classe\u003e\u003c/propertie\u003e;!v!;\u003c/properties\u003e",
+      "x\u003d6,y\u003d0,z\u003d12": "\u003cbid\u003ecompactcrafting:field_projector\u003c/bid\u003e\u003cproperties\u003e\u003cpropertie\u003e\u003cname\u003efacing\u003c/name\u003e\u003cvalue\u003enorth\u003c/value\u003e\u003cclasse\u003enet.minecraft.core.Direction\u003c/classe\u003e\u003c/propertie\u003e;!v!;\u003cpropertie\u003e\u003cname\u003efield\u003c/name\u003e\u003cvalue\u003eMEDIUM\u003c/value\u003e\u003cclasse\u003edev.compactmods.crafting.api.field.MiniaturizationFieldSize\u003c/classe\u003e\u003c/propertie\u003e;!v!;\u003c/properties\u003e",
+      "x\u003d12,y\u003d0,z\u003d6": "\u003cbid\u003ecompactcrafting:field_projector\u003c/bid\u003e\u003cproperties\u003e\u003cpropertie\u003e\u003cname\u003efacing\u003c/name\u003e\u003cvalue\u003ewest\u003c/value\u003e\u003cclasse\u003enet.minecraft.core.Direction\u003c/classe\u003e\u003c/propertie\u003e;!v!;\u003cpropertie\u003e\u003cname\u003efield\u003c/name\u003e\u003cvalue\u003eMEDIUM\u003c/value\u003e\u003cclasse\u003edev.compactmods.crafting.api.field.MiniaturizationFieldSize\u003c/classe\u003e\u003c/propertie\u003e;!v!;\u003c/properties\u003e",
+      "x\u003d6,y\u003d0,z\u003d0": "\u003cbid\u003ecompactcrafting:field_projector\u003c/bid\u003e\u003cproperties\u003e\u003cpropertie\u003e\u003cname\u003efacing\u003c/name\u003e\u003cvalue\u003esouth\u003c/value\u003e\u003cclasse\u003enet.minecraft.core.Direction\u003c/classe\u003e\u003c/propertie\u003e;!v!;\u003cpropertie\u003e\u003cname\u003efield\u003c/name\u003e\u003cvalue\u003eMEDIUM\u003c/value\u003e\u003cclasse\u003edev.compactmods.crafting.api.field.MiniaturizationFieldSize\u003c/classe\u003e\u003c/propertie\u003e;!v!;\u003c/properties\u003e"
+    }
+  },
+  "NotSolidBlocksData": {},
+  "BlocksNBT": {
+    "0": {
+      "x\u003d0,y\u003d0,z\u003d6": "{ForgeCaps:{},id:\"compactcrafting:field_projector\",x:-24,y:81,z:-1}",
+      "x\u003d6,y\u003d0,z\u003d12": "{ForgeCaps:{},id:\"compactcrafting:field_projector\",x:-18,y:81,z:5}",
+      "x\u003d12,y\u003d0,z\u003d6": "{ForgeCaps:{},id:\"compactcrafting:field_projector\",x:-12,y:81,z:-1}",
+      "x\u003d6,y\u003d0,z\u003d0": "{ForgeCaps:{},id:\"compactcrafting:field_projector\",x:-18,y:81,z:-7}"
+    }
+  }
+}

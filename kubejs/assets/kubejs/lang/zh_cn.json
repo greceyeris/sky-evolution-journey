@@ -1,10 +1,18 @@
 {
-    "material.gtceu.manasteel": "魔力钢",
-    "material.gtceu.terrasteel": "泰拉钢",
-
-    "item.ceramicbucket.ceramic_bucket.filled": "陶瓷%s桶",
-
     "item.kubejs.mossy_twig": "沾苔藓的小树枝",
     "item.kubejs.mossy_flint_shard": "沾苔藓的燧石碎片",
-    "item.kubejs.organic_matter_clump": "有机物团块"
+    "item.kubejs.organic_matter_clump": "有机物团块",
+
+    "item.kubejs.blueprint.compactcrafting_miniaturization_3x3x3": "3x3x3 微缩投影区域蓝图",
+    "item.kubejs.blueprint.compactcrafting_miniaturization_5x5x5": "5x5x5 微缩投影区域蓝图",
+    "item.kubejs.blueprint.compactcrafting_miniaturization_7x7x7": "7x7x7 微缩投影区域蓝图",
+    "item.kubejs.blueprint.compactcrafting_miniaturization_9x9x9": "9x9x9 微缩投影区域蓝图",
+
+    "item.kubejs.blueprint.hauntfurnace_haunt_furnace": "缠魂熔炉蓝图",
+
+    "item.kubejs.blueprint.minecraft_chicken_spawn_egg": "鸡刷怪蛋蓝图",
+    "item.kubejs.blueprint.minecraft_cow_spawn_egg": "牛刷怪蛋蓝图",
+    "item.kubejs.blueprint.minecraft_creeper_spawn_egg": "苦力怕刷怪蛋蓝图",
+    "item.kubejs.blueprint.minecraft_furnace": "熔炉蓝图",
+    "item.kubejs.blueprint.minecraft_spider_spawn_egg": "蜘蛛刷怪蛋蓝图"
 }

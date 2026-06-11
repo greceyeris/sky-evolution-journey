@@ -913,6 +913,23 @@
 				"12DE0485C3699ABE"
 			]
 			id: "268A6E6BED594810"
+			rewards: [{
+				id: "2AA05334D4EE6D09"
+				item: {
+					Count: 1
+					id: "portable_blueprints:worn_blueprint"
+					tag: {
+						blueprint_name: "minecraft_creeper_spawn_egg"
+						display: {
+							Name: "{\"translate\":\"item.kubejs.blueprintminecraft_creeper_spawn_egg\",\"italic\":false}"
+						}
+						nome: "minecraft_creeper_spawn_egg"
+						owner_name: "Sky Evolution Journey"
+						remaining_uses: 2147483647
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 84L
@@ -954,6 +971,23 @@
 				"682764484F770886"
 			]
 			id: "789F56668B1478C3"
+			rewards: [{
+				id: "4F5AE92FF1495F11"
+				item: {
+					Count: 1
+					id: "portable_blueprints:worn_blueprint"
+					tag: {
+						blueprint_name: "minecraft_chicken_spawn_egg"
+						display: {
+							Name: "{\"translate\":\"item.kubejs.blueprintminecraft_chicken_spawn_egg\",\"italic\":false}"
+						}
+						nome: "minecraft_chicken_spawn_egg"
+						owner_name: "Sky Evolution Journey"
+						remaining_uses: 2147483647
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 20L

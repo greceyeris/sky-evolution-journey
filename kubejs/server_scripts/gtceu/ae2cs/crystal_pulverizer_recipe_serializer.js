@@ -48,4 +48,12 @@ ServerEvents.recipes((event) => {
         result: { item: "gtceu:charcoal_dust" },
         energy_cost: 1600,
     });
+
+    // 添加 gtceu:wood_dust 的配方
+    event.custom({
+        type: "ae2cs:crystal_pulverizer_recipe_serializer",
+        input: { ingredient: { tag: "minecraft:planks" } },
+        result: { item: "gtceu:wood_dust", count: 6 },
+        energy_cost: 3200,
+    });
 });
